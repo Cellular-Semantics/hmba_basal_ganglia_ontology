@@ -1,0 +1,21 @@
+# Customisation of the New Repo
+
+If you are using this repo as a template, you can customize the content below to suit your needs:
+- src/dendrograms/Makefile: Customise taxonomy ID
+- PCL and CL id ranges to be used in the ontology (shouldn't overlap with existing IDs)
+  - src/scripts/pcl_id_factory.py
+    - WMBO: PCL:0110000 - PCL:0159999 (49520 ids) - (Actually, 0142978 is the last used)
+  - src/scripts/cl_id_factory.py
+    - https://github.com/obophenotype/cell-ontology/blob/master/src/ontology/cl-idranges.owl
+    - BICAN, automatic generation: >= 4300001, < 4800000
+    - WMBO: 4300000 - 4308000 (7939 ids)
+    - BGO: 4310000 -  ()
+  - src/scripts/clm_id_factory.py
+    - https://github.com/Cellular-Semantics/CellMark/blob/main/src/ontology/clm-idranges.owl
+    - BICAN, automatic generation: >= 5000000 , <= 5999999
+    - WMBO: 5000000 - 5031000 (30760 ids)
+    - BGO: 5050000 - ()
+  - Check label sets as well
+- Generate Gene database (src/templates/genedb.tsv)
+  - Use `src/scripts/anndata_tools.py` to extract genes from AnnData files and generate the Gene DBs.
+  - Use `src/scripts/ensembl.py` `convert_ensembl_to_ncbi` to convert ensembl genes to ncbi gene IDs.
