@@ -25,7 +25,7 @@ PCL_BASE = 'http://purl.obolibrary.org/obo/PCL_'
 CL_BASE = 'http://purl.obolibrary.org/obo/CL_'
 CLM_BASE = 'http://purl.obolibrary.org/obo/CLM_'
 PCL_INDV_BASE = 'http://purl.obolibrary.org/obo/pcl/'
-BICAN_INDV_BASE = 'https://purl.brain-bican.org/taxonomy/CCN20230722/'
+BICAN_INDV_BASE = 'https://purl.brain-bican.org/taxonomy/CCN20250428/'
 
 PCL_PREFIX = 'PCL:'
 
@@ -33,26 +33,21 @@ PCL_PREFIX = 'PCL:'
 BRAIN_REGION_THRESHOLD = 0.1
 
 TEMPLATES_FOLDER_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../templates/")
-MARKER_PATH = '../markers/CS{}_markers.tsv'
-ALLEN_MARKER_PATH = "../markers/CS{}_Allen_markers.tsv"
-NOMENCLATURE_TABLE_PATH = '../dendrograms/nomenclature_table_{}.csv'
-ENSEMBLE_PATH = os.path.join(TEMPLATES_FOLDER_PATH, "{}.tsv")
 
 CLUSTER_ANNOTATIONS_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                                        '../dendrograms/supplementary/version2/cluster_annotation_CCN20230722.csv')
-# NT_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/version2/neurotransmitters.tsv")
-NT_SYMBOLS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/version2/Neurotransmitter_symbols_mapping.tsv")
-BRAIN_REGION_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/Brain_region_mapping.tsv")
+                                        '../dendrograms/28082024/HMBA_BG_consensus_annotation.csv')
 
-CROSS_SPECIES_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                                  "../dendrograms/nomenclature_table_CCN202002270.csv")
-NAME_CURATION_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/version2/one_concept_one_name_curation.tsv")
-CL_SUBSET_TABLE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/version2/CL_ontology_subset.tsv")
-ABC_URLS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CCN20230722_abc_urls.json")
-ABC_URLS_MARKER_SET_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CCN20230722_abc_urls_marker_set.json")
-ABC_URLS_NSF_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CCN20230722_abc_urls_nsforest_marker_set.json")
-ABC_URLS_WS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CCN20230722_abc_urls_ws_marker_set.json")
-ABC_URLS_EVIDENCE_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CCN20230722_abc_urls_evidence_marker_set.json")
+NT_SYMBOLS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/Neurotransmitter_symbols_mapping.tsv")
+BRAIN_REGION_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/Brain_region_mapping.tsv")
+
+NAME_CURATION_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/one_concept_one_name_curation.tsv")
+CL_SUBSET_TABLE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CL_ontology_subset.tsv")
+
+ABC_URLS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls.json")
+ABC_URLS_MARKER_SET_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls_marker_set.json")
+ABC_URLS_NSF_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls_nsforest_marker_set.json")
+ABC_URLS_WS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls_ws_marker_set.json")
+ABC_URLS_EVIDENCE_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls_evidence_marker_set.json")
 
 # centralized data files
 ALLEN_DESCRIPTIONS_PATH = "{}/{}/All Descriptions_{}.json"

@@ -5,6 +5,7 @@ File sources are:
 - https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/index.html#metadata/HMBA-BG-taxonomy-CCN20250428/20250531/
 - https://github.com/brain-bican/basal_ganglia_consensus_taxonomy
 - https://celltype.info/project/609
+- 637
 
 ## 30-08-2024 Release
 https://docs.google.com/document/d/1aP3yfpGT4rtI01lZ6-TB4wpPQU4U9sIlTQJVQa9DARA/edit?tab=t.0#heading=h.dpx4eysyhyzj

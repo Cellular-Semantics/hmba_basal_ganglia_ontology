@@ -32,6 +32,6 @@ def extract_genes_from_anndata(anndata_path, gene_name_column, prefix, output_pa
 
 if __name__ == "__main__":
     # Anndata source: https://celltype.info/project/609
-    anndata_path = "/Users/hk9/Downloads/Cross-species Spinal Cord Atlas_ Cholinergic.h5ad"  # Replace with your actual path
+    anndata_path = "/Users/hk9/Downloads/HMBA Consensus Basal Ganglia Atlas_ Dopaminergic.h5ad"  # Replace with your actual path
     extract_genes_from_anndata(anndata_path, "gene_names", "ensembl",
                                "../templates/genedb_ensembl.tsv")

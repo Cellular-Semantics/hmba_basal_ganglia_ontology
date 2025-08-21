@@ -19,3 +19,8 @@ If you are using this repo as a template, you can customize the content below to
 - Generate Gene database (src/templates/genedb.tsv)
   - Use `src/scripts/anndata_tools.py` to extract genes from AnnData files and generate the Gene DBs.
   - Use `src/scripts/ensembl.py` `convert_ensembl_to_ncbi` to convert ensembl genes to ncbi gene IDs.
+- Update `src/dendrograms/Brain_region_mapping.tsv` and `src/dendrograms/Neurotransmitter_symbols_mapping.tsv` if needed (see WMBO repo for details)
+- Generate the `src/dendrograms/one_concept_one_name.tsv`
+  - See `src/test/template_generation_utils_test.py` script `test_find_direct_paths` function to generate the table 
+- Generate the `src/dendrograms/CL_ontology_subset.tsv`
+  - See `src/scripts/cl_ontology_table_generator.py` to generate the table

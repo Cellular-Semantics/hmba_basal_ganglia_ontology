@@ -19,7 +19,7 @@ all: $(TEMPLATE_FILES) $(TEMPLATE_CLASS_BASE_FILES) $(TEMPLATE_CLASS_CURATION_FI
 #CCN20250428.json:
 #	wget https://raw.githubusercontent.com/brain-bican/basal_ganglia_consensus_taxonomy/refs/heads/main/CS20250428.json -O $@
 
-../templates/%.tsv: %.json %_abc_urls.json ../patterns/data/default/%_class_curation.tsv
+../templates/%.tsv: %.json ../patterns/data/default/%_class_curation.tsv
 	python ../scripts/template_runner.py generator -i $< -o $@
 
 #../markers/%_markers_denormalized.tsv: %.json nomenclature_table_%.csv
