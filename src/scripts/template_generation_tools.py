@@ -297,7 +297,7 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                     d["Alias_citations"] = "|".join(alias_citations)
                 else:
                     d["Alias_citations"] = reference_paper
-                d["Short_form_citation"] = "Yao et al. (2023), Whole Mouse Brain"
+                d["Short_form_citation"] = "XYZ et al. (2023), Basal Ganglia Consensus"
                 if node.get('parent_cell_set_accession'):
                     d['Parent_label'] = all_pref_labels[node['parent_cell_set_accession']]
                 if not node["author_annotation_fields"]:

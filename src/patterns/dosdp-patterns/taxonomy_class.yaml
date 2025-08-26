@@ -1,0 +1,705 @@
+pattern_name: brainCellClasses
+pattern_iri: http://purl.obolibrary.org/obo/odk/brainCellClasses.yaml
+description: "Class template for BDS."
+
+classes:
+  "cell": "CL:0000000"
+  "thing": "owl:Thing"
+  "animal cell": "CL:0000548"
+  "native_cell": "CL:0000003"
+  "Vertebrata <vertebrates>": "NCBITaxon:7742"
+  "regional part of brain": "UBERON:0002616"
+  "sequence_feature": "SO:0000110"
+  "layer of neocortex": "UBERON:0002301"
+  "projection type": "PATO:0070033" # neuron projection quality
+
+relations:
+  expresses: "RO:0002292"
+  part_of: "BFO:0000050"
+  in_taxon: "RO:0002162"
+  has_soma_location: "RO:0002100"
+  bearer_of: "RO:0000053"
+  has_exemplar_data: "RO:0015001"
+#  has_characterizing_marker_set: "RO:0015004"
+  capable_of: "RO:0002215"
+
+annotationProperties:
+  skosPrefLabel: "skos:prefLabel"
+  hasExactSynonym: "oboInOwl:hasExactSynonym"
+  rdfsComment: "rdfs:comment"
+  rdfsLabel: "rdfs:label"
+  seeAlso: "rdfs:seeAlso"
+  hasDbXref: "oboInOwl:hasDbXref"
+  symbol: "IAO:0000028"
+  'has nsforest marker': "PCL:0010058"
+  some_soma_located_in: "CLM:0010001"
+#  assay_label: "PCL:0010064"
+  assay: "OBI:0000070"
+  cell_ratio: "CLM:0010002"
+  'has minimal marker': "PCL:0010066"
+  evidence: "oboInOwl:evidence"
+  has_marker_set: "CLM:0010003"
+  fbetaConfidenceScore: "STATO:0000663"
+
+list_vars:
+  Expresses: "'thing'"
+  Minimal_markers: "'sequence_feature'"
+  Allen_markers: "'sequence_feature'"
+  Locations: "'layer of neocortex'"
+  MBA: "'thing'"
+  CCF_acronym_freq: "'thing'"
+  NT: "'thing'"
+  NT_markers: "'sequence_feature'"
+  Neurotransmitters: "'thing'"
+  Individuals: "'thing'"
+
+vars:
+  Classification: "'cell'"
+  Gross_cell_type: "'cell'"
+  Taxon: "'Vertebrata <vertebrates>'"
+  Brain_region: "'regional part of brain'"
+  Projection_type: "'projection type'"
+  part_of: "'thing'"
+  has_soma_location: "'thing'"
+  evidence_marker_gene_set: "'thing'"
+  marker_gene_set: "'thing'"
+  ws_marker_gene_set: "'thing'"
+  nsforest_marker_gene_set_1: "'thing'"
+  nsforest_marker_gene_set_2: "'thing'"
+  CL: "'cell'"
+  Nomenclature_Layers: "'layer of neocortex'"
+  Nomenclature_Projection: "'projection type'"
+  NT_marker_1: "'thing'"
+  NT_marker_2: "'thing'"
+  NT_marker_3: "'thing'"
+  NT_marker_4: "'thing'"
+  NT_marker_5: "'thing'"
+  NT_marker_6: "'thing'"
+  NT_marker_7: "'thing'"
+  NT_marker_8: "'thing'"
+  MBA_1: "'thing'"
+  MBA_2: "'thing'"
+  MBA_3: "'thing'"
+  MBA_4: "'thing'"
+  MBA_5: "'thing'"
+  MBA_6: "'thing'"
+  MBA_7: "'thing'"
+  MBA_8: "'thing'"
+  MBA_9: "'thing'"
+  MBA_10: "'thing'"
+  MBA_11: "'thing'"
+  MBA_12: "'thing'"
+  MBA_13: "'thing'"
+  MBA_14: "'thing'"
+  MBA_15: "'thing'"
+  MBA_assay: "'thing'"
+
+data_list_vars:
+  Synonyms_from_taxonomy: "xsd:string"
+  Curated_synonyms: "xsd:string"
+  Classification_pub: "xsd:string"
+  Expresses_comment: "xsd:string"
+  Expresses_pub: "xsd:string"
+  Alias_citations: "xsd:string"
+  Cluster_IDs: "xsd:string"
+  Subclass_markers: "xsd:string"
+
+data_vars:
+  prefLabel: "xsd:string"
+  Taxonomy_label: "xsd:string"
+  Parent_label: "xsd:string"
+  Comment: "xsd:string"
+  Classification_comment: "xsd:string"
+  Brain_region_abbv: "xsd:string"
+  Species_abbv: "xsd:string"
+  Cross_species_text: "xsd:string"
+  Taxon_abbv: "xsd:string"
+  Dataset_url: "xsd:string"
+  Labelset: "xsd:string"
+  NT_label: "xsd:string"
+  MBA_text: "xsd:string"
+  MBA_1_comment: "xsd:string"
+  MBA_2_comment: "xsd:string"
+  MBA_3_comment: "xsd:string"
+  MBA_4_comment: "xsd:string"
+  MBA_5_comment: "xsd:string"
+  MBA_6_comment: "xsd:string"
+  MBA_7_comment: "xsd:string"
+  MBA_8_comment: "xsd:string"
+  MBA_9_comment: "xsd:string"
+  MBA_10_comment: "xsd:string"
+  MBA_11_comment: "xsd:string"
+  MBA_12_comment: "xsd:string"
+  MBA_13_comment: "xsd:string"
+  MBA_14_comment: "xsd:string"
+  MBA_15_comment: "xsd:string"
+  MBA_1_cell_percentage: "xsd:double"
+  MBA_2_cell_percentage: "xsd:double"
+  MBA_3_cell_percentage: "xsd:double"
+  MBA_4_cell_percentage: "xsd:double"
+  MBA_5_cell_percentage: "xsd:double"
+  MBA_6_cell_percentage: "xsd:double"
+  MBA_7_cell_percentage: "xsd:double"
+  MBA_8_cell_percentage: "xsd:double"
+  MBA_9_cell_percentage: "xsd:double"
+  MBA_10_cell_percentage: "xsd:double"
+  MBA_11_cell_percentage: "xsd:double"
+  MBA_12_cell_percentage: "xsd:double"
+  MBA_13_cell_percentage: "xsd:double"
+  MBA_14_cell_percentage: "xsd:double"
+  MBA_15_cell_percentage: "xsd:double"
+  Location_disclaimer: "xsd:string"
+  NT_disclaimer: "xsd:string"
+  Atlas_url: "xsd:string"
+  Atlas_url_label: "xsd:string"
+  Matrix_url: "xsd:string"
+  Short_form_citation: "xsd:string"
+  Class_name: "xsd:string"
+  marker_gene_set_confidence: "xsd:float"
+  ws_marker_gene_set_confidence: "xsd:float"
+  nsforest_marker_gene_set_1_confidence: "xsd:float"
+  nsforest_marker_gene_set_2_confidence: "xsd:float"
+  Neurotransmitters_comment: "xsd:string"
+  Neurotransmitters_publication: "xsd:string"
+
+internal_vars:
+  - var_name: Minimal_markers_cat
+    input: Minimal_markers
+    apply:
+      join:
+        sep: ', '
+  - var_name: Allen_markers_cat
+    input: Expresses
+    apply:
+      join:
+        sep: ', '
+  - var_name: Locations_cat
+    input: Locations
+    apply:
+      join:
+        sep: ' or '
+  - var_name: Atlas_loc_cat
+    input: MBA
+    apply:
+      join:
+        sep: ', '
+  - var_name: Atlas_loc_acronym_cat
+    input: CCF_acronym_freq
+    apply:
+      join:
+        sep: ', '
+  - var_name: NT_cat
+    input: NT
+    apply:
+      join:
+        sep: ', '
+  - var_name: NT_markers_cat
+    input: NT_markers
+    apply:
+      join:
+        sep: ', '
+  - var_name: Cluster_IDs_cat
+    input: Cluster_IDs
+    apply:
+      join:
+        sep: ', '
+  - var_name: Subclass_markers_cat
+    input: Subclass_markers
+    apply:
+      join:
+        sep: ', '
+
+name:
+   text: "%s %s (%s)"
+   vars:
+      - prefLabel
+      - Gross_cell_type
+      - Taxon_abbv
+
+def:
+  xrefs: Alias_citations
+  multi_clause:
+    sep: " "
+    clauses:
+      - text: 'A %s of the %s brain.'
+        vars:
+          - Gross_cell_type
+          - Taxon
+        sub_clauses:
+          - sep: ' '
+          - clauses:
+              - text: 'It is distinguished from other cells in the %s by selective expression of %s.'
+                vars:
+                  - Brain_region
+                  - Minimal_markers_cat
+              - text: 'It is distinguished from other %s cells by expression of %s.'
+                vars:
+                  - Parent_label
+                  - Subclass_markers_cat
+              - text: 'It is %s.'
+                vars:
+                  - NT_label
+              - text: 'These cells are located in the %s'
+                vars:
+                  - Atlas_loc_cat
+                sub_clauses:
+                  - sep: ''
+                  - clauses:
+                      - text: ', in or close to the regions: %s'
+                        vars:
+                          - Atlas_loc_acronym_cat
+                      - text: '.'
+              - text: "Reference transcriptomic data for this type can be found in the dataset/taxonomy - %s in cell set %s:%s."
+                vars:
+                  - Short_form_citation
+                  - Labelset
+                  - Taxonomy_label
+
+generated_synonyms:
+   - text: "%s expressing %s of %s (%s)"
+     vars:
+        - Minimal_markers_cat
+        - Gross_cell_type
+        - Brain_region
+        - Taxon
+
+logical_axioms:
+   - axiom_type: subClassOf
+     text: "%s"
+     vars:
+        - Classification
+     annotations:
+       - annotationProperty: rdfsComment
+         text: "%s"
+         vars:
+           - Classification_comment
+       - annotationProperty: hasDbXref
+         multi_clause:
+           sep: " "
+           clauses:
+             - text: '%s'
+               vars:
+                 - Classification_pub
+#   - axiom_type: subClassOf
+#     multi_clause:
+#      sep: " and "
+#      clauses:
+#        - text: "'expresses' some %s"
+#          vars:
+#            - Expresses
+#     annotations:
+#       - annotationProperty: rdfsComment
+#         text: "%s"
+#         vars:
+#           - Expresses_comment
+#       - annotationProperty: hasDbXref
+#         multi_clause:
+#           sep: " "
+#           clauses:
+#             - text: '%s'
+#               vars:
+#                 - Expresses_pub
+   - axiom_type: subClassOf
+     text: "'in_taxon' some %s"
+     vars:
+        - Taxon
+   - axiom_type: subClassOf
+     text: "%s"
+     vars:
+       - Gross_cell_type
+   - axiom_type: subClassOf
+     text: "'bearer_of' some %s"
+     vars:
+       - Nomenclature_Projection
+#   - axiom_type: subClassOf
+#     multi_clause:
+#      sep: " and "
+#      clauses:
+#        - text: "'expresses' some %s"
+#          vars:
+#            - Minimal_markers
+   - axiom_type: subClassOf
+     text: "'part_of' some %s"
+     vars:
+       - part_of
+#   - axiom_type: subClassOf
+#     text: "'has_soma_location' some %s"
+#     vars:
+#       - has_soma_location
+   - axiom_type: subClassOf
+     multi_clause:
+       sep: " and "
+       clauses:
+         - text: "'has_exemplar_data' value %s"
+           vars:
+             - Individuals
+   - axiom_type: equivalentTo
+     multi_clause:
+       sep: " and "
+       clauses:
+         - text: "'cell' and 'has_exemplar_data' value %s"
+           vars:
+             - Individuals
+   - axiom_type: subClassOf
+     text: "'has_soma_location' some %s"
+     vars:
+       - Nomenclature_Layers
+#   - axiom_type: subClassOf
+#     text: "'has_characterizing_marker_set' some %s"
+#     vars:
+#        - marker_gene_set
+#   - axiom_type: subClassOf
+#     multi_clause:
+#       sep: " and "
+#       clauses:
+#         - text: "'has_characterizing_marker_set' some %s"
+#           vars:
+#             - nsforest_marker_gene_sets
+   - axiom_type: subClassOf
+     multi_clause:
+       sep: " and "
+       clauses:
+         - text: "'capable_of' some %s"
+           vars:
+             - NT
+     annotations:
+       - annotationProperty: rdfsComment
+         multi_clause:
+           sep: " "
+           clauses:
+             - text: 'Inferred to be %s based on expression of %s'
+               vars:
+                 - NT_cat
+                 - NT_markers_cat
+
+   - axiom_type: subClassOf
+     text: "%s"
+     vars:
+       - CL
+     annotations:
+       - annotationProperty: evidence
+         var: NT_marker_1
+       - annotationProperty: evidence
+         var: NT_marker_2
+       - annotationProperty: evidence
+         var: NT_marker_3
+       - annotationProperty: evidence
+         var: NT_marker_4
+       - annotationProperty: evidence
+         var: NT_marker_5
+       - annotationProperty: evidence
+         var: NT_marker_6
+       - annotationProperty: evidence
+         var: NT_marker_7
+       - annotationProperty: evidence
+         var: NT_marker_8
+   - axiom_type: subClassOf
+     multi_clause:
+       sep: " or "
+       clauses:
+         - text: "'has_soma_location' some %s"
+           vars:
+             - Locations
+   - axiom_type: subClassOf
+     multi_clause:
+       sep: " and "
+       clauses:
+         - text: "'capable_of' some %s"
+           vars:
+             - Neurotransmitters
+     annotations:
+       - annotationProperty: rdfsComment
+         text: "%s"
+         vars:
+           - Neurotransmitters_comment
+       - annotationProperty: hasDbXref
+         text: "%s"
+         vars:
+           - Neurotransmitters_publication
+
+annotations:
+#  - annotationProperty: skosPrefLabel
+#    text: "%s"
+#    vars:
+#      - prefLabel
+  - annotationProperty: hasExactSynonym
+    multi_clause:
+      sep: " "
+      clauses:
+        - text: '%s'
+          vars:
+            - Synonyms_from_taxonomy
+  - annotationProperty: hasExactSynonym
+    multi_clause:
+      sep: " "
+      clauses:
+        - text: '%s'
+          vars:
+            - Curated_synonyms
+  - annotationProperty: symbol
+    text: "%s (%s)"
+    vars:
+      - prefLabel
+      - Taxon_abbv
+#  - annotationProperty: 'has minimal marker'
+#    multi_clause:
+#      sep: " "
+#      clauses:
+#        - text: "%s"
+#          vars:
+#            - Minimal_markers
+  - annotationProperty: rdfsComment
+    multi_clause:
+      sep: " "
+      clauses:
+        - text: '%s'
+          vars:
+            - Location_disclaimer
+        - text: '%s'
+          vars:
+            - NT_disclaimer
+  - annotationProperty: seeAlso
+    text: "%s"
+    vars:
+      - Atlas_url
+    annotations:
+      - annotationProperty: rdfsLabel
+        text: "%s"
+        vars:
+          - Atlas_url_label
+  - annotationProperty: seeAlso
+    text: "%s"
+    vars:
+      - Matrix_url
+    annotations:
+      - annotationProperty: rdfsLabel
+        text: "h5ad data file for %s"
+        vars:
+          - Class_name
+      - annotationProperty: rdfsComment
+        text: "Warning large data file!"
+  - annotationProperty: some_soma_located_in
+    var: MBA_1
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_1_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_1_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_2
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_2_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_2_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_3
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_3_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_3_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_4
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_4_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_4_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_5
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_5_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_5_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_6
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_6_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_6_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_7
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_7_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_7_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_8
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_8_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_8_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_9
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_9_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_9_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_10
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_10_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_10_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_11
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_11_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_11_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_12
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_12_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_12_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_13
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_13_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_13_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_14
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_14_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_14_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: some_soma_located_in
+    var: MBA_15
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - MBA_15_comment
+      - annotationProperty: cell_ratio
+        text: "%s"
+        vars:
+          - MBA_15_cell_percentage
+      - annotationProperty: assay
+        var: MBA_assay
+  - annotationProperty: has_marker_set
+    var: evidence_marker_gene_set
+  - annotationProperty: has_marker_set
+    var: marker_gene_set
+    annotations:
+      - annotationProperty: fbetaConfidenceScore
+        text: "%s"
+        vars:
+          - marker_gene_set_confidence
+  - annotationProperty: has_marker_set
+    var: ws_marker_gene_set
+    annotations:
+      - annotationProperty: fbetaConfidenceScore
+        text: "%s"
+        vars:
+          - ws_marker_gene_set_confidence
+  - annotationProperty: has_marker_set
+    var: nsforest_marker_gene_set_1
+    annotations:
+      - annotationProperty: fbetaConfidenceScore
+        text: "%s"
+        vars:
+          - nsforest_marker_gene_set_1_confidence
+  - annotationProperty: has_marker_set
+    var: nsforest_marker_gene_set_2
+    annotations:
+      - annotationProperty: fbetaConfidenceScore
+        text: "%s"
+        vars:
+          - nsforest_marker_gene_set_2_confidence

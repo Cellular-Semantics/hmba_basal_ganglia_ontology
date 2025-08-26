@@ -31,3 +31,5 @@ If you are using this repo as a template, you can customize the content below to
   - Build `https://github.com/INCATools/relation-graph` in `/cli/target/universal/stage/bin` folder run: 
   - `./relation-graph --ontology-file ~/Downloads/dhbao-base.owl --output-file dhba_relations.ttl --mode rdf --property 'http://purl.obolibrary.org/obo/BFO_0000050' --property 'http://purl.obolibrary.org/obo/BFO_0000051'`
   - Then merge them: `sh run.sh robot merge --input ../dendrograms/resources/dhbao-base.owl --input ../dendrograms/resources/dhba_relations.ttl --output ../dendrograms/resources/dhbao-base-materialized.owl`
+- Change taxonomy url in the `src/ontology/bgo.Makefile`
+- Change taxonomy id in `src/scripts/cl_subset_terms.py`

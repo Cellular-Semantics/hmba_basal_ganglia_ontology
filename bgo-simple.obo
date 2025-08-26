@@ -1,0 +1,13 @@
+format-version: 1.2
+data-version: pcl/releases/2025-08-26/bgo-simple.owl
+idspace: terms http://purl.org/dc/terms/ 
+ontology: pcl/bgo-simple
+property_value: IAO:0000700 PCL:0160000
+property_value: IAO:0000700 PCL:0160001
+property_value: IAO:0000700 PCL:0160002
+property_value: IAO:0000700 PCL:0160106
+property_value: owl:versionInfo "2025-08-26" xsd:string
+property_value: terms:description "HMBA basal ganglia consensus taxonomy" xsd:string
+property_value: terms:license https://creativecommons.org/licenses/unspecified
+property_value: terms:title "Basal Ganglia Ontology" xsd:string
+

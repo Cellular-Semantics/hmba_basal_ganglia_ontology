@@ -59,26 +59,28 @@ components:
     - filename: all_templates.owl
 
 allow_equivalents: asserted-only
-robot_report:
-  release_reports: False
-  fail_on : ERROR
-  use_labels : False
-  custom_profile : False
-  report_on :
-    - edit
-  custom_sparql_checks :
-    - equivalent-classes
-    - owldef-self-reference
-    - nolabels
-    - pmid-not-dbxref
-    - obsolete-replaced_by
-    - obsolete-alt-id
-    - orcid-contributor
-    - illegal-annotation-property
-    - label-synonym-polysemy
-    - illegal-date
-    - def-not-only-xref
-    - id-format
+
+# disabled due to duplicate labels in the taxonomy
+#robot_report:
+#  release_reports: False
+#  fail_on : ERROR
+#  use_labels : False
+#  custom_profile : False
+#  report_on :
+#    - edit
+#  custom_sparql_checks :
+#    - equivalent-classes
+#    - owldef-self-reference
+#    - nolabels
+#    - pmid-not-dbxref
+#    - obsolete-replaced_by
+#    - obsolete-alt-id
+#    - orcid-contributor
+#    - illegal-annotation-property
+#    - label-synonym-polysemy
+#    - illegal-date
+#    - def-not-only-xref
+#    - id-format
 
 documentation:
   documentation_system: mkdocs

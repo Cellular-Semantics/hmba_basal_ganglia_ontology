@@ -1,5 +1,6 @@
 Prefix(:=<http://purl.obolibrary.org/obo/bgo.owl#>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -9,36 +10,218 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/bgo.owl>
-
+Import(<http://purl.obolibrary.org/obo/bgo/components/all_templates.owl>)
 Import(<http://purl.obolibrary.org/obo/bgo/imports/merged_import.owl>)
-
-
 Import(<http://purl.obolibrary.org/obo/bgo/patterns/definitions.owl>)
-Annotation(dcterms:description "None")
+Annotation(obo:IAO_0000700 obo:PCL_0160000)
+Annotation(obo:IAO_0000700 obo:PCL_0160001)
+Annotation(obo:IAO_0000700 obo:PCL_0160002)
+Annotation(obo:IAO_0000700 obo:PCL_0160106)
+Annotation(dcterms:description "HMBA basal ganglia consensus taxonomy")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Basal Ganglia Ontology")
 
-
-Declaration(Class(<http://purl.obolibrary.org/obo/BGO_0000000>))
+Declaration(Class(obo:CL_0000099))
+Declaration(Class(obo:CL_4023119))
+Declaration(Class(obo:PATO_0070002))
+Declaration(Class(obo:PATO_0070007))
+Declaration(Class(obo:PCL_0010001))
+Declaration(Class(obo:PCL_0010002))
+Declaration(Class(obo:PR_P60041))
+Declaration(Class(obo:SO_0001260))
+Declaration(Class(obo:UBERON_0000956))
+Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_0008992>))
+Declaration(ObjectProperty(obo:RO_0002100))
+Declaration(ObjectProperty(obo:RO_0002215))
+Declaration(ObjectProperty(obo:RO_0002292))
+Declaration(ObjectProperty(obo:RO_0015001))
+Declaration(ObjectProperty(obo:RO_0015002))
+Declaration(ObjectProperty(obo:RO_0015003))
+Declaration(ObjectProperty(obo:RO_0015004))
+Declaration(AnnotationProperty(obo:CLM_0010001))
+Declaration(AnnotationProperty(obo:CLM_0010002))
+Declaration(AnnotationProperty(obo:CLM_0010003))
+Declaration(AnnotationProperty(obo:CLM_0010004))
+Declaration(AnnotationProperty(obo:CLM_0010005))
+Declaration(AnnotationProperty(obo:IAO_0000028))
+Declaration(AnnotationProperty(obo:IAO_0000064))
+Declaration(AnnotationProperty(obo:IAO_0000700))
+Declaration(AnnotationProperty(obo:IAO_0100001))
+Declaration(AnnotationProperty(obo:PCL_0010051))
+Declaration(AnnotationProperty(obo:PCL_0010052))
+Declaration(AnnotationProperty(obo:PCL_0010053))
+Declaration(AnnotationProperty(obo:PCL_0010054))
+Declaration(AnnotationProperty(obo:PCL_0010055))
+Declaration(AnnotationProperty(obo:PCL_0010056))
+Declaration(AnnotationProperty(obo:PCL_0010057))
+Declaration(AnnotationProperty(obo:PCL_0010058))
+Declaration(AnnotationProperty(obo:PCL_0010059))
+Declaration(AnnotationProperty(obo:PCL_0010060))
+Declaration(AnnotationProperty(obo:PCL_0010061))
+Declaration(AnnotationProperty(obo:PCL_0010062))
+Declaration(AnnotationProperty(obo:PCL_0010063))
+Declaration(AnnotationProperty(obo:PCL_0010065))
+Declaration(AnnotationProperty(obo:PCL_0010066))
+Declaration(AnnotationProperty(obo:PCL_0010067))
+Declaration(AnnotationProperty(obo:PCL_0010068))
+Declaration(AnnotationProperty(obo:STATO_0000416))
+Declaration(AnnotationProperty(obo:STATO_0000663))
+Declaration(AnnotationProperty(dce:contributor))
+Declaration(AnnotationProperty(dce:description))
+Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:provenance))
+Declaration(AnnotationProperty(dcterms:relation))
+Declaration(AnnotationProperty(dcterms:subject))
 Declaration(AnnotationProperty(dcterms:title))
-
+Declaration(AnnotationProperty(rdfs:seeAlso))
 ############################
 #   Annotation Properties
 ############################
 
-AnnotationAssertion(rdfs:label dcterms:description "description")
-AnnotationAssertion(rdfs:label dcterms:license "license")
-AnnotationAssertion(rdfs:label dcterms:title "title")
+# Annotation Property: obo:CLM_0010001 (some soma located in)
+
+AnnotationAssertion(rdfs:label obo:CLM_0010001 "some soma located in")
+
+# Annotation Property: obo:CLM_0010002 (cell ratio)
+
+AnnotationAssertion(rdfs:label obo:CLM_0010002 "cell ratio")
+
+# Annotation Property: obo:CLM_0010003 (has marker set)
+
+AnnotationAssertion(rdfs:label obo:CLM_0010003 "has marker set")
+
+# Annotation Property: obo:CLM_0010004 (recall)
+
+AnnotationAssertion(rdfs:label obo:CLM_0010004 "recall")
+
+# Annotation Property: obo:CLM_0010005 (cluster id)
+
+AnnotationAssertion(rdfs:label obo:CLM_0010005 "cluster id")
+
+# Annotation Property: obo:IAO_0000028 (symbol)
+
+AnnotationAssertion(rdfs:label obo:IAO_0000028 "symbol")
+
+# Annotation Property: obo:IAO_0000064 (algorithm)
+
+AnnotationAssertion(rdfs:label obo:IAO_0000064 "algorithm")
+
+# Annotation Property: obo:PCL_0010051 (cell_type_rank)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010051 "cell_type_rank")
+
+# Annotation Property: obo:PCL_0010052 (cell_types_count)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010052 "cell_types_count")
+
+# Annotation Property: obo:PCL_0010053 (cell_subclasses_count)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010053 "cell_subclasses_count")
+
+# Annotation Property: obo:PCL_0010054 (cell_classes_count)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010054 "cell_classes_count")
+
+# Annotation Property: obo:PCL_0010055 (has_age)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010055 "has_age")
+
+# Annotation Property: obo:PCL_0010056 (has_sex)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010056 "has_sex")
+
+# Annotation Property: obo:PCL_0010057 (has_brain_region)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010057 "has_brain_region")
+
+# Annotation Property: obo:PCL_0010058 (has nsforest marker)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010058 "has nsforest marker")
+
+# Annotation Property: obo:PCL_0010060 (cell_count)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010060 "cell_count")
+
+# Annotation Property: obo:PCL_0010061 (nuclei_count)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010061 "nuclei_count")
+
+# Annotation Property: obo:PCL_0010062 (fbeta_confidence_score)
+
+AnnotationAssertion(rdfs:label obo:PCL_0010062 "fbeta_confidence_score")
+
+# Annotation Property: obo:PCL_0010063 (obsolete some_soma_located_in)
+
+AnnotationAssertion(obo:IAO_0100001 obo:PCL_0010063 obo:CLM_0010001)
+AnnotationAssertion(rdfs:label obo:PCL_0010063 "obsolete some_soma_located_in")
+AnnotationAssertion(owl:deprecated obo:PCL_0010063 "true"^^xsd:boolean)
+
+# Annotation Property: obo:PCL_0010065 (obsolete cell_ratio)
+
+AnnotationAssertion(obo:IAO_0100001 obo:PCL_0010065 obo:CLM_0010002)
+AnnotationAssertion(rdfs:label obo:PCL_0010065 "obsolete cell_ratio")
+AnnotationAssertion(owl:deprecated obo:PCL_0010065 "true"^^xsd:boolean)
+
+# Annotation Property: obo:STATO_0000416 (precision)
+
+AnnotationAssertion(rdfs:label obo:STATO_0000416 "precision")
+
+# Annotation Property: obo:STATO_0000663 (F-beta score)
+
+AnnotationAssertion(rdfs:label obo:STATO_0000663 "F-beta score")
+
+# Annotation Property: rdfs:seeAlso (seeAlso)
+
+AnnotationAssertion(rdfs:label rdfs:seeAlso "seeAlso")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: obo:RO_0002100 (has soma location)
+
+AnnotationAssertion(rdfs:label obo:RO_0002100 "has soma location")
+
+# Object Property: obo:RO_0002215 (capable of)
+
+AnnotationAssertion(rdfs:label obo:RO_0002215 "capable of")
+
+# Object Property: obo:RO_0002292 (expresses)
+
+AnnotationAssertion(rdfs:label obo:RO_0002292 "expresses")
+
+# Object Property: obo:RO_0015001 (has exemplar data)
+
+AnnotationAssertion(rdfs:label obo:RO_0015001 "has exemplar data")
+
+# Object Property: obo:RO_0015002 (exemplar data of)
+
+AnnotationAssertion(rdfs:label obo:RO_0015002 "exemplar data of")
+
+# Object Property: obo:RO_0015003 (subcluster of)
+
+AnnotationAssertion(rdfs:label obo:RO_0015003 "subcluster of")
+
+# Object Property: obo:RO_0015004 (has characterizing marker set)
+
+AnnotationAssertion(rdfs:label obo:RO_0015004 "has characterizing marker set")
+
+
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/BGO_0000000> (root node)
+# Class: obo:SO_0001260 (sequence_collection)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BGO_0000000> "root node"@en)
+AnnotationAssertion(rdfs:label obo:SO_0001260 "sequence_collection")
+
+# Class: <http://www.ebi.ac.uk/efo/EFO_0008992> (MERFISH)
+
+AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/efo/EFO_0008992> "MERFISH")
 
 
 )
