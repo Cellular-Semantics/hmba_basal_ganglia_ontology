@@ -13,7 +13,7 @@ from template_generation_utils import get_synonyms_from_taxonomy, get_synonym_pa
 PATH_TO_CAS = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                                            "../src/dendrograms/CS20250428.json")
 PATH_OCON_REPORT_TSV = os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                                           "./test_data/one_concept_one_name.tsv")
+                                           "./test_data/one_concept_one_name_curation.tsv")
 OCON_TSV = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                                            "../src/dendrograms/one_concept_one_name_curation.tsv")
 
@@ -65,15 +65,16 @@ class TemplateUtilsTest(unittest.TestCase):
         self.write_chains_to_tsv(chains, node_index, labelsets, PATH_OCON_REPORT_TSV)
 
     def test_one_concept_one_name_dict_population(self):
-        curation_data = read_one_concept_one_name_tsv(OCON_TSV)
+        curation_data = read_one_concept_one_name_tsv(PATH_OCON_REPORT_TSV)
+        print(curation_data)
         self.assertEqual(10, len(curation_data))
-        self.assertEqual(curation_data.get("25 Pineal Glut"), "pinealocyte")
-        self.assertEqual(curation_data.get("262 Pineal Crx Glut"), "pinealocyte")
-        self.assertEqual(curation_data.get("1030 Pineal Crx Glut_1"), "pinealocyte")
-        self.assertEqual(curation_data.get("4606 Pineal Crx Glut_1"), "pinealocyte")
-        self.assertEqual(curation_data.get("316 Bergmann NN"), "Bergman glial cell")
-        self.assertEqual(curation_data.get("1157 Bergmann NN_1"), "Bergman glial cell")
-        self.assertEqual(curation_data.get("5206 Bergmann NN_1"), "Bergman glial cell")
+        self.assertEqual(curation_data.get("25 Pineal Glut##Class"), "pinealocyte")
+        self.assertEqual(curation_data.get("262 Pineal Crx Glut##Subclass"), "pinealocyte")
+        self.assertEqual(curation_data.get("1030 Pineal Crx Glut_1##Supertype"), "pinealocyte")
+        self.assertEqual(curation_data.get("4606 Pineal Crx Glut_1##Cluster"), "pinealocyte")
+        self.assertEqual(curation_data.get("316 Bergmann NN##Subclass"), "Bergman glial cell")
+        self.assertEqual(curation_data.get("1157 Bergmann NN_1##Supertype"), "Bergman glial cell")
+        self.assertEqual(curation_data.get("5206 Bergmann NN_1##Cluster"), "Bergman glial cell")
 
 
     def write_chains_to_tsv(self, chains, node_index, labelsets, output_filepath):

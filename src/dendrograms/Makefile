@@ -16,8 +16,8 @@ TEMPLATE_EVIDENCE_MARKER_SET_FILES = $(patsubst %, ../patterns/data/default/%_ev
 
 all: $(TEMPLATE_FILES) $(TEMPLATE_CLASS_BASE_FILES) $(TEMPLATE_CLASS_CURATION_FILES) $(TEMPLATE_MARKER_SET_FILES) $(TEMPLATE_NSFOREST_MARKER_SET_FILES) $(TEMPLATE_WS_MARKER_SET_FILES) $(TEMPLATE_EVIDENCE_MARKER_SET_FILES) $(ABC_URLS) $(ABC_URLS_MARKER_SET) $(ABC_URLS_EVIDENCE_MARKER_SET) $(ABC_URLS_NSFOREST_MARKER_SET) $(ABC_URLS_WS_MARKER_SET)
 
-#CCN20250428.json:
-#	wget https://raw.githubusercontent.com/brain-bican/basal_ganglia_consensus_taxonomy/refs/heads/main/CS20250428.json -O $@
+CCN20250428.json:
+	wget https://raw.githubusercontent.com/brain-bican/basal_ganglia_consensus_taxonomy/refs/heads/main/CS20250428.json -O $@
 
 ../templates/%.tsv: %.json ../patterns/data/default/%_class_curation.tsv
 	python ../scripts/template_runner.py generator -i $< -o $@
@@ -26,13 +26,13 @@ all: $(TEMPLATE_FILES) $(TEMPLATE_CLASS_BASE_FILES) $(TEMPLATE_CLASS_CURATION_FI
 #	if [ $< = CS1908210.json ]; then python ../scripts/template_runner.py generator -md -i $< -o $@ ;\
 #	else python ../scripts/template_runner.py generator -md -i $(word 2, $^) -o $@ ; fi
 
-../patterns/data/default/%_class_base.tsv: %.json $(SUPPLEMENTARY)/version2/neurotransmitters.tsv
+../patterns/data/default/%_class_base.tsv: %.json $(SUPPLEMENTARY)/neurotransmitters.tsv
 	python ../scripts/template_runner.py generator -cb -i $< -o $@
 
 ../patterns/data/default/%_class_curation.tsv: %.json
 	python ../scripts/template_runner.py generator -cc -i $< -o $@
 
-$(SUPPLEMENTARY)/version2/neurotransmitters.tsv:
+$(SUPPLEMENTARY)/neurotransmitters.tsv:
 	python ../scripts/supplementary_data_processor.py -nt -o $@
 
 ../patterns/data/default/%_marker_set.tsv: %.json

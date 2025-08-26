@@ -1,0 +1,40 @@
+defined_class	Marker_set_of	Markers	Markers_label	Species_abbv	Brain_region	Parent	FBeta_confidence_score	Algorithm	Source	Reference	precision	recall	Cell_label	Labelset	Atlas_url	Atlas_url_label
+http://purl.obolibrary.org/obo/PCL_0160949	STRd D1 Matrix MSN	NCBIGene:1812|NCBIGene:29091	DRD1, STXBP6	Human	DHBA:10332	SO:0001260			CAS evidence				STRd D1 Matrix MSN	Group		
+http://purl.obolibrary.org/obo/PCL_0160950	STRd D1 Striosome MSN	NCBIGene:1812|NCBIGene:30820	DRD1, KCNIP1	Human	DHBA:10332	SO:0001260			CAS evidence				STRd D1 Striosome MSN	Group		
+http://purl.obolibrary.org/obo/PCL_0160952	STRd D2 Matrix MSN	NCBIGene:1813|NCBIGene:29091	DRD2, STXBP6	Human	DHBA:10332	SO:0001260			CAS evidence				STRd D2 Matrix MSN	Group		
+http://purl.obolibrary.org/obo/PCL_0160954	STRd D2 Striosome MSN	NCBIGene:1813|NCBIGene:30820	DRD2, KCNIP1	Human	DHBA:10332	SO:0001260			CAS evidence				STRd D2 Striosome MSN	Group		
+http://purl.obolibrary.org/obo/PCL_0160956	STRv D1 MSN	NCBIGene:1812|NCBIGene:395	DRD1, ARHGAP6	Human	DHBA:10332	SO:0001260			CAS evidence				STRv D1 MSN	Group		
+http://purl.obolibrary.org/obo/PCL_0160958	STRv D2 MSN	NCBIGene:1813|NCBIGene:395	DRD2, ARHGAP6	Human	DHBA:10332	SO:0001260			CAS evidence				STRv D2 MSN	Group		
+http://purl.obolibrary.org/obo/PCL_0160951	STR D1D2 Hybrid MSN	NCBIGene:1812|NCBIGene:1813|NCBIGene:1395|NCBIGene:2897	DRD1, DRD2, CRHR2, GRIK1	Human	DHBA:10332	SO:0001260			CAS evidence				STR D1D2 Hybrid MSN	Group		
+http://purl.obolibrary.org/obo/PCL_0160957	STRv D1 NUDAP MSN	NCBIGene:1812|NCBIGene:2893	DRD1, GRIA4	Human	DHBA:10332	SO:0001260			CAS evidence				STRv D1 NUDAP MSN	Group		
+http://purl.obolibrary.org/obo/PCL_0160924	OT Granular GABA	NCBIGene:1812|NCBIGene:131034	DRD1, CPNE4	Human	DHBA:10332	SO:0001260			CAS evidence				OT Granular GABA	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160933	SN GATA3-PVALB GABA	NCBIGene:6496|NCBIGene:27086	SIX3, FOXP1	Human	DHBA:10332	SO:0001260			CAS evidence				SN GATA3-PVALB GABA	Group		
+http://purl.obolibrary.org/obo/PCL_0160914	GPe SOX6-CTXND1 GABA	NCBIGene:55553|NCBIGene:3736	SOX6, KCNA1	Human	DHBA:10332	SO:0001260			CAS evidence				GPe SOX6-CTXND1 GABA	Group		
+http://purl.obolibrary.org/obo/PCL_0160932	SN GATA3-PAX8 GABA	NCBIGene:5079|NCBIGene:64919|NCBIGene:11281	PAX5, BCL11B, POU6F2	Human	DHBA:10332	SO:0001260			CAS evidence				SN GATA3-PAX8 GABA	Group		
+http://purl.obolibrary.org/obo/PCL_0160947	CN VIP GABA	NCBIGene:7432	VIP	Human	DHBA:10332	SO:0001260			CAS evidence				CN VIP GABA	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160904	CN LAMP5-CXCL14 GABA	NCBIGene:24141|NCBIGene:9547	LAMP5, CXCL14	Human	DHBA:10332	SO:0001260			CAS evidence				CN LAMP5-CXCL14 GABA	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160943	STR SST-CHODL GABA	NCBIGene:4852	NPY	Human	DHBA:10332	SO:0001260			CAS evidence				STR SST-CHODL GABA	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160905	CN LAMP5-LHX6 GABA	NCBIGene:24141|NCBIGene:26468	LAMP5, LHX6	Human	DHBA:10332	SO:0001260			CAS evidence				CN LAMP5-LHX6 GABA	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160940	STR FS PTHLH-PVALB GABA	NCBIGene:9705|NCBIGene:5744|NCBIGene:1310	ST18, PTHLH, COL19A1	Human	DHBA:10332	SO:0001260			CAS evidence				STR FS PTHLH-PVALB GABA	Group		
+http://purl.obolibrary.org/obo/PCL_0160945	STR TAC3-PLPP4 GABA	NCBIGene:9705	ST18	Human	DHBA:10332	SO:0001260			CAS evidence				STR TAC3-PLPP4 GABA	Group		
+http://purl.obolibrary.org/obo/PCL_0160931	SN-VTR GAD2 Dopa	NCBIGene:7054|NCBIGene:2572	TH, GAD2	Human	DHBA:10332	SO:0001260			CAS evidence				SN-VTR GAD2 Dopa	Group		
+http://purl.obolibrary.org/obo/PCL_0160935	SN SOX6 Dopa	NCBIGene:7054|NCBIGene:55553	TH, SOX6	Human	DHBA:10332	SO:0001260			CAS evidence				SN SOX6 Dopa	Group		
+http://purl.obolibrary.org/obo/PCL_0160929	SN-VTR CALB1 Dopa	NCBIGene:7054|NCBIGene:793|NCBIGene:6531|NCBIGene:4929|NCBIGene:54796	TH, CALB1, SLC6A3, NR4A2, BNC2	Human	DHBA:10332	SO:0001260			CAS evidence				SN-VTR CALB1 Dopa	Group		
+http://purl.obolibrary.org/obo/PCL_0160964	VTR-HTH Glut	NCBIGene:57084	SLC17A6	Human	DHBA:10332	SO:0001260			CAS evidence				F M Glut	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160923	OPC	NCBIGene:5156|NCBIGene:1297	PDGFRA, COL9A1	Human	DHBA:10332	SO:0001260			CAS evidence				OPC	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160909	COP	NCBIGene:2840	GPR17	Human	DHBA:10332	SO:0001260			CAS evidence				COP	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160918	ImOligo	NCBIGene:4155|NCBIGene:5788	MBP, PTPRC	Human	DHBA:10332	SO:0001260			CAS evidence				ImOligo	Group		
+http://purl.obolibrary.org/obo/PCL_0160926	Oligo PLEKHG1	NCBIGene:4155|NCBIGene:57480	MBP, PLEKHG1	Human	DHBA:10332	SO:0001260			CAS evidence				Oligo PLEKHG1	Group		
+http://purl.obolibrary.org/obo/PCL_0160925	Oligo OPALIN	NCBIGene:4155|NCBIGene:93377	MBP, OPALIN	Human	DHBA:10332	SO:0001260			CAS evidence				Oligo OPALIN	Group		
+http://purl.obolibrary.org/obo/PCL_0160917	ImAstro	NCBIGene:361|NCBIGene:5788	AQP4, PTPRC	Human	DHBA:10332	SO:0001260			CAS evidence				ImAstro	Group		
+http://purl.obolibrary.org/obo/PCL_0160939	Astrocyte	NCBIGene:361	AQP4	Human	DHBA:10332	SO:0001260			CAS evidence				Astrocyte	Group		
+http://purl.obolibrary.org/obo/PCL_0160912	Ependymal	NCBIGene:8701	DNAH11	Human	DHBA:10332	SO:0001260			CAS evidence				Ependymal	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160919	Microglia	NCBIGene:1524	CX3CR1	Human	DHBA:10332	SO:0001260			CAS evidence				Microglia	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160901	Macrophage	NCBIGene:9332|NCBIGene:4360	CD163, MRC1	Human	DHBA:10332	SO:0001260			CAS evidence				Macrophage	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160922	Monocyte	NCBIGene:2268	FGR	Human	DHBA:10332	SO:0001260			CAS evidence				Monocyte	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160900	B cells	NCBIGene:115350|NCBIGene:55024	FCRL1, BANK1	Human	DHBA:10332	SO:0001260			CAS evidence				B cells	Group		
+http://purl.obolibrary.org/obo/PCL_0160959	T cells	NCBIGene:919|NCBIGene:3702	CD247, ITK	Human	DHBA:10332	SO:0001260			CAS evidence				T cells	Group		
+http://purl.obolibrary.org/obo/PCL_0160962	VLMC	NCBIGene:5156|NCBIGene:1634	PDGFRA, DCN	Human	DHBA:10332	SO:0001260			CAS evidence				VLMC	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160928	SMC	NCBIGene:59	ACTA2	Human	DHBA:10332	SO:0001260			CAS evidence				SMC	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160927	Pericyte	NCBIGene:5159	PDGFRB	Human	DHBA:10332	SO:0001260			CAS evidence				Pericyte	Subclass		
+http://purl.obolibrary.org/obo/PCL_0160911	Endo	NCBIGene:5175	PECAM1	Human	DHBA:10332	SO:0001260			CAS evidence				Endo	Subclass		

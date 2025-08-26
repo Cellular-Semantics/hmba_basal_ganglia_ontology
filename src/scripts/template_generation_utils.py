@@ -137,7 +137,8 @@ def generate_dendrogram_tree(dendrogram_data):
     """
     tree = nx.DiGraph()
     for edge in dendrogram_data['edges']:
-        tree.add_edge(edge[1], edge[0])
+        if edge[1] and edge[0]:
+            tree.add_edge(edge[1], edge[0])
 
     return tree
 
@@ -603,7 +604,8 @@ def read_one_concept_one_name_tsv(file_path):
             if preferred_name:
                 for index in range(preferred_name_index):
                     if row[index]:
-                        records[row[index]] = preferred_name
+                        # label##labelset:curated_name
+                        records[row[index]+"##"+headers[index]] = preferred_name
     return records
 
 
@@ -627,10 +629,17 @@ def format_cell_label(cell_label, node, all_labels, generated_labels, is_collaps
     else:
         formatted_name = cell_label.strip()
     will_be_unique =  len([cell_label for cell_label in all_labels if cell_label.endswith(formatted_name)]) <= 1
-    if not is_collapsed and str(node["labelset"]).lower() == "cluster" and not will_be_unique:
-        marker_properties = ["cluster.markers.combo _within subclass_", "cluster.markers.combo", "cluster.TF.markers.combo", "supertype.markers.combo _within subclass_", "supertype.markers.combo"]
+    # print(node["cell_set_accession"] + "   " + str(node.get("marker_gene_evidence", "")))
+    # print("is_collapsed: " + str(is_collapsed) + "   will_be_unique: " + str(will_be_unique) + "   formatted_name: " + formatted_name)
+    if not is_collapsed and str(node["labelset"]).lower() == "group" and not will_be_unique:
+        # marker_properties = ["cluster.markers.combo _within subclass_", "cluster.markers.combo",
+        #                      "cluster.TF.markers.combo",
+        #                      "supertype.markers.combo _within subclass_", "supertype.markers.combo"]
+        marker_properties = ["curated_markers"]
         unified_markers = []
         author_annotations = node["author_annotation_fields"]
+        if "curated_markers" not in author_annotations and "marker_gene_evidence" in node:
+            author_annotations["curated_markers"] = ",".join(node.get("marker_gene_evidence"))
         for marker_property in marker_properties:
             if marker_property in author_annotations and author_annotations[marker_property] != "None":
                 unified_markers.extend([marker.strip() for marker in author_annotations[marker_property].split(",") if marker.strip() not in unified_markers])

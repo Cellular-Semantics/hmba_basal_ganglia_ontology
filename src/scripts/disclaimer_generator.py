@@ -15,37 +15,39 @@ import networkx as nx
 from rdflib import Graph
 
 # manually applied closure over part_of using relation graph
-MBAO_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/resources/mbao-base-materialized.owl")
+ABAO_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/resources/dhbao-base-materialized.owl")
 
 # Singleton materialized graph
-mba_ontology = None
+aba_ontology = None
 
 
 def get_neurotransmitter_inconsistencies(cluster_annotations_path: str) -> dict:
     """
     Returns the list of cell sets names that include neurotransmitter unsupported by marker analysis.
     """
-    clusters = pd.read_csv(cluster_annotations_path).dropna(subset=['cluster_id_label'])
-    cluster_nt_df = clusters[
-        ['cluster_id_label', 'nt_type_label', 'nt_type_combo_label']].set_index('cluster_id_label')
-    cluster_2_nt = cluster_nt_df.to_dict(orient='index')
-    graph = get_wmb_taxonomy_graph()
+    # TODO: We don't have NT annotations for the clusters yet, so skipping this check for now
+    # clusters = pd.read_csv(cluster_annotations_path).dropna(subset=['cluster_id_label'])
+    # cluster_nt_df = clusters[
+    #     ['cluster_id_label', 'nt_type_label', 'nt_type_combo_label']].set_index('cluster_id_label')
+    # cluster_2_nt = cluster_nt_df.to_dict(orient='index')
+    # graph = get_wmb_taxonomy_graph()
+    #
+    # roots = [
+    #     node
+    #     for node, data in graph.nodes(data=True)
+    #     if data.get("labelset") == 'https://purl.brain-bican.org/ontology/CCN20230722/class'
+    # ]
+    # if len(roots) != 34:
+    #     raise ValueError("Unexpected number of roots found in the graph. Expected 34, found: " + str(len(roots)))
+    #
+    # # Run DFS from each root
+    # count = [0]
+    # inconsistencies = dict()
+    # for root in roots:
+    #     dfs_traverse(graph, root, cluster_2_nt, inconsistencies)  # Ensure the correct format is passed
+    # print(f"Number of clusters with mismatched NTs in name: {len(inconsistencies)}")
 
-    roots = [
-        node
-        for node, data in graph.nodes(data=True)
-        if data.get("labelset") == 'https://purl.brain-bican.org/ontology/CCN20230722/class'
-    ]
-    if len(roots) != 34:
-        raise ValueError("Unexpected number of roots found in the graph. Expected 34, found: " + str(len(roots)))
-
-    # Run DFS from each root
-    count = [0]
     inconsistencies = dict()
-    for root in roots:
-        dfs_traverse(graph, root, cluster_2_nt, inconsistencies)  # Ensure the correct format is passed
-    print(f"Number of clusters with mismatched NTs in name: {len(inconsistencies)}")
-
     return inconsistencies
 
 
@@ -124,10 +126,11 @@ def get_anatomical_location_inconsistencies(cluster_annotations_path: str) -> di
     """
     Returns the list of cell sets names that include anatomical location unsupported by CCF.
     """
-    clusters = pd.read_csv(cluster_annotations_path).dropna(subset=['cluster_id_label'])
+    clusters = pd.read_csv(cluster_annotations_path).dropna(subset=['accession_group'])
     inconsistencies = dict()
-    inconsistencies.update(check_cluster_level_name_consistency(clusters))
-    inconsistencies.update(check_supertype_level_name_consistency(clusters))
+    # TODO : re-enable the checks after fixing the location associations in the taxonomy
+    # inconsistencies.update(check_cluster_level_name_consistency(clusters))
+    # inconsistencies.update(check_supertype_level_name_consistency(clusters))
     return inconsistencies
 
 
@@ -138,7 +141,7 @@ def check_cluster_level_name_consistency(clusters: pd.DataFrame, log_inconsisten
     """
     inconsistencies = dict()
     for index, row in clusters.iterrows():
-        locations = get_location_symbols(row['cluster_id_label'])
+        locations = get_location_symbols(row['Group'])
         for location in locations:
             if location in ['OB', 'in', 'out', 'mi']:
                 # ignore some values for now
@@ -265,8 +268,8 @@ def get_location_symbols(cell_label: str) -> list:
 
 
 def get_mba_ontology():
-    global mba_ontology
-    if not mba_ontology:
-        mba_ontology = Graph()
-        mba_ontology.parse(MBAO_PATH, format="xml")
-    return mba_ontology
+    global aba_ontology
+    if not aba_ontology:
+        aba_ontology = Graph()
+        aba_ontology.parse(ABAO_PATH, format="xml")
+    return aba_ontology

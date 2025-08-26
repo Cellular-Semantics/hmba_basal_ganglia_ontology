@@ -49,12 +49,6 @@ ABC_URLS_NSF_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)),
 ABC_URLS_WS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls_ws_marker_set.json")
 ABC_URLS_EVIDENCE_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls_evidence_marker_set.json")
 
-# centralized data files
-ALLEN_DESCRIPTIONS_PATH = "{}/{}/All Descriptions_{}.json"
-DATASET_INFO_CSV = "{}/{}/{}_landingpage_dataset_info.csv"
-TAXONOMY_INFO_CSV = "{}/{}/{}_Taxonomy_Info_Panel.csv"
-NSFOREST_MARKER_CSV = "{}/NSForestMarkers/{}_{}_NSForest_Markers.csv"
-
 EXPRESSION_SEPARATOR = "|"
 
 ACRONYM_REGION = "CCF acronym region"
@@ -123,7 +117,10 @@ def generate_ind_template(taxonomy_file_path, output_filepath):
         d['Label'] = d['PrefLabel']
         d['Entity Type'] = 'PCL:0010001'  # Cluster
         # d['Metadata'] = json.dumps(o)
-        d['Synonyms'] = '|'.join(o.get('synonyms', []))
+        if o.get('synonyms', []):
+            d['Synonyms'] = '|'.join(o.get('synonyms', []))
+        else:
+            d['Synonyms'] = ''
         d['Property Assertions'] = '|'.join(
             sorted(['BICAN_INDV:' + e[1] for e in dend['edges'] if e[0] == o['cell_set_accession'] and e[1]]))
         meta_properties = ['cell_fullname']
@@ -154,7 +151,7 @@ def generate_ind_template(taxonomy_file_path, output_filepath):
         d["Matrix_url_label"] = "h5ad data file for " + class_membership[o["cell_set_accession"]]
         d["Matrix_url_comment"] = "Warning large data file!"
 
-        if "author_annotation_fields" in o:
+        if "author_annotation_fields" in o and o["author_annotation_fields"]:
             for k, v in o["author_annotation_fields"].items():
                 if v and str(v).lower() != "none":
                     d[k] = v
@@ -193,7 +190,7 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
 
         cluster_annotations = read_csv_to_dict(CLUSTER_ANNOTATIONS_PATH, id_column_name="cell_set_accession.cluster")[1]
         nt_symbols_mapping = read_csv_to_dict(NT_SYMBOLS_MAPPING, delimiter="\t")[1]
-        mba_symbols = get_mba_symbols_map()
+        mba_symbols = get_aba_symbols_map()
         mba_labels = get_mba_labels_map()
         anatomical_loc_inconsistencies = get_anatomical_location_inconsistencies(CLUSTER_ANNOTATIONS_PATH)
         nt_inconsistencies = get_neurotransmitter_inconsistencies(CLUSTER_ANNOTATIONS_PATH)
@@ -277,7 +274,7 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                     d["Taxonomy_label"] = node['taxonomy_cell_label']
                 else:
                     d["Taxonomy_label"] = node['cell_label']
-                synonyms = node.get("synonyms", [])
+                synonyms = node.get("synonyms", []) or []
                 synonyms.append(node['cell_label'])
                 if collapsed:
                     synonyms.extend([ all_nodes[accession_id]['cell_label'] for accession_id in node["chain"]])
@@ -303,6 +300,8 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                 d["Short_form_citation"] = "Yao et al. (2023), Whole Mouse Brain"
                 if node.get('parent_cell_set_accession'):
                     d['Parent_label'] = all_pref_labels[node['parent_cell_set_accession']]
+                if not node["author_annotation_fields"]:
+                    node["author_annotation_fields"] = dict()
                 markers_str = node["author_annotation_fields"].get(f"{node['labelset']}.markers.combo", "")
                 markers_list = [marker.strip() for marker in markers_str.split(",") if marker.strip()]
                 d['Minimal_markers'] = "|".join([get_gene_id(gene_db, marker) for marker in markers_list if str(marker).lower() != "none"])
@@ -460,7 +459,7 @@ def associate_marker_sets(all_nodes, author_local_markers, author_markers, colla
     if node.get('marker_gene_evidence'):
         d['evidence_marker_gene_set'] = id_prefix + id_factory.get_evidence_marker_gene_set_id(
             node['cell_set_accession'])
-    if ("author_annotation_fields" in node and
+    if ("author_annotation_fields" in node and node["author_annotation_fields"] and
             node["author_annotation_fields"].get(f"{node['labelset']}.markers.combo") and
             str(node["author_annotation_fields"].get(f"{node['labelset']}.markers.combo",
                                                      "")).lower() != "none"):
@@ -469,7 +468,7 @@ def associate_marker_sets(all_nodes, author_local_markers, author_markers, colla
         filtered_df = author_markers[author_markers['clusterName'] == o['cell_label']]
         if not filtered_df.empty:
             d['marker_gene_set_confidence'] = filtered_df['f_score'].values[0]
-    if ("author_annotation_fields" in node and
+    if ("author_annotation_fields" in node and node["author_annotation_fields"] and
             node["author_annotation_fields"].get(
                 f"{node['labelset']}.markers.combo _within subclass_") and
             str(node["author_annotation_fields"].get(
@@ -541,8 +540,9 @@ def get_unique_cell_label(o, node, generated_labels, all_names, name_curations, 
         fail_on_duplicate: True if the function should raise an error if a duplicate label is found
     Returns: unique cell label
     """
-    if o['cell_label'] in name_curations:
-        cell_label = name_curations[o['cell_label']]
+    curation_label = o['cell_label'] + "##" + o['labelset']
+    if curation_label in name_curations:
+        cell_label = name_curations[curation_label]
     else:
         cell_label = node['cell_label']
     cell_label = format_cell_label(cell_label, node, all_names, generated_labels, is_collapsed, fail_on_duplicate)
@@ -709,7 +709,7 @@ def generate_marker_gene_set_template(taxonomy_file_path, output_filepath):
             if o['cell_set_accession'] in nodes_to_collapse:
                 node = nodes_to_collapse[o['cell_set_accession']]
             if node.get('cell_set_accession') and node['cell_set_accession'] not in processed_accessions :
-                if ("author_annotation_fields" in node and
+                if ("author_annotation_fields" in node and node["author_annotation_fields"] and
                         node["author_annotation_fields"].get(f"{node['labelset']}.markers.combo", "") and
                         str(node["author_annotation_fields"].get(f"{node['labelset']}.markers.combo", "")).lower() != "none"):
                     d = dict()
@@ -807,7 +807,7 @@ def generate_within_subclass_marker_gene_set_template(taxonomy_file_path, output
             if o['cell_set_accession'] in nodes_to_collapse:
                 node = nodes_to_collapse[o['cell_set_accession']]
             if node.get('cell_set_accession') and node['cell_set_accession'] not in processed_accessions :
-                if ("author_annotation_fields" in node and
+                if ("author_annotation_fields" in node and node["author_annotation_fields"] and
                         node["author_annotation_fields"].get(f"{node['labelset']}.markers.combo _within subclass_", "") and
                         str(node["author_annotation_fields"].get(f"{node['labelset']}.markers.combo _within subclass_", "")).lower() != "none"):
                     d = dict()
@@ -1050,19 +1050,20 @@ def read_author_markers_dataframe():
     Author markers dataframe is read from the CSV file.
     Returns: Author markers dataframe
     """
-    author_marker_subclass_df = pd.read_csv(
-        os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                     '../dendrograms/supplementary/version2/AP_WMB_evaluation_author_markers/subclass_results.csv'))
-    author_marker_supertype_df = pd.read_csv(
-        os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                     '../dendrograms/supplementary/version2/AP_WMB_evaluation_author_markers/supertype_results.csv'))
-    author_marker_cluster_df = pd.read_csv(
-        os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                     '../dendrograms/supplementary/version2/AP_WMB_evaluation_author_markers/cluster_results.csv'))
-    author_markers = pd.merge(author_marker_subclass_df, author_marker_supertype_df,
-                                how='outer')
-    author_markers = pd.merge(author_markers, author_marker_cluster_df,
-                                how='outer')
+    # author_marker_subclass_df = pd.read_csv(
+    #     os.path.join(os.path.dirname(os.path.realpath(__file__)),
+    #                  '../dendrograms/supplementary/version2/AP_WMB_evaluation_author_markers/subclass_results.csv'))
+    # author_marker_supertype_df = pd.read_csv(
+    #     os.path.join(os.path.dirname(os.path.realpath(__file__)),
+    #                  '../dendrograms/supplementary/version2/AP_WMB_evaluation_author_markers/supertype_results.csv'))
+    # author_marker_cluster_df = pd.read_csv(
+    #     os.path.join(os.path.dirname(os.path.realpath(__file__)),
+    #                  '../dendrograms/supplementary/version2/AP_WMB_evaluation_author_markers/cluster_results.csv'))
+    # author_markers = pd.merge(author_marker_subclass_df, author_marker_supertype_df,
+    #                             how='outer')
+    # author_markers = pd.merge(author_markers, author_marker_cluster_df,
+    #                             how='outer')
+    author_markers = pd.DataFrame(columns=["clusterName"])
     return author_markers
 
 
@@ -1071,10 +1072,10 @@ def read_author_local_markers_dataframe():
     Author local markers dataframe is read from the CSV file.
     Returns: Author markers dataframe
     """
-    author_local_markers = pd.read_csv(
-        os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                     '../dendrograms/supplementary/version2/AP_WMB_evaluation_author_markers/local_cluster_results.csv'))
-
+    # author_local_markers = pd.read_csv(
+    #     os.path.join(os.path.dirname(os.path.realpath(__file__)),
+    #                  '../dendrograms/supplementary/version2/AP_WMB_evaluation_author_markers/local_cluster_results.csv'))
+    author_local_markers = pd.DataFrame(columns=["clusterName"])
     return author_local_markers
 
 
@@ -1083,14 +1084,15 @@ def read_nsforest_markers_dataframe():
     NS Forest markers dataframe is read from the CSV file.
     Returns: NS Forest markers dataframe
     """
-    ns_forest_marker_class_df = pd.read_csv(
-        os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                     '../dendrograms/supplementary/version2/NSForest_global_class_results.csv'))
-    ns_forest_marker_subclass_df = pd.read_csv(
-        os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                     '../dendrograms/supplementary/version2/NSForest_global_subclass_comb_results.csv'))
-    nsforest_markers = pd.merge(ns_forest_marker_class_df, ns_forest_marker_subclass_df,
-                                how='outer')
+    # ns_forest_marker_class_df = pd.read_csv(
+    #     os.path.join(os.path.dirname(os.path.realpath(__file__)),
+    #                  '../dendrograms/supplementary/version2/NSForest_global_class_results.csv'))
+    # ns_forest_marker_subclass_df = pd.read_csv(
+    #     os.path.join(os.path.dirname(os.path.realpath(__file__)),
+    #                  '../dendrograms/supplementary/version2/NSForest_global_subclass_comb_results.csv'))
+    # nsforest_markers = pd.merge(ns_forest_marker_class_df, ns_forest_marker_subclass_df,
+    #                             how='outer')
+    nsforest_markers = pd.DataFrame(columns=["clusterName"])
     return nsforest_markers
 
 
@@ -1144,35 +1146,38 @@ def get_gene_id(gene_db, gene_name):
     else:
         raise Exception(f"Gene ID not found for gene: {gene_name}")
 
-def get_mba_symbols_map():
+def get_aba_symbols_map():
     obo_in_owl = Namespace("http://www.geneontology.org/formats/oboInOwl#")
-    g = get_mba_ontology()
+    g = get_aba_ontology()
 
     synonyms = {}
     for s, p, o in g:
-        if str(s).startswith("https://purl.brain-bican.org/ontology/mbao/MBA_") and p == obo_in_owl.hasExactSynonym:
-            synonyms[str(o).strip()] = "MBA:" + str(s).split("_")[-1]
+        if str(s).startswith("https://purl.brain-bican.org/ontology/dhbao/DHBA_") and p == obo_in_owl.hasExactSynonym:
+            synonyms[str(o).strip()] = "DHBA:" + str(s).split("_")[-1]
 
     return synonyms
 
 def get_mba_labels_map():
-    g = get_mba_ontology()
+    g = get_aba_ontology()
 
     labels = {}
     for s, p, o in g:
-        if str(s).startswith("https://purl.brain-bican.org/ontology/mbao/MBA_") and p == RDFS.label:
-            labels["MBA:" + str(s).split("_")[-1]] = str(o).strip().lower()
+        if str(s).startswith("https://purl.brain-bican.org/ontology/dhbao/DHBA_") and p == RDFS.label:
+            labels["DHBA:" + str(s).split("_")[-1]] = str(o).strip().lower()
 
     return labels
 
-mba_ontology = None
+aba_ontology = None
 
-def get_mba_ontology():
-    global mba_ontology
-    if not mba_ontology:
-        mba_ontology = Graph()
-        mba_ontology.parse('https://purl.brain-bican.org/ontology/mbao/mbao.owl', format="xml")
-    return mba_ontology
+def get_aba_ontology():
+    global aba_ontology
+    if not aba_ontology:
+        import ssl
+        ssl._create_default_https_context = ssl._create_unverified_context
+
+        aba_ontology = Graph()
+        aba_ontology.parse('https://purl.brain-bican.org/ontology/dhbao/dhbao.owl', format="xml")
+    return aba_ontology
 
 def read_gene_dbs(folder_path: str):
     """

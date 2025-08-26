@@ -2,6 +2,7 @@
 
 If you are using this repo as a template, you can customize the content below to suit your needs:
 - src/dendrograms/Makefile: Customise taxonomy ID
+- create `src/dendrograms/taxonomy_details.yaml`
 - PCL and CL id ranges to be used in the ontology (shouldn't overlap with existing IDs)
   - src/scripts/pcl_id_factory.py
     - WMBO: PCL:0110000 - PCL:0159999 (49520 ids) - (Actually, 0142978 is the last used)
@@ -24,3 +25,9 @@ If you are using this repo as a template, you can customize the content below to
   - See `src/test/template_generation_utils_test.py` script `test_find_direct_paths` function to generate the table 
 - Generate the `src/dendrograms/CL_ontology_subset.tsv`
   - See `src/scripts/cl_ontology_table_generator.py` to generate the table
+- Customise ABA atlas ontology processing in `src/scripts/template_generation_tools.py`. Search `DHBA` and change as needed
+- Generate `src/dendrograms/resources/dhbao-base-materialized.owl`
+- Generate `src/dendrograms/supplementary/version2/CCN20230722_dendrogram_with_ids.json`
+  - Build `https://github.com/INCATools/relation-graph` in `/cli/target/universal/stage/bin` folder run: 
+  - `./relation-graph --ontology-file ~/Downloads/dhbao-base.owl --output-file dhba_relations.ttl --mode rdf --property 'http://purl.obolibrary.org/obo/BFO_0000050' --property 'http://purl.obolibrary.org/obo/BFO_0000051'`
+  - Then merge them: `sh run.sh robot merge --input ../dendrograms/resources/dhbao-base.owl --input ../dendrograms/resources/dhba_relations.ttl --output ../dendrograms/resources/dhbao-base-materialized.owl`
