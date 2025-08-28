@@ -1,5 +1,7 @@
 format-version: 1.2
-data-version: pcl/releases/2025-08-26/bgo-base.owl
+data-version: pcl/releases/2025-08-28/bgo-base.owl
+idspace: CCN20230722 https://purl.brain-bican.org/taxonomy/CCN20230722# 
+idspace: CL https://purl.brain-bican.org/taxonomy/CCN20230722#CL: 
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -13,7 +15,7 @@ property_value: IAO:0000700 PCL:0160000
 property_value: IAO:0000700 PCL:0160001
 property_value: IAO:0000700 PCL:0160002
 property_value: IAO:0000700 PCL:0160106
-property_value: owl:versionInfo "2025-08-26" xsd:string
+property_value: owl:versionInfo "2025-08-28" xsd:string
 
 [Term]
 id: CL:4023026
@@ -2535,8 +2537,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: PCL:0160000
+name: Glut Sero Dopa dopaminergic neuron (Hsap)
+def: "A dopaminergic neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Glut Sero Dopa." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Glut Sero Dopa" EXACT []
-is_a: CL:0000255
+is_a: BFO:0000002
+is_a: CL:0000700
 relationship: RO:0002162 NCBITaxon:9606
 property_value: IAO:0000028 "Glut Sero Dopa (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
@@ -2553,8 +2558,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: PCL:0160002
+name: Subpallium GABA GABAergic neuron (Hsap)
+def: "A GABAergic neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Subpallium GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Subpallium GABA" EXACT []
-is_a: CL:0000255
+is_a: BFO:0000002
+is_a: CL:0000617
 relationship: RO:0002162 NCBITaxon:9606
 property_value: IAO:0000028 "Subpallium GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -2565,15 +2573,14 @@ name: Astro-Epen glial cell (Hsap)
 def: "A glial cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Astro-Epen." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Astro-Epen" EXACT []
 is_a: CL:0000125
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160001 ! Nonneuron cell (Hsap)
 property_value: IAO:0000028 "Astro-Epen (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
 
 [Term]
 id: PCL:0160011
 synonym: "CN CGE GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160002 ! Subpallium GABA GABAergic neuron (Hsap)
 property_value: IAO:0000028 "CN CGE GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -2587,32 +2594,28 @@ is_obsolete: true
 [Term]
 id: PCL:0160013
 synonym: "CN LGE GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160002 ! Subpallium GABA GABAergic neuron (Hsap)
 property_value: IAO:0000028 "CN LGE GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160015
 synonym: "CN MGE GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160002 ! Subpallium GABA GABAergic neuron (Hsap)
 property_value: IAO:0000028 "CN MGE GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160016
 synonym: "F M GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160002 ! Subpallium GABA GABAergic neuron (Hsap)
 property_value: IAO:0000028 "F M GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160017
 synonym: "F M Glut" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160000 ! Glut Sero Dopa dopaminergic neuron (Hsap)
 property_value: IAO:0000028 "F M Glut (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
 
@@ -2622,7 +2625,7 @@ name: Immune mononuclear leukocyte (Hsap)
 def: "A mononuclear leukocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Immune." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Immune" EXACT []
 is_a: CL:0000842
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160001 ! Nonneuron cell (Hsap)
 property_value: IAO:0000028 "Immune (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
 
@@ -2632,7 +2635,7 @@ name: OPC-Oligo neuron associated cell (Hsap)
 def: "A neuron associated cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:OPC-Oligo." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "OPC-Oligo" EXACT []
 is_a: CL:0000095
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160001 ! Nonneuron cell (Hsap)
 property_value: IAO:0000028 "OPC-Oligo (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
 
@@ -2642,7 +2645,7 @@ name: Vascular connective tissue cell (Hsap)
 def: "A connective tissue cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Vascular." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Vascular" EXACT []
 is_a: CL:0002320
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160001 ! Nonneuron cell (Hsap)
 property_value: IAO:0000028 "Vascular (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
 
@@ -2652,39 +2655,35 @@ name: Astrocyte Subclass astrocyte (Hsap)
 def: "A astrocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Astrocyte Subclass." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Astrocyte Subclass" EXACT []
 is_a: CL:0000127
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160010 ! Astro-Epen glial cell (Hsap)
 property_value: IAO:0000028 "Astrocyte Subclass (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
 
 [Term]
 id: PCL:0160031
 synonym: "CN Cholinergic GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160015
 property_value: IAO:0000028 "CN Cholinergic GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160035
 synonym: "CN LHX8 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160016
 property_value: IAO:0000028 "CN LHX8 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160038
 synonym: "CN ST18 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160015
 property_value: IAO:0000028 "CN ST18 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160043
 synonym: "F Glut" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160017
 property_value: IAO:0000028 "F Glut (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
 
@@ -2701,15 +2700,14 @@ name: Lymphocyte lymphocyte (Hsap)
 def: "A lymphocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Lymphocyte." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Lymphocyte" EXACT []
 is_a: CL:0000542
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160018 ! Immune mononuclear leukocyte (Hsap)
 property_value: IAO:0000028 "Lymphocyte (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
 
 [Term]
 id: PCL:0160046
 synonym: "F M GATA3 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160016
 property_value: IAO:0000028 "F M GATA3 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -2719,7 +2717,7 @@ name: Oligodendrocyte oligodendrocyte (Hsap)
 def: "A oligodendrocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Oligodendrocyte." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Oligodendrocyte" EXACT []
 is_a: CL:0000128
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160020 ! OPC-Oligo neuron associated cell (Hsap)
 property_value: IAO:0000028 "Oligodendrocyte (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
 
@@ -2728,17 +2726,15 @@ id: PCL:0160055
 name: M Dopa substantia nigra dopaminergic neuron (Hsap)
 def: "A substantia nigra dopaminergic neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:M Dopa." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "M Dopa" EXACT []
-is_a: BFO:0000002
 is_a: CL:4042025 ! substantia nigra dopaminergic neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160000 ! Glut Sero Dopa dopaminergic neuron (Hsap)
 property_value: IAO:0000028 "M Dopa (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
 
 [Term]
 id: PCL:0160056
 synonym: "SN PAX7 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160016
 property_value: IAO:0000028 "SN PAX7 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -2748,7 +2744,7 @@ name: STR D1 MSN direct pathway medium spiny neuron (Hsap)
 def: "A direct pathway medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR D1 MSN." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR D1 MSN" EXACT []
 is_a: CL:4023026 ! direct pathway medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160013
 property_value: IAO:0000028 "STR D1 MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -2758,7 +2754,7 @@ name: STR D2 MSN indirect pathway medium spiny neuron (Hsap)
 def: "A indirect pathway medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR D2 MSN." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR D2 MSN" EXACT []
 is_a: CL:4023029 ! indirect pathway medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160013
 property_value: IAO:0000028 "STR D2 MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -2768,15 +2764,14 @@ name: STR Hybrid MSN D1/D2-hybrid medium spiny neuron (Hsap)
 def: "A D1/D2-hybrid medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR Hybrid MSN." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR Hybrid MSN" EXACT []
 is_a: CL:4030050 ! D1/D2-hybrid medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160013
 property_value: IAO:0000028 "STR Hybrid MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160061
 synonym: "STR RSPO2 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160015
 property_value: IAO:0000028 "STR RSPO2 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -2784,24 +2779,21 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: PCL:0160066
 synonym: "ACx MEIS2 GABA" EXACT []
 synonym: "Cx GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160002 ! Subpallium GABA GABAergic neuron (Hsap)
 property_value: IAO:0000028 "Cx GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160067
 synonym: "F GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160016
 property_value: IAO:0000028 "F GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160090
 synonym: "B cells" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160045 ! Lymphocyte lymphocyte (Hsap)
 property_value: CLM:0010003 PCL:0160900
 property_value: IAO:0000028 "B cells (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -2813,7 +2805,7 @@ def: "A border associated macrophage of the Homo sapiens brain. Reference transc
 synonym: "BAM" EXACT []
 synonym: "Macrophage" EXACT []
 is_a: CL:4042003 ! border associated macrophage
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160018 ! Immune mononuclear leukocyte (Hsap)
 property_value: CLM:0010003 PCL:0160901
 property_value: IAO:0000028 "Macrophage (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -2821,8 +2813,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160093
 synonym: "GPin-BF Cholinergic GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160031
 property_value: IAO:0000028 "GPin-BF Cholinergic GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -2831,8 +2822,7 @@ id: PCL:0160094
 synonym: "CN LAMP5-CXCL14 GABA" EXACT []
 synonym: "LAMP5" EXACT []
 synonym: "LAMP5-CXCL14 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160011
 property_value: CLM:0010003 PCL:0160904
 property_value: IAO:0000028 "CN LAMP5-CXCL14 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -2842,8 +2832,7 @@ id: PCL:0160095
 synonym: "CN LAMP5-LHX6 GABA" EXACT []
 synonym: "LAMP5" EXACT []
 synonym: "LAMP5-LHX6 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160015
 property_value: CLM:0010003 PCL:0160905
 property_value: IAO:0000028 "CN LAMP5-LHX6 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -2851,8 +2840,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160098
 synonym: "BF SKOR1 Glut" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160043
 property_value: IAO:0000028 "BF SKOR1 Glut (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
 
@@ -2862,7 +2850,7 @@ name: COP committed oligodendrocyte precursor (Hsap)
 def: "A committed oligodendrocyte precursor of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:COP." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.aaf6463]
 synonym: "COP" EXACT []
 is_a: CL:4023059 ! committed oligodendrocyte precursor
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160020 ! OPC-Oligo neuron associated cell (Hsap)
 property_value: CLM:0010003 PCL:0160909
 property_value: IAO:0000028 "COP (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -2873,7 +2861,7 @@ name: Endo endothelial cell (Hsap)
 def: "A endothelial cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Endo." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Endo" EXACT []
 is_a: CL:0000115
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160021 ! Vascular connective tissue cell (Hsap)
 property_value: CLM:0010003 PCL:0160911
 property_value: IAO:0000028 "Endo (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -2884,7 +2872,7 @@ name: Ependymal ependymal cell (Hsap)
 def: "A ependymal cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Ependymal." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Ependymal" EXACT []
 is_a: CL:0000065
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160010 ! Astro-Epen glial cell (Hsap)
 property_value: CLM:0010003 PCL:0160912
 property_value: IAO:0000028 "Ependymal (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -2893,16 +2881,14 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: PCL:0160103
 synonym: "CN MEIS2 GABA" EXACT []
 synonym: "GPe MEIS2-SOX6 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160013
 property_value: IAO:0000028 "CN MEIS2 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160104
 synonym: "GPe SOX6-CTXND1 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160035
 property_value: CLM:0010003 PCL:0160914
 property_value: IAO:0000028 "GPe SOX6-CTXND1 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -2911,8 +2897,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: PCL:0160105
 synonym: "CN ONECUT1 GABA" EXACT []
 synonym: "GPi Core" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160016
 property_value: IAO:0000028 "CN ONECUT1 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -2921,7 +2906,8 @@ id: PCL:0160106
 synonym: "CN GABA-Glut" EXACT []
 synonym: "GPi Shell" EXACT []
 synonym: "Subpallium GABA-Glut" EXACT []
-is_a: CL:0000255
+is_a: BFO:0000002
+is_a: CL:0008060
 relationship: RO:0002162 NCBITaxon:9606
 property_value: IAO:0000028 "Subpallium GABA-Glut (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0003.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0003"}
@@ -2929,8 +2915,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160107
 synonym: "ImAstro" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160030 ! Astrocyte Subclass astrocyte (Hsap)
 property_value: CLM:0010003 PCL:0160917
 property_value: IAO:0000028 "ImAstro (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -2941,7 +2926,7 @@ name: ImOligo immune oligodendroglia (Hsap)
 def: "A immune oligodendroglia of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ImOligo." [https://doi.org/10.1038/s41586-019-0903-2, https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "ImOligo" EXACT []
 is_a: CL:4042031 ! immune oligodendroglia
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160052 ! Oligodendrocyte oligodendrocyte (Hsap)
 property_value: CLM:0010003 PCL:0160918
 property_value: IAO:0000028 "ImOligo (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -2952,7 +2937,7 @@ name: Microglia microglial cell (Hsap)
 def: "A microglial cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Microglia." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Microglia" EXACT []
 is_a: CL:0000129
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160018 ! Immune mononuclear leukocyte (Hsap)
 property_value: CLM:0010003 PCL:0160919
 property_value: IAO:0000028 "Microglia (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -2960,8 +2945,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160110
 synonym: "GPe-NDB-SI LHX6-LHX8-GBX1 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160035
 property_value: IAO:0000028 "GPe-NDB-SI LHX6-LHX8-GBX1 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -2969,7 +2953,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: PCL:0160112
 synonym: "Monocyte" EXACT []
 is_a: CL:0000542
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160018 ! Immune mononuclear leukocyte (Hsap)
 property_value: CLM:0010003 PCL:0160922
 property_value: IAO:0000028 "Monocyte (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -2980,7 +2964,7 @@ name: OPC oligodendrocyte precursor cell (Hsap)
 def: "A oligodendrocyte precursor cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OPC." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.add7046]
 synonym: "OPC" EXACT []
 is_a: CL:0002453
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160020 ! OPC-Oligo neuron associated cell (Hsap)
 property_value: CLM:0010003 PCL:0160923
 property_value: IAO:0000028 "OPC (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -2993,7 +2977,7 @@ synonym: "D1-ICj (Islands of Calleja)" EXACT []
 synonym: "OT D1 ICj" EXACT []
 synonym: "OT Granular GABA" EXACT []
 is_a: CL:4030053 ! Island of Calleja granule cell
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160013
 property_value: CLM:0010003 PCL:0160924
 property_value: IAO:0000028 "OT Granular GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3003,8 +2987,7 @@ id: PCL:0160115
 name: Oligo OPALIN oligodendrocyte (Hsap)
 def: "A oligodendrocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Oligo OPALIN." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.add7046]
 synonym: "Oligo OPALIN" EXACT []
-is_a: CL:0000128
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160052 ! Oligodendrocyte oligodendrocyte (Hsap)
 property_value: CLM:0010003 PCL:0160925
 property_value: IAO:0000028 "Oligo OPALIN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -3014,8 +2997,7 @@ id: PCL:0160116
 name: Oligo PLEKHG1 oligodendrocyte (Hsap)
 def: "A oligodendrocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Oligo PLEKHG1." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.add7046]
 synonym: "Oligo PLEKHG1" EXACT []
-is_a: CL:0000128
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160052 ! Oligodendrocyte oligodendrocyte (Hsap)
 property_value: CLM:0010003 PCL:0160926
 property_value: IAO:0000028 "Oligo PLEKHG1 (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -3026,7 +3008,7 @@ name: Pericyte pericyte (Hsap)
 def: "A pericyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Pericyte." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Pericyte" EXACT []
 is_a: CL:0000669
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160021 ! Vascular connective tissue cell (Hsap)
 property_value: CLM:0010003 PCL:0160927
 property_value: IAO:0000028 "Pericyte (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -3037,7 +3019,7 @@ name: SMC smooth muscle cell (Hsap)
 def: "A smooth muscle cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SMC." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "SMC" EXACT []
 is_a: CL:0000192
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160021 ! Vascular connective tissue cell (Hsap)
 property_value: CLM:0010003 PCL:0160928
 property_value: IAO:0000028 "SMC (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -3047,9 +3029,7 @@ id: PCL:0160119
 name: SN-VTR CALB1 Dopa substantia nigra dopaminergic neuron (Hsap)
 def: "A substantia nigra dopaminergic neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR CALB1 Dopa." [https://doi.org/10.1038/s41467-020-17876-0, https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "SN-VTR CALB1 Dopa" EXACT []
-is_a: BFO:0000002
-is_a: CL:4042025 ! substantia nigra dopaminergic neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160055 ! M Dopa substantia nigra dopaminergic neuron (Hsap)
 property_value: CLM:0010003 PCL:0160929
 property_value: IAO:0000028 "SN-VTR CALB1 Dopa (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
@@ -3057,16 +3037,14 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160120
 synonym: "SN EBF2 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160056
 property_value: IAO:0000028 "SN EBF2 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160121
 synonym: "SN-VTR GAD2 Dopa" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160055 ! M Dopa substantia nigra dopaminergic neuron (Hsap)
 property_value: CLM:0010003 PCL:0160931
 property_value: IAO:0000028 "SN-VTR GAD2 Dopa (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
@@ -3075,8 +3053,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: PCL:0160122
 synonym: "pSNpr" EXACT []
 synonym: "SN GATA3-PAX8 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160046
 property_value: CLM:0010003 PCL:0160932
 property_value: IAO:0000028 "SN GATA3-PAX8 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3085,8 +3062,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: PCL:0160123
 synonym: "aSNpr" EXACT []
 synonym: "SN GATA3-PVALB GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160046
 property_value: CLM:0010003 PCL:0160933
 property_value: IAO:0000028 "SN GATA3-PVALB GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3094,8 +3070,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160124
 synonym: "SN SEMA5A GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160056
 property_value: IAO:0000028 "SN SEMA5A GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -3104,9 +3079,7 @@ id: PCL:0160125
 name: SN SOX6 Dopa substantia nigra dopaminergic neuron (Hsap)
 def: "A substantia nigra dopaminergic neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN SOX6 Dopa." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1038/s41593-022-01061-1]
 synonym: "SN SOX6 Dopa" EXACT []
-is_a: BFO:0000002
-is_a: CL:4042025 ! substantia nigra dopaminergic neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160055 ! M Dopa substantia nigra dopaminergic neuron (Hsap)
 property_value: CLM:0010003 PCL:0160935
 property_value: IAO:0000028 "SN SOX6 Dopa (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
@@ -3114,16 +3087,14 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160127
 synonym: "SN-VTR-HTH GATA3-TCF7L2 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160046
 property_value: IAO:0000028 "SN-VTR-HTH GATA3-TCF7L2 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160128
 synonym: "STH PVALB-PITX2 Glut" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160043
 property_value: IAO:0000028 "STH PVALB-PITX2 Glut (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
 
@@ -3132,8 +3103,7 @@ id: PCL:0160129
 name: Astrocyte astrocyte (Hsap)
 def: "A astrocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Astrocyte." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Astrocyte" EXACT []
-is_a: CL:0000127
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160030 ! Astrocyte Subclass astrocyte (Hsap)
 property_value: CLM:0010003 PCL:0160939
 property_value: IAO:0000028 "Astrocyte (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -3146,7 +3116,7 @@ synonym: "FS" EXACT []
 synonym: "Pvalb Pthlh" EXACT []
 synonym: "STR FS PTHLH-PVALB GABA" EXACT []
 is_a: CL:4042023 ! striatal pthlh-expressing interneuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160038
 property_value: CLM:0010003 PCL:0160940
 property_value: IAO:0000028 "STR FS PTHLH-PVALB GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3154,8 +3124,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160131
 synonym: "STR LYPD6-RSPO2 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160061
 property_value: IAO:0000028 "STR LYPD6-RSPO2 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -3163,8 +3132,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: PCL:0160132
 synonym: "STR SST GABA" EXACT []
 synonym: "STR SST-ADARB2 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160015
 property_value: IAO:0000028 "STR SST GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -3173,8 +3141,7 @@ id: PCL:0160133
 synonym: "LTS" EXACT []
 synonym: "Sst Chodl" EXACT []
 synonym: "STR SST-CHODL GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160015
 property_value: CLM:0010003 PCL:0160943
 property_value: IAO:0000028 "STR SST-CHODL GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3182,8 +3149,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160134
 synonym: "STR SST-RSPO2 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160061
 property_value: IAO:0000028 "STR SST-RSPO2 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -3193,9 +3159,8 @@ name: STR TAC3-PLPP4 GABA TAC3-positive striatal interneuron (Hsap)
 def: "A TAC3-positive striatal interneuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR TAC3-PLPP4 GABA." [https://doi.org/10.1038/s41586-020-2874-8, https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "LHX6 TAC3" EXACT []
 synonym: "STR TAC3-PLPP4 GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:4042001 ! TAC3-positive striatal interneuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160038
 property_value: CLM:0010003 PCL:0160945
 property_value: IAO:0000028 "STR TAC3-PLPP4 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3203,8 +3168,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160136
 synonym: "STR-BF TAC3-PLPP4-LHX8 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160038
 property_value: IAO:0000028 "STR-BF TAC3-PLPP4-LHX8 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -3213,8 +3177,7 @@ id: PCL:0160137
 synonym: "CN VIP GABA" EXACT []
 synonym: "VIP" EXACT []
 synonym: "VIP GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160011
 property_value: CLM:0010003 PCL:0160947
 property_value: IAO:0000028 "CN VIP GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3222,8 +3185,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160138
 synonym: "STRd Cholinergic GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160031
 property_value: IAO:0000028 "STRd Cholinergic GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -3234,7 +3196,7 @@ def: "A matrix D1 medium spiny neuron of the Homo sapiens brain. Reference trans
 synonym: "D1-Matrix" EXACT []
 synonym: "STRd D1 Matrix MSN" EXACT []
 is_a: CL:4030043 ! matrix D1 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160058 ! STR D1 MSN direct pathway medium spiny neuron (Hsap)
 property_value: CLM:0010003 PCL:0160949
 property_value: IAO:0000028 "STRd D1 Matrix MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3246,7 +3208,7 @@ def: "A striosomal D1 medium spiny neuron of the Homo sapiens brain. Reference t
 synonym: "D1-Striosome" EXACT []
 synonym: "STRd D1 Striosome MSN" EXACT []
 is_a: CL:4030048 ! striosomal D1 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160058 ! STR D1 MSN direct pathway medium spiny neuron (Hsap)
 property_value: CLM:0010003 PCL:0160950
 property_value: IAO:0000028 "STRd D1 Striosome MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3257,8 +3219,7 @@ name: STR D1D2 Hybrid MSN D1/D2-hybrid medium spiny neuron (Hsap)
 def: "A D1/D2-hybrid medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR D1D2 Hybrid MSN." [https://doi.org/10.1016/j.cub.2021.10.015, https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "D1/D2 Hybrid" EXACT []
 synonym: "STR D1D2 Hybrid MSN" EXACT []
-is_a: CL:4030050 ! D1/D2-hybrid medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160060 ! STR Hybrid MSN D1/D2-hybrid medium spiny neuron (Hsap)
 property_value: CLM:0010003 PCL:0160951
 property_value: IAO:0000028 "STR D1D2 Hybrid MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3270,7 +3231,7 @@ def: "A matrix D2 medium spiny neuron of the Homo sapiens brain. Reference trans
 synonym: "D2-Matrix" EXACT []
 synonym: "STRd D2 Matrix MSN" EXACT []
 is_a: CL:4030047 ! matrix D2 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160059 ! STR D2 MSN indirect pathway medium spiny neuron (Hsap)
 property_value: CLM:0010003 PCL:0160952
 property_value: IAO:0000028 "STRd D2 Matrix MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3278,8 +3239,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160143
 synonym: "STRd D2 StrioMat Hybrid MSN" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160059 ! STR D2 MSN indirect pathway medium spiny neuron (Hsap)
 property_value: IAO:0000028 "STRd D2 StrioMat Hybrid MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -3290,7 +3250,7 @@ def: "A striosomal D2 medium spiny neuron of the Homo sapiens brain. Reference t
 synonym: "D2-Striosome" EXACT []
 synonym: "STRd D2 Striosome MSN" EXACT []
 is_a: CL:4030049 ! striosomal D2 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160059 ! STR D2 MSN indirect pathway medium spiny neuron (Hsap)
 property_value: CLM:0010003 PCL:0160954
 property_value: IAO:0000028 "STRd D2 Striosome MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3298,8 +3258,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160145
 synonym: "STR Cholinergic GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160031
 property_value: IAO:0000028 "STR Cholinergic GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -3310,7 +3269,7 @@ def: "A nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron of
 synonym: "D1-Shell/OT" EXACT []
 synonym: "STRv D1 MSN" EXACT []
 is_a: CL:4030051 ! nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160058 ! STR D1 MSN direct pathway medium spiny neuron (Hsap)
 property_value: CLM:0010003 PCL:0160956
 property_value: IAO:0000028 "STRv D1 MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3322,7 +3281,7 @@ def: "A RXFP1-positive interface island D1-medium spiny neuron of the Homo sapie
 synonym: "D1-NUDAP" EXACT []
 synonym: "STRv D1 NUDAP MSN" EXACT []
 is_a: CL:4030054 ! RXFP1-positive interface island D1-medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160060 ! STR Hybrid MSN D1/D2-hybrid medium spiny neuron (Hsap)
 property_value: CLM:0010003 PCL:0160957
 property_value: IAO:0000028 "STRv D1 NUDAP MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3334,7 +3293,7 @@ def: "A nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron of
 synonym: "D2-Shell/OT" EXACT []
 synonym: "STRv D2 MSN" EXACT []
 is_a: CL:4030052 ! nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160059 ! STR D2 MSN indirect pathway medium spiny neuron (Hsap)
 property_value: CLM:0010003 PCL:0160958
 property_value: IAO:0000028 "STRv D2 MSN (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -3345,7 +3304,7 @@ name: T cells T cell (Hsap)
 def: "A T cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:T cells." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "T cells" EXACT []
 is_a: CL:0000084
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160045 ! Lymphocyte lymphocyte (Hsap)
 property_value: CLM:0010003 PCL:0160959
 property_value: IAO:0000028 "T cells (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -3356,7 +3315,7 @@ name: VLMC vascular leptomeningeal cell (Hsap)
 def: "A vascular leptomeningeal cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:VLMC." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "VLMC" EXACT []
 is_a: CL:4023051 ! vascular leptomeningeal cell
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160021 ! Vascular connective tissue cell (Hsap)
 property_value: CLM:0010003 PCL:0160962
 property_value: IAO:0000028 "VLMC (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -3364,8 +3323,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160153
 synonym: "ZI-HTH GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160067
 property_value: IAO:0000028 "ZI-HTH GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
@@ -3373,8 +3331,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: PCL:0160154
 synonym: "F M Glut" EXACT []
 synonym: "VTR-HTH Glut" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160017
 property_value: CLM:0010003 PCL:0160964
 property_value: IAO:0000028 "VTR-HTH Glut (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
@@ -3382,32 +3339,28 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: PCL:0160155
 synonym: "AMY-SLEA-BNST D1 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160067
 property_value: IAO:0000028 "AMY-SLEA-BNST D1 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160156
 synonym: "AMY-SLEA-BNST GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160067
 property_value: IAO:0000028 "AMY-SLEA-BNST GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160157
 synonym: "OB Dopa-GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160066
 property_value: IAO:0000028 "OB Dopa-GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: PCL:0160158
 synonym: "OB FRMD7 GABA" EXACT []
-is_a: CL:0000255
-relationship: RO:0002162 NCBITaxon:9606
+is_a: PCL:0160066
 property_value: IAO:0000028 "OB FRMD7 GABA (Hsap)" xsd:string
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 

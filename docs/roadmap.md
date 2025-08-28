@@ -1,7 +1,6 @@
 # What is missing
 
-- We are not processing clusters
-- Links to ABC atlas
+- No links to ABC atlas
 - Curate: src/dendrograms/one_concept_one_name.tsv
 - Curate: src/dendrograms/CL_ontology_subset.tsv
 - Duplicate labels 
@@ -10,8 +9,8 @@
   - "VLMC" (renamed SUPT in the cas json)
   - "STR SST-CHODL GABA" (renamed SUPT in the cas json)
   - "SMC" (renamed SUPT in the cas json)
-- Revisit `src/scripts/disclaimer_generator.py` to update the location disclaimers
-- Check `src/dendrograms/taxonomy_details.yaml` for the ontology links
+- No anatomical locations yet
+- Add disclaimers: Revisit `src/scripts/disclaimer_generator.py` to update the location disclaimers
 - Update templates for multi-species
   - In template_generation_tools we use the following for now:
   ```python
@@ -19,5 +18,10 @@
         d['Taxon_abbv'] = taxonomy_config['Gene_abbv'][0]
         d['Brain_region'] = taxonomy_config['Brain_region'][0]
   ```
-- Add disclaimers
 - Fix publication in `src/scripts/template_generation_tools.py` `XYZ et al`
+- Check `src/dendrograms/taxonomy_details.yaml` for the ontology links
+- I manually added CL terms to neighborhood nodes. Check them
+  - Subpallium GABA : CL_0000617 GABAergic neuron
+  - Subpallium GABA-Glut : CL_0008060 GABA-Glut neuron
+  - Glut Sero Dopa : CL_0000700 dopaminergic neuron
+
