@@ -1287,8 +1287,8 @@
             "cell_label": "GPi Shell",
             "cell_set_accession": "CS20250428_GROUP_0016",
             "cell_fullname": null,
-            "cell_ontology_term_id": null,
-            "cell_ontology_term": null,
+            "cell_ontology_term_id": "CL:0008060",
+            "cell_ontology_term": "GABA-Glut neuron",
             "cell_ids": null,
             "rationale": null,
             "rationale_dois": [
