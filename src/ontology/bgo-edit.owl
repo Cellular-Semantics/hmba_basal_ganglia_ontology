@@ -19,7 +19,7 @@ Annotation(obo:IAO_0000700 obo:PCL_0160002)
 Annotation(obo:IAO_0000700 obo:PCL_0160106)
 Annotation(dcterms:description "HMBA basal ganglia consensus taxonomy")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dcterms:title "Basal Ganglia Ontology")
+Annotation(dcterms:title "DRAFT Basal Ganglia Ontology")
 
 Declaration(Class(obo:CL_0000099))
 Declaration(Class(obo:CL_4023119))

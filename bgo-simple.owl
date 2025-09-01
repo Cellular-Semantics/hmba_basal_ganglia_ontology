@@ -16,7 +16,7 @@
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160106"/>
         <terms:description>HMBA basal ganglia consensus taxonomy</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
-        <terms:title>Basal Ganglia Ontology</terms:title>
+        <terms:title>DRAFT Basal Ganglia Ontology</terms:title>
         <owl:versionInfo>2025-09-01</owl:versionInfo>
     </owl:Ontology>
     

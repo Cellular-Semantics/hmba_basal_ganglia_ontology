@@ -5,6 +5,9 @@
 semantic.cache
 bin/
 
+/typescript/dist/
+/typescript/node_modules/
+
 *.tmp
 *.tmp.obo
 *.tmp.owl

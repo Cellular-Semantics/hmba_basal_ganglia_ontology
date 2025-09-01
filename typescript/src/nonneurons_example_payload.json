@@ -1,0 +1,235 @@
+{
+  "frames": [
+    {
+      "dataCollectionId": "NXJ9NZAQA5MEHQNOWJQ",
+      "plotId": "TGBQ2FEV27N0CPLKVAZ",
+      "metadataFilters": [
+        {
+          "categoryId": "E3HGBYHRC98GA6FW9F6",
+          "selectedValues": [
+            "Nonneuron"
+          ]
+        },
+        {
+          "categoryId": "3XBOFBR302EYC0UQD51",
+          "selectedValues": []
+        },
+        {
+          "categoryId": "SQ6WJO0GNUJGFU8LHVV",
+          "selectedValues": []
+        },
+        {
+          "categoryId": "HK14O1ASANPYHONFLLQ",
+          "selectedValues": []
+        },
+        {
+          "categoryId": "6EWBSEJ4YFVGKI2APBL",
+          "selectedValues": []
+        }
+      ],
+      "camera": {
+        "projection": "WEB_IMAGE",
+        "center": {
+          "x": 51.15907669067383,
+          "y": 48.792232513427734
+        },
+        "size": {
+          "x": 127.61137390136719,
+          "y": 81.34007263183594
+        },
+        "gridFeatureId": "WMP8NMJ5D8XO1AOI1L9",
+        "slideBounds": {
+          "minCorner": {
+            "x": 19.089702606201172,
+            "y": 10.058863639831543
+          },
+          "maxCorner": {
+            "x": 28.25238037109375,
+            "y": 21.12554168701172
+          }
+        },
+        "hideUnselected": false,
+        "offsetIndex": 0
+      },
+      "genes": [],
+      "colorBy": {
+        "mode": "METADATA",
+        "value": "2NQTIE7TAMP8PQAHO4P",
+        "transparency": 0.5,
+        "isTransparent": false
+      },
+      "visualizationId": "IA6Y6SN7QZSIEJ0FZ0U",
+      "projectId": "POZ2HCPBT60DSDJ8UA7",
+      "quantitativeFilters": [],
+      "annotation": {
+        "referenceId": "7416B5XJDSY0HDF93RO",
+        "featureTypeReferenceId": "CREHRCK2YXRWJK2J0AL",
+        "isInFront": true,
+        "fill": {
+          "option": "NONE",
+          "color": "#000000",
+          "opacity": 100
+        },
+        "stroke": {
+          "option": "DEFAULT",
+          "color": "#000000",
+          "opacity": 100
+        }
+      }
+    },
+    {
+      "dataCollectionId": "VM4E6J9DPYYD7E0BHNB",
+      "plotId": "KGZLAWIPCR4W98F5LD6",
+      "metadataFilters": [],
+      "camera": {
+        "projection": "WEB_IMAGE",
+        "center": {
+          "x": 98.08788299560547,
+          "y": 71.96050262451172
+        },
+        "size": {
+          "x": 167.3242950439453,
+          "y": 106.65327453613281
+        },
+        "gridFeatureId": "WMP8NMJ5D8XO1AOI1L9",
+        "slideBounds": {
+          "minCorner": {
+            "x": 34.845741271972656,
+            "y": 21.173229217529297
+          },
+          "maxCorner": {
+            "x": 55.926456451416016,
+            "y": 41.488136291503906
+          }
+        },
+        "hideUnselected": false,
+        "offsetIndex": 0
+      },
+      "genes": [],
+      "colorBy": {
+        "mode": "METADATA",
+        "value": "2NQTIE7TAMP8PQAHO4P",
+        "transparency": 0.5,
+        "isTransparent": false
+      },
+      "visualizationId": "9AUTE9S10KAEC2UZO31",
+      "projectId": "POZ2HCPBT60DSDJ8UA7",
+      "quantitativeFilters": [],
+      "annotation": {
+        "referenceId": "Y3P1JM1ENCGWEW8USTV",
+        "featureTypeReferenceId": "CREHRCK2YXRWJK2J0AL",
+        "isInFront": true,
+        "fill": {
+          "option": "NONE",
+          "color": "#000000",
+          "opacity": 100
+        },
+        "stroke": {
+          "option": "DEFAULT",
+          "color": "#000000",
+          "opacity": 100
+        }
+      }
+    },
+    {
+      "dataCollectionId": "3CPIP2804SBDX1DX1RW",
+      "plotId": "S5KQTFHCRKHVZVRR5HR",
+      "metadataFilters": [],
+      "camera": {
+        "projection": "WEB_IMAGE",
+        "center": {
+          "x": 97.7215805053711,
+          "y": 144.1280975341797
+        },
+        "size": {
+          "x": 306.3804931640625,
+          "y": 195.288330078125
+        },
+        "gridFeatureId": "WMP8NMJ5D8XO1AOI1L9",
+        "slideBounds": {
+          "minCorner": {
+            "x": 7.681753158569336,
+            "y": 51.13364791870117
+          },
+          "maxCorner": {
+            "x": 43.69768142700195,
+            "y": 97.63086700439453
+          }
+        },
+        "hideUnselected": false,
+        "offsetIndex": 0
+      },
+      "genes": [],
+      "colorBy": {
+        "mode": "METADATA",
+        "value": "2NQTIE7TAMP8PQAHO4P",
+        "transparency": 0.5,
+        "isTransparent": false
+      },
+      "visualizationId": "HZEYXSQOEDND2Q6M97M",
+      "projectId": "POZ2HCPBT60DSDJ8UA7",
+      "quantitativeFilters": [],
+      "annotation": {
+        "referenceId": "6T96260126TV4KLGDXG",
+        "featureTypeReferenceId": "CREHRCK2YXRWJK2J0AL",
+        "isInFront": true,
+        "fill": {
+          "option": "NONE",
+          "color": "#000000",
+          "opacity": 100
+        },
+        "stroke": {
+          "option": "DEFAULT",
+          "color": "#000000",
+          "opacity": 100
+        }
+      }
+    },
+    {
+      "dataCollectionId": "EIUALPYNGZ5VU7Y2Y02",
+      "plotId": "QZQ2QBMU4T5I47D1K4F",
+      "metadataFilters": [],
+      "camera": {
+        "projection": "CARTESIAN",
+        "center": {
+          "x": 5.4347004890441895,
+          "y": 4.979799270629883
+        },
+        "size": {
+          "x": 44.858089447021484,
+          "y": 28.59275245666504
+        }
+      },
+      "genes": [
+        {
+          "symbol": "EIF3K"
+        }
+      ],
+      "colorBy": {
+        "mode": "METADATA",
+        "value": "HK14O1ASANPYHONFLLQ",
+        "transparency": 0.5,
+        "isTransparent": false
+      },
+      "visualizationId": "FTLAUOV6SLB071SVNU9",
+      "projectId": "POZ2HCPBT60DSDJ8UA7",
+      "quantitativeFilters": [],
+      "annotation": {
+        "referenceId": "none",
+        "featureTypeReferenceId": "none",
+        "isInFront": true,
+        "fill": {
+          "option": "NONE",
+          "color": "#000000",
+          "opacity": 100
+        },
+        "stroke": {
+          "option": "DEFAULT",
+          "color": "#000000",
+          "opacity": 100
+        }
+      }
+    }
+  ],
+  "layout": "Quadruple"
+}

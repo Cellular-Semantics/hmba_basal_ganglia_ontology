@@ -17,7 +17,6 @@ from pcl_id_factory import PCLIdFactory
 from cl_id_factory import CLIdFactory
 from clm_id_factory import CLMIdFactory
 
-
 log = logging.getLogger(__name__)
 
 
@@ -43,16 +42,19 @@ BRAIN_REGION_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)),
 NAME_CURATION_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/one_concept_one_name_curation.tsv")
 CL_SUBSET_TABLE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CL_ontology_subset.tsv")
 
-ABC_URLS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls.json")
-ABC_URLS_MARKER_SET_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls_marker_set.json")
-ABC_URLS_NSF_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls_nsforest_marker_set.json")
-ABC_URLS_WS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls_ws_marker_set.json")
-ABC_URLS_EVIDENCE_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CS20250428_abc_urls_evidence_marker_set.json")
+ABC_URLS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CCN20250428_abc_urls.json")
+ABC_URLS_MARKER_SET_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CCN20250428_abc_urls_marker_set.json")
+ABC_URLS_NSF_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CCN20250428_abc_urls_nsforest_marker_set.json")
+ABC_URLS_WS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CCN20250428_abc_urls_ws_marker_set.json")
+ABC_URLS_EVIDENCE_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/CCN20250428_abc_urls_evidence_marker_set.json")
 
 EXPRESSION_SEPARATOR = "|"
 
 ACRONYM_REGION = "CCF acronym region"
 BROAD_REGION = "CCF broad region"
+
+ABC_ATLAS_URL = "https://dev-knowledge.brain-map.org/abcatlas#"
+# ABC_ATLAS_URL = "https://knowledge.brain-map.org/abcatlas#"
 
 
 def generate_ind_template(taxonomy_file_path, output_filepath):
@@ -144,7 +146,7 @@ def generate_ind_template(taxonomy_file_path, output_filepath):
         if class_url not in excluded_classes:
             d['Exemplar_of'] = class_url
         if atlas_payloads.get(o["cell_set_accession"]):
-            d["Atlas_url"] = "https://knowledge.brain-map.org/abcatlas#" + atlas_payloads.get(
+            d["Atlas_url"] = ABC_ATLAS_URL + atlas_payloads.get(
                 o["cell_set_accession"])
             d["Atlas_url_label"] = "Reference data on Allen Brain Cell Atlas"
         d["Matrix_url"] = "https://purl.brain-bican.org/taxonomy/CCN20230722/" + class_membership[o["cell_set_accession"]] + ".h5ad"
@@ -379,8 +381,7 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                     d["NT_disclaimer"] = "Warning: Despite its name, {name} does not secrete the neurotransmitter {nt}, as assessed by expression of multiple marker genes.".format(name=d["prefLabel"], nt=", ".join(inconsistent_nts))
 
                 if atlas_payloads.get(o["cell_set_accession"]):
-                    d["Atlas_url"] = "https://knowledge.brain-map.org/abcatlas#" + atlas_payloads.get(
-                        o["cell_set_accession"])
+                    d["Atlas_url"] = ABC_ATLAS_URL + atlas_payloads.get(o["cell_set_accession"])
                     d["Atlas_url_label"] = "Reference data on Allen Brain Cell Atlas"
 
                 d["Matrix_url"] = "https://purl.brain-bican.org/taxonomy/CCN20230722/" + \
@@ -397,40 +398,41 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                     cloned = d.copy()
                     cloned['cell_set_accession'] = node['cell_set_accession']
                     terms_moved_to_cl_subset.append(cloned)
-            else:
-                # process obsoleted classes due to chain compressing
-                if collapsed and o.get('cell_set_accession') not in processed_accessions:
-                    d = dict()
-                    d['defined_class'] = PCL_BASE + pcl_id_factory.get_class_id(o['cell_set_accession'])
-                    d['prefLabel'] = "obsolete " + o['cell_label']
-                    d['Comment'] = "This class is obsoleted due to chain compression."
-                    d['Deprecated'] = "true"
-                    d['Gross_cell_type'] = get_gross_cell_type(o['cell_set_accession'],
-                                                               dend['nodes'])
-                    d['Taxon'] = taxonomy_config['Species'][0]
-                    d['Taxon_abbv'] = taxonomy_config['Gene_abbv'][0]
-                    d['Comment'] = "This term is obsoleted due to identical cell set chain compression."
-                    d['Classification'] = "CL:0000000"
-                    d['ReplacedBy'] = ""
-                    obsolete_template.append(d)
-
-        for cl_obsolete in terms_moved_to_cl_subset:
-            obsolete_d = dict()
-            obsolete_d['defined_class'] = PCL_BASE + pcl_id_factory.get_class_id(cl_obsolete['cell_set_accession'])
-            obsolete_d['prefLabel'] = "obsolete " + cl_obsolete['prefLabel']
-            obsolete_d['Comment'] = "This PCL class is no longer in use; it has been relocated to CL."
-            obsolete_d['Deprecated'] = "true"
-            obsolete_d['Gross_cell_type'] = cl_obsolete['Gross_cell_type']
-            obsolete_d['Classification'] = "CL:0000000"
-            obsolete_d['ReplacedBy'] = cl_obsolete['defined_class']
-            obsolete_template.append(obsolete_d)
+        # Disabled obsoletion since we haven't made a public release yet.
+        #     else:
+        #         # process obsoleted classes due to chain compressing
+        #         if collapsed and o.get('cell_set_accession') not in processed_accessions:
+        #             d = dict()
+        #             d['defined_class'] = PCL_BASE + pcl_id_factory.get_class_id(o['cell_set_accession'])
+        #             d['prefLabel'] = "obsolete " + o['cell_label']
+        #             d['Comment'] = "This class is obsoleted due to chain compression."
+        #             d['Deprecated'] = "true"
+        #             d['Gross_cell_type'] = get_gross_cell_type(o['cell_set_accession'],
+        #                                                        dend['nodes'])
+        #             d['Taxon'] = taxonomy_config['Species'][0]
+        #             d['Taxon_abbv'] = taxonomy_config['Gene_abbv'][0]
+        #             d['Comment'] = "This term is obsoleted due to identical cell set chain compression."
+        #             d['Classification'] = "CL:0000000"
+        #             d['ReplacedBy'] = ""
+        #             obsolete_template.append(d)
+        #
+        # for cl_obsolete in terms_moved_to_cl_subset:
+        #     obsolete_d = dict()
+        #     obsolete_d['defined_class'] = PCL_BASE + pcl_id_factory.get_class_id(cl_obsolete['cell_set_accession'])
+        #     obsolete_d['prefLabel'] = "obsolete " + cl_obsolete['prefLabel']
+        #     obsolete_d['Comment'] = "This PCL class is no longer in use; it has been relocated to CL."
+        #     obsolete_d['Deprecated'] = "true"
+        #     obsolete_d['Gross_cell_type'] = cl_obsolete['Gross_cell_type']
+        #     obsolete_d['Classification'] = "CL:0000000"
+        #     obsolete_d['ReplacedBy'] = cl_obsolete['defined_class']
+        #     obsolete_template.append(obsolete_d)
 
         class_robot_template = pd.DataFrame.from_records(class_template)
         class_robot_template.to_csv(output_filepath, sep="\t", index=False)
-        if obsolete_template:
-            obsolete_filepath = output_filepath.replace("_base.tsv", "_obsolete.tsv")
-            class_obsolete_template = pd.DataFrame.from_records(obsolete_template)
-            class_obsolete_template.to_csv(obsolete_filepath, sep="\t", index=False)
+        # if obsolete_template:
+        #     obsolete_filepath = output_filepath.replace("_base.tsv", "_obsolete.tsv")
+        #     class_obsolete_template = pd.DataFrame.from_records(obsolete_template)
+        #     class_obsolete_template.to_csv(obsolete_filepath, sep="\t", index=False)
 
 
 def associate_marker_sets(all_nodes, author_local_markers, author_markers, collapsed, d, id_factory,
@@ -749,7 +751,7 @@ def generate_marker_gene_set_template(taxonomy_file_path, output_filepath):
                     d['Cell_label'] = o['cell_label']
                     d['Labelset'] = o['labelset']
                     if d['defined_class'] in atlas_payloads:
-                        d["Atlas_url"] = "https://knowledge.brain-map.org/abcatlas#" + atlas_payloads.get(d['defined_class'])
+                        d["Atlas_url"] = ABC_ATLAS_URL + atlas_payloads.get(d['defined_class'])
                         d["Atlas_url_label"] = "markers in reference data on Allen Brain Cell Atlas"
 
                     for k in class_seed:
@@ -847,7 +849,7 @@ def generate_within_subclass_marker_gene_set_template(taxonomy_file_path, output
                     d['Cell_label'] = o['cell_label']
                     d['Labelset'] = o['labelset']
                     if d['defined_class'] in atlas_payloads:
-                        d["Atlas_url"] = "https://knowledge.brain-map.org/abcatlas#" + atlas_payloads.get(d['defined_class'])
+                        d["Atlas_url"] = ABC_ATLAS_URL + atlas_payloads.get(d['defined_class'])
                         d["Atlas_url_label"] = "markers in reference data on Allen Brain Cell Atlas"
 
                     for k in class_seed:
@@ -940,7 +942,7 @@ def generate_evidence_marker_gene_set_template(taxonomy_file_path, output_filepa
                     d['Cell_label'] = o['cell_label']
                     d['Labelset'] = o['labelset']
                     if d['defined_class'] in atlas_payloads:
-                        d["Atlas_url"] = "https://knowledge.brain-map.org/abcatlas#" + atlas_payloads.get(d['defined_class'])
+                        d["Atlas_url"] = ABC_ATLAS_URL + atlas_payloads.get(d['defined_class'])
                         d["Atlas_url_label"] = "markers in reference data on Allen Brain Cell Atlas"
 
                     for k in class_seed:
@@ -1033,7 +1035,7 @@ def generate_nsforest_marker_gene_set_template(taxonomy_file_path, output_filepa
                     d['Cell_label'] = o['cell_label']
                     d['Labelset'] = o['labelset']
                     if d['defined_class'] in atlas_payloads:
-                        d["Atlas_url"] = "https://knowledge.brain-map.org/abcatlas#" + atlas_payloads.get(d['defined_class'])
+                        d["Atlas_url"] = ABC_ATLAS_URL + atlas_payloads.get(d['defined_class'])
                         d["Atlas_url_label"] = "markers in reference data on Allen Brain Cell Atlas"
 
                     for k in class_seed:

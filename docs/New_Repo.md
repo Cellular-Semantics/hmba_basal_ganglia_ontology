@@ -34,3 +34,4 @@ If you are using this repo as a template, you can customize the content below to
 - Change taxonomy url in the `src/ontology/bgo.Makefile`
 - Change taxonomy id in `src/scripts/cl_subset_terms.py`
 - Change taxonomy id in `BICAN_INDV` `src/ontology/template_prefixes.json` and `src/ontology/template_prefixes.yaml`
+- Update `typescript/src/kiwi-payload.ts` to configure the ABC Atlas links template

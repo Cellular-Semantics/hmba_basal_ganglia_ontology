@@ -22,7 +22,7 @@
         "val" : "https://creativecommons.org/licenses/unspecified"
       }, {
         "pred" : "http://purl.org/dc/terms/title",
-        "val" : "Basal Ganglia Ontology"
+        "val" : "DRAFT Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "2025-09-01"
