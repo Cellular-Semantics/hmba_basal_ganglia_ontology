@@ -1,6 +1,5 @@
 # What is missing
 
-- No links to ABC atlas
 - Curate: src/dendrograms/one_concept_one_name.tsv
 - Curate: src/dendrograms/CL_ontology_subset.tsv
 - Duplicate labels 
