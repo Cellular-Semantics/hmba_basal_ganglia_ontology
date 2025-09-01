@@ -28,9 +28,9 @@
         "val" : "Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-08-28"
+        "val" : "2025-09-01"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-08-28/bgo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-09-01/bgo-base.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ncbigene/11281",
@@ -192,12 +192,6 @@
       "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CLM_1000053",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CLM_1000054",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0000000",
       "type" : "CLASS"
     }, {
@@ -252,19 +246,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0000129",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000131",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000150",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0000151",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000152",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000165",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0000192",
@@ -279,19 +261,7 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0000255",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000307",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000313",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000319",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0000499",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000508",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0000540",
@@ -360,19 +330,10 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0002144",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0002202",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0002250",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0002319",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0002320",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0002328",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0002453",
@@ -382,9 +343,6 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0002543",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0002563",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0002570",
@@ -400,9 +358,6 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0008042",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0008055",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0008059",
@@ -423,9 +378,6 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0011012",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0011026",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0011028",
       "type" : "CLASS"
     }, {
@@ -435,19 +387,10 @@
       "id" : "http://purl.obolibrary.org/obo/CL_0012001",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0019001",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_1000222",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_1001474",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_1001509",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_1001516",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_1001611",
@@ -890,27 +833,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4033002",
-      "lbl" : "neuroendocrine cell of epithelium of crypt of Lieberkuhn",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A(n) neuroendocrine cell that is part of a(n) epithelium of crypt of Lieberkuhn.",
-          "xrefs" : [ "PMID:31390635" ]
-        }
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4033005",
-      "lbl" : "serous secreting cell of bronchus submucosal gland",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A(n) serous secreting cell that is part of a(n) bronchus submucosal gland.",
-          "xrefs" : [ "PMID:5487122", "PMID:9651178" ]
-        },
-        "comments" : [ "The marker set PRR4, C6orf58 can identify the Human cell type serous secreting cell of bronchus submucosal gland in the lung with a confidence of 0.75 (NS-Forest FBeta value)." ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4033008",
       "lbl" : "vein endothelial cell of respiratory system",
       "type" : "CLASS",
@@ -951,47 +873,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4033020",
-      "lbl" : "mucus secreting cell of trachea gland",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A mucus secreting cell that is part of a submucosal gland of the trachea.",
-          "xrefs" : [ "PMID:18931053", "PMID:29656943" ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "tracheal submucosal gland mucous cell",
-          "xrefs" : [ "PMID:18931053" ]
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4033022",
-      "lbl" : "mucus secreting cell of bronchus submucosal gland",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A mucus secreting cell of a submucosal gland of the bronchus.",
-          "xrefs" : [ "PMID:19965983" ]
-        },
-        "comments" : [ "The marker set BPIFB2 can identify the Human cell type mucus secreting cell of bronchus submucosal gland in the lung with a confidence of 0.93 (NS-Forest FBeta value)." ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "bronchial gland mucous cell",
-          "xrefs" : [ "PMID:5487122" ]
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4033037",
-      "lbl" : "mucus secreting cell of tracheobronchial tree submucosal gland",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A mucus secreting cell of a submucosal gland of the tracheobronchial tree.",
-          "xrefs" : [ "PMID:30864819" ]
-        }
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4033049",
       "lbl" : "taste receptor cell of tongue",
       "type" : "CLASS",
@@ -1024,16 +905,6 @@
         "definition" : {
           "val" : "A cell that is adjacent to a vessel. A perivascular cell plays a crucial role in maintaining vascular function and tissue homeostasis. This cell type regulates vessel integrity and flow dynamics.",
           "xrefs" : [ "PMID:24928499", "PMID:27889329" ]
-        }
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4033061",
-      "lbl" : "endothelial cell of central vein of liver",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "An endothelial cell that is part of a central vein of liver.",
-          "xrefs" : [ "PMID:28287163" ]
         }
       }
     }, {
@@ -1219,26 +1090,6 @@
         }
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4047025",
-      "lbl" : "type G cell of stomach",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Any type G enteroendocrine cell that is part of some epithelium of stomach.",
-          "xrefs" : [ "FBC:Autogenerated" ]
-        }
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4047034",
-      "lbl" : "smooth muscle cell of stomach",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A smooth muscle cell that is part of the muscularis externa of the stomach wall. It is characterized by its fusiform shape, involuntary control, and ability to generate slow, sustained contractions. This cell is organized in distinct layers and is essential for gastric motility and digestion.",
-          "xrefs" : [ "PMID:21443757", "PMID:33630273" ]
-        }
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4052002",
       "lbl" : "syncytial cell",
       "type" : "CLASS",
@@ -1256,37 +1107,6 @@
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "syncytial cell"
         } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4052003",
-      "lbl" : "intestinal villus capillary endothelial cell",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A capillary endothelial cell that is part of the intestinal villus. This cell is highly fenestrated, with fenestrations most numerous at the villus tips, and plays a vital role in nutrient absorption and maintaining the selective permeability of the intestinal barrier.",
-          "xrefs" : [ "PMID:18480313", "PMID:35810168", "PMID:38051275" ]
-        }
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4052006",
-      "lbl" : "intestinal enteroendocrine progenitor",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "An epithelial cell that is part of the crypt of Lieberkuhn, originating from intestinal stem cells and giving rise to enteroendocrine cells (EECs). In mouse and human, this cell can be characterized by the expression of Neurog3, and has the ability to proliferate and differentiate into multiple EEC subtypes. Its proliferative potential contributes to crypt growth, distinguishing it from fully differentiated EECs.",
-          "xrefs" : [ "PMID:31756561", "PMID:32531023", "PMID:35913117", "PMID:38260422", "doi:/10.1038/s41467-021-27901-5" ]
-        },
-        "comments" : [ "The EEC progenitor is also present in other organisms; for example, flies have EEC progenitors but lack intestinal crypts and do not express the same markers. Instead, they are Dl+ and Pros+." ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_4052014",
-      "lbl" : "pancreatic islet capillary endothelial cell",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A capillary endothelial cell that is part of islet of Langerhans, characterized by a high density of fenestrations —approximately ten times greater than those in exocrine pancreatic capillaries. These fenestrations facilitate efficient hormone exchange, which is essential for maintaining glucose homeostasis. The cell's structure and function are regulated by the local production of vascular endothelial growth factor-A (VEGF-A), which maintains its fenestrated architecture.",
-          "xrefs" : [ "PMID:16607697", "PMID:27124642", "PMID:28396983", "PMID:33200981" ]
-        }
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4052015",
@@ -5846,7 +5666,7 @@
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10090",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9443",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0001908",
@@ -5869,7 +5689,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A dopaminergic neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Glut Sero Dopa.",
+          "val" : "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Glut Sero Dopa.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -5890,7 +5710,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Nonneuron.",
+          "val" : "A cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Nonneuron.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -5911,7 +5731,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A GABAergic neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Subpallium GABA.",
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Subpallium GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -5932,7 +5752,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A glial cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Astro-Epen.",
+          "val" : "A glial cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Astro-Epen.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -5949,8 +5769,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160011",
+      "lbl" : "CN CGE GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:CN CGE GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN CGE GABA"
@@ -5965,8 +5790,12 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160012",
+      "lbl" : "obsolete CN GABA-Glut GABA-Glut neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABA-Glut neuron of the Primates brain."
+        },
         "comments" : [ "This term is obsoleted due to identical cell set chain compression." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -5976,8 +5805,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160013",
+      "lbl" : "CN LGE GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:CN LGE GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN LGE GABA"
@@ -5992,8 +5826,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160015",
+      "lbl" : "CN MGE GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:CN MGE GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN MGE GABA"
@@ -6008,8 +5847,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160016",
+      "lbl" : "F M GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:F M GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F M GABA"
@@ -6024,8 +5868,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160017",
+      "lbl" : "F M Glut dopaminergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:F M Glut.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F M Glut"
@@ -6044,7 +5893,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A mononuclear leukocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Immune.",
+          "val" : "A mononuclear leukocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Immune.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6065,7 +5914,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A neuron associated cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:OPC-Oligo.",
+          "val" : "A neuron associated cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:OPC-Oligo.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6086,7 +5935,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A connective tissue cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Vascular.",
+          "val" : "A connective tissue cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Vascular.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6107,7 +5956,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A astrocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Astrocyte Subclass.",
+          "val" : "A astrocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Astrocyte Subclass.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6124,8 +5973,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160031",
+      "lbl" : "CN Cholinergic GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:CN Cholinergic GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN Cholinergic GABA"
@@ -6140,8 +5994,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160035",
+      "lbl" : "CN LHX8 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:CN LHX8 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN LHX8 GABA"
@@ -6156,8 +6015,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160038",
+      "lbl" : "CN ST18 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:CN ST18 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN ST18 GABA"
@@ -6172,8 +6036,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160043",
+      "lbl" : "F Glut dopaminergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:F Glut.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F Glut"
@@ -6188,8 +6057,12 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160044",
+      "lbl" : "obsolete CN GABA-Glut GABA-Glut neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABA-Glut neuron of the Primates brain."
+        },
         "comments" : [ "This term is obsoleted due to identical cell set chain compression." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -6203,7 +6076,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A lymphocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Lymphocyte.",
+          "val" : "A lymphocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Lymphocyte.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6220,8 +6093,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160046",
+      "lbl" : "F M GATA3 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:F M GATA3 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F M GATA3 GABA"
@@ -6240,7 +6118,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A oligodendrocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Oligodendrocyte.",
+          "val" : "A oligodendrocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Oligodendrocyte.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6261,7 +6139,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A substantia nigra dopaminergic neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:M Dopa.",
+          "val" : "A substantia nigra dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:M Dopa.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6278,8 +6156,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160056",
+      "lbl" : "SN PAX7 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:SN PAX7 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN PAX7 GABA"
@@ -6298,7 +6181,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A direct pathway medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR D1 MSN.",
+          "val" : "A direct pathway medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR D1 MSN.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6319,7 +6202,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A indirect pathway medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR D2 MSN.",
+          "val" : "A indirect pathway medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR D2 MSN.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6340,7 +6223,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A D1/D2-hybrid medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR Hybrid MSN.",
+          "val" : "A D1/D2-hybrid medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR Hybrid MSN.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6357,8 +6240,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160061",
+      "lbl" : "STR RSPO2 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR RSPO2 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR RSPO2 GABA"
@@ -6373,8 +6261,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160066",
+      "lbl" : "Cx GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:ACx MEIS2 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "ACx MEIS2 GABA"
@@ -6392,8 +6285,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160067",
+      "lbl" : "F GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:F GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F GABA"
@@ -6408,8 +6306,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160090",
+      "lbl" : "B cells lymphocyte (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A lymphocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:B cells.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "B cells"
@@ -6431,7 +6334,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A border associated macrophage of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:BAM.",
+          "val" : "A border associated macrophage of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:BAM.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6454,8 +6357,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160093",
+      "lbl" : "GPin-BF Cholinergic GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPin-BF Cholinergic GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "GPin-BF Cholinergic GABA"
@@ -6470,8 +6378,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160094",
+      "lbl" : "CN LAMP5-CXCL14 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:LAMP5-CXCL14 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN LAMP5-CXCL14 GABA"
@@ -6495,8 +6408,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160095",
+      "lbl" : "CN LAMP5-LHX6 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:LAMP5-LHX6 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN LAMP5-LHX6 GABA"
@@ -6520,8 +6438,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160098",
+      "lbl" : "BF SKOR1 Glut dopaminergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:BF SKOR1 Glut.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "BF SKOR1 Glut"
@@ -6540,7 +6463,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A committed oligodendrocyte precursor of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:COP.",
+          "val" : "A committed oligodendrocyte precursor of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:COP.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1126/science.aaf6463" ]
         },
         "synonyms" : [ {
@@ -6564,7 +6487,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A endothelial cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Endo.",
+          "val" : "A endothelial cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Endo.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6588,7 +6511,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A ependymal cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Ependymal.",
+          "val" : "A ependymal cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Ependymal.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6608,8 +6531,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160103",
+      "lbl" : "CN MEIS2 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPe MEIS2-SOX6 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN MEIS2 GABA"
@@ -6627,8 +6555,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160104",
+      "lbl" : "GPe SOX6-CTXND1 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPe SOX6-CTXND1 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "GPe SOX6-CTXND1 GABA"
@@ -6646,8 +6579,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160105",
+      "lbl" : "CN ONECUT1 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Core.",
+          "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN ONECUT1 GABA"
@@ -6665,8 +6603,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160106",
+      "lbl" : "Subpallium GABA-Glut GABA-Glut neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABA-Glut neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Shell.",
+          "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN GABA-Glut"
@@ -6687,8 +6630,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160107",
+      "lbl" : "ImAstro astrocyte (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A astrocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ImAstro.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "ImAstro"
@@ -6710,7 +6658,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A immune oligodendroglia of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ImOligo.",
+          "val" : "A immune oligodendroglia of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ImOligo.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-019-0903-2", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6734,7 +6682,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A microglial cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Microglia.",
+          "val" : "A microglial cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Microglia.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6754,8 +6702,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160110",
+      "lbl" : "GPe-NDB-SI LHX6-LHX8-GBX1 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPe-NDB-SI LHX6-LHX8-GBX1 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "GPe-NDB-SI LHX6-LHX8-GBX1 GABA"
@@ -6770,8 +6723,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160112",
+      "lbl" : "Monocyte lymphocyte (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A lymphocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Monocyte.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Monocyte"
@@ -6793,7 +6751,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A oligodendrocyte precursor cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OPC.",
+          "val" : "A oligodendrocyte precursor cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OPC.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1126/science.add7046" ]
         },
         "synonyms" : [ {
@@ -6817,7 +6775,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A Island of Calleja granule cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OT D1 ICj.",
+          "val" : "A Island of Calleja granule cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OT D1 ICj.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6847,7 +6805,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A oligodendrocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Oligo OPALIN.",
+          "val" : "A oligodendrocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Oligo OPALIN.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1126/science.add7046" ]
         },
         "synonyms" : [ {
@@ -6871,7 +6829,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A oligodendrocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Oligo PLEKHG1.",
+          "val" : "A oligodendrocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Oligo PLEKHG1.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1126/science.add7046" ]
         },
         "synonyms" : [ {
@@ -6895,7 +6853,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A pericyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Pericyte.",
+          "val" : "A pericyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Pericyte.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6919,7 +6877,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A smooth muscle cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SMC.",
+          "val" : "A smooth muscle cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SMC.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6943,7 +6901,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A substantia nigra dopaminergic neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR CALB1 Dopa.",
+          "val" : "A substantia nigra dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR CALB1 Dopa.",
           "xrefs" : [ "https://doi.org/10.1038/s41467-020-17876-0", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -6963,8 +6921,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160120",
+      "lbl" : "SN EBF2 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN EBF2 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN EBF2 GABA"
@@ -6979,8 +6942,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160121",
+      "lbl" : "SN-VTR GAD2 Dopa substantia nigra dopaminergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A substantia nigra dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR GAD2 Dopa.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1101/2024.06.06.597807" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN-VTR GAD2 Dopa"
@@ -6998,8 +6966,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160122",
+      "lbl" : "SN GATA3-PAX8 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN GATA3-PAX8 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.3389/fnins.2022.976209" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN GATA3-PAX8 GABA"
@@ -7020,8 +6993,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160123",
+      "lbl" : "SN GATA3-PVALB GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN GATA3-PVALB GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.3389/fnins.2022.976209" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN GATA3-PVALB GABA"
@@ -7042,8 +7020,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160124",
+      "lbl" : "SN SEMA5A GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN SEMA5A GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN SEMA5A GABA"
@@ -7062,7 +7045,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A substantia nigra dopaminergic neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN SOX6 Dopa.",
+          "val" : "A substantia nigra dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN SOX6 Dopa.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1038/s41593-022-01061-1" ]
         },
         "synonyms" : [ {
@@ -7082,8 +7065,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160127",
+      "lbl" : "SN-VTR-HTH GATA3-TCF7L2 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR-HTH GATA3-TCF7L2 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN-VTR-HTH GATA3-TCF7L2 GABA"
@@ -7098,8 +7086,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160128",
+      "lbl" : "STH PVALB-PITX2 Glut dopaminergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STH PVALB-PITX2 Glut.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STH PVALB-PITX2 Glut"
@@ -7118,7 +7111,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A astrocyte of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Astrocyte.",
+          "val" : "A astrocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Astrocyte.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7142,7 +7135,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A striatal pthlh-expressing interneuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR FS PTHLH-PVALB GABA.",
+          "val" : "A striatal pthlh-expressing interneuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR FS PTHLH-PVALB GABA.",
           "xrefs" : [ "https://doi.org/10.1016/j.celrep.2018.07.053", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7168,8 +7161,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160131",
+      "lbl" : "STR LYPD6-RSPO2 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR LYPD6-RSPO2 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR LYPD6-RSPO2 GABA"
@@ -7184,8 +7182,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160132",
+      "lbl" : "STR SST GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR SST-ADARB2 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR SST GABA"
@@ -7203,8 +7206,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160133",
+      "lbl" : "STR SST-CHODL GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR SST-CHODL GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-020-2874-8", "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "LTS"
@@ -7228,8 +7236,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160134",
+      "lbl" : "STR SST-RSPO2 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR SST-RSPO2 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR SST-RSPO2 GABA"
@@ -7248,7 +7261,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A TAC3-positive striatal interneuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR TAC3-PLPP4 GABA.",
+          "val" : "A TAC3-positive striatal interneuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR TAC3-PLPP4 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-020-2874-8", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7271,8 +7284,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160136",
+      "lbl" : "STR-BF TAC3-PLPP4-LHX8 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR-BF TAC3-PLPP4-LHX8 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR-BF TAC3-PLPP4-LHX8 GABA"
@@ -7287,8 +7305,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160137",
+      "lbl" : "CN VIP GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:VIP GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-020-2874-8", "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN VIP GABA"
@@ -7312,8 +7335,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160138",
+      "lbl" : "STRd Cholinergic GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd Cholinergic GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STRd Cholinergic GABA"
@@ -7332,7 +7360,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A matrix D1 medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D1 Matrix MSN.",
+          "val" : "A matrix D1 medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D1 Matrix MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7359,7 +7387,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A striosomal D1 medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D1 Striosome MSN.",
+          "val" : "A striosomal D1 medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D1 Striosome MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7386,7 +7414,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A D1/D2-hybrid medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR D1D2 Hybrid MSN.",
+          "val" : "A D1/D2-hybrid medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR D1D2 Hybrid MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7413,7 +7441,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A matrix D2 medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D2 Matrix MSN.",
+          "val" : "A matrix D2 medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D2 Matrix MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7436,8 +7464,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160143",
+      "lbl" : "STRd D2 StrioMat Hybrid MSN indirect pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A indirect pathway medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D2 StrioMat Hybrid MSN.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STRd D2 StrioMat Hybrid MSN"
@@ -7456,7 +7489,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A striosomal D2 medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D2 Striosome MSN.",
+          "val" : "A striosomal D2 medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D2 Striosome MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7479,8 +7512,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160145",
+      "lbl" : "STR Cholinergic GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR Cholinergic GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR Cholinergic GABA"
@@ -7499,7 +7537,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D1 MSN.",
+          "val" : "A nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D1 MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7526,7 +7564,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A RXFP1-positive interface island D1-medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D1 NUDAP MSN.",
+          "val" : "A RXFP1-positive interface island D1-medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D1 NUDAP MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7553,7 +7591,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D2 MSN.",
+          "val" : "A nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D2 MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7580,7 +7618,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A T cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:T cells.",
+          "val" : "A T cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:T cells.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7604,7 +7642,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A vascular leptomeningeal cell of the Homo sapiens brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:VLMC.",
+          "val" : "A vascular leptomeningeal cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:VLMC.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "synonyms" : [ {
@@ -7624,8 +7662,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160153",
+      "lbl" : "ZI-HTH GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ZI-HTH GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "ZI-HTH GABA"
@@ -7640,8 +7683,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160154",
+      "lbl" : "VTR-HTH Glut dopaminergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:VTR-HTH Glut.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F M Glut"
@@ -7662,8 +7710,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160155",
+      "lbl" : "AMY-SLEA-BNST D1 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:AMY-SLEA-BNST D1 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "AMY-SLEA-BNST D1 GABA"
@@ -7678,8 +7731,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160156",
+      "lbl" : "AMY-SLEA-BNST GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:AMY-SLEA-BNST GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "AMY-SLEA-BNST GABA"
@@ -7694,8 +7752,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160157",
+      "lbl" : "OB Dopa-GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OB Dopa-GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "OB Dopa-GABA"
@@ -7710,8 +7773,13 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0160158",
+      "lbl" : "OB FRMD7 GABA GABAergic neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OB FRMD7 GABA.",
+          "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "OB FRMD7 GABA"
@@ -7917,9 +7985,6 @@
       "id" : "http://purl.obolibrary.org/obo/SO_0001260",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000006",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0000007",
       "type" : "CLASS"
     }, {
@@ -7948,12 +8013,6 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0001004",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0001213",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0001276",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0001881",
@@ -8010,9 +8069,6 @@
       "id" : "http://purl.obolibrary.org/obo/UBERON_0004780",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0005203",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0005382",
       "type" : "CLASS"
     }, {
@@ -8028,25 +8084,13 @@
       "id" : "http://purl.obolibrary.org/obo/UBERON_0006761",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0006841",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0006960",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0007196",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0008856",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0008998",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0010225",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0011184",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0014451",
@@ -8059,12 +8103,6 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0027371",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_8410043",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_8410077",
       "type" : "CLASS"
     }, {
       "id" : "https://purl.brain-bican.org/ontology/mbao/MBA_512",
@@ -8145,10 +8183,6 @@
       "propertyType" : "OBJECT"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0015003",
-      "type" : "PROPERTY",
-      "propertyType" : "OBJECT"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0015004",
       "type" : "PROPERTY",
       "propertyType" : "OBJECT"
     }, {
@@ -14006,38 +14040,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002292",
       "obj" : "http://purl.obolibrary.org/obo/PR_000001666"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000150"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000165"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_1001516"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033002",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0011184"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033005",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000152"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033005",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0019001"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033005",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_8410043"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033005",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
-      "obj" : "http://purl.obolibrary.org/obo/CLM_1000054"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4033008",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0002543"
@@ -14070,58 +14072,6 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000114"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033020",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000307"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033020",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4033037"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033020",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0005203"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033022",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0002328"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033022",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4033037"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033022",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_8410043"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033022",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
-      "obj" : "http://purl.obolibrary.org/obo/CLM_1000053"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033037",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000150"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033037",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000152"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033037",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000319"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033037",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0002202"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033037",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0008055"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033037",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_8410077"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4033049",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000209"
@@ -14153,14 +14103,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CL_4033054",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002220",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002049"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033061",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0002543"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4033061",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0006841"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4033091",
       "pred" : "is_a",
@@ -14346,22 +14288,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002215",
       "obj" : "http://purl.obolibrary.org/obo/GO_0070278"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4047025",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000508"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4047025",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_1000222"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4047034",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000192"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4047034",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0008856"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4052002",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
@@ -14373,50 +14299,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CL_4052002",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002353",
       "obj" : "http://purl.obolibrary.org/obo/GO_0000768"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052003",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000131"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052003",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000666"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052003",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0002144"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052003",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001213"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052006",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0002563"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052006",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0011026"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052006",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0011184"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052006",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0002250"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052014",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000666"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052014",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0002144"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_4052014",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4052015",
       "pred" : "is_a",
@@ -15346,7 +15228,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0160000",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9443"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0160001",
       "pred" : "is_a",
@@ -15354,7 +15236,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0160001",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9443"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0160002",
       "pred" : "is_a",
@@ -15366,7 +15248,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0160002",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9443"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0160010",
       "pred" : "is_a",
@@ -15594,7 +15476,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0160106",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9443"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0160107",
       "pred" : "is_a",
@@ -17053,20 +16935,6 @@
         "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0000178"
       } ]
     }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/CL_4033002",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0000165" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0011184"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/CL_4033005",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0000313" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_8410043"
-      } ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/CL_4033008",
       "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0002543" ],
       "restrictions" : [ {
@@ -17088,30 +16956,6 @@
         "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0000114"
       } ]
     }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/CL_4033020",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0000319" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0005203"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/CL_4033022",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0000319" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_8410043"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/CL_4033037",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0000319" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0007196"
-      }, {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_8410077"
-      } ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/CL_4033049",
       "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0000209" ],
       "restrictions" : [ {
@@ -17131,13 +16975,6 @@
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0002220",
         "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0002049"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/CL_4033061",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0000115" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0006841"
       } ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/CL_4033091",
@@ -17184,20 +17021,6 @@
         "fillerId" : "http://purl.obolibrary.org/obo/GO_0070278"
       } ]
     }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/CL_4047025",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0000508" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0001276"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/CL_4047034",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0000192" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0008856"
-      } ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/CL_4052002",
       "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0000000" ],
       "restrictions" : [ {
@@ -17206,20 +17029,6 @@
       }, {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0002353",
         "fillerId" : "http://purl.obolibrary.org/obo/GO_0000768"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/CL_4052003",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0002144" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0001213"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/CL_4052014",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/CL_0002144" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0000006"
       } ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/CL_4052015",

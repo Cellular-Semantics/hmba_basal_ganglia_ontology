@@ -383,9 +383,9 @@ def get_gross_cell_type(_id, nodes):
     gross_cell_type = 'CL:0000000'
     for node in nodes:
         if _id == node['cell_set_accession']:
-            if 'cell_ontology_term_id' in node:
+            if 'cell_ontology_term_id' in node and node['cell_ontology_term_id']:
                 return node['cell_ontology_term_id']
-            elif 'parent_cell_set_accession' in node:
+            elif 'parent_cell_set_accession' in node and node['parent_cell_set_accession']:
                 return get_gross_cell_type(node['parent_cell_set_accession'], nodes)
             break
     return gross_cell_type

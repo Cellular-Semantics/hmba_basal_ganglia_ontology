@@ -23,5 +23,6 @@
 - I manually added CL terms to neighborhood nodes. Check them
   - Subpallium GABA : CL_0000617 GABAergic neuron
   - Subpallium GABA-Glut : CL_0008060 GABA-Glut neuron
+  - GPi Shell : CL_0008060 GABA-Glut neuron
   - Glut Sero Dopa : CL_0000700 dopaminergic neuron
 

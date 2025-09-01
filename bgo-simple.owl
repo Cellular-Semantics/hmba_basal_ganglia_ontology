@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/bgo-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2025-08-28/bgo-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2025-09-01/bgo-simple.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160000"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160001"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160002"/>
@@ -17,7 +17,7 @@
         <terms:description>HMBA basal ganglia consensus taxonomy</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Basal Ganglia Ontology</terms:title>
-        <owl:versionInfo>2025-08-28</owl:versionInfo>
+        <owl:versionInfo>2025-09-01</owl:versionInfo>
     </owl:Ontology>
     
 

@@ -1,3 +1,1 @@
 defined_class	prefLabel	Comment	Deprecated	Gross_cell_type	Taxon	Taxon_abbv	Classification	ReplacedBy
-http://purl.obolibrary.org/obo/PCL_0160012	obsolete CN GABA-Glut	This term is obsoleted due to identical cell set chain compression.	true		NCBITaxon:9606	Hsap	CL:0000000	
-http://purl.obolibrary.org/obo/PCL_0160044	obsolete CN GABA-Glut	This term is obsoleted due to identical cell set chain compression.	true		NCBITaxon:9606	Hsap	CL:0000000	
