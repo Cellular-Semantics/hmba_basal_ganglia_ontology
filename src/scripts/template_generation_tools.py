@@ -190,10 +190,10 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
         author_local_markers = read_author_local_markers_dataframe()
         ns_forest_markers = read_nsforest_markers_dataframe()
 
-        cluster_annotations = read_csv_to_dict(CLUSTER_ANNOTATIONS_PATH, id_column_name="cell_set_accession.cluster")[1]
+        cluster_annotations = read_csv_to_dict(CLUSTER_ANNOTATIONS_PATH, id_column_name="accession_group")[1]
         nt_symbols_mapping = read_csv_to_dict(NT_SYMBOLS_MAPPING, delimiter="\t")[1]
-        mba_symbols = get_aba_symbols_map()
-        mba_labels = get_mba_labels_map()
+        aba_symbols = get_aba_symbols_map()
+        aba_labels = get_aba_labels_map()
         anatomical_loc_inconsistencies = get_anatomical_location_inconsistencies(CLUSTER_ANNOTATIONS_PATH)
         nt_inconsistencies = get_neurotransmitter_inconsistencies(CLUSTER_ANNOTATIONS_PATH)
         atlas_payloads = read_abc_urls(ABC_URLS_MAPPING)
@@ -346,17 +346,18 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
 
                 missed_regions = set()
                 if node['cell_set_accession'] in cluster_annotations:
-                    ccf_broad_freq = cluster_annotations[node['cell_set_accession']]["CCF_broad.freq"]
-                    ccf_acronym_freq = cluster_annotations[node['cell_set_accession']]["CCF_acronym.freq"]
+                    ccf_broad_freq = cluster_annotations[node['cell_set_accession']]["spatial_regional_proportions"]
+                    # ccf_acronym_freq = cluster_annotations[node['cell_set_accession']]["CCF_acronym.freq"]
 
                     # BROAD_REGION:
-                    broad_mbas, mba_text = populate_mba_relations(ccf_broad_freq, BROAD_REGION, d, 1, mba_symbols, mba_labels, missed_regions)
+                    broad_mbas, mba_text = populate_aba_relations(ccf_broad_freq, BROAD_REGION, d, 1, aba_symbols, aba_labels, missed_regions)
                     d['MBA'] = "|".join(broad_mbas)
                     d['MBA_text'] = ", ".join(mba_text)
                     # ACRONYM_REGION:
-                    acronym_mbas, mba_text = populate_mba_relations(ccf_acronym_freq, ACRONYM_REGION, d, len(broad_mbas) + 1, mba_symbols, mba_labels, missed_regions, broad_mbas)
-                    acronym_mbas = [acronym_mba for acronym_mba in acronym_mbas if acronym_mba not in broad_mbas]
-                    d['CCF_acronym_freq'] = "|".join(acronym_mbas)
+                    # acronym_mbas, mba_text = populate_aba_relations(ccf_acronym_freq, ACRONYM_REGION, d, len(broad_mbas) + 1, aba_symbols, aba_labels, missed_regions, broad_mbas)
+                    # acronym_mbas = [acronym_mba for acronym_mba in acronym_mbas if acronym_mba not in broad_mbas]
+                    # d['CCF_acronym_freq'] = "|".join(acronym_mbas)
+                    d['CCF_acronym_freq'] = ""
 
                 d['MBA_assay'] = "EFO:0008992"
                 for missed_region in missed_regions:
@@ -367,7 +368,7 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                 if node["cell_label"] in anatomical_loc_inconsistencies:
                     mentioned_locations = get_location_symbols(node["cell_label"])
                     inconsistent_locations = anatomical_loc_inconsistencies[node["cell_label"]]
-                    location_names = ", ".join([mba_labels[mba_symbols[loc]] + " (" + loc + ")" for loc in inconsistent_locations])
+                    location_names = ", ".join([aba_labels[aba_symbols[loc]] + " (" + loc + ")" for loc in inconsistent_locations])
                     if len(mentioned_locations) == len(inconsistent_locations):
                         d["Location_disclaimer"] = "Warning: This type {name} does not have cells in any of the regions it is named for {location_names}. " \
                          "The name merely indicates that it is a subtype of more general transcriptomic type that does. This assertion is based on data " \
@@ -552,7 +553,7 @@ def get_unique_cell_label(o, node, generated_labels, all_names, name_curations, 
     return cell_label
 
 
-def populate_mba_relations(ccf_text, approach, d, index, mba_symbols, mba_labels, missed_regions, existing_mbas=None):
+def populate_aba_relations(ccf_text, approach, d, index, mba_symbols, mba_labels, missed_regions, existing_mbas=None):
     """
 
     Args:
@@ -573,8 +574,8 @@ def populate_mba_relations(ccf_text, approach, d, index, mba_symbols, mba_labels
     regions = [{"region": item.split(":")[0].strip(),
                 "percentage": float(item.split(":")[1].strip()) if ":" in item else 0}
                for item in ccf_text.split(",")]
-    mbas = []
-    mba_text = []
+    abas = []
+    aba_text = []
     for region in regions:
         if region["percentage"] >= BRAIN_REGION_THRESHOLD:
             region_label = str(region["region"]).strip()
@@ -582,23 +583,23 @@ def populate_mba_relations(ccf_text, approach, d, index, mba_symbols, mba_labels
                 region_label = 'root'  # handle NA as brain
             if mba_symbols.get(region_label) not in existing_mbas:
                 if region_label in mba_symbols:
-                    mbas.append(mba_symbols[region_label])
-                    mba_text.append(mba_labels[mba_symbols[region_label]] + " (" + str(region["region"]) + ", " + str(region["percentage"]) + ")")
+                    abas.append(mba_symbols[region_label])
+                    aba_text.append(mba_labels[mba_symbols[region_label]] + " (" + str(region["region"]) + ", " + str(region["percentage"]) + ")")
                     region["mba_id"] = mba_symbols[region_label]
                 else:
                     missed_regions.add(region["region"])
 
     # Sort mbas and mba_text together
-    sorted_pairs = sorted(zip(mbas, mba_text))
-    mbas, mba_text = zip(*sorted_pairs) if sorted_pairs else ([], [])
+    sorted_pairs = sorted(zip(abas, aba_text))
+    abas, aba_text = zip(*sorted_pairs) if sorted_pairs else ([], [])
 
-    for i, mba in enumerate(mbas, start=index):
+    for i, mba in enumerate(abas, start=index):
         d['MBA_' + str(i)] = mba
         region = [reg for reg in regions if reg.get("mba_id") == mba][0]
         d['MBA_' + str(i) + '_cell_percentage'] = region["percentage"]
         d['MBA_' + str(i) + '_comment'] = "Location assignment based on {}.".format(approach)
 
-    return mbas, mba_text
+    return abas, aba_text
 
 
 def generate_curated_class_template(taxonomy_file_path, output_filepath):
@@ -1159,7 +1160,7 @@ def get_aba_symbols_map():
 
     return synonyms
 
-def get_mba_labels_map():
+def get_aba_labels_map():
     g = get_aba_ontology()
 
     labels = {}

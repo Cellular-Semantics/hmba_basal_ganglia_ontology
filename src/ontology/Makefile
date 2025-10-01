@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                a8f5dac81673bb166a2bbf356c232738e45a96320e88462d19fdc8456d8f0d66
+CONFIG_HASH=                d11b714017aa3f7b1f49a1876a0a2fd1f7e0d3d620cdc2d1c215ccf01a7d7967
 
 
 # ----------------------------------------
@@ -192,7 +192,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  pr go ro uberon pato cl ncbitaxon
+IMPORTS =  pr go ro uberon pato cl ncbitaxon dhba
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -554,6 +554,13 @@ mirror-cl: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/ncbitaxon.owl
 mirror-ncbitaxon: | $(TMPDIR)
 	$(ROBOT) convert -I http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: dhba
+.PHONY: mirror-dhba
+.PRECIOUS: $(MIRRORDIR)/dhba.owl
+mirror-dhba: | $(TMPDIR)
+	$(ROBOT) convert -I https://raw.githubusercontent.com/brain-bican/developing_human_brain_atlas_ontology/main/dhbao-base.owl -o $(TMPDIR)/$@.owl
 
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 MERGE_MIRRORS = true

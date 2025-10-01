@@ -51,8 +51,8 @@ import_group:
     #   make_base: TRUE
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
-    # - id: mba
-    #   mirror_from: https://raw.githubusercontent.com/brain-bican/mouse_brain_atlas_ontology/main/mbao-base.owl
+    - id: dhba
+      mirror_from: https://raw.githubusercontent.com/brain-bican/developing_human_brain_atlas_ontology/main/dhbao-base.owl
 
 components:
   products:

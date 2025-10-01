@@ -8,7 +8,7 @@
   - "VLMC" (renamed SUPT in the cas json)
   - "STR SST-CHODL GABA" (renamed SUPT in the cas json)
   - "SMC" (renamed SUPT in the cas json)
-- No anatomical locations yet
+- No ACRONYM_REGION (Only BROAD_REGION)
 - Add disclaimers: Revisit `src/scripts/disclaimer_generator.py` to update the location disclaimers
 - Update templates for multi-species
   - In template_generation_tools we use the following for now:
