@@ -28,7 +28,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y python3-dev libhdf5-dev libhdf5-serial-dev hdf5-tools build-essential
           sudo ln -sf /usr/lib/x86_64-linux-gnu/libhdf5.so.103 /usr/lib/x86_64-linux-gnu/libhdf5.so
-          export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+
+      - name: Ensure HDF5 library path
+        run: echo "LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:\$LD_LIBRARY_PATH" >> $GITHUB_ENV
 
       - name: Upgrade pip
         run: python -m pip install --upgrade pip setuptools wheel
