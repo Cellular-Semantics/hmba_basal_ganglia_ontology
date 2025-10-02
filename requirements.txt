@@ -9,4 +9,3 @@ requests
 rdflib
 levenshtein
 anndata
-h5py>=3.10.0
