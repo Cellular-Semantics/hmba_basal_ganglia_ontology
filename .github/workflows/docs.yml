@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy docs
-        uses: mkdocs/github-deploy@v1
+        uses: vinomaster/mkdocs-ghpages-docker-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
