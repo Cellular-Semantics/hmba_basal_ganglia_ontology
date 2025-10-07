@@ -8,4 +8,4 @@ requests
 # pygraphviz
 rdflib
 levenshtein
-anndata
+# anndata
