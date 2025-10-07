@@ -143,9 +143,9 @@ def check_cluster_level_name_consistency(clusters: pd.DataFrame, log_inconsisten
     for index, row in clusters.iterrows():
         locations = get_location_symbols(row['Group'])
         for location in locations:
-            if location in ['OB', 'in', 'out', 'mi']:
-                # ignore some values for now
-                continue
+            # if location in ['OB', 'in', 'out', 'mi']:
+            #     # ignore some values for now
+            #     continue
             if get_mba_entity(location) and not pd.isna(row["CCF_acronym.freq"]):
                 ccf_acronym_str = row["CCF_acronym.freq"]
                 ccf_acronyms = [n.split(':')[0] for n in ccf_acronym_str.split(',') if (ccf_acronym_str and (re.match('^[A-Z].*', n)))]
