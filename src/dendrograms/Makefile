@@ -25,10 +25,10 @@ sheets: $(SHEETS_SCRIPT)
 	@python $(SHEETS_SCRIPT)
 
 .PHONY: fetch-ccn
-fetch-ccn: CCN20230722.json
+fetch-ccn: CCN20250428.json
 
 CCN20250428.json: FORCE
-	@echo "==> Checking for updates to CCN20230722.json (main)..."
+	@echo "==> Checking for updates to CCN20250428.json (main)..."
 	@curl -fSL -z $@ "$(TAXONOMY_URL)" -o $@ && echo "Saved/updated $@" || echo "No change"
 
 FORCE:

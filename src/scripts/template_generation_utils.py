@@ -651,8 +651,12 @@ def format_cell_label(cell_label, node, all_labels, generated_labels, is_collaps
                 if new_name not in generated_labels:
                     formatted_name = new_name
                     break
-    if fail_on_duplicate and formatted_name in generated_labels:
-        raise ValueError("Couldn't find a unique name for: " + cell_label + " - " + node["cell_set_accession"])
+    if formatted_name in generated_labels:
+        if fail_on_duplicate:
+            raise ValueError("Couldn't find a unique name for: " + cell_label + " - " + node["cell_set_accession"])
+        # else:
+        #     formatted_name = formatted_name + " " + node["labelset"]
+        #     print("WARNING: Couldn't find a unique name for: " + cell_label + " - " + node["cell_set_accession"] + " used '" + formatted_name + "' instead.")
     if "none" in formatted_name.lower():
         raise ValueError("Name contains 'none': " + cell_label)
     return formatted_name

@@ -1,5 +1,8 @@
 We are using Consensus taxonomy version CCN20250428
 
+Curation sheets are here: https://docs.google.com/spreadsheets/d/1yatMYkBVp7xac3DAJZ0r6jrtDBhyfjqAUcC1efDYLuc/edit?gid=0#gid=0
+These are automatically downloaded in the dendrogram Make file (src/dendrograms/Makefile).
+
 # Data Sources
 
 File sources are:

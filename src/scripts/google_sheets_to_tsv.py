@@ -7,7 +7,7 @@ SHEET_ID = "1yatMYkBVp7xac3DAJZ0r6jrtDBhyfjqAUcC1efDYLuc"
 
 # Tabs (ORDER MATTERS) -> gids
 TABS = [
-    ("HMBA_BGO_CCN20230722_class_curation", "694360783"),
+    ("HMBA_BGO_CCN20250428_class_curation", "694360783"),
     ("HMBA_BGO_one_concept_one_name_curation", "378532656"),
     ("HMBA_BGO_CL_ontology_subset", "236037770"),
 ]

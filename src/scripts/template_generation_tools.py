@@ -520,7 +520,7 @@ def get_all_unique_cell_labels(dend, nodes_to_collapse, all_names, name_curation
                                                                                  all_cell_set_labels,
                                                                                  all_names,
                                                                                  name_curations,
-                                                                                 collapsed)
+                                                                                 collapsed, fail_on_duplicate=False)
                 processed_accessions.add(node['cell_set_accession'])
             else:
                 all_pref_labels[o['cell_set_accession']] = get_unique_cell_label(o, node,
@@ -579,7 +579,7 @@ def populate_aba_relations(ccf_text, approach, d, index, mba_symbols, mba_labels
     for region in regions:
         if region["percentage"] >= BRAIN_REGION_THRESHOLD:
             region_label = str(region["region"]).strip()
-            if region_label.lower() == "na":
+            if region_label.lower() in ["na", "adj"]:
                 region_label = 'root'  # handle NA as brain
             if mba_symbols.get(region_label) not in existing_mbas:
                 if region_label in mba_symbols:
@@ -653,7 +653,10 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
 
                 d['defined_class'] = id_base + id_factory.get_class_id(node['cell_set_accession'])
                 d["cell_set_accession"] = node['cell_set_accession']
-                d["Taxonomy_label"] = node['cell_label']
+                if node.get('taxonomy_cell_label'):
+                    d["Taxonomy_label"] = node['taxonomy_cell_label']
+                else:
+                    d["Taxonomy_label"] = node['cell_label']
                 d["Exclude_from_ontology"] = ""  # set `True` to exclude from ontology
 
                 for k in class_curation_seed:
@@ -761,6 +764,8 @@ def generate_marker_gene_set_template(taxonomy_file_path, output_filepath):
                     class_template.append(d)
                     processed_accessions.add(node['cell_set_accession'])
 
+        if not class_template:
+            generate_empty_template(class_seed, class_template)
         class_robot_template = pd.DataFrame.from_records(class_template)
         class_robot_template.to_csv(output_filepath, sep="\t", index=False)
 
@@ -859,8 +864,18 @@ def generate_within_subclass_marker_gene_set_template(taxonomy_file_path, output
                     class_template.append(d)
                     processed_accessions.add(node['cell_set_accession'])
 
+        if not class_template:
+            generate_empty_template(class_seed, class_template)
         class_robot_template = pd.DataFrame.from_records(class_template)
         class_robot_template.to_csv(output_filepath, sep="\t", index=False)
+
+
+def generate_empty_template(class_seed: list[str], class_template: list[dict]):
+    d = dict()
+    for k in class_seed:
+        if not (k in d.keys()):
+            d[k] = ''
+    class_template.append(d)
 
 
 def generate_evidence_marker_gene_set_template(taxonomy_file_path, output_filepath):
@@ -1044,6 +1059,8 @@ def generate_nsforest_marker_gene_set_template(taxonomy_file_path, output_filepa
                             d[k] = ''
                     class_template.append(d)
 
+        if not class_template:
+            generate_empty_template(class_seed, class_template)
         class_robot_template = pd.DataFrame.from_records(class_template)
         class_robot_template.to_csv(output_filepath, sep="\t", index=False)
 
