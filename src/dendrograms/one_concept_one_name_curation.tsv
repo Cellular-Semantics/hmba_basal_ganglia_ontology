@@ -1,6 +1,6 @@
 Neighborhood	Class	Subclass	Group	preferred_name
 Subpallium GABA-Glut	CN GABA-Glut	CN GABA-Glut	GPi Shell	GPi Shell
-	Cx GABA	ACx MEIS2 GABA		
+	Cx GABA	ACx MEIS2 GABA		ACx MEIS2 GABA
 	M Dopa	M Dopa		
 		STR SST-CHODL GABA	STR SST-CHODL GABA	STR SST-CHODL GABA
 		OPC	OPC	
@@ -19,5 +19,5 @@ Subpallium GABA-Glut	CN GABA-Glut	CN GABA-Glut	GPi Shell	GPi Shell
 		Monocyte	Monocyte	
 		Endo	Endo	
 		Ependymal	Ependymal	
-		CN ONECUT1 GABA	GPi Core	
+		CN ONECUT1 GABA	GPi Core	GPi Core
 		Microglia	Microglia	

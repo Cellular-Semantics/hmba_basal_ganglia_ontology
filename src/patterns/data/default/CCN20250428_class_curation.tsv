@@ -5,7 +5,7 @@ http://purl.obolibrary.org/obo/CL_4310085	CS20250428_GROUP_0005	LAMP5-LHX6 GABA
 http://purl.obolibrary.org/obo/CL_4310088	CS20250428_GROUP_0008	BF SKOR1 Glut																	
 http://purl.obolibrary.org/obo/CL_4310093	CS20250428_GROUP_0013	GPe MEIS2-SOX6 GABA																	
 http://purl.obolibrary.org/obo/CL_4310094	CS20250428_GROUP_0014	GPe SOX6-CTXND1 GABA																	
-http://purl.obolibrary.org/obo/CL_4310095	CS20250428_GROUP_0015	GPi Core																	
+http://purl.obolibrary.org/obo/CL_4310095	CS20250428_GROUP_0015	GPi Core		GPi Core (Primate)															
 http://purl.obolibrary.org/obo/CL_4310100	CS20250428_GROUP_0020	GPe-NDB-SI LHX6-LHX8-GBX1 GABA																	
 http://purl.obolibrary.org/obo/CL_4310104	CS20250428_GROUP_0024	OT D1 ICj																	
 http://purl.obolibrary.org/obo/CL_4310109	CS20250428_GROUP_0029	SN-VTR CALB1 Dopa																	
@@ -75,7 +75,7 @@ http://purl.obolibrary.org/obo/PCL_0160091	CS20250428_GROUP_0001	BAM
 http://purl.obolibrary.org/obo/PCL_0160099	CS20250428_GROUP_0009	COP																	
 http://purl.obolibrary.org/obo/PCL_0160101	CS20250428_GROUP_0011	Endo																	
 http://purl.obolibrary.org/obo/PCL_0160102	CS20250428_GROUP_0012	Ependymal																	
-http://purl.obolibrary.org/obo/PCL_0160106	CS20250428_GROUP_0016	GPi Shell																	
+http://purl.obolibrary.org/obo/PCL_0160106	CS20250428_GROUP_0016	GPi Shell		GPi Shell (Primate)															
 http://purl.obolibrary.org/obo/PCL_0160107	CS20250428_GROUP_0017	ImAstro																	
 http://purl.obolibrary.org/obo/PCL_0160108	CS20250428_GROUP_0018	ImOligo																	
 http://purl.obolibrary.org/obo/PCL_0160109	CS20250428_GROUP_0019	Microglia																	
