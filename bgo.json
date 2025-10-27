@@ -25,11 +25,14 @@
         "val" : "DRAFT Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-10-21"
+        "val" : "2025-10-27"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-10-21/bgo.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-10-27/bgo.json"
     },
     "nodes" : [ {
+      "id" : "http://identifiers.org/ncbigene/10716",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ncbigene/11281",
       "type" : "CLASS"
     }, {
@@ -147,6 +150,9 @@
       "id" : "http://identifiers.org/ncbigene/5788",
       "type" : "CLASS"
     }, {
+      "id" : "http://identifiers.org/ncbigene/5816",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ncbigene/59",
       "type" : "CLASS"
     }, {
@@ -157,6 +163,9 @@
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ncbigene/6531",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ncbigene/6752",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ncbigene/7054",
@@ -605,6 +614,14 @@
           "val" : "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIFNPWDYtQ1RYTkQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUCAVNPWDYAAAFLQ05BMQAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIFNPWDYtQ1RYTkQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAgFTT1g2AAABS0NOQTEAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUdQZSBTT1g2LUNUWE5EMSBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQIBU09YNgAAAUtDTkExAAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgU09YNi1DVFhORDEgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUCAVNPWDYAAAFLQ05BMQAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D"
         } ]
       }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_5050495",
+      "lbl" : "Pvalb (CAS evidence).",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_5050496",
+      "lbl" : "Sst, Tbr1, Slc17a6 (CAS evidence).",
+      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_5050504",
       "lbl" : "DRD1, CPNE4 (CAS evidence).",
@@ -17492,8 +17509,9 @@
       "meta" : {
         "definition" : {
           "val" : "A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Core.",
-          "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z" ]
+          "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1523/ENEURO.0208-22.2022" ]
         },
+        "comments" : [ "Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN ONECUT1 GABA"
@@ -17504,6 +17522,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/CLM_0010001",
           "val" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10344"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLM_0010003",
+          "val" : "http://purl.obolibrary.org/obo/CLM_5050495"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
           "val" : "GPi Core (Primate)"
@@ -102445,6 +102466,16 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0070033",
+      "lbl" : "neuron projection quality",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A physical quality inhering in a neuron by virtue of the relative location of its soma and the regions to which it projects and makes synaptic contacts in.",
+          "xrefs" : [ "DOI:10.1101/2020.10.19.343129" ]
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0070044",
       "lbl" : "anatomical structure quality",
       "type" : "CLASS",
@@ -103354,8 +103385,9 @@
       "meta" : {
         "definition" : {
           "val" : "A internal globus pallidus shell projection neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus, internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Shell.",
-          "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z" ]
+          "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1523/ENEURO.0208-22.2022" ]
         },
+        "comments" : [ "Rationale for assigning this type to reference data: Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN GABA-Glut"
@@ -103375,6 +103407,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/CLM_0010001",
           "val" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10344"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLM_0010003",
+          "val" : "http://purl.obolibrary.org/obo/PCL_0160916"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
           "val" : "GPi Shell (Primate)"
@@ -192224,6 +192259,17 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002158",
+      "lbl" : "shares ancestor with",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "two individual entities d1 and d2 stand in a shares_ancestor_with relation if and only if there exists some a such that d1 derived_by_descent_from a and d2 derived_by_descent_from a."
+        },
+        "comments" : [ "VBO calls this homologous_to" ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002160",
       "lbl" : "only in taxon",
       "type" : "PROPERTY",
@@ -193888,6 +193934,96 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_HOM0000000",
+      "lbl" : "in similarity relationship with",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "Relation between biological objects that resemble or are related to each other sufficiently to warrant a comparison.",
+          "xrefs" : [ "http://purl.obolibrary.org/obo/HOM_0000000", "BGEE:curator" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "sameness"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "similar to"
+        } ],
+        "xrefs" : [ {
+          "val" : "ECO:0000041"
+        }, {
+          "val" : "SO:similar_to"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/HOM_0000000"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_HOM0000001",
+      "lbl" : "in homology relationship with",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "Similarity that results from common evolutionary origin.",
+          "xrefs" : [ "http://dx.doi.org/10.1002/bies.950180611", "http://dx.doi.org/10.1002/jmor.1051730307", "http://dx.doi.org/10.1007/BF02814480", "http://purl.obolibrary.org/obo/HOM_0000001" ]
+        },
+        "comments" : [ "This broad definition encompasses all the working definitions proposed so far in the literature." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "homologous to"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/HOM_0000001"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_HOM0000007",
+      "lbl" : "in historical homology relationship with",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "Homology that is defined by common descent.",
+          "xrefs" : [ "http://dx.doi.org/10.1016/S0169-5347(97)01125-7", "http://purl.obolibrary.org/obo/HOM_0000007", "ISBN:0123195837" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cladistic homology"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "historical homologous to"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "phylogenetic homology"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "taxic homology"
+        } ],
+        "xrefs" : [ {
+          "val" : "ECO:0000080"
+        }, {
+          "val" : "RO_proposed_relation:homologous_to"
+        }, {
+          "val" : "SO:0000330"
+        }, {
+          "val" : "SO:0000853"
+        }, {
+          "val" : "SO:0000857"
+        }, {
+          "val" : "SO:homologous_to"
+        }, {
+          "val" : "TAO:homologous_to"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/HOM_0000007"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/pr#has_constituent_monomer",
       "type" : "PROPERTY",
       "propertyType" : "OBJECT"
@@ -194188,6 +194324,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "B cell"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194229,6 +194368,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194239,6 +194381,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "lamp5 GABAergic cortical interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194258,6 +194403,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "Lamp5 Lhx6 neuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194277,6 +194425,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "glutamatergic neuron of the basal ganglia"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194344,6 +194495,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "lateral ganglionic eminence derived neuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194354,6 +194508,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic neuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194370,11 +194527,23 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "internal globus pallidus core projecting neuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
+          "val" : "Pvalb"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/rationale",
+          "val" : "Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb."
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
           "val" : "https://doi.org/10.1016/j.neuron.2017.03.017"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
+          "val" : "https://doi.org/10.1523/ENEURO.0208-22.2022"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/synonyms",
           "val" : "GPi Core"
@@ -194387,13 +194556,28 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "GABA-Glut neuron"
+          "val" : "internal globus pallidus shell projecting neuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
+          "val" : "Slc17a6"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
+          "val" : "Sst"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
+          "val" : "Tbr1"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/rationale",
+          "val" : "Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression."
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
           "val" : "https://doi.org/10.1016/j.neuron.2017.03.017"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
+          "val" : "https://doi.org/10.1523/ENEURO.0208-22.2022"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/synonyms",
           "val" : "GPi Shell"
@@ -194462,6 +194646,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194472,6 +194659,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "monocyte"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194648,6 +194838,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194658,6 +194851,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "dopaminergic neuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194677,6 +194873,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194702,6 +194901,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic neuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194724,6 +194926,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194756,6 +194961,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194766,6 +194974,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "striatal pthlh-expressing interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194829,6 +195040,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194839,6 +195053,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "sst GABAergic cortical interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194849,6 +195066,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "sst chodl GABAergic cortical interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194871,6 +195091,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "sst GABAergic cortical interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194903,6 +195126,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "TAC3-positive striatal interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -194913,6 +195139,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "VIP GABAergic cortical interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -194932,6 +195161,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -195048,6 +195280,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "lateral ganglionic eminence derived neuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -195083,6 +195318,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -195212,6 +195450,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -195222,6 +195463,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "glutamatergic neuron of the basal ganglia"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -195235,6 +195479,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -195245,6 +195492,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic interneuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -195255,6 +195505,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic neuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -195265,6 +195518,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "GABAergic neuron"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -202003,6 +202259,10 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
+      "id" : "https://purl.brain-bican.org/taxonomy/rationale",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
@@ -202161,6 +202421,18 @@
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CLM_5050494",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_5050495",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_5050495",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://identifiers.org/ncbigene/5816"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_5050496",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     }, {
@@ -269164,6 +269436,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0010006"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0070033",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001018"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0070044",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001241"
@@ -303422,6 +303698,10 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002323"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002158",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002320"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002160",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002162"
@@ -304169,6 +304449,18 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0040036",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_HOM0000001",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002158"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_HOM0000001",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_HOM0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_HOM0000007",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_HOM0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/uberon/core#anteriorly_connected_to",
       "pred" : "subPropertyOf",
@@ -352449,6 +352741,17 @@
         "sub" : "http://purl.obolibrary.org/obo/BFO_0000031",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "obj" : "http://purl.obolibrary.org/obo/BFO_0000031"
+      } ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_HOM0000000",
+      "allValuesFromEdges" : [ {
+        "sub" : "http://purl.obolibrary.org/obo/BFO_0000002",
+        "pred" : "http://purl.obolibrary.org/obo/RO_HOM0000000",
+        "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+      }, {
+        "sub" : "http://purl.obolibrary.org/obo/BFO_0000003",
+        "pred" : "http://purl.obolibrary.org/obo/RO_HOM0000000",
+        "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
       } ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000062",

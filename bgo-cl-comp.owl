@@ -268,6 +268,15 @@
     
 
 
+    <!-- http://identifiers.org/ncbigene/10716 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/10716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:label>TBR1</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://identifiers.org/ncbigene/11281 -->
 
     <owl:Class rdf:about="http://identifiers.org/ncbigene/11281">
@@ -475,6 +484,15 @@
     
 
 
+    <!-- http://identifiers.org/ncbigene/5816 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/5816">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:label>PVALB</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://identifiers.org/ncbigene/64919 -->
 
     <owl:Class rdf:about="http://identifiers.org/ncbigene/64919">
@@ -498,6 +516,15 @@
     <owl:Class rdf:about="http://identifiers.org/ncbigene/6531">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:label>SLC6A3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/6752 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/6752">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:label>SSTR2</rdfs:label>
     </owl:Class>
     
 
@@ -634,6 +661,48 @@
         <owl:annotatedTarget>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIFNPWDYtQ1RYTkQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUCAVNPWDYAAAFLQ05BMQAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIFNPWDYtQ1RYTkQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAgFTT1g2AAABS0NOQTEAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUdQZSBTT1g2LUNUWE5EMSBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQIBU09YNgAAAUtDTkExAAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgU09YNi1DVFhORDEgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUCAVNPWDYAAAFLQ05BMQAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D</owl:annotatedTarget>
         <rdfs:label>markers in reference data on Allen Brain Cell Atlas</rdfs:label>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_5050495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_5050495">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/5816"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Pvalb (CAS evidence).</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_5050496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_5050496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/10716"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/57084"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/6752"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label>Sst, Tbr1, Slc17a6 (CAS evidence).</rdfs:label>
+    </owl:Class>
     
 
 
@@ -1742,10 +1811,12 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10344"/>
+        <obo:CLM_0010003 rdf:resource="http://purl.obolibrary.org/obo/CLM_5050495"/>
         <obo:IAO_0000028>GPi Core (Primate)</obo:IAO_0000028>
         <obo:IAO_0000115>A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Core.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CN ONECUT1 GABA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GPi Core</oboInOwl:hasExactSynonym>
+        <rdfs:comment>Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb.</rdfs:comment>
         <rdfs:label>GPi Core (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BpIENvcmUAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BpIENvcmUAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUdQaSBDb3JlAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGkgQ29yZQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
@@ -1764,6 +1835,14 @@
         <owl:annotatedTarget>A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Core.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://doi.org/10.1016/j.neuron.2017.03.017</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://doi.org/10.1038/s41586-023-06812-z</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://doi.org/10.1523/ENEURO.0208-22.2022</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310095"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://doi.org/10.1016/j.neuron.2017.03.017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://doi.org/10.1523/ENEURO.0208-22.2022</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310095"/>

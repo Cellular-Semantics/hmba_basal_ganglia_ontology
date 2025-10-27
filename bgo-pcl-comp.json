@@ -223,6 +223,11 @@
           "sub": "http://purl.obolibrary.org/obo/CLM_5050544"
         },
         {
+          "obj": "http://identifiers.org/ncbigene/5816",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000051",
+          "sub": "http://purl.obolibrary.org/obo/CLM_5050495"
+        },
+        {
           "obj": "http://identifiers.org/ncbigene/59",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000051",
           "sub": "http://purl.obolibrary.org/obo/PCL_0160928"
@@ -3385,6 +3390,11 @@
         {
           "obj": "http://purl.obolibrary.org/obo/SO_0000704",
           "pred": "is_a",
+          "sub": "http://identifiers.org/ncbigene/10716"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
           "sub": "http://identifiers.org/ncbigene/11281"
         },
         {
@@ -3580,6 +3590,11 @@
         {
           "obj": "http://purl.obolibrary.org/obo/SO_0000704",
           "pred": "is_a",
+          "sub": "http://identifiers.org/ncbigene/5816"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
           "sub": "http://identifiers.org/ncbigene/59"
         },
         {
@@ -3596,6 +3611,11 @@
           "obj": "http://purl.obolibrary.org/obo/SO_0000704",
           "pred": "is_a",
           "sub": "http://identifiers.org/ncbigene/6531"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ncbigene/6752"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/SO_0000704",
@@ -3656,6 +3676,16 @@
           "obj": "http://purl.obolibrary.org/obo/SO_0001260",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CLM_5050494"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0001260",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CLM_5050495"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0001260",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CLM_5050496"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/SO_0001260",
@@ -5411,10 +5441,10 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2025-10-21"
+            "val": "2025-10-27"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/pcl/releases/2025-10-21/bgo-pcl-comp.json"
+        "version": "http://purl.obolibrary.org/obo/pcl/releases/2025-10-27/bgo-pcl-comp.json"
       },
       "nodes": [
         {
@@ -13757,6 +13787,10 @@
                 "val": "https://purl.brain-bican.org/ontology/dhbao/DHBA_10344"
               },
               {
+                "pred": "http://purl.obolibrary.org/obo/CLM_0010003",
+                "val": "http://purl.obolibrary.org/obo/CLM_5050495"
+              },
+              {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000028",
                 "val": "GPi Core (Primate)"
               },
@@ -13769,11 +13803,15 @@
                 "val": "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad"
               }
             ],
+            "comments": [
+              "Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb."
+            ],
             "definition": {
               "val": "A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Core.",
               "xrefs": [
                 "https://doi.org/10.1016/j.neuron.2017.03.017",
-                "https://doi.org/10.1038/s41586-023-06812-z"
+                "https://doi.org/10.1038/s41586-023-06812-z",
+                "https://doi.org/10.1523/ENEURO.0208-22.2022"
               ]
             },
             "synonyms": [
@@ -16495,6 +16533,10 @@
                 "val": "https://purl.brain-bican.org/ontology/dhbao/DHBA_10344"
               },
               {
+                "pred": "http://purl.obolibrary.org/obo/CLM_0010003",
+                "val": "http://purl.obolibrary.org/obo/PCL_0160916"
+              },
+              {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000028",
                 "val": "GPi Shell (Primate)"
               },
@@ -16507,11 +16549,15 @@
                 "val": "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0003.h5ad"
               }
             ],
+            "comments": [
+              "Rationale for assigning this type to reference data: Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression."
+            ],
             "definition": {
               "val": "A internal globus pallidus shell projection neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus, internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Shell.",
               "xrefs": [
                 "https://doi.org/10.1016/j.neuron.2017.03.017",
-                "https://doi.org/10.1038/s41586-023-06812-z"
+                "https://doi.org/10.1038/s41586-023-06812-z",
+                "https://doi.org/10.1523/ENEURO.0208-22.2022"
               ]
             },
             "synonyms": [
@@ -24276,6 +24322,11 @@
           "type": "PROPERTY"
         },
         {
+          "id": "http://identifiers.org/ncbigene/10716",
+          "lbl": "TBR1",
+          "type": "CLASS"
+        },
+        {
           "id": "http://identifiers.org/ncbigene/11281",
           "lbl": "POU6F2",
           "type": "CLASS"
@@ -24471,6 +24522,11 @@
           "type": "CLASS"
         },
         {
+          "id": "http://identifiers.org/ncbigene/5816",
+          "lbl": "PVALB",
+          "type": "CLASS"
+        },
+        {
           "id": "http://identifiers.org/ncbigene/59",
           "lbl": "ACTA2",
           "type": "CLASS"
@@ -24488,6 +24544,11 @@
         {
           "id": "http://identifiers.org/ncbigene/6531",
           "lbl": "SLC6A3",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ncbigene/6752",
+          "lbl": "SSTR2",
           "type": "CLASS"
         },
         {
@@ -24533,6 +24594,16 @@
         {
           "id": "http://identifiers.org/ncbigene/9705",
           "lbl": "ST18",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CLM_5050495",
+          "lbl": "Pvalb (CAS evidence).",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CLM_5050496",
+          "lbl": "Sst, Tbr1, Slc17a6 (CAS evidence).",
           "type": "CLASS"
         },
         {

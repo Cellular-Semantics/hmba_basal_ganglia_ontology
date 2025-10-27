@@ -103,6 +103,7 @@ data_list_vars:
   Alias_citations: "xsd:string"
   Cluster_IDs: "xsd:string"
   Subclass_markers: "xsd:string"
+  Rationale_comment_dois: "xsd:string"
 
 data_vars:
   prefLabel: "xsd:string"
@@ -161,6 +162,7 @@ data_vars:
   nsforest_marker_gene_set_2_confidence: "xsd:float"
   Neurotransmitters_comment: "xsd:string"
   Neurotransmitters_publication: "xsd:string"
+  Rationale_comment: "xsd:string"
 
 internal_vars:
   - var_name: Minimal_markers_cat
@@ -454,10 +456,16 @@ annotations:
       clauses:
         - text: '%s'
           vars:
+            - Rationale_comment
+        - text: '%s'
+          vars:
             - Location_disclaimer
         - text: '%s'
           vars:
             - NT_disclaimer
+    annotations:
+      - annotationProperty: hasDbXref
+        value: Rationale_comment_dois
   - annotationProperty: seeAlso
     text: "%s"
     vars:

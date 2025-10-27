@@ -28,11 +28,14 @@
         "val" : "DRAFT Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-10-21"
+        "val" : "2025-10-27"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-10-21/bgo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-10-27/bgo-base.json"
     },
     "nodes" : [ {
+      "id" : "http://identifiers.org/ncbigene/10716",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ncbigene/11281",
       "type" : "CLASS"
     }, {
@@ -150,6 +153,9 @@
       "id" : "http://identifiers.org/ncbigene/5788",
       "type" : "CLASS"
     }, {
+      "id" : "http://identifiers.org/ncbigene/5816",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ncbigene/59",
       "type" : "CLASS"
     }, {
@@ -160,6 +166,9 @@
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ncbigene/6531",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ncbigene/6752",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ncbigene/7054",
@@ -242,6 +251,14 @@
           "val" : "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIFNPWDYtQ1RYTkQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUCAVNPWDYAAAFLQ05BMQAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIFNPWDYtQ1RYTkQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAgFTT1g2AAABS0NOQTEAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUdQZSBTT1g2LUNUWE5EMSBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQIBU09YNgAAAUtDTkExAAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgU09YNi1DVFhORDEgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUCAVNPWDYAAAFLQ05BMQAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D"
         } ]
       }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_5050495",
+      "lbl" : "Pvalb (CAS evidence).",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_5050496",
+      "lbl" : "Sst, Tbr1, Slc17a6 (CAS evidence).",
+      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_5050504",
       "lbl" : "DRD1, CPNE4 (CAS evidence).",
@@ -6493,8 +6510,9 @@
       "meta" : {
         "definition" : {
           "val" : "A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Core.",
-          "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z" ]
+          "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1523/ENEURO.0208-22.2022" ]
         },
+        "comments" : [ "Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN ONECUT1 GABA"
@@ -6505,6 +6523,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/CLM_0010001",
           "val" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10344"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLM_0010003",
+          "val" : "http://purl.obolibrary.org/obo/CLM_5050495"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
           "val" : "GPi Core (Primate)"
@@ -8548,8 +8569,9 @@
       "meta" : {
         "definition" : {
           "val" : "A internal globus pallidus shell projection neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus, internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Shell.",
-          "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z" ]
+          "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1523/ENEURO.0208-22.2022" ]
         },
+        "comments" : [ "Rationale for assigning this type to reference data: Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN GABA-Glut"
@@ -8569,6 +8591,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/CLM_0010001",
           "val" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10344"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLM_0010003",
+          "val" : "http://purl.obolibrary.org/obo/PCL_0160916"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
           "val" : "GPi Shell (Primate)"
@@ -15301,6 +15326,18 @@
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CLM_5050494",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_5050495",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_5050495",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://identifiers.org/ncbigene/5816"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_5050496",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     }, {
