@@ -92,6 +92,32 @@ $(PATTERNDIR)/data/default/%_evidence_marker_set.txt: $(PATTERNDIR)/data/default
 $(TMPDIR)/%_class.tsv: ../patterns/data/default/%_class_base.tsv ../patterns/data/default/%_class_curation.tsv
 	python ../scripts/template_runner.py modifier --merge -i=$< -i2=$(word 2, $^) -o=$@
 
+# override to remove own terms from imports
+$(IMPORTDIR)/merged_import.owl: $(MIRRORDIR)/merged.owl $(ALL_TERMS) \
+				$(IMPORTSEED) | all_robot_plugins
+	python $(SCRIPTSDIR)/own_terms_cleaner.py --output $(TMPDIR)/own_terms.txt
+	$(ROBOT) merge --input $< \
+		 remove --select "<http://www.informatics.jax.org/marker/MGI:*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/OBA_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/ENVO_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/OBI_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/GOCHE_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/CARO_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/NCBITaxon_Union_*>" \
+		 remove --select "<http://www.genenames.org/cgi-bin/gene_symbol_report*>" \
+		 extract $(foreach f, $(ALL_TERMS), --term-file $(f)) $(T_IMPORTSEED) \
+		         --force true --copy-ontology-annotations false \
+		         --individuals exclude \
+		         --method BOT \
+		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
+		        $(foreach f, $(ALL_TERMS), --term-file $(f)) $(T_IMPORTSEED) \
+		        --select complement --select annotation-properties \
+		 remove --term-file $(TMPDIR)/own_terms.txt \
+		 odk:normalize --base-iri http://purl.obolibrary.org/obo \
+		               --subset-decls true --synonym-decls true \
+		 repair --merge-axiom-annotations true \
+		 $(ANNOTATE_CONVERT_FILE)
+
 # hard wiring for now.  Work on patsubst later
 mirror/genedb.owl: ../templates/genedb.tsv .FORCE
 	if [ $(MIR) = true ]; then $(ROBOT) template --input $(SRC) --template $< \
