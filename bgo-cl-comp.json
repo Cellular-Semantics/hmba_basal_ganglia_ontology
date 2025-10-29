@@ -28,6 +28,146 @@
           "sub": "http://purl.obolibrary.org/obo/CLM_5050525"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310083"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310088"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310094"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310100"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310109"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310110"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310111"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310112"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310113"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310114"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310115"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310117"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310121"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310125"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310126"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310128"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310135"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310143"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310144"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310145"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310146"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310147"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310148"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_0000617",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310094"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_0000617",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310113"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_0000617",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310147"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_0000617",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310148"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_0000700",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310111"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/CL_0011005",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310083"
@@ -118,6 +258,11 @@
           "sub": "http://purl.obolibrary.org/obo/CL_4310093"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/CL_4023035",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310133"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/CL_4023121",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310123"
@@ -141,6 +286,11 @@
           "obj": "http://purl.obolibrary.org/obo/CL_4030049",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310134"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_4030050",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310131"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CL_4030051",
@@ -188,6 +338,16 @@
           "sub": "http://purl.obolibrary.org/obo/CL_4310120"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/CL_4042025",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310109"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_4042025",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310115"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/CL_4042040",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310088"
@@ -198,569 +358,784 @@
           "sub": "http://purl.obolibrary.org/obo/CL_4310144"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310083"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310084"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310085"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310088"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310093"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310094"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310095"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310100"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310104"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310109"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310110"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310111"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310112"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310113"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310114"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310115"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310117"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310118"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310120"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310121"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310122"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310123"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310124"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310125"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310126"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310127"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310128"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310129"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310130"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310131"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310132"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310133"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310134"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310135"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310136"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310137"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310138"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310143"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310144"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310145"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310146"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310147"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310148"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0000"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0000"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0001"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0001"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0002"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0002"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0007"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0007"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0009"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0009"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0010"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0010"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0012"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0012"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0000"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0000"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0001"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0001"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0003"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0003"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0004"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0004"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0005"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0005"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0008"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0008"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0009"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0009"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0011"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0011"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0012"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0012"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0013"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0013"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0014"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0014"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0015"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0015"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0016"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0016"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0017"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0017"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0018"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0018"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0019"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0019"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0020"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0020"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0022"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0022"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0023"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0023"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0024"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0024"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0025"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0025"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0026"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0026"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0027"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0027"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0028"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0028"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0029"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0029"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0030"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0030"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0031"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0031"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0032"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0032"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0033"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0033"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0034"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0034"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0035"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0035"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0037"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0037"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0038"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0038"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0039"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0039"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0040"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0040"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0041"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0041"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0042"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0042"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0043"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0043"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0044"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0044"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0045"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0045"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0046"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0046"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0047"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0047"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0048"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0048"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0049"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0049"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0050"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0050"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0051"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0051"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0052"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0052"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0053"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0053"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0054"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0054"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0055"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0055"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0056"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0056"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0057"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0057"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0058"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0058"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0059"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0059"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0062"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0062"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0063"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0063"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0064"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0064"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0065"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0065"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0066"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0066"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0067"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0067"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0068"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0068"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0000"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0000"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0001"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0001"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0003"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0003"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0000"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0000"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0001"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0001"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0002"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0002"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0003"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0003"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0005"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0005"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0006"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0006"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0007"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0007"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0008"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0008"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0009"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0009"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0010"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0010"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0011"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0011"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0012"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0012"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0013"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0013"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0014"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0014"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0015"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0015"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0016"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0016"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0017"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0017"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0018"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0018"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0019"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0019"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0020"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0020"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0021"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0021"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0022"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0022"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0023"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0023"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0024"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0024"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0025"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0025"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0026"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0026"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0028"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0028"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0030"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0030"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0031"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0031"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0032"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0032"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0033"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0033"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0035"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0035"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0036"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0036"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0037"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0037"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
           "pred": "type",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0038"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0038"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/SO_0000704",
@@ -1053,549 +1428,549 @@
           "sub": "http://purl.obolibrary.org/obo/CLM_5050544"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0000",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0000",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0000"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0000"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0000",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0000",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0012"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0012"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0001",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0001",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0002"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0002"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0001",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0001",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0009"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0009"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0002",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0002",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0014"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0014"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0006"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0006"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0021"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0021"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0028"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0028"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0030"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0030"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0001"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0001"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0003"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0003"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0008"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0008"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0031"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0031"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0032"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0032"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0033"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0033"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0005"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0005"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0007"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0007"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0016"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0016"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0026"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0026"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0037"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0037"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0007",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0007",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0013"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0013"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0007",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0007",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0017"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0017"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0015"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0015"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0018"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0018"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0019"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0019"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0038"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0038"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0009",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0009",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0025"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0025"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0010",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0010",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0010"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0010"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0010",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0010",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0020"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0020"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0010",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0010",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0022"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0022"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0011"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0011"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0023"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0023"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0024"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0024"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0035"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0035"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0012",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0012",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0036"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0036"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0000",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0000",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0007"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0007"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0000",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0000",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0009"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0009"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0001",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0001",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0000"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0000"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0001",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0001",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0001",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0001",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0010"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0010"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0001",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0001",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0001"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0001"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0012"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0012"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0003",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0003",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0002"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0002"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0000",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0000",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0017"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0017"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0000",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0000",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0039"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0039"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0001",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0001",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0003"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0003"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0001",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0001",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0048"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0048"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0001",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0001",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0055"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0055"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0002",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0002",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0004"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0004"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0003",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0003",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0005"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0005"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0005",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0005",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0014"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0014"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0005",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0005",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0020"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0020"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0006",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0006",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0013"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0013"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0007",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0007",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0015"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0015"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0008",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0008",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0040"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0040"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0008",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0008",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0045"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0045"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0008",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0008",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0046"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0046"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0009",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0009",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0047"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0047"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0010",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0010",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0009"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0009"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0011",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0011",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0011"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0011"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0012",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0012",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0012"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0012"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0013",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0013",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0008"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0008"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0013",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0013",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0038"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0038"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0014",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0014",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0016"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0016"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0015",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0015",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0000"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0000"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0015",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0015",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0059"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0059"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0016",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0016",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0032"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0032"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0016",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0016",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0033"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0033"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0016",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0016",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0037"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0037"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0017",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0017",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0064"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0064"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0018",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0018",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0001"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0001"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0019",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0019",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0019"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0019"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0020",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0020",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0023"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0023"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0021",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0021",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0024"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0024"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0022",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0022",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0018"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0018"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0022",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0022",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0025"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0025"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0022",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0022",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0026"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0026"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0023",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0023",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0027"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0027"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0024",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0024",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0028"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0028"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0025",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0025",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0029"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0029"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0025",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0025",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0031"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0031"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0025",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0025",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0035"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0035"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0026",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0026",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0030"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0030"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0026",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0026",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0034"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0034"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0028",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0028",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0049"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0049"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0028",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0028",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0050"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0050"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0028",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0028",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0056"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0056"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0052"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0052"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0053"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0053"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0054"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0054"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0058"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0058"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0030",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0030",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0051"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0051"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0030",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0030",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0057"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0057"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0031",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0031",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0041"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0041"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0031",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0031",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0044"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0044"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0032",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0032",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0042"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0042"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0033",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0033",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0043"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0043"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0035",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0035",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0062"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0062"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0036",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0036",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0067"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0067"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0036",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0036",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0068"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0068"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0037",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0037",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0063"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0063"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0037",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0037",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0065"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0065"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0037",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0037",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0066"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0066"
         },
         {
-          "obj": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0038",
+          "obj": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0038",
           "pred": "http://purl.obolibrary.org/obo/RO_0015003",
-          "sub": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0022"
+          "sub": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0022"
         }
       ],
       "id": "http://purl.obolibrary.org/obo/pcl/../../bgo-cl-comp.json",
@@ -1603,10 +1978,10 @@
         "basicPropertyValues": [
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2025-10-27"
+            "val": "2025-10-29"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/pcl/releases/2025-10-27/../../bgo-cl-comp.json"
+        "version": "http://purl.obolibrary.org/obo/pcl/releases/2025-10-29/../../bgo-cl-comp.json"
       },
       "nodes": [
         {
@@ -1779,6 +2154,32 @@
               {
                 "pred": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
                 "val": "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIFNPWDYtQ1RYTkQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUCAVNPWDYAAAFLQ05BMQAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIFNPWDYtQ1RYTkQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAgFTT1g2AAABS0NOQTEAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUdQZSBTT1g2LUNUWE5EMSBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQIBU09YNgAAAUtDTkExAAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgU09YNi1DVFhORDEgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUCAVNPWDYAAAFLQ05BMQAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CLM_5050495",
+          "lbl": "Pvalb (CAS evidence).",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+                "val": "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BpIENvcmUAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUBAVB2YWxiAAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGkgQ29yZQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUBAVB2YWxiAAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGkgQ29yZQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoXm4oaGlkEgA4doYTKGoJOGBFdNUDhOTUo1RDhYTzFBT0kxTDkABYHYoeuEthGZhNqUXYUChoYGAAcAAAUBAVB2YWxiAAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGkgQ29yZQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUBAVB2YWxiAAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CLM_5050496",
+          "lbl": "Sst, Tbr1, Slc17a6 (CAS evidence).",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+                "val": "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ04gR0FCQS1HbHV0AAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAwFTc3QAAAFUYnIxAAABU2xjMTdhNgAABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ04gR0FCQS1HbHV0AAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQMBU3N0AAABVGJyMQAAAVNsYzE3YTYAAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAUNOIEdBQkEtR2x1dAAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoXm4oaGlkEgA4doYTKGoJOGBFdNUDhOTUo1RDhYTzFBT0kxTDkABYHYoeuEthGZhNqUXYUChoYGAAcAAAUDAVNzdAAAAVRicjEAAAFTbGMxN2E2AAAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFDTiBHQUJBLUdsdXQAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAwFTc3QAAAFUYnIxAAABU2xjMTdhNgAABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D"
               }
             ]
           },
@@ -2303,7 +2704,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310095",
-          "lbl": "GPi Core (Primate)",
+          "lbl": "GPi Core neuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3211,7 +3612,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310129",
-          "lbl": "STRd D1 Matrix MSN matrix D1 medium spiny neuron (Primate)",
+          "lbl": "STRd D1 Matrix Medium Spiny Neuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3890,7 +4291,7 @@
           "type": "CLASS"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0000",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0000",
           "lbl": "Astro-Epen CS20250428_CLASS_0000",
           "meta": {
             "basicPropertyValues": [
@@ -3915,7 +4316,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0001",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0001",
           "lbl": "CN CGE GABA CS20250428_CLASS_0001",
           "meta": {
             "basicPropertyValues": [
@@ -3940,7 +4341,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0002",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0002",
           "lbl": "CN GABA-Glut CS20250428_CLASS_0002",
           "meta": {
             "basicPropertyValues": [
@@ -3965,7 +4366,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003",
           "lbl": "CN LGE GABA CS20250428_CLASS_0003",
           "meta": {
             "basicPropertyValues": [
@@ -3990,7 +4391,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005",
           "lbl": "CN MGE GABA CS20250428_CLASS_0005",
           "meta": {
             "basicPropertyValues": [
@@ -4015,7 +4416,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006",
           "lbl": "F M GABA CS20250428_CLASS_0006",
           "meta": {
             "basicPropertyValues": [
@@ -4040,7 +4441,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0007",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0007",
           "lbl": "F M Glut CS20250428_CLASS_0007",
           "meta": {
             "basicPropertyValues": [
@@ -4065,7 +4466,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008",
           "lbl": "Immune CS20250428_CLASS_0008",
           "meta": {
             "basicPropertyValues": [
@@ -4090,7 +4491,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0009",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0009",
           "lbl": "M Dopa CS20250428_CLASS_0009",
           "meta": {
             "basicPropertyValues": [
@@ -4115,7 +4516,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0010",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0010",
           "lbl": "OPC-Oligo CS20250428_CLASS_0010",
           "meta": {
             "basicPropertyValues": [
@@ -4140,7 +4541,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011",
           "lbl": "Vascular CS20250428_CLASS_0011",
           "meta": {
             "basicPropertyValues": [
@@ -4165,7 +4566,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0012",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0012",
           "lbl": "Cx GABA CS20250428_CLASS_0012",
           "meta": {
             "basicPropertyValues": [
@@ -4190,7 +4591,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0000",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0000",
           "lbl": "B cells CS20250428_GROUP_0000",
           "meta": {
             "basicPropertyValues": [
@@ -4279,7 +4680,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0001",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0001",
           "lbl": "BAM CS20250428_GROUP_0001",
           "meta": {
             "basicPropertyValues": [
@@ -4378,7 +4779,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0003",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0003",
           "lbl": "GPin-BF Cholinergic GABA CS20250428_GROUP_0003",
           "meta": {
             "basicPropertyValues": [
@@ -4467,7 +4868,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0004",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0004",
           "lbl": "LAMP5-CXCL14 GABA CS20250428_GROUP_0004",
           "meta": {
             "basicPropertyValues": [
@@ -4562,7 +4963,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0005",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0005",
           "lbl": "LAMP5-LHX6 GABA CS20250428_GROUP_0005",
           "meta": {
             "basicPropertyValues": [
@@ -4657,7 +5058,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0008",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0008",
           "lbl": "BF SKOR1 Glut CS20250428_GROUP_0008",
           "meta": {
             "basicPropertyValues": [
@@ -4754,7 +5155,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0009",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0009",
           "lbl": "COP CS20250428_GROUP_0009",
           "meta": {
             "basicPropertyValues": [
@@ -4843,7 +5244,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0011",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0011",
           "lbl": "Endo CS20250428_GROUP_0011",
           "meta": {
             "basicPropertyValues": [
@@ -4932,7 +5333,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0012",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0012",
           "lbl": "Ependymal CS20250428_GROUP_0012",
           "meta": {
             "basicPropertyValues": [
@@ -5021,7 +5422,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0013",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0013",
           "lbl": "GPe MEIS2-SOX6 GABA CS20250428_GROUP_0013",
           "meta": {
             "basicPropertyValues": [
@@ -5110,7 +5511,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0014",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0014",
           "lbl": "GPe SOX6-CTXND1 GABA CS20250428_GROUP_0014",
           "meta": {
             "basicPropertyValues": [
@@ -5199,7 +5600,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0015",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0015",
           "lbl": "GPi Core CS20250428_GROUP_0015",
           "meta": {
             "basicPropertyValues": [
@@ -5294,7 +5695,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0016",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0016",
           "lbl": "GPi Shell CS20250428_GROUP_0016",
           "meta": {
             "basicPropertyValues": [
@@ -5389,7 +5790,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0017",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0017",
           "lbl": "ImAstro CS20250428_GROUP_0017",
           "meta": {
             "basicPropertyValues": [
@@ -5478,7 +5879,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0018",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0018",
           "lbl": "ImOligo CS20250428_GROUP_0018",
           "meta": {
             "basicPropertyValues": [
@@ -5567,7 +5968,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0019",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0019",
           "lbl": "Microglia CS20250428_GROUP_0019",
           "meta": {
             "basicPropertyValues": [
@@ -5656,7 +6057,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0020",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0020",
           "lbl": "GPe-NDB-SI LHX6-LHX8-GBX1 GABA CS20250428_GROUP_0020",
           "meta": {
             "basicPropertyValues": [
@@ -5745,7 +6146,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0022",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0022",
           "lbl": "Monocyte CS20250428_GROUP_0022",
           "meta": {
             "basicPropertyValues": [
@@ -5834,7 +6235,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0023",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0023",
           "lbl": "OPC CS20250428_GROUP_0023",
           "meta": {
             "basicPropertyValues": [
@@ -5923,7 +6324,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0024",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0024",
           "lbl": "OT D1 ICj CS20250428_GROUP_0024",
           "meta": {
             "basicPropertyValues": [
@@ -6022,7 +6423,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0025",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0025",
           "lbl": "Oligo OPALIN CS20250428_GROUP_0025",
           "meta": {
             "basicPropertyValues": [
@@ -6111,7 +6512,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0026",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0026",
           "lbl": "Oligo PLEKHG1 CS20250428_GROUP_0026",
           "meta": {
             "basicPropertyValues": [
@@ -6200,7 +6601,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0027",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0027",
           "lbl": "Pericyte CS20250428_GROUP_0027",
           "meta": {
             "basicPropertyValues": [
@@ -6289,7 +6690,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0028",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0028",
           "lbl": "SMC CS20250428_GROUP_0028",
           "meta": {
             "basicPropertyValues": [
@@ -6378,7 +6779,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0029",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0029",
           "lbl": "SN-VTR CALB1 Dopa CS20250428_GROUP_0029",
           "meta": {
             "basicPropertyValues": [
@@ -6471,7 +6872,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0030",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0030",
           "lbl": "SN EBF2 GABA CS20250428_GROUP_0030",
           "meta": {
             "basicPropertyValues": [
@@ -6560,7 +6961,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0031",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0031",
           "lbl": "SN-VTR GAD2 Dopa CS20250428_GROUP_0031",
           "meta": {
             "basicPropertyValues": [
@@ -6649,7 +7050,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0032",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0032",
           "lbl": "SN GATA3-PAX8 GABA CS20250428_GROUP_0032",
           "meta": {
             "basicPropertyValues": [
@@ -6744,7 +7145,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0033",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0033",
           "lbl": "SN GATA3-PVALB GABA CS20250428_GROUP_0033",
           "meta": {
             "basicPropertyValues": [
@@ -6843,7 +7244,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0034",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0034",
           "lbl": "SN SEMA5A GABA CS20250428_GROUP_0034",
           "meta": {
             "basicPropertyValues": [
@@ -6932,7 +7333,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0035",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0035",
           "lbl": "SN SOX6 Dopa CS20250428_GROUP_0035",
           "meta": {
             "basicPropertyValues": [
@@ -7021,7 +7422,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0037",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0037",
           "lbl": "SN-VTR-HTH GATA3-TCF7L2 GABA CS20250428_GROUP_0037",
           "meta": {
             "basicPropertyValues": [
@@ -7110,7 +7511,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0038",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0038",
           "lbl": "STH PVALB-PITX2 Glut CS20250428_GROUP_0038",
           "meta": {
             "basicPropertyValues": [
@@ -7207,7 +7608,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0039",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0039",
           "lbl": "Astrocyte CS20250428_GROUP_0039",
           "meta": {
             "basicPropertyValues": [
@@ -7296,7 +7697,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0040",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0040",
           "lbl": "STR FS PTHLH-PVALB GABA CS20250428_GROUP_0040",
           "meta": {
             "basicPropertyValues": [
@@ -7395,7 +7796,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0041",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0041",
           "lbl": "STR LYPD6-RSPO2 GABA CS20250428_GROUP_0041",
           "meta": {
             "basicPropertyValues": [
@@ -7484,7 +7885,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0042",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0042",
           "lbl": "STR SST-ADARB2 GABA CS20250428_GROUP_0042",
           "meta": {
             "basicPropertyValues": [
@@ -7573,7 +7974,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0043",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0043",
           "lbl": "STR SST-CHODL GABA CS20250428_GROUP_0043",
           "meta": {
             "basicPropertyValues": [
@@ -7676,7 +8077,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0044",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0044",
           "lbl": "STR SST-RSPO2 GABA CS20250428_GROUP_0044",
           "meta": {
             "basicPropertyValues": [
@@ -7765,7 +8166,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0045",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0045",
           "lbl": "STR TAC3-PLPP4 GABA CS20250428_GROUP_0045",
           "meta": {
             "basicPropertyValues": [
@@ -7860,7 +8261,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0046",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0046",
           "lbl": "STR-BF TAC3-PLPP4-LHX8 GABA CS20250428_GROUP_0046",
           "meta": {
             "basicPropertyValues": [
@@ -7949,7 +8350,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0047",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0047",
           "lbl": "VIP GABA CS20250428_GROUP_0047",
           "meta": {
             "basicPropertyValues": [
@@ -8048,7 +8449,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0048",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0048",
           "lbl": "STRd Cholinergic GABA CS20250428_GROUP_0048",
           "meta": {
             "basicPropertyValues": [
@@ -8141,7 +8542,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0049",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0049",
           "lbl": "STRd D1 Matrix MSN CS20250428_GROUP_0049",
           "meta": {
             "basicPropertyValues": [
@@ -8236,7 +8637,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0050",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0050",
           "lbl": "STRd D1 Striosome MSN CS20250428_GROUP_0050",
           "meta": {
             "basicPropertyValues": [
@@ -8331,7 +8732,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0051",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0051",
           "lbl": "STR D1D2 Hybrid MSN CS20250428_GROUP_0051",
           "meta": {
             "basicPropertyValues": [
@@ -8426,7 +8827,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0052",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0052",
           "lbl": "STRd D2 Matrix MSN CS20250428_GROUP_0052",
           "meta": {
             "basicPropertyValues": [
@@ -8521,7 +8922,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0053",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0053",
           "lbl": "STRd D2 StrioMat Hybrid MSN CS20250428_GROUP_0053",
           "meta": {
             "basicPropertyValues": [
@@ -8610,7 +9011,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0054",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0054",
           "lbl": "STRd D2 Striosome MSN CS20250428_GROUP_0054",
           "meta": {
             "basicPropertyValues": [
@@ -8705,7 +9106,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0055",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0055",
           "lbl": "STR Cholinergic GABA CS20250428_GROUP_0055",
           "meta": {
             "basicPropertyValues": [
@@ -8798,7 +9199,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0056",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0056",
           "lbl": "STRv D1 MSN CS20250428_GROUP_0056",
           "meta": {
             "basicPropertyValues": [
@@ -8893,7 +9294,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0057",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0057",
           "lbl": "STRv D1 NUDAP MSN CS20250428_GROUP_0057",
           "meta": {
             "basicPropertyValues": [
@@ -8988,7 +9389,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0058",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0058",
           "lbl": "STRv D2 MSN CS20250428_GROUP_0058",
           "meta": {
             "basicPropertyValues": [
@@ -9083,7 +9484,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0059",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0059",
           "lbl": "T cells CS20250428_GROUP_0059",
           "meta": {
             "basicPropertyValues": [
@@ -9172,7 +9573,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0062",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0062",
           "lbl": "VLMC CS20250428_GROUP_0062",
           "meta": {
             "basicPropertyValues": [
@@ -9261,7 +9662,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0063",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0063",
           "lbl": "ZI-HTH GABA CS20250428_GROUP_0063",
           "meta": {
             "basicPropertyValues": [
@@ -9350,7 +9751,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0064",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0064",
           "lbl": "VTR-HTH Glut CS20250428_GROUP_0064",
           "meta": {
             "basicPropertyValues": [
@@ -9447,7 +9848,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0065",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0065",
           "lbl": "AMY-SLEA-BNST D1 GABA CS20250428_GROUP_0065",
           "meta": {
             "basicPropertyValues": [
@@ -9536,7 +9937,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0066",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0066",
           "lbl": "AMY-SLEA-BNST GABA CS20250428_GROUP_0066",
           "meta": {
             "basicPropertyValues": [
@@ -9625,7 +10026,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0067",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0067",
           "lbl": "OB Dopa-GABA CS20250428_GROUP_0067",
           "meta": {
             "basicPropertyValues": [
@@ -9714,7 +10115,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0068",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0068",
           "lbl": "OB FRMD7 GABA CS20250428_GROUP_0068",
           "meta": {
             "basicPropertyValues": [
@@ -9803,7 +10204,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0000",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0000",
           "lbl": "Glut Sero Dopa CS20250428_NEIGH_0000",
           "meta": {
             "basicPropertyValues": [
@@ -9828,7 +10229,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0001",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0001",
           "lbl": "Nonneuron CS20250428_NEIGH_0001",
           "meta": {
             "basicPropertyValues": [
@@ -9853,7 +10254,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002",
           "lbl": "Subpallium GABA CS20250428_NEIGH_0002",
           "meta": {
             "basicPropertyValues": [
@@ -9878,7 +10279,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0003",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0003",
           "lbl": "Subpallium GABA-Glut CS20250428_NEIGH_0003",
           "meta": {
             "basicPropertyValues": [
@@ -9903,7 +10304,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0000",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0000",
           "lbl": "Astrocyte CS20250428_SUBCL_0000",
           "meta": {
             "basicPropertyValues": [
@@ -9928,7 +10329,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0001",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0001",
           "lbl": "CN Cholinergic GABA CS20250428_SUBCL_0001",
           "meta": {
             "basicPropertyValues": [
@@ -9953,7 +10354,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0002",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0002",
           "lbl": "CN LAMP5-CXCL14 GABA CS20250428_SUBCL_0002",
           "meta": {
             "basicPropertyValues": [
@@ -9978,7 +10379,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0003",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0003",
           "lbl": "CN LAMP5-LHX6 GABA CS20250428_SUBCL_0003",
           "meta": {
             "basicPropertyValues": [
@@ -10003,7 +10404,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0005",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0005",
           "lbl": "CN LHX8 GABA CS20250428_SUBCL_0005",
           "meta": {
             "basicPropertyValues": [
@@ -10028,7 +10429,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0006",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0006",
           "lbl": "CN MEIS2 GABA CS20250428_SUBCL_0006",
           "meta": {
             "basicPropertyValues": [
@@ -10053,7 +10454,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0007",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0007",
           "lbl": "CN ONECUT1 GABA CS20250428_SUBCL_0007",
           "meta": {
             "basicPropertyValues": [
@@ -10078,7 +10479,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0008",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0008",
           "lbl": "CN ST18 GABA CS20250428_SUBCL_0008",
           "meta": {
             "basicPropertyValues": [
@@ -10103,7 +10504,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0009",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0009",
           "lbl": "CN VIP GABA CS20250428_SUBCL_0009",
           "meta": {
             "basicPropertyValues": [
@@ -10128,7 +10529,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0010",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0010",
           "lbl": "COP CS20250428_SUBCL_0010",
           "meta": {
             "basicPropertyValues": [
@@ -10153,7 +10554,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0011",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0011",
           "lbl": "Endo CS20250428_SUBCL_0011",
           "meta": {
             "basicPropertyValues": [
@@ -10178,7 +10579,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0012",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0012",
           "lbl": "Ependymal CS20250428_SUBCL_0012",
           "meta": {
             "basicPropertyValues": [
@@ -10203,7 +10604,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0013",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0013",
           "lbl": "F Glut CS20250428_SUBCL_0013",
           "meta": {
             "basicPropertyValues": [
@@ -10228,7 +10629,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0014",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0014",
           "lbl": "CN GABA-Glut CS20250428_SUBCL_0014",
           "meta": {
             "basicPropertyValues": [
@@ -10253,7 +10654,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0015",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0015",
           "lbl": "Lymphocyte CS20250428_SUBCL_0015",
           "meta": {
             "basicPropertyValues": [
@@ -10278,7 +10679,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0016",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0016",
           "lbl": "F M GATA3 GABA CS20250428_SUBCL_0016",
           "meta": {
             "basicPropertyValues": [
@@ -10303,7 +10704,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0017",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0017",
           "lbl": "F M Glut CS20250428_SUBCL_0017",
           "meta": {
             "basicPropertyValues": [
@@ -10328,7 +10729,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0018",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0018",
           "lbl": "Macrophage CS20250428_SUBCL_0018",
           "meta": {
             "basicPropertyValues": [
@@ -10353,7 +10754,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0019",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0019",
           "lbl": "Microglia CS20250428_SUBCL_0019",
           "meta": {
             "basicPropertyValues": [
@@ -10378,7 +10779,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0020",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0020",
           "lbl": "OPC CS20250428_SUBCL_0020",
           "meta": {
             "basicPropertyValues": [
@@ -10403,7 +10804,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0021",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0021",
           "lbl": "OT Granular GABA CS20250428_SUBCL_0021",
           "meta": {
             "basicPropertyValues": [
@@ -10428,7 +10829,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0022",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0022",
           "lbl": "Oligodendrocyte CS20250428_SUBCL_0022",
           "meta": {
             "basicPropertyValues": [
@@ -10453,7 +10854,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0023",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0023",
           "lbl": "Pericyte CS20250428_SUBCL_0023",
           "meta": {
             "basicPropertyValues": [
@@ -10478,7 +10879,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0024",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0024",
           "lbl": "SMC CS20250428_SUBCL_0024",
           "meta": {
             "basicPropertyValues": [
@@ -10503,7 +10904,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0025",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0025",
           "lbl": "M Dopa CS20250428_SUBCL_0025",
           "meta": {
             "basicPropertyValues": [
@@ -10528,7 +10929,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0026",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0026",
           "lbl": "SN PAX7 GABA CS20250428_SUBCL_0026",
           "meta": {
             "basicPropertyValues": [
@@ -10553,7 +10954,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0028",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0028",
           "lbl": "STR D1 MSN CS20250428_SUBCL_0028",
           "meta": {
             "basicPropertyValues": [
@@ -10578,7 +10979,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029",
           "lbl": "STR D2 MSN CS20250428_SUBCL_0029",
           "meta": {
             "basicPropertyValues": [
@@ -10603,7 +11004,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0030",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0030",
           "lbl": "STR Hybrid MSN CS20250428_SUBCL_0030",
           "meta": {
             "basicPropertyValues": [
@@ -10628,7 +11029,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0031",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0031",
           "lbl": "STR RSPO2 GABA CS20250428_SUBCL_0031",
           "meta": {
             "basicPropertyValues": [
@@ -10653,7 +11054,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0032",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0032",
           "lbl": "STR SST GABA CS20250428_SUBCL_0032",
           "meta": {
             "basicPropertyValues": [
@@ -10678,7 +11079,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0033",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0033",
           "lbl": "STR SST-CHODL GABA CS20250428_SUBCL_0033",
           "meta": {
             "basicPropertyValues": [
@@ -10703,7 +11104,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0035",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0035",
           "lbl": "VLMC CS20250428_SUBCL_0035",
           "meta": {
             "basicPropertyValues": [
@@ -10728,7 +11129,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0036",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0036",
           "lbl": "ACx MEIS2 GABA CS20250428_SUBCL_0036",
           "meta": {
             "basicPropertyValues": [
@@ -10753,7 +11154,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0037",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0037",
           "lbl": "F GABA CS20250428_SUBCL_0037",
           "meta": {
             "basicPropertyValues": [
@@ -10778,7 +11179,7 @@
           "type": "INDIVIDUAL"
         },
         {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0038",
+          "id": "https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0038",
           "lbl": "Monocyte CS20250428_SUBCL_0038",
           "meta": {
             "basicPropertyValues": [
@@ -11003,16 +11404,6 @@
           "type": "CLASS"
         },
         {
-          "id": "http://purl.obolibrary.org/obo/CLM_5050495",
-          "lbl": "Pvalb (CAS evidence).",
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/CLM_5050496",
-          "lbl": "Sst, Tbr1, Slc17a6 (CAS evidence).",
-          "type": "CLASS"
-        },
-        {
           "id": "http://purl.obolibrary.org/obo/BFO_0000051",
           "propertyType": "OBJECT",
           "type": "PROPERTY"
@@ -11030,6 +11421,11 @@
         {
           "id": "http://purl.obolibrary.org/obo/OBI_0000070",
           "propertyType": "ANNOTATION",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/RO_0002162",
+          "propertyType": "OBJECT",
           "type": "PROPERTY"
         },
         {
@@ -11163,7 +11559,19 @@
           "type": "PROPERTY"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/BFO_0000002",
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/CL_0000000",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_0000617",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_0000700",
           "type": "CLASS"
         },
         {
@@ -11211,6 +11619,10 @@
           "type": "CLASS"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/CL_4030050",
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/CL_4030051",
           "type": "CLASS"
         },
@@ -11239,11 +11651,19 @@
           "type": "CLASS"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/CL_4042025",
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/CL_4042040",
           "type": "CLASS"
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310096",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
           "type": "CLASS"
         },
         {
@@ -11477,6 +11897,178 @@
         {
           "id": "http://purl.obolibrary.org/obo/SO_0001260",
           "type": "CLASS"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0003",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0004",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0005",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0008",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0013",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0014",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0015",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0020",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0024",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0029",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0030",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0031",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0032",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0033",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0034",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0035",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0037",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0038",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0040",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0041",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0042",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0043",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0044",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0045",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0046",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0047",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0048",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0049",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0050",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0051",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0052",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0053",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0054",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0055",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0056",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0057",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0058",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0063",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0064",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0065",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0066",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0067",
+          "type": "INDIVIDUAL"
+        },
+        {
+          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0068",
+          "type": "INDIVIDUAL"
         }
       ]
     }
