@@ -6168,6 +6168,14 @@ property_value: seeAlso "https://cellxgene.cziscience.com/cellguide/CL_0011005" 
 property_value: skos:prefLabel "GABAergic interneuron" xsd:string
 
 [Term]
+id: CL:0011006
+name: Lugaro cell
+def: "A cerebellar interneuron characterized by a spindle-shaped or triangular soma, parasagittally oriented and located at the border between the granular layer and the Purkinje cell layer. The Lugaro cell extends dendrites predominantly in the parasagittal plane, forming synaptic interactions with basket, stellate, and Golgi cells. Its axonal projections extend upward into the molecular layer, where they form a parasagittal plexus and emit long transverse collaterals that run parallel to the long axis of the cerebellar folia. The Lugaro cell is capable of co-releasing GABA and glycine, as evidenced by the expression of glutamate decarboxylase (GAD65/67) and the glycine transporter GlyT2." [GOC:nv, PMID:18677503, PMID:2273099]
+is_a: CL:0008059 ! GABA-Gly neuron
+is_a: CL:4023057 ! cerebellar inhibitory GABAergic interneuron
+relationship: RO:0002100 UBERON:0002956 ! has soma location granular layer of cerebellar cortex
+
+[Term]
 id: CL:0011007
 name: paraxial cell
 def: "A cell in the area of mesoderm in the neurulating embryo that flanks and forms simultaneously with the neural tube. The cells of this region give rise to somites." [GOC:NV, PMID:11687492]
@@ -6446,7 +6454,7 @@ relationship: RO:0002220 UBERON:0006841 ! adjacent to central vein of liver
 [Term]
 id: CL:0020003
 name: internal globus pallidus core projecting neuron
-def: "A projection neuron that has its soma located in the internal segment of the globus pallidus (GPi) of primates, in the central “core” region. It expresses parvalbumin, is primarily GABAergic, and projects to motor thalamic nuclei including the ventral anterior, ventrolateral, and ventromedial nuclei. This neuron corresponds to the sensorimotor output population of the GPi, as demonstrated in human tissue and cross-species comparative studies (Wallace et al., 2017) and by classic tracing in primates (Parent & De Bellefeuille, 1982; Parent et al., 2001)." [PMID:11596046, PMID:28384468, PMID:28949036, PMID:7127069]
+def: "A projection neuron that has its soma located in the internal segment of the globus pallidus (GPi) of primates, in the central “core” region. It expresses parvalbumin, is primarily GABAergic, and projects to motor thalamic nuclei including the ventral anterior, ventrolateral, and ventromedial nuclei. In the rodent homolog (entopeduncular nucleus), the core subregion is characterized by concentrated parvalbumin-positive neurons targeting the ventral anterior-ventral lateral thalamic nucleus and receives inputs from the dorsolateral striatum innervated by sensorimotor cortices (Miyamoto & Fukuda, 2022). This neuron corresponds to the sensorimotor output population of the GPi, as demonstrated in human tissue and cross-species comparative studies (Wallace et al., 2017) and by classic tracing in primates (Parent & De Bellefeuille, 1982; Parent et al., 2001)." [PMID:11596046, PMID:28384468, PMID:28949036, PMID:35927027, PMID:7127069]
 is_a: BFO:0000002
 is_a: CL:0000617 ! GABAergic neuron
 is_a: CL:0012001 ! neuron of the forebrain
@@ -7716,23 +7724,6 @@ property_value: IAO:0000028 "sst interneuron" xsd:string
 property_value: seeAlso "https://cellxgene.cziscience.com/cellguide/CL_4023017" xsd:string {name="sst GABAergic interneuron on CELLxGENE CellGuide"}
 
 [Term]
-id: CL:4023018
-name: pvalb GABAergic interneuron
-def: "A transcriptomically distinct GABAergic interneuron with a soma located in a cerebral cortex and it expresses Parvalbumin." [https://cellxgene.cziscience.com/e/9c63201d-bfd9-41a8-bbbc-18d947556f3d.cxg/, PMID:27477017, PMID:37824655]
-comment: The marker set PVALB, TAC1, MYO5B can identify the Human cell type pvalb GABAergic cortical interneuron in the neocortex with a confidence of 0.691998764 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
-xref: ILX:0770154
-is_a: CL:4023069 ! medial ganglionic eminence derived GABAergic interneuron
-intersection_of: CL:4023069 ! medial ganglionic eminence derived GABAergic interneuron
-intersection_of: RO:0002100 UBERON:0000956 ! has soma location cerebral cortex
-intersection_of: RO:0002215 GO:0061534 ! capable of gamma-aminobutyric acid secretion, neurotransmission
-intersection_of: RO:0002292 PR:000013502 ! expresses parvalbumin alpha
-relationship: RO:0002292 PR:000013502 ! expresses parvalbumin alpha
-relationship: RO:0015004 CLM:1000080 ! has characterizing marker set
-property_value: dcterms:description "The pvalb GABAergic cortical interneuron, named for its expression of parvalbumin (pvalb) and its use of the inhibitory neurotransmitter gamma-aminobutyric acid (GABA), plays an essential role in the intricate circuitry of the brain. This specific subclass of GABAergic cortical interneurons are among five subclasses recently defined for their marker gene expression, which include Sst, Pvalb, Vip, Lamp5, and Sncg. Predominantly found within the cortex, this subset of interneurons exhibits a significant influence on the behavior of the local network due to their robust inhibitory capabilities. Sampling input from the surrounding pyramidal neurons while concomitantly providing feedback inhibitory connections makes pvalb cortical interneurons a crucial constituent of cortical homeostasis.\nFunctionally, pvalb GABAergic cortical interneurons are responsible for shaping neuronal activity and facilitating precisely timed and reliable information transfer within the brain. They offer inhibitory control over the excitatory neurons they synapse, allowing these cells to temper and shape the overall neuronal firing pattern in the cortical regions, thereby promoting functional efficiency and reliability. Moreover, these interneurons, by rapidly and repetitively firing, contribute to generating brain rhythms, particularly gamma oscillations, essential for cognitive functions, like perception, attention, and memory.\nDisruptions in the function of pvalb GABAergic cortical interneurons are linked to a broad spectrum of neurological and psychiatric disorders, including epilepsy, autism, and schizophrenia, indicating  their central role in maintaining cortical functionality. Moreover, the distribution, density, and interconnectedness of these complex neuronal networks may vary depending on the specific cortical region, further influencing their functionality and consequently the global neuronal output of the cortical area.\n\n(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)" xsd:string {xref="DOI:10.1038/s41380-023-02153-5", xref="DOI:10.1038/s41386-020-0778-9", xref="DOI:10.1038/s41586-018-0654-5", xref="DOI:10.1126/science.1255263", xref="DOI:10.3389/fpsyt.2021.679960"}
-property_value: IAO:0000028 "pvalb interneuron" xsd:string
-property_value: seeAlso "https://cellxgene.cziscience.com/cellguide/CL_4023018" xsd:string {name="pvalb GABAergic interneuron on CELLxGENE CellGuide"}
-
-[Term]
 id: CL:4023026
 name: direct pathway medium spiny neuron
 def: "A medium spiny neuron that expresses dopamine type 1 receptors and projects to the globus pallidus internus or the substantia nigra pars reticulata." [PMID:34727523, WikipediaVersioned:Medium_spiny_neuron&oldid=1109726850]
@@ -7780,8 +7771,7 @@ property_value: seeAlso "https://cellxgene.cziscience.com/cellguide/CL_4023054" 
 [Term]
 id: CL:4023057
 name: cerebellar inhibitory GABAergic interneuron
-def: "Any GABAergic interneuron that has its soma located in some cerebellar cortex." [FBC:Autogenerated]
-comment: A GABAergic interneuron whose soma is located in the cerebellar cortex. {xref="DOI:10.1101/2022.10.12.511898"}
+def: "A GABAergic interneuron whose soma is located in the cerebellar cortex." [DOI:10.1101/2022.10.12.511898]
 is_a: CL:0011005 ! GABAergic interneuron
 is_a: CL:1001611 ! cerebellar neuron
 intersection_of: CL:0011005 ! GABAergic interneuron
@@ -8088,15 +8078,16 @@ relationship: RO:0002292 PR:000001175 ! expresses D(1A) dopamine receptor
 
 [Term]
 id: CL:4030054
-name: RXFP1-positive interface island D1-medium spiny neuron
-def: "A DRD1-expressing medium spiny neuron that is part of dense, RXFP1-positive cell islands throughout the nucleus accumbens, putamen, and near the adjacent septal nuclei." [doi:10.1016/j.cub.2021.10.015]
-comment: Regarding the abbreviation D1-NUDAP, NUDAP stands for "neurochemically unique domains in the accumbens and putamen". In Rhesus macaques, the RXFP1-positive interface island D1-medium spiny neuron (D1-NUDAP) has been noted to have upregulation of OPRM1 compared to DRD1-expressing medium spiny neurons located outside of the D1-exclusive island and in Islands of Calleja. Kappa-opioid receptor gene (OPRK1) has been noted to be absent from D1-NUDAP cells. Many striosome-specific markers have been noted to be upregulated in D1-NUDAP cells, including KCNIP1, KCNT1, KHDRBS3, and BACH2. PDYN, an acknowledged D1-striosome marker gene, has also been noted to be expressed in D1-NUDAPs. D1-NUDAPs also express some genes found to be selectively expressed in the matrix, including STXBP6, GDA, and SEMA3E. Gene enrichment analysis has revealed that D1-NUDAP neurons express genes that have been implicated in drug addiction and many other functions. {xref="doi:10.1016/j.cub.2021.10.015"}
-synonym: "RXFP1-positive island D1-medium spiny neuron" EXACT [doi:10.1016/j.cub.2021.10.015]
+name: D1-NUDAP medium spiny neuron
+def: "A DRD1-expressing medium spiny neuron that is part of dense, RXFP1-positive cell islands throughout the nucleus accumbens, putamen, and near the adjacent septal nuclei." [PMID:34727523]
+comment: Regarding the abbreviation D1-NUDAP, NUDAP stands for "neurochemically unique domains in the accumbens and putamen". In Rhesus macaques, the RXFP1-positive interface island D1-medium spiny neuron (D1-NUDAP) has been noted to have upregulation of OPRM1 compared to DRD1-expressing medium spiny neurons located outside of the D1-exclusive island and in Islands of Calleja. Kappa-opioid receptor gene (OPRK1) has been noted to be absent from D1-NUDAP cells. Many striosome-specific markers have been noted to be upregulated in D1-NUDAP cells, including KCNIP1, KCNT1, KHDRBS3, and BACH2. PDYN, an acknowledged D1-striosome marker gene, has also been noted to be expressed in D1-NUDAPs. D1-NUDAPs also express some genes found to be selectively expressed in the matrix, including STXBP6, GDA, and SEMA3E. Gene enrichment analysis has revealed that D1-NUDAP neurons express genes that have been implicated in drug addiction and many other functions. {xref="PMID:34727523"}
+synonym: "RXFP1-positive interface island D1-medium spiny neuron" EXACT [PMID:34727523]
 is_a: CL:0002613 ! striatum neuron
 is_a: CL:1001474 ! medium spiny neuron
 relationship: RO:0002100 UBERON:0005403 ! has soma location ventral striatum
 relationship: RO:0002292 PR:000001175 ! expresses D(1A) dopamine receptor
 relationship: RO:0002292 PR:000001666 ! expresses relaxin receptor 1
+property_value: IAO:0000028 "STRv D1 NUDAP MSN" xsd:string
 
 [Term]
 id: CL:4033002
@@ -8288,11 +8279,13 @@ is_a: CL:0000878 ! central nervous system macrophage
 id: CL:4042013
 name: Lamp5 Lhx6 neuron
 def: "A transcriptomically distinct GABAergic interneuron marked by Lamp5 and Lhx6 expression, derived from the Medial Ganglionic Eminence (MGE), and located in the pallium." [https://cellxgene.cziscience.com/e/e4ddac12-f48f-4455-8e8d-c2a48a683437.cxg/, PMID:34004146, PMID:36007006, PMID:37824655, PMID:37824669]
+comment: The marker set CHST9, LAMP5 can identify the Human cell type Lamp5 Lhx6 neuron in the neocortex with a confidence of 0.821678322 (NS-Forest FBeta value). {xref="https://doi.org/10.5281/zenodo.11165918"}
 synonym: "Ivy cell" EXACT [PMID:36007006]
 synonym: "Lamp5-Lhx6 type" EXACT [PMID:30382198]
 is_a: CL:4023011 ! lamp5 GABAergic interneuron
 is_a: CL:4023069 ! medial ganglionic eminence derived GABAergic interneuron
 relationship: RO:0002292 PR:000032533 ! expresses LIM/homeobox protein Lhx6
+relationship: RO:0015004 CLM:1000075 ! has characterizing marker set
 
 [Term]
 id: CL:4042017
@@ -8840,11 +8833,12 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4301575
-name: CB PLI Gly-Gaba_2 Purkinje layer interneuron (Mmus)
-def: "A Purkinje layer interneuron of the Mus musculus brain. It is distinguished from other cells in the brain by selective expression of Pthlh (Mmus), Tfap2b (Mmus), Rspo2 (Mmus). Reference transcriptomic data for this type can be found in the dataset/taxonomy - Yao et al. (2023), Whole Mouse Brain in cell set Supertype:1145 CB PLI Gly-Gaba_2." [https://doi.org/10.1038/s41586-023-06812-z]
+name: Lugaro cell (Mmus)
+def: "A Lugaro cell of the Mus musculus brain. It is distinguished from other cells in the brain by selective expression of Pthlh (Mmus), Tfap2b (Mmus), Rspo2 (Mmus). Reference transcriptomic data for this type can be found in the dataset/taxonomy - Yao et al. (2023), Whole Mouse Brain in cell set Supertype:1145 CB PLI Gly-Gaba_2." [https://doi.org/10.1038/s41586-023-06812-z]
+comment: Rationale for assigning this type to reference data: Mapping of this cell type is supported by analysis: https://github.com/Cellular-Semantics/cellular_semantics_notebooks
 synonym: "1145 CB PLI Gly-Gaba_2" EXACT []
-synonym: "Pthlh (Mmus), Tfap2b (Mmus), Rspo2 (Mmus) expressing Purkinje layer interneuron of brain (Mus musculus)" EXACT []
-is_a: CL:0008059 ! GABA-Gly neuron
+synonym: "Pthlh (Mmus), Tfap2b (Mmus), Rspo2 (Mmus) expressing Lugaro cell of brain (Mus musculus)" EXACT []
+is_a: CL:0011006 ! Lugaro cell
 is_a: CL:4300349 ! Purkinje layer interneuron (Mmus)
 property_value: CLM:0010003 CLM:5001565 {STATO:0000663="0.74850297"}
 property_value: CLM:0010003 CLM:5016785
@@ -9135,6 +9129,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: CL:4301611
 name: commited oligodendrocyte precursor (Mmus)
 def: "A committed oligodendrocyte precursor of the Mus musculus brain. It is distinguished from other cells in the brain by selective expression of Gpr17 (Mmus), Bmp4 (Mmus). Reference transcriptomic data for this type can be found in the dataset/taxonomy - Yao et al. (2023), Whole Mouse Brain in cell set Supertype:1181 COP NN_1." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.aaf6463]
+comment: Rationale for assigning this type to reference data: Mapping of this cell set to a differentiation-committed oligodendrocyte is supported by spatial transcriptomic evidence and specific expression of Gpr17, Bmp4, Neu4, Fyn in the context of oligodendrocyte lineage cells. {xref="https://doi.org/10.1126/science.aaf6463"}
 synonym: "1181 COP NN_1" EXACT []
 synonym: "Gpr17 (Mmus), Bmp4 (Mmus) expressing committed oligodendrocyte precursor of brain (Mus musculus)" EXACT []
 is_a: CL:4023059 ! committed oligodendrocyte precursor
@@ -9150,6 +9145,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: CL:4301612
 name: newly formed oligodendrocyte (Mmus)
 def: "A newly formed oligodendrocyte of the Mus musculus brain. It is distinguished from other cells in the brain by selective expression of 9630013A20Rik (Mmus), Ptprb (Mmus). Reference transcriptomic data for this type can be found in the dataset/taxonomy - Yao et al. (2023), Whole Mouse Brain in cell set Supertype:1182 NFOL NN_2." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.aaf6463]
+comment: Rationale for assigning this type to reference data: Mapping of this cell set to a newly formed oligodendrocyte is supported by spatial transcriptomic evidence and specific expression of Tcf7l2, Klk6, Cemip2, Casr in the context of oligodendrocyte lineage cells. {xref="https://doi.org/10.1126/science.aaf6463"}
 synonym: "1182 NFOL NN_2" EXACT []
 synonym: "9630013A20Rik (Mmus), Ptprb (Mmus) expressing newly formed oligodendrocyte of brain (Mus musculus)" EXACT []
 is_a: CL:4072001 ! newly formed oligodendrocyte
@@ -9165,6 +9161,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: CL:4301613
 name: myelin-forming oligodendrocyte (Mmus)
 def: "A myelin-forming oligodendrocyte of the Mus musculus brain. It is distinguished from other cells in the brain by selective expression of Cldn11 (Mmus), Sec14l5 (Mmus), 9630013A20Rik (Mmus). Reference transcriptomic data for this type can be found in the dataset/taxonomy - Yao et al. (2023), Whole Mouse Brain in cell set Supertype:1183 MFOL NN_3." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.aaf6463]
+comment: Rationale for assigning this type to reference data: Mapping of this cell set to a myelin-forming oligodendrocyte is supported by spatial transcriptomic evidence and specific expression of Ctps, Cldn11 in the context of oligodendrocyte lineage cells. {xref="https://doi.org/10.1126/science.aaf6463"}
 synonym: "1183 MFOL NN_3" EXACT []
 synonym: "Cldn11 (Mmus), Sec14l5 (Mmus), 9630013A20Rik (Mmus) expressing myelin-forming oligodendrocyte of brain (Mus musculus)" EXACT []
 is_a: CL:4072002 ! myelin-forming oligodendrocyte
@@ -9180,6 +9177,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: CL:4301614
 name: mature myelinating oligodendrocyte (Mmus)
 def: "A mature myelinating oligodendrocyte of the Mus musculus brain. It is distinguished from other cells in the brain by selective expression of Cldn11 (Mmus), Anln (Mmus). Reference transcriptomic data for this type can be found in the dataset/taxonomy - Yao et al. (2023), Whole Mouse Brain in cell set Supertype:1184 MOL NN_4." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.aaf6463]
+comment: Rationale for assigning this type to reference data: Mapping of this cell set to a mature myelinating oligodendrocyte is supported by spatial transcriptomic evidence and specific expression of Klk6 in the context of oligodendrocyte lineage cells. {xref="https://doi.org/10.1126/science.aaf6463"}
 synonym: "1184 MOL NN_4" EXACT []
 synonym: "Cldn11 (Mmus), Anln (Mmus) expressing mature myelinating oligodendrocyte of brain (Mus musculus)" EXACT []
 is_a: CL:4072003 ! mature myelinating oligodendrocyte
@@ -9265,6 +9263,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: CL:4306426
 name: pinealocyte (Mmus)
 def: "A pinealocyte of the Mus musculus brain. It is distinguished from other cells in the brain by selective expression of Cngb3 (Mmus), Ush2a (Mmus). It is glutamatergic. These cells are located in the brain , in or close to the regions: third ventricle . Reference transcriptomic data for this type can be found in the dataset/taxonomy - Yao et al. (2023), Whole Mouse Brain in cell set Cluster:4606 Pineal Crx Glut_1." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1111/j.1600-079x.1996.tb00284.x, https://doi.org/10.3389/fendo.2019.00590]
+comment: Rationale for assigning this type to reference data: Consistent with this cell set being composed of Pinealocytes, a combination of Pinealocyte markers Gngt1 and Crx can identify the cells in this cluster with a confidence (F-beta score) of 0.91 in the context of glutamatergic cells (Pinealocytes release glutamate) from the hippocampal formation dissection (which includes the pineal gland). {xref="https://doi.org/10.1111/j.1600-079x.1996.tb00284.x", xref="https://doi.org/10.3389/fendo.2019.00590"}
 synonym: "1030 Pineal Crx Glut_1" EXACT []
 synonym: "25 Pineal Glut" EXACT []
 synonym: "262 Pineal Crx Glut" EXACT []
@@ -9321,11 +9320,11 @@ synonym: "5192 CBX MLI Cdh22 Gaba_1" EXACT []
 synonym: "Cdh1 (Mmus), Acvr1c (Mmus), Adamts15 (Mmus), Pax2 (Mmus) expressing molecular layer interneuron of brain (Mus musculus)" EXACT []
 is_a: CL:4042035 {evidence="http://identifiers.org/ncbigene/14415", evidence="http://identifiers.org/ncbigene/14417", evidence="http://identifiers.org/ncbigene/22348"} ! molecular layer interneuron
 is_a: CL:4300028 ! cerebellar GABAergic neuron (Mmus)
-property_value: CLM:0010003 CLM:5006942 {STATO:0000663="0.1724138"}
+property_value: CLM:0010003 CLM:5006942 {STATO:0000663="0.6132075"}
 property_value: CLM:0010003 CLM:5007972 {STATO:0000663="0.5508475"}
 property_value: CLM:0010003 CLM:5022162
 property_value: IAO:0000028 "CBX MLI Cdh22 Gaba (Mmus)" xsd:string
-property_value: seeAlso "https://knowledge.brain-map.org/abcatlas#AQIBQVA4Sk5ONUxZQUJHVk1HS1kxQgACUTFOQ1dXUEc2RlowRE5JWEpCUQADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIAAAExNUJLNDdEQ0lPRjFTTExVVzlQAAIAAAFDQkdDMFUzMFZWOUpQUjYwVEpVAAIBNTE5MiBDQlggTUxJIENkaDIyIEdhYmFfMQAABAEBAoGsxo6BlhUgA4RqTf2EWBhNAAUABgEBAkNCR0MwVTMwVlY5SlBSNjBUSlUAA34AAAAEAAAIRzRJNEdGSlhKQjlBVFozUFRYMQAJTFZEQkpBVzhCSTVZU1MxUVVCRwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABSzlKTjIzUDI0S1FDR0s5VTc1QQACSFNZWlBaVzE2NjlVODIxQldZUAADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIAAAExNUJLNDdEQ0lPRjFTTExVVzlQAAIAAAFDQkdDMFUzMFZWOUpQUjYwVEpVAAIBNTE5MiBDQlggTUxJIENkaDIyIEdhYmFfMQAABAEAAoRQvx%2BDggl%2FA4SgGoeExD3ZBDJOUVRJRTdUQU1QOFBRQUhPNFAABYGvpkqB6awOgaCBR4CS1egGAAcAAAUABgEBAkNCR0MwVTMwVlY5SlBSNjBUSlUAA34AAAAEAAAIVkZPRllQRlFHUktVRFFVWjNGRgAJTFZEQkpBVzhCSTVZU1MxUVVCRwAKAAsBVExPS1dDTDk1UlUwM0Q5UEVURwACNzNHVlREWERFR0UyN00yWEpNVAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACAwA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
+property_value: seeAlso "https://knowledge.brain-map.org/abcatlas#AQIBQVA4Sk5ONUxZQUJHVk1HS1kxQgACUTFOQ1dXUEc2RlowRE5JWEpCUQADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIBMzEyIENCWCBNTEkgQ2RoMjIgR2FiYQAAATE1Qks0N0RDSU9GMVNMTFVXOVAAAgAAAUNCR0MwVTMwVlY5SlBSNjBUSlUAAgAABAEBAoGsxo6BlhUgA4RqTf2EWBhNAAUABgEBAlFZNVM4S01PNUhMSlVGMFAwMEsAA34AAAAEAAAIRzRJNEdGSlhKQjlBVFozUFRYMQAJTFZEQkpBVzhCSTVZU1MxUVVCRwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABSzlKTjIzUDI0S1FDR0s5VTc1QQACSFNZWlBaVzE2NjlVODIxQldZUAADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIBMzEyIENCWCBNTEkgQ2RoMjIgR2FiYQAAATE1Qks0N0RDSU9GMVNMTFVXOVAAAgAAAUNCR0MwVTMwVlY5SlBSNjBUSlUAAgAABAEAAoRQvx%2BDggl%2FA4SgGoeExD3ZBDJOUVRJRTdUQU1QOFBRQUhPNFAABYGvpkqB6awOgaCBR4CS1egGAAcAAAUABgEBAlFZNVM4S01PNUhMSlVGMFAwMEsAA34AAAAEAAAIVkZPRllQRlFHUktVRFFVWjNGRgAJTFZEQkpBVzhCSTVZU1MxUVVCRwAKAAsBVExPS1dDTDk1UlUwM0Q5UEVURwACNzNHVlREWERFR0UyN00yWEpNVAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACAwA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_CLAS_28.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20230722_CLAS_28"}
 
 [Term]
@@ -9337,11 +9336,11 @@ synonym: "316 Bergmann NN" EXACT []
 synonym: "5206 Bergmann NN_1" EXACT []
 synonym: "Gpr37l1 (Mmus), Ctxn3 (Mmus) expressing Bergmann glial cell of brain (Mus musculus)" EXACT []
 is_a: CL:0000644 {evidence="http://identifiers.org/ncbigene/11668"} ! Bergmann glial cell
-property_value: CLM:0010003 CLM:5006956 {STATO:0000663="0.6818182"}
+property_value: CLM:0010003 CLM:5006956 {STATO:0000663="0.8908046"}
 property_value: CLM:0010003 CLM:5007976 {STATO:0000663="0.8908046"}
 property_value: CLM:0010003 CLM:5022176
 property_value: IAO:0000028 "Bergmann glial cell (Mmus)" xsd:string
-property_value: seeAlso "https://knowledge.brain-map.org/abcatlas#AQIBQVA4Sk5ONUxZQUJHVk1HS1kxQgACUTFOQ1dXUEc2RlowRE5JWEpCUQADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIAAAExNUJLNDdEQ0lPRjFTTExVVzlQAAIAAAFDQkdDMFUzMFZWOUpQUjYwVEpVAAIBNTIwNiBCZXJnbWFubiBOTl8xAAAEAQECgazGjoGWFSADhGpN%2FYRYGE0ABQAGAQECQ0JHQzBVMzBWVjlKUFI2MFRKVQADfgAAAAQAAAhHNEk0R0ZKWEpCOUFUWjNQVFgxAAlMVkRCSkFXOEJJNVlTUzFRVUJHAAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFLOUpOMjNQMjRLUUNHSzlVNzVBAAJIU1laUFpXMTY2OVU4MjFCV1lQAAMEAUZTMDBEWFYwVDlSMVg5Rko0UUUAAgAAAVFZNVM4S01PNUhMSlVGMFAwMEsAAgAAATE1Qks0N0RDSU9GMVNMTFVXOVAAAgAAAUNCR0MwVTMwVlY5SlBSNjBUSlUAAgE1MjA2IEJlcmdtYW5uIE5OXzEAAAQBAAKEUL8fg4IJfwOEoBqHhMQ92QQyTlFUSUU3VEFNUDhQUUFITzRQAAWBr6ZKgemsDoGggUeAktXoBgAHAAAFAAYBAQJDQkdDMFUzMFZWOUpQUjYwVEpVAAN%2BAAAABAAACFZGT0ZZUEZRR1JLVURRVVozRkYACUxWREJKQVc4Qkk1WVNTMVFVQkcACgALAVRMT0tXQ0w5NVJVMDNEOVBFVEcAAjczR1ZURFhERUdFMjdNMlhKTVQAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAgMA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
+property_value: seeAlso "https://knowledge.brain-map.org/abcatlas#AQIBQVA4Sk5ONUxZQUJHVk1HS1kxQgACUTFOQ1dXUEc2RlowRE5JWEpCUQADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIBMzE2IEJlcmdtYW5uIE5OAAABMTVCSzQ3RENJT0YxU0xMVVc5UAACAAABQ0JHQzBVMzBWVjlKUFI2MFRKVQACAAAEAQECgazGjoGWFSADhGpN%2FYRYGE0ABQAGAQECUVk1UzhLTU81SExKVUYwUDAwSwADfgAAAAQAAAhHNEk0R0ZKWEpCOUFUWjNQVFgxAAlMVkRCSkFXOEJJNVlTUzFRVUJHAAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFLOUpOMjNQMjRLUUNHSzlVNzVBAAJIU1laUFpXMTY2OVU4MjFCV1lQAAMEAUZTMDBEWFYwVDlSMVg5Rko0UUUAAgAAAVFZNVM4S01PNUhMSlVGMFAwMEsAAgEzMTYgQmVyZ21hbm4gTk4AAAExNUJLNDdEQ0lPRjFTTExVVzlQAAIAAAFDQkdDMFUzMFZWOUpQUjYwVEpVAAIAAAQBAAKEUL8fg4IJfwOEoBqHhMQ92QQyTlFUSUU3VEFNUDhQUUFITzRQAAWBr6ZKgemsDoGggUeAktXoBgAHAAAFAAYBAQJRWTVTOEtNTzVITEpVRjBQMDBLAAN%2BAAAABAAACFZGT0ZZUEZRR1JLVURRVVozRkYACUxWREJKQVc4Qkk1WVNTMVFVQkcACgALAVRMT0tXQ0w5NVJVMDNEOVBFVEcAAjczR1ZURFhERUdFMjdNMlhKTVQAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAgMA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_CLAS_30.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20230722_CLAS_30"}
 
 [Term]
@@ -9353,11 +9352,11 @@ synonym: "317 Astro-CB NN" EXACT []
 synonym: "5207 Astro-CB NN_1" EXACT []
 synonym: "Dao (Mmus), Efemp1 (Mmus) expressing astrocyte of the cerebellum of brain (Mus musculus)" EXACT []
 is_a: CL:0002603 {evidence="http://identifiers.org/ncbigene/11668"} ! astrocyte of the cerebellum
-property_value: CLM:0010003 CLM:5006957 {STATO:0000663="0.4054054"}
+property_value: CLM:0010003 CLM:5006957 {STATO:0000663="0.6321839"}
 property_value: CLM:0010003 CLM:5007977 {STATO:0000663="0.6849315"}
 property_value: CLM:0010003 CLM:5022177
 property_value: IAO:0000028 "cerebellar astrocyte (Mmus)" xsd:string
-property_value: seeAlso "https://knowledge.brain-map.org/abcatlas#AQIBQVA4Sk5ONUxZQUJHVk1HS1kxQgACUTFOQ1dXUEc2RlowRE5JWEpCUQADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIAAAExNUJLNDdEQ0lPRjFTTExVVzlQAAIAAAFDQkdDMFUzMFZWOUpQUjYwVEpVAAIBNTIwNyBBc3Ryby1DQiBOTl8xAAAEAQECgazGjoGWFSADhGpN%2FYRYGE0ABQAGAQECQ0JHQzBVMzBWVjlKUFI2MFRKVQADfgAAAAQAAAhHNEk0R0ZKWEpCOUFUWjNQVFgxAAlMVkRCSkFXOEJJNVlTUzFRVUJHAAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFLOUpOMjNQMjRLUUNHSzlVNzVBAAJIU1laUFpXMTY2OVU4MjFCV1lQAAMEAUZTMDBEWFYwVDlSMVg5Rko0UUUAAgAAAVFZNVM4S01PNUhMSlVGMFAwMEsAAgAAATE1Qks0N0RDSU9GMVNMTFVXOVAAAgAAAUNCR0MwVTMwVlY5SlBSNjBUSlUAAgE1MjA3IEFzdHJvLUNCIE5OXzEAAAQBAAKEUL8fg4IJfwOEoBqHhMQ92QQyTlFUSUU3VEFNUDhQUUFITzRQAAWBr6ZKgemsDoGggUeAktXoBgAHAAAFAAYBAQJDQkdDMFUzMFZWOUpQUjYwVEpVAAN%2BAAAABAAACFZGT0ZZUEZRR1JLVURRVVozRkYACUxWREJKQVc4Qkk1WVNTMVFVQkcACgALAVRMT0tXQ0w5NVJVMDNEOVBFVEcAAjczR1ZURFhERUdFMjdNMlhKTVQAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAgMA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
+property_value: seeAlso "https://knowledge.brain-map.org/abcatlas#AQIBQVA4Sk5ONUxZQUJHVk1HS1kxQgACUTFOQ1dXUEc2RlowRE5JWEpCUQADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIBMzE3IEFzdHJvLUNCIE5OAAABMTVCSzQ3RENJT0YxU0xMVVc5UAACAAABQ0JHQzBVMzBWVjlKUFI2MFRKVQACAAAEAQECgazGjoGWFSADhGpN%2FYRYGE0ABQAGAQECUVk1UzhLTU81SExKVUYwUDAwSwADfgAAAAQAAAhHNEk0R0ZKWEpCOUFUWjNQVFgxAAlMVkRCSkFXOEJJNVlTUzFRVUJHAAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFLOUpOMjNQMjRLUUNHSzlVNzVBAAJIU1laUFpXMTY2OVU4MjFCV1lQAAMEAUZTMDBEWFYwVDlSMVg5Rko0UUUAAgAAAVFZNVM4S01PNUhMSlVGMFAwMEsAAgEzMTcgQXN0cm8tQ0IgTk4AAAExNUJLNDdEQ0lPRjFTTExVVzlQAAIAAAFDQkdDMFUzMFZWOUpQUjYwVEpVAAIAAAQBAAKEUL8fg4IJfwOEoBqHhMQ92QQyTlFUSUU3VEFNUDhQUUFITzRQAAWBr6ZKgemsDoGggUeAktXoBgAHAAAFAAYBAQJRWTVTOEtNTzVITEpVRjBQMDBLAAN%2BAAAABAAACFZGT0ZZUEZRR1JLVURRVVozRkYACUxWREJKQVc4Qkk1WVNTMVFVQkcACgALAVRMT0tXQ0w5NVJVMDNEOVBFVEcAAjczR1ZURFhERUdFMjdNMlhKTVQAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAgMA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_CLAS_30.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20230722_CLAS_30"}
 
 [Term]
@@ -9744,6 +9743,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: CL:4307063
 name: Tanycyte NN_1 Cnmd tanycyte of subfornical organ (Mmus)
 def: "A tanycyte of subfornical organ of the Mus musculus brain. It is distinguished from other cells in the brain by selective expression of Cnmd (Mmus), Sfta3-ps (Mmus). It is distinguished from other Tanycyte NN_1 cells by expression of Cnmd. These cells are located in the brain , in or close to the regions: choroid plexus, third ventricle . Reference transcriptomic data for this type can be found in the dataset/taxonomy - Yao et al. (2023), Whole Mouse Brain in cell set Cluster:5243 Tanycyte NN_1." [https://doi.org/10.1038/s41586-023-06812-z]
+comment: Rationale for assigning this type to reference data: Mapping to tanycyte of subfornical organ based on spatial transcriptomics evidence.
 synonym: "5243 Tanycyte NN_1" EXACT []
 synonym: "Cnmd (Mmus), Sfta3-ps (Mmus) expressing tanycyte of subfornical organ of brain (Mus musculus)" EXACT []
 is_a: CL:0008042 ! tanycyte of subfornical organ
@@ -9857,17 +9857,18 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: CL:4307083
 name: hypendemal cell (Mmus)
 def: "A hypendymal cell of the Mus musculus brain. It is distinguished from other cells in the brain by selective expression of Sspo (Mmus), Wfdc2 (Mmus). It is distinguished from other Astro-Epen cells by expression of Sspo, Wfdc2. These cells are located in the Midbrain, brain , in or close to the regions: third ventricle, posterior commissure, Subcommissural organ . Reference transcriptomic data for this type can be found in the dataset/taxonomy - Yao et al. (2023), Whole Mouse Brain in cell set Cluster:5263 Hypendymal NN_1." [doi:10.3389/fncel.2015.00480, https://doi.org/10.1038/s41586-023-06812-z]
+comment: Rationale for assigning this type to reference data: Mapping of this cell set to the hypendemal cell type is supported by its location to the subcommisural organ (from spatial transcriptomics), its expression of Sspo and its general transcriptomic classification in a class (Astro-Epen) along with epdendymal cells, tanycytes and astrocytes. {xref="doi:10.3389/fncel.2015.00480"}
 synonym: "1177 Hypendymal NN_1" EXACT []
 synonym: "324 Hypendymal NN" EXACT []
 synonym: "5263 Hypendymal NN_1" EXACT []
 synonym: "Sspo (Mmus), Wfdc2 (Mmus) expressing hypendymal cell of brain (Mus musculus)" EXACT []
 is_a: CL:4023181 {evidence="http://identifiers.org/ncbigene/15186"} ! hypendymal cell
-property_value: CLM:0010003 CLM:5007013 {STATO:0000663="0.92105263"}
+property_value: CLM:0010003 CLM:5007013 {STATO:0000663="0.87349397"}
 property_value: CLM:0010003 CLM:5007984 {STATO:0000663="0.89805824"}
 property_value: CLM:0010003 CLM:5022233
 property_value: CLM:0010003 CLM:5029833
 property_value: IAO:0000028 "Hypendymal NN (Mmus)" xsd:string
-property_value: seeAlso "https://knowledge.brain-map.org/abcatlas#AQIBQVA4Sk5ONUxZQUJHVk1HS1kxQgACUTFOQ1dXUEc2RlowRE5JWEpCUQADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIAAAExNUJLNDdEQ0lPRjFTTExVVzlQAAIAAAFDQkdDMFUzMFZWOUpQUjYwVEpVAAIBNTI2MyBIeXBlbmR5bWFsIE5OXzEAAAQBAQKBrMaOgZYVIAOEak39hFgYTQAFAAYBAQJDQkdDMFUzMFZWOUpQUjYwVEpVAAN%2BAAAABAAACEc0STRHRkpYSkI5QVRaM1BUWDEACUxWREJKQVc4Qkk1WVNTMVFVQkcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAUs5Sk4yM1AyNEtRQ0dLOVU3NUEAAkhTWVpQWlcxNjY5VTgyMUJXWVAAAwQBRlMwMERYVjBUOVIxWDlGSjRRRQACAAABUVk1UzhLTU81SExKVUYwUDAwSwACAAABMTVCSzQ3RENJT0YxU0xMVVc5UAACAAABQ0JHQzBVMzBWVjlKUFI2MFRKVQACATUyNjMgSHlwZW5keW1hbCBOTl8xAAAEAQAChFC%2FH4OCCX8DhKAah4TEPdkEMk5RVElFN1RBTVA4UFFBSE80UAAFga%2BmSoHprA6BoIFHgJLV6AYABwAABQAGAQECQ0JHQzBVMzBWVjlKUFI2MFRKVQADfgAAAAQAAAhWRk9GWVBGUUdSS1VEUVVaM0ZGAAlMVkRCSkFXOEJJNVlTUzFRVUJHAAoACwFUTE9LV0NMOTVSVTAzRDlQRVRHAAI3M0dWVERYREVHRTI3TTJYSk1UAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIDAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
+property_value: seeAlso "https://knowledge.brain-map.org/abcatlas#AQIBQVA4Sk5ONUxZQUJHVk1HS1kxQgACUTFOQ1dXUEc2RlowRE5JWEpCUQADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIBMzI0IEh5cGVuZHltYWwgTk4AAAExNUJLNDdEQ0lPRjFTTExVVzlQAAIAAAFDQkdDMFUzMFZWOUpQUjYwVEpVAAIAAAQBAQKBrMaOgZYVIAOEak39hFgYTQAFAAYBAQJRWTVTOEtNTzVITEpVRjBQMDBLAAN%2BAAAABAAACEc0STRHRkpYSkI5QVRaM1BUWDEACUxWREJKQVc4Qkk1WVNTMVFVQkcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAUs5Sk4yM1AyNEtRQ0dLOVU3NUEAAkhTWVpQWlcxNjY5VTgyMUJXWVAAAwQBRlMwMERYVjBUOVIxWDlGSjRRRQACAAABUVk1UzhLTU81SExKVUYwUDAwSwACATMyNCBIeXBlbmR5bWFsIE5OAAABMTVCSzQ3RENJT0YxU0xMVVc5UAACAAABQ0JHQzBVMzBWVjlKUFI2MFRKVQACAAAEAQAChFC%2FH4OCCX8DhKAah4TEPdkEMk5RVElFN1RBTVA4UFFBSE80UAAFga%2BmSoHprA6BoIFHgJLV6AYABwAABQAGAQECUVk1UzhLTU81SExKVUYwUDAwSwADfgAAAAQAAAhWRk9GWVBGUUdSS1VEUVVaM0ZGAAlMVkRCSkFXOEJJNVlTUzFRVUJHAAoACwFUTE9LV0NMOTVSVTAzRDlQRVRHAAI3M0dWVERYREVHRTI3TTJYSk1UAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIDAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_CLAS_30.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20230722_CLAS_30"}
 
 [Term]
@@ -10305,7 +10306,7 @@ property_value: CLM:0010003 CLM:5007062 {STATO:0000663="0.982906"}
 property_value: CLM:0010003 CLM:5007994 {STATO:0000663="0.9684685"}
 property_value: CLM:0010003 CLM:5022282
 property_value: IAO:0000028 "Microglia NN (Mmus)" xsd:string
-property_value: seeAlso "https://knowledge.brain-map.org/abcatlas#AQIBQVA4Sk5ONUxZQUJHVk1HS1kxQgACUTFOQ1dXUEc2RlowRE5JWEpCUQADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIAAAExNUJLNDdEQ0lPRjFTTExVVzlQAAIAAAFDQkdDMFUzMFZWOUpQUjYwVEpVAAIBNTMxMiBNaWNyb2dsaWEgTk5fMQAABAEBAoGsxo6BlhUgA4RqTf2EWBhNAAUABgEBAkNCR0MwVTMwVlY5SlBSNjBUSlUAA34AAAAEAAAIRzRJNEdGSlhKQjlBVFozUFRYMQAJTFZEQkpBVzhCSTVZU1MxUVVCRwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABSzlKTjIzUDI0S1FDR0s5VTc1QQACSFNZWlBaVzE2NjlVODIxQldZUAADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIAAAExNUJLNDdEQ0lPRjFTTExVVzlQAAIAAAFDQkdDMFUzMFZWOUpQUjYwVEpVAAIBNTMxMiBNaWNyb2dsaWEgTk5fMQAABAEAAoRQvx%2BDggl%2FA4SgGoeExD3ZBDJOUVRJRTdUQU1QOFBRQUhPNFAABYGvpkqB6awOgaCBR4CS1egGAAcAAAUABgEBAkNCR0MwVTMwVlY5SlBSNjBUSlUAA34AAAAEAAAIVkZPRllQRlFHUktVRFFVWjNGRgAJTFZEQkpBVzhCSTVZU1MxUVVCRwAKAAsBVExPS1dDTDk1UlUwM0Q5UEVURwACNzNHVlREWERFR0UyN00yWEpNVAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACAwA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
+property_value: seeAlso "https://knowledge.brain-map.org/abcatlas#AQIBQVA4Sk5ONUxZQUJHVk1HS1kxQgACUTFOQ1dXUEc2RlowRE5JWEpCUQADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIBMzM0IE1pY3JvZ2xpYSBOTgAAATE1Qks0N0RDSU9GMVNMTFVXOVAAAgAAAUNCR0MwVTMwVlY5SlBSNjBUSlUAAgAABAEBAoGsxo6BlhUgA4RqTf2EWBhNAAUABgEBAlFZNVM4S01PNUhMSlVGMFAwMEsAA34AAAAEAAAIRzRJNEdGSlhKQjlBVFozUFRYMQAJTFZEQkpBVzhCSTVZU1MxUVVCRwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABSzlKTjIzUDI0S1FDR0s5VTc1QQACSFNZWlBaVzE2NjlVODIxQldZUAADBAFGUzAwRFhWMFQ5UjFYOUZKNFFFAAIAAAFRWTVTOEtNTzVITEpVRjBQMDBLAAIBMzM0IE1pY3JvZ2xpYSBOTgAAATE1Qks0N0RDSU9GMVNMTFVXOVAAAgAAAUNCR0MwVTMwVlY5SlBSNjBUSlUAAgAABAEAAoRQvx%2BDggl%2FA4SgGoeExD3ZBDJOUVRJRTdUQU1QOFBRQUhPNFAABYGvpkqB6awOgaCBR4CS1egGAAcAAAUABgEBAlFZNVM4S01PNUhMSlVGMFAwMEsAA34AAAAEAAAIVkZPRllQRlFHUktVRFFVWjNGRgAJTFZEQkpBVzhCSTVZU1MxUVVCRwAKAAsBVExPS1dDTDk1UlUwM0Q5UEVURwACNzNHVlREWERFR0UyN00yWEpNVAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACAwA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20230722_CLAS_34.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20230722_CLAS_34"}
 
 [Term]
@@ -10339,9 +10340,8 @@ id: CL:4310083
 name: GPin-BF Cholinergic GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPin-BF Cholinergic GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "GPin-BF Cholinergic GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160031 ! CN Cholinergic GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "GPin-BF Cholinergic GABA (Primate)" xsd:string
@@ -10356,7 +10356,7 @@ synonym: "CN LAMP5-CXCL14 GABA" EXACT []
 synonym: "LAMP5" EXACT []
 synonym: "LAMP5-CXCL14 GABA" EXACT []
 is_a: CL:4023011 ! lamp5 GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160011 ! CN CGE GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050484
 property_value: IAO:0000028 "LAMP5-CXCL14 GABA (Primate)" xsd:string
@@ -10371,7 +10371,7 @@ synonym: "CN LAMP5-LHX6 GABA" EXACT []
 synonym: "LAMP5" EXACT []
 synonym: "LAMP5-LHX6 GABA" EXACT []
 is_a: CL:4042013 ! Lamp5 Lhx6 neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160015 ! CN MGE GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050485
 property_value: IAO:0000028 "LAMP5-LHX6 GABA (Primate)" xsd:string
@@ -10383,9 +10383,8 @@ id: CL:4310088
 name: BF SKOR1 Glut glutamatergic neuron of the basal ganglia (Primate)
 def: "A glutamatergic neuron of the basal ganglia of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:BF SKOR1 Glut." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "BF SKOR1 Glut" EXACT []
-is_a: BFO:0000002
 is_a: CL:4042040 ! glutamatergic neuron of the basal ganglia
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160043 ! F Glut dopaminergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "BF SKOR1 Glut (Primate)" xsd:string
@@ -10399,7 +10398,7 @@ def: "A lateral ganglionic eminence derived neuron of the Primates brain. These 
 synonym: "CN MEIS2 GABA" EXACT []
 synonym: "GPe MEIS2-SOX6 GABA" EXACT []
 is_a: CL:4023035 ! lateral ganglionic eminence derived neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160013 ! CN LGE GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "GPe MEIS2-SOX6 GABA (Primate)" xsd:string
@@ -10411,9 +10410,7 @@ id: CL:4310094
 name: GPe SOX6-CTXND1 GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPe SOX6-CTXND1 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "GPe SOX6-CTXND1 GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160035 ! CN LHX8 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.8", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050494
@@ -10429,7 +10426,7 @@ comment: Rationale for assigning this type to reference data: Mapping to the gen
 synonym: "CN ONECUT1 GABA" EXACT []
 synonym: "GPi Core" EXACT []
 is_a: CL:0020003 ! internal globus pallidus core projecting neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160016 ! F M GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10344 {CLM:0010002="0.9", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050495
 property_value: IAO:0000028 "GPi Core (Primate)" xsd:string
@@ -10441,9 +10438,8 @@ id: CL:4310100
 name: GPe-NDB-SI LHX6-LHX8-GBX1 GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPe-NDB-SI LHX6-LHX8-GBX1 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "GPe-NDB-SI LHX6-LHX8-GBX1 GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160035 ! CN LHX8 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "GPe-NDB-SI LHX6-LHX8-GBX1 GABA (Primate)" xsd:string
@@ -10458,7 +10454,7 @@ synonym: "D1-ICj (Islands of Calleja)" EXACT []
 synonym: "OT D1 ICj" EXACT []
 synonym: "OT Granular GABA" EXACT []
 is_a: CL:4030053 ! Island of Calleja granule cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160013 ! CN LGE GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="1.0", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050504
 property_value: IAO:0000028 "OT D1 ICj (Primate)" xsd:string
@@ -10470,9 +10466,7 @@ id: CL:4310109
 name: SN-VTR CALB1 Dopa substantia nigra dopaminergic neuron (Primate)
 def: "A substantia nigra dopaminergic neuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR CALB1 Dopa." [https://doi.org/10.1038/s41467-020-17876-0, https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "SN-VTR CALB1 Dopa" EXACT []
-is_a: BFO:0000002
-is_a: CL:4042025 ! substantia nigra dopaminergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160055 ! M Dopa substantia nigra dopaminergic neuron (Primate)
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.7", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050509
 property_value: IAO:0000028 "SN-VTR CALB1 Dopa (Primate)" xsd:string
@@ -10484,9 +10478,8 @@ id: CL:4310110
 name: SN EBF2 GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN EBF2 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "SN EBF2 GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160056 ! SN PAX7 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "SN EBF2 GABA (Primate)" xsd:string
@@ -10498,9 +10491,7 @@ id: CL:4310111
 name: SN-VTR GAD2 Dopa dopaminergic neuron (Primate)
 def: "A dopaminergic neuron of the Primates brain. These cells are located in the striatum, substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR GAD2 Dopa." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1101/2024.06.06.597807]
 synonym: "SN-VTR GAD2 Dopa" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000700 ! dopaminergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160055 ! M Dopa substantia nigra dopaminergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.3", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050511
@@ -10514,9 +10505,8 @@ name: SN GATA3-PAX8 GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN GATA3-PAX8 GABA." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.3389/fnins.2022.976209]
 synonym: "pSNpr" EXACT []
 synonym: "SN GATA3-PAX8 GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160046 ! F M GATA3 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.9", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050512
 property_value: IAO:0000028 "SN GATA3-PAX8 GABA (Primate)" xsd:string
@@ -10529,9 +10519,7 @@ name: SN GATA3-PVALB GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN GATA3-PVALB GABA." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.3389/fnins.2022.976209]
 synonym: "aSNpr" EXACT []
 synonym: "SN GATA3-PVALB GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160046 ! F M GATA3 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.8", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050513
 property_value: IAO:0000028 "SN GATA3-PVALB GABA (Primate)" xsd:string
@@ -10543,9 +10531,8 @@ id: CL:4310114
 name: SN SEMA5A GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, subthalamic nucleus, substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN SEMA5A GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "SN SEMA5A GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160056 ! SN PAX7 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.3", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10466 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
@@ -10558,9 +10545,7 @@ id: CL:4310115
 name: SN SOX6 Dopa substantia nigra dopaminergic neuron (Primate)
 def: "A substantia nigra dopaminergic neuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN SOX6 Dopa." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1038/s41593-022-01061-1]
 synonym: "SN SOX6 Dopa" EXACT []
-is_a: BFO:0000002
-is_a: CL:4042025 ! substantia nigra dopaminergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160055 ! M Dopa substantia nigra dopaminergic neuron (Primate)
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.9", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050515
 property_value: IAO:0000028 "SN SOX6 Dopa (Primate)" xsd:string
@@ -10572,9 +10557,8 @@ id: CL:4310117
 name: SN-VTR-HTH GATA3-TCF7L2 GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR-HTH GATA3-TCF7L2 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "SN-VTR-HTH GATA3-TCF7L2 GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160046 ! F M GATA3 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "SN-VTR-HTH GATA3-TCF7L2 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU04tVlRSLUhUSCBHQVRBMy1UQ0Y3TDIgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTTi1WVFItSFRIIEdBVEEzLVRDRjdMMiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTTi1WVFItSFRIIEdBVEEzLVRDRjdMMiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTTi1WVFItSFRIIEdBVEEzLVRDRjdMMiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10586,7 +10570,7 @@ name: STH PVALB-PITX2 Glut striatal pthlh-expressing interneuron (Primate)
 def: "A striatal pthlh-expressing interneuron of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STH PVALB-PITX2 Glut." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STH PVALB-PITX2 Glut" EXACT []
 is_a: CL:4042023 ! striatal pthlh-expressing interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160043 ! F Glut dopaminergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10466 {CLM:0010002="0.9", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STH PVALB-PITX2 Glut (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RIIFBWQUxCLVBJVFgyIEdsdXQAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RIIFBWQUxCLVBJVFgyIEdsdXQAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUSCBQVkFMQi1QSVRYMiBHbHV0AAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVEggUFZBTEItUElUWDIgR2x1dAAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10600,7 +10584,7 @@ synonym: "FS" EXACT []
 synonym: "Pvalb Pthlh" EXACT []
 synonym: "STR FS PTHLH-PVALB GABA" EXACT []
 is_a: CL:4042023 ! striatal pthlh-expressing interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160038 ! CN ST18 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.9", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050520
 property_value: IAO:0000028 "STR FS PTHLH-PVALB GABA (Primate)" xsd:string
@@ -10612,9 +10596,8 @@ id: CL:4310121
 name: STR LYPD6-RSPO2 GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR LYPD6-RSPO2 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR LYPD6-RSPO2 GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160061 ! STR RSPO2 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.3", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STR LYPD6-RSPO2 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIExZUEQ2LVJTUE8yIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIExZUEQ2LVJTUE8yIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUUiBMWVBENi1SU1BPMiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFIgTFlQRDYtUlNQTzIgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10627,7 +10610,7 @@ def: "A sst GABAergic interneuron of the Primates brain. These cells are located
 synonym: "STR SST GABA" EXACT []
 synonym: "STR SST-ADARB2 GABA" EXACT []
 is_a: CL:4023017 ! sst GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160015 ! CN MGE GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STR SST-ADARB2 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIFNTVC1BREFSQjIgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFIgU1NULUFEQVJCMiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFIgU1NULUFEQVJCMiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFIgU1NULUFEQVJCMiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10641,7 +10624,7 @@ synonym: "LTS" EXACT []
 synonym: "Sst Chodl" EXACT []
 synonym: "STR SST-CHODL GABA" EXACT []
 is_a: CL:4023121 ! sst chodl GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160015 ! CN MGE GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.8", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050523
 property_value: IAO:0000028 "STR SST-CHODL GABA (Primate)" xsd:string
@@ -10654,7 +10637,7 @@ name: STR SST-RSPO2 GABA sst GABAergic interneuron (Primate)
 def: "A sst GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR SST-RSPO2 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR SST-RSPO2 GABA" EXACT []
 is_a: CL:4023017 ! sst GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160061 ! STR RSPO2 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.4", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STR SST-RSPO2 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIFNTVC1SU1BPMiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUUiBTU1QtUlNQTzIgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIFNTVC1SU1BPMiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFIgU1NULVJTUE8yIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10666,9 +10649,8 @@ name: STR TAC3-PLPP4 GABA TAC3-positive striatal interneuron (Primate)
 def: "A TAC3-positive striatal interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR TAC3-PLPP4 GABA." [https://doi.org/10.1038/s41586-020-2874-8, https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "LHX6 TAC3" EXACT []
 synonym: "STR TAC3-PLPP4 GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:4042001 ! TAC3-positive striatal interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160038 ! CN ST18 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.9", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050525
 property_value: IAO:0000028 "STR TAC3-PLPP4 GABA (Primate)" xsd:string
@@ -10680,9 +10662,8 @@ id: CL:4310126
 name: STR-BF TAC3-PLPP4-LHX8 GABA TAC3-positive striatal interneuron (Primate)
 def: "A TAC3-positive striatal interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR-BF TAC3-PLPP4-LHX8 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR-BF TAC3-PLPP4-LHX8 GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:4042001 ! TAC3-positive striatal interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160038 ! CN ST18 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.7", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STR-BF TAC3-PLPP4-LHX8 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSLUJGIFRBQzMtUExQUDQtTEhYOCBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUUi1CRiBUQUMzLVBMUFA0LUxIWDggR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSLUJGIFRBQzMtUExQUDQtTEhYOCBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFItQkYgVEFDMy1QTFBQNC1MSFg4IEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10696,7 +10677,7 @@ synonym: "CN VIP GABA" EXACT []
 synonym: "VIP" EXACT []
 synonym: "VIP GABA" EXACT []
 is_a: CL:4023016 ! VIP GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160011 ! CN CGE GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050527
 property_value: IAO:0000028 "VIP GABA (Primate)" xsd:string
@@ -10708,9 +10689,8 @@ id: CL:4310128
 name: STRd Cholinergic GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd Cholinergic GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STRd Cholinergic GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160031 ! CN Cholinergic GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="1.0", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STRd Cholinergic GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSZCBDaG9saW5lcmdpYyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUUmQgQ2hvbGluZXJnaWMgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSZCBDaG9saW5lcmdpYyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFJkIENob2xpbmVyZ2ljIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10723,7 +10703,7 @@ def: "A matrix D1 medium spiny neuron of the Primates brain. These cells are loc
 synonym: "D1-Matrix" EXACT []
 synonym: "STRd D1 Matrix MSN" EXACT []
 is_a: CL:4030043 ! matrix D1 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160058 ! STR D1 MSN direct pathway medium spiny neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="1.0", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050529
 property_value: IAO:0000028 "STRd D1 Matrix MSN (Primate)" xsd:string
@@ -10737,7 +10717,7 @@ def: "A striosomal D1 medium spiny neuron of the Primates brain. These cells are
 synonym: "D1-Striosome" EXACT []
 synonym: "STRd D1 Striosome MSN" EXACT []
 is_a: CL:4030048 ! striosomal D1 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160058 ! STR D1 MSN direct pathway medium spiny neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="1.0", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050530
 property_value: IAO:0000028 "STRd D1 Striosome MSN (Primate)" xsd:string
@@ -10750,8 +10730,7 @@ name: STR D1D2 Hybrid MSN D1/D2-hybrid medium spiny neuron (Primate)
 def: "A D1/D2-hybrid medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR D1D2 Hybrid MSN." [https://doi.org/10.1016/j.cub.2021.10.015, https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "D1/D2 Hybrid" EXACT []
 synonym: "STR D1D2 Hybrid MSN" EXACT []
-is_a: CL:4030050 ! D1/D2-hybrid medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160060 ! STR Hybrid MSN D1/D2-hybrid medium spiny neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="1.0", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050531
 property_value: IAO:0000028 "STR D1D2 Hybrid MSN (Primate)" xsd:string
@@ -10765,7 +10744,7 @@ def: "A matrix D2 medium spiny neuron of the Primates brain. These cells are loc
 synonym: "D2-Matrix" EXACT []
 synonym: "STRd D2 Matrix MSN" EXACT []
 is_a: CL:4030047 ! matrix D2 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160059 ! STR D2 MSN indirect pathway medium spiny neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="1.0", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050532
 property_value: IAO:0000028 "STRd D2 Matrix MSN (Primate)" xsd:string
@@ -10777,8 +10756,7 @@ id: CL:4310133
 name: STRd D2 StrioMat Hybrid MSN lateral ganglionic eminence derived neuron (Primate)
 def: "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D2 StrioMat Hybrid MSN." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STRd D2 StrioMat Hybrid MSN" EXACT []
-is_a: CL:4023035 ! lateral ganglionic eminence derived neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160059 ! STR D2 MSN indirect pathway medium spiny neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.9", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STRd D2 StrioMat Hybrid MSN (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSZCBEMiBTdHJpb01hdCBIeWJyaWQgTVNOAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUUmQgRDIgU3RyaW9NYXQgSHlicmlkIE1TTgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSZCBEMiBTdHJpb01hdCBIeWJyaWQgTVNOAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFJkIEQyIFN0cmlvTWF0IEh5YnJpZCBNU04AAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10791,7 +10769,7 @@ def: "A striosomal D2 medium spiny neuron of the Primates brain. These cells are
 synonym: "D2-Striosome" EXACT []
 synonym: "STRd D2 Striosome MSN" EXACT []
 is_a: CL:4030049 ! striosomal D2 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160059 ! STR D2 MSN indirect pathway medium spiny neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="1.0", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050534
 property_value: IAO:0000028 "STRd D2 Striosome MSN (Primate)" xsd:string
@@ -10803,9 +10781,8 @@ id: CL:4310135
 name: STR Cholinergic GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR Cholinergic GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR Cholinergic GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160031 ! CN Cholinergic GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STR Cholinergic GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIENob2xpbmVyZ2ljIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIENob2xpbmVyZ2ljIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUUiBDaG9saW5lcmdpYyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFIgQ2hvbGluZXJnaWMgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10818,7 +10795,7 @@ def: "A nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron of
 synonym: "D1-Shell/OT" EXACT []
 synonym: "STRv D1 MSN" EXACT []
 is_a: CL:4030051 ! nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160058 ! STR D1 MSN direct pathway medium spiny neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.9", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050536
 property_value: IAO:0000028 "STRv D1 MSN (Primate)" xsd:string
@@ -10831,8 +10808,8 @@ name: STRv D1 NUDAP MSN RXFP1-positive interface island D1-medium spiny neuron (
 def: "A RXFP1-positive interface island D1-medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D1 NUDAP MSN." [https://doi.org/10.1016/j.cub.2021.10.015, https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "D1-NUDAP" EXACT []
 synonym: "STRv D1 NUDAP MSN" EXACT []
-is_a: CL:4030054 ! RXFP1-positive interface island D1-medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: CL:4030054 ! D1-NUDAP medium spiny neuron
+is_a: PCL:0160060 ! STR Hybrid MSN D1/D2-hybrid medium spiny neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050537
 property_value: IAO:0000028 "STRv D1 NUDAP MSN (Primate)" xsd:string
@@ -10846,7 +10823,7 @@ def: "A nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron of
 synonym: "D2-Shell/OT" EXACT []
 synonym: "STRv D2 MSN" EXACT []
 is_a: CL:4030052 ! nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160059 ! STR D2 MSN indirect pathway medium spiny neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.8", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 CLM:5050538
 property_value: IAO:0000028 "STRv D2 MSN (Primate)" xsd:string
@@ -10858,9 +10835,8 @@ id: CL:4310143
 name: ZI-HTH GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ZI-HTH GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "ZI-HTH GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160067 ! F GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "ZI-HTH GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBWkktSFRIIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBWkktSFRIIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVpJLUhUSCBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFaSS1IVEggR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10872,9 +10848,8 @@ name: VTR-HTH Glut glutamatergic neuron of the basal ganglia (Primate)
 def: "A glutamatergic neuron of the basal ganglia of the Primates brain. These cells are located in the striatum, subthalamic nucleus, substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:VTR-HTH Glut." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "F M Glut" EXACT []
 synonym: "VTR-HTH Glut" EXACT []
-is_a: BFO:0000002
 is_a: CL:4042040 ! glutamatergic neuron of the basal ganglia
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160017 ! F M Glut dopaminergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10466 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
@@ -10888,9 +10863,8 @@ id: CL:4310145
 name: AMY-SLEA-BNST D1 GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:AMY-SLEA-BNST D1 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "AMY-SLEA-BNST D1 GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160067 ! F GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.4", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "AMY-SLEA-BNST D1 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBQU1ZLVNMRUEtQk5TVCBEMSBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUFNWS1TTEVBLUJOU1QgRDEgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBQU1ZLVNMRUEtQk5TVCBEMSBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFBTVktU0xFQS1CTlNUIEQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10901,9 +10875,8 @@ id: CL:4310146
 name: AMY-SLEA-BNST GABA GABAergic interneuron (Primate)
 def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:AMY-SLEA-BNST GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "AMY-SLEA-BNST GABA" EXACT []
-is_a: BFO:0000002
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160067 ! F GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "AMY-SLEA-BNST GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBQU1ZLVNMRUEtQk5TVCBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUFNWS1TTEVBLUJOU1QgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBQU1ZLVNMRUEtQk5TVCBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFBTVktU0xFQS1CTlNUIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10914,9 +10887,7 @@ id: CL:4310147
 name: OB Dopa-GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OB Dopa-GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "OB Dopa-GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160066 ! ACx MEIS2 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "OB Dopa-GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBT0IgRG9wYS1HQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAU9CIERvcGEtR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBT0IgRG9wYS1HQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFPQiBEb3BhLUdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -10927,9 +10898,7 @@ id: CL:4310148
 name: OB FRMD7 GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OB FRMD7 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "OB FRMD7 GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160066 ! ACx MEIS2 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "OB FRMD7 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBT0IgRlJNRDcgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFPQiBGUk1ENyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFPQiBGUk1ENyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFPQiBGUk1ENyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
@@ -28408,6 +28377,18 @@ intersection_of: GO:0030154 ! cell differentiation
 intersection_of: RO:0002315 CL:0001031 ! results in acquisition of features of cerebellar granule cell
 relationship: BFO:0000050 GO:0021684 ! part of cerebellar granular layer formation
 relationship: RO:0002315 CL:0001031 ! results in acquisition of features of cerebellar granule cell
+
+[Term]
+id: GO:0021708
+name: Lugaro cell differentiation
+def: "The process in which neuroblasts acquire specialized structural and/or functional features that characterize the mature Lugaro cell. Differentiation includes the processes involved in commitment of a neuroblast to a Lugaro cell fate. A Lugaro cell is an inhibitory GABAergic interneuron found in the cerebellar cortex." [GO_REF:0000021, GOC:cls, GOC:dgh, GOC:dph, GOC:jid, PMID:15157725]
+is_a: GO:0021533 ! cell differentiation in hindbrain
+is_a: GO:0021953 ! central nervous system neuron differentiation
+is_a: GO:0097154 ! GABAergic neuron differentiation
+intersection_of: GO:0030154 ! cell differentiation
+intersection_of: RO:0002315 CL:0011006 ! results in acquisition of features of Lugaro cell
+relationship: BFO:0000050 GO:0021697 ! part of cerebellar cortex formation
+relationship: RO:0002315 CL:0011006 ! results in acquisition of features of Lugaro cell
 
 [Term]
 id: GO:0021710
@@ -70344,7 +70325,7 @@ name: Astro-Epen glial cell (Primate)
 def: "A glial cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Astro-Epen." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Astro-Epen" EXACT []
 is_a: CL:0000125 ! glial cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160001 ! Nonneuron cell (Primate)
 property_value: IAO:0000028 "Astro-Epen (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQXN0cm8tRXBlbgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFBc3Ryby1FcGVuAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFBc3Ryby1FcGVuAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFBc3Ryby1FcGVuAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -70354,9 +70335,7 @@ id: PCL:0160011
 name: CN CGE GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:CN CGE GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "CN CGE GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160002 ! Subpallium GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "CN CGE GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ04gQ0dFIEdBQkEAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ04gQ0dFIEdBQkEAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAUNOIENHRSBHQUJBAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFDTiBDR0UgR0FCQQAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70366,9 +70345,7 @@ id: PCL:0160013
 name: CN LGE GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:CN LGE GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "CN LGE GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160002 ! Subpallium GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "CN LGE GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ04gTEdFIEdBQkEAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ04gTEdFIEdBQkEAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAUNOIExHRSBHQUJBAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFDTiBMR0UgR0FCQQAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70378,9 +70355,7 @@ id: PCL:0160015
 name: CN MGE GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:CN MGE GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "CN MGE GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160002 ! Subpallium GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "CN MGE GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ04gTUdFIEdBQkEAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ04gTUdFIEdBQkEAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAUNOIE1HRSBHQUJBAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFDTiBNR0UgR0FCQQAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70390,9 +70365,7 @@ id: PCL:0160016
 name: F M GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:F M GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "F M GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160002 ! Subpallium GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "F M GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBRiBNIEdBQkEAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBRiBNIEdBQkEAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAUYgTSBHQUJBAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFGIE0gR0FCQQAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70402,9 +70375,7 @@ id: PCL:0160017
 name: F M Glut dopaminergic neuron (Primate)
 def: "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:F M Glut." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "F M Glut" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000700 ! dopaminergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160000 ! Glut Sero Dopa dopaminergic neuron (Primate)
 property_value: IAO:0000028 "F M Glut (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBRiBNIEdsdXQAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBRiBNIEdsdXQAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAUYgTSBHbHV0AAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFGIE0gR2x1dAAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
@@ -70415,7 +70386,7 @@ name: Immune mononuclear leukocyte (Primate)
 def: "A mononuclear leukocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Immune." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Immune" EXACT []
 is_a: CL:0000842 ! mononuclear leukocyte
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160001 ! Nonneuron cell (Primate)
 property_value: IAO:0000028 "Immune (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBSW1tdW5lAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAUltbXVuZQAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBSW1tdW5lAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFJbW11bmUAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -70426,7 +70397,7 @@ name: OPC-Oligo neuron associated cell (Primate)
 def: "A neuron associated cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:OPC-Oligo." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "OPC-Oligo" EXACT []
 is_a: CL:0000095 ! neuron associated cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160001 ! Nonneuron cell (Primate)
 property_value: IAO:0000028 "OPC-Oligo (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBT1BDLU9saWdvAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAU9QQy1PbGlnbwAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBT1BDLU9saWdvAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFPUEMtT2xpZ28AAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -70437,7 +70408,7 @@ name: Vascular connective tissue cell (Primate)
 def: "A connective tissue cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Vascular." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Vascular" EXACT []
 is_a: CL:0002320 ! connective tissue cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160001 ! Nonneuron cell (Primate)
 property_value: IAO:0000028 "Vascular (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBVmFzY3VsYXIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBVmFzY3VsYXIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAVZhc2N1bGFyAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFWYXNjdWxhcgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -70448,7 +70419,7 @@ name: Astrocyte astrocyte (Primate)
 def: "A astrocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Astrocyte." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Astrocyte" EXACT []
 is_a: CL:0000127 ! astrocyte
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160010 ! Astro-Epen glial cell (Primate)
 property_value: IAO:0000028 "Astrocyte (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBQXN0cm9jeXRlAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAUFzdHJvY3l0ZQAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBQXN0cm9jeXRlAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFBc3Ryb2N5dGUAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -70458,9 +70429,7 @@ id: PCL:0160031
 name: CN Cholinergic GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:CN Cholinergic GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "CN Cholinergic GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160015 ! CN MGE GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "CN Cholinergic GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBQ04gQ2hvbGluZXJnaWMgR0FCQQAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFDTiBDaG9saW5lcmdpYyBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFDTiBDaG9saW5lcmdpYyBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFDTiBDaG9saW5lcmdpYyBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70470,9 +70439,7 @@ id: PCL:0160035
 name: CN LHX8 GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:CN LHX8 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "CN LHX8 GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160016 ! F M GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "CN LHX8 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBQ04gTEhYOCBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAUNOIExIWDggR0FCQQAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBQ04gTEhYOCBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFDTiBMSFg4IEdBQkEAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70482,9 +70449,7 @@ id: PCL:0160038
 name: CN ST18 GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:CN ST18 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "CN ST18 GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160015 ! CN MGE GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "CN ST18 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBQ04gU1QxOCBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAUNOIFNUMTggR0FCQQAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBQ04gU1QxOCBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFDTiBTVDE4IEdBQkEAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70494,9 +70459,7 @@ id: PCL:0160043
 name: F Glut dopaminergic neuron (Primate)
 def: "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:F Glut." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "F Glut" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000700 ! dopaminergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160017 ! F M Glut dopaminergic neuron (Primate)
 property_value: IAO:0000028 "F Glut (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBRiBHbHV0AAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAUYgR2x1dAAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBRiBHbHV0AAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFGIEdsdXQAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
@@ -70507,7 +70470,7 @@ name: Lymphocyte lymphocyte (Primate)
 def: "A lymphocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Lymphocyte." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Lymphocyte" EXACT []
 is_a: CL:0000542 ! lymphocyte
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160018 ! Immune mononuclear leukocyte (Primate)
 property_value: IAO:0000028 "Lymphocyte (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBTHltcGhvY3l0ZQAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFMeW1waG9jeXRlAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFMeW1waG9jeXRlAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFMeW1waG9jeXRlAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -70517,9 +70480,7 @@ id: PCL:0160046
 name: F M GATA3 GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:F M GATA3 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "F M GATA3 GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160016 ! F M GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "F M GATA3 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBRiBNIEdBVEEzIEdBQkEAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBRiBNIEdBVEEzIEdBQkEAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAUYgTSBHQVRBMyBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFGIE0gR0FUQTMgR0FCQQAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70530,7 +70491,7 @@ name: Oligodendrocyte oligodendrocyte (Primate)
 def: "A oligodendrocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Oligodendrocyte." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Oligodendrocyte" EXACT []
 is_a: CL:0000128 ! oligodendrocyte
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160020 ! OPC-Oligo neuron associated cell (Primate)
 property_value: IAO:0000028 "Oligodendrocyte (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBT2xpZ29kZW5kcm9jeXRlAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAU9saWdvZGVuZHJvY3l0ZQAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBT2xpZ29kZW5kcm9jeXRlAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFPbGlnb2RlbmRyb2N5dGUAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0001.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0001"}
@@ -70540,9 +70501,8 @@ id: PCL:0160055
 name: M Dopa substantia nigra dopaminergic neuron (Primate)
 def: "A substantia nigra dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:M Dopa." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "M Dopa" EXACT []
-is_a: BFO:0000002
 is_a: CL:4042025 ! substantia nigra dopaminergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160000 ! Glut Sero Dopa dopaminergic neuron (Primate)
 property_value: IAO:0000028 "M Dopa (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBTSBEb3BhAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAU0gRG9wYQAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBTSBEb3BhAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFNIERvcGEAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0000"}
@@ -70552,9 +70512,7 @@ id: PCL:0160056
 name: SN PAX7 GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:SN PAX7 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "SN PAX7 GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160016 ! F M GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "SN PAX7 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBU04gUEFYNyBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAVNOIFBBWDcgR0FCQQAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBU04gUEFYNyBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFTTiBQQVg3IEdBQkEAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70565,7 +70523,7 @@ name: STR D1 MSN direct pathway medium spiny neuron (Primate)
 def: "A direct pathway medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR D1 MSN." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR D1 MSN" EXACT []
 is_a: CL:4023026 ! direct pathway medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160013 ! CN LGE GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "STR D1 MSN (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBU1RSIEQxIE1TTgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFTVFIgRDEgTVNOAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFTVFIgRDEgTVNOAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFTVFIgRDEgTVNOAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70576,7 +70534,7 @@ name: STR D2 MSN indirect pathway medium spiny neuron (Primate)
 def: "A indirect pathway medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR D2 MSN." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR D2 MSN" EXACT []
 is_a: CL:4023029 ! indirect pathway medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160013 ! CN LGE GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "STR D2 MSN (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBU1RSIEQyIE1TTgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFTVFIgRDIgTVNOAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFTVFIgRDIgTVNOAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFTVFIgRDIgTVNOAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70587,7 +70545,7 @@ name: STR Hybrid MSN D1/D2-hybrid medium spiny neuron (Primate)
 def: "A D1/D2-hybrid medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR Hybrid MSN." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR Hybrid MSN" EXACT []
 is_a: CL:4030050 ! D1/D2-hybrid medium spiny neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160013 ! CN LGE GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "STR Hybrid MSN (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBU1RSIEh5YnJpZCBNU04AAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBU1RSIEh5YnJpZCBNU04AAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAVNUUiBIeWJyaWQgTVNOAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFTVFIgSHlicmlkIE1TTgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70597,9 +70555,7 @@ id: PCL:0160061
 name: STR RSPO2 GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR RSPO2 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "STR RSPO2 GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160015 ! CN MGE GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "STR RSPO2 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBU1RSIFJTUE8yIEdBQkEAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBU1RSIFJTUE8yIEdBQkEAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAVNUUiBSU1BPMiBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFTVFIgUlNQTzIgR0FCQQAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70610,9 +70566,7 @@ name: ACx MEIS2 GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:ACx MEIS2 GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "ACx MEIS2 GABA" EXACT []
 synonym: "Cx GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160002 ! Subpallium GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "ACx MEIS2 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ3ggR0FCQQAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFDeCBHQUJBAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFDeCBHQUJBAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFDeCBHQUJBAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70622,9 +70576,7 @@ id: PCL:0160067
 name: F GABA GABAergic neuron (Primate)
 def: "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:F GABA." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "F GABA" EXACT []
-is_a: BFO:0000002
-is_a: CL:0000617 ! GABAergic neuron
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160016 ! F M GABA GABAergic neuron (Primate)
 property_value: IAO:0000028 "F GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBRiBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAUYgR0FCQQAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAlNRNldKTzBHTlVKR0ZVOExIVlYAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIBRiBHQUJBAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECU1E2V0pPMEdOVUpHRlU4TEhWVgADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgFGIEdBQkEAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJTUTZXSk8wR05VSkdGVThMSFZWAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
@@ -70635,7 +70587,7 @@ name: B cells B cell (Primate)
 def: "A B cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:B cells." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "B cells" EXACT []
 is_a: CL:0000236 ! B cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160045 ! Lymphocyte lymphocyte (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.7", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160900
 property_value: IAO:0000028 "B cells (Primate)" xsd:string
@@ -70649,7 +70601,7 @@ def: "A border associated macrophage of the Primates brain. These cells are loca
 synonym: "BAM" EXACT []
 synonym: "Macrophage" EXACT []
 is_a: CL:4042003 ! border associated macrophage
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160018 ! Immune mononuclear leukocyte (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160901
@@ -70663,7 +70615,7 @@ name: COP committed oligodendrocyte precursor (Primate)
 def: "A committed oligodendrocyte precursor of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:COP." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.aaf6463]
 synonym: "COP" EXACT []
 is_a: CL:4023059 ! committed oligodendrocyte precursor
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160020 ! OPC-Oligo neuron associated cell (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160909
@@ -70677,7 +70629,7 @@ name: Endo endothelial cell (Primate)
 def: "A endothelial cell of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Endo." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Endo" EXACT []
 is_a: CL:0000115 ! endothelial cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160021 ! Vascular connective tissue cell (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.7", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160911
@@ -70691,7 +70643,7 @@ name: Ependymal ependymal cell (Primate)
 def: "A ependymal cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Ependymal." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Ependymal" EXACT []
 is_a: CL:0000065 ! ependymal cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160010 ! Astro-Epen glial cell (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160912
 property_value: IAO:0000028 "Ependymal (Primate)" xsd:string
@@ -70721,8 +70673,7 @@ id: PCL:0160107
 name: ImAstro astrocyte (Primate)
 def: "A astrocyte of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ImAstro." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "ImAstro" EXACT []
-is_a: CL:0000127 ! astrocyte
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160030 ! Astrocyte astrocyte (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.7", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160917
 property_value: IAO:0000028 "ImAstro (Primate)" xsd:string
@@ -70735,7 +70686,7 @@ name: ImOligo immune oligodendroglia (Primate)
 def: "A immune oligodendroglia of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ImOligo." [https://doi.org/10.1038/s41586-019-0903-2, https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "ImOligo" EXACT []
 is_a: CL:4042031 ! immune oligodendroglia
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160052 ! Oligodendrocyte oligodendrocyte (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.4", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160918
@@ -70749,7 +70700,7 @@ name: Microglia microglial cell (Primate)
 def: "A microglial cell of the Primates brain. These cells are located in the striatum, external segment of globus pallidus, substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Microglia." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Microglia" EXACT []
 is_a: CL:0000129 ! microglial cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160018 ! Immune mononuclear leukocyte (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:12251 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
@@ -70764,7 +70715,7 @@ name: Monocyte monocyte (Primate)
 def: "A monocyte of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Monocyte." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Monocyte" EXACT []
 is_a: CL:0000576 ! monocyte
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160018 ! Immune mononuclear leukocyte (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160922
@@ -70778,7 +70729,7 @@ name: OPC oligodendrocyte precursor cell (Primate)
 def: "A oligodendrocyte precursor cell of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OPC." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.add7046]
 synonym: "OPC" EXACT []
 is_a: CL:0002453 ! oligodendrocyte precursor cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160020 ! OPC-Oligo neuron associated cell (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160923
@@ -70791,8 +70742,7 @@ id: PCL:0160115
 name: Oligo OPALIN oligodendrocyte (Primate)
 def: "A oligodendrocyte of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Oligo OPALIN." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.add7046]
 synonym: "Oligo OPALIN" EXACT []
-is_a: CL:0000128 ! oligodendrocyte
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160052 ! Oligodendrocyte oligodendrocyte (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160925
@@ -70805,8 +70755,7 @@ id: PCL:0160116
 name: Oligo PLEKHG1 oligodendrocyte (Primate)
 def: "A oligodendrocyte of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Oligo PLEKHG1." [https://doi.org/10.1038/s41586-023-06812-z, https://doi.org/10.1126/science.add7046]
 synonym: "Oligo PLEKHG1" EXACT []
-is_a: CL:0000128 ! oligodendrocyte
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160052 ! Oligodendrocyte oligodendrocyte (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.3", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160926
@@ -70820,7 +70769,7 @@ name: Pericyte pericyte (Primate)
 def: "A pericyte of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Pericyte." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Pericyte" EXACT []
 is_a: CL:0000669 ! pericyte
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160021 ! Vascular connective tissue cell (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.7", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160927
 property_value: IAO:0000028 "Pericyte (Primate)" xsd:string
@@ -70833,7 +70782,7 @@ name: SMC smooth muscle cell (Primate)
 def: "A smooth muscle cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SMC." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "SMC" EXACT []
 is_a: CL:0000192 ! smooth muscle cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160021 ! Vascular connective tissue cell (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160928
 property_value: IAO:0000028 "SMC (Primate)" xsd:string
@@ -70845,8 +70794,7 @@ id: PCL:0160129
 name: Astrocyte astrocyte (Primate)
 def: "A astrocyte of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Astrocyte." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "Astrocyte" EXACT []
-is_a: CL:0000127 ! astrocyte
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160030 ! Astrocyte astrocyte (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160939
@@ -70860,7 +70808,7 @@ name: T cells T cell (Primate)
 def: "A T cell of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:T cells." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "T cells" EXACT []
 is_a: CL:0000084 ! T cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160045 ! Lymphocyte lymphocyte (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.4", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160959
@@ -70874,7 +70822,7 @@ name: VLMC vascular leptomeningeal cell (Primate)
 def: "A vascular leptomeningeal cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:VLMC." [https://doi.org/10.1038/s41586-023-06812-z]
 synonym: "VLMC" EXACT []
 is_a: CL:4023051 ! vascular leptomeningeal cell
-relationship: RO:0002162 NCBITaxon:9443 ! in taxon Primates
+is_a: PCL:0160021 ! Vascular connective tissue cell (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010003 PCL:0160962
 property_value: IAO:0000028 "VLMC (Primate)" xsd:string

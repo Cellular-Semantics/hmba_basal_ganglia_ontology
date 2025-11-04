@@ -24,7 +24,7 @@ PCL_BASE = 'http://purl.obolibrary.org/obo/PCL_'
 CL_BASE = 'http://purl.obolibrary.org/obo/CL_'
 CLM_BASE = 'http://purl.obolibrary.org/obo/CLM_'
 PCL_INDV_BASE = 'http://purl.obolibrary.org/obo/pcl/'
-BICAN_INDV_BASE = 'https://purl.brain-bican.org/taxonomy/CCN20250428/'
+BICAN_INDV_BASE = 'https://purl.brain-bican.org/ontology/CCN20250428/'
 
 PCL_PREFIX = 'PCL:'
 

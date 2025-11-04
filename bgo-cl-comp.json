@@ -28,146 +28,6 @@
           "sub": "http://purl.obolibrary.org/obo/CLM_5050525"
         },
         {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310083"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310088"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310094"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310100"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310109"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310110"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310111"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310112"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310113"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310114"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310115"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310117"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310121"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310125"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310126"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310128"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310135"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310143"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310144"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310145"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310146"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310147"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310148"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_0000617",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310094"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_0000617",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310113"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_0000617",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310147"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_0000617",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310148"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_0000700",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310111"
-        },
-        {
           "obj": "http://purl.obolibrary.org/obo/CL_0011005",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310083"
@@ -258,11 +118,6 @@
           "sub": "http://purl.obolibrary.org/obo/CL_4310093"
         },
         {
-          "obj": "http://purl.obolibrary.org/obo/CL_4023035",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310133"
-        },
-        {
           "obj": "http://purl.obolibrary.org/obo/CL_4023121",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310123"
@@ -286,11 +141,6 @@
           "obj": "http://purl.obolibrary.org/obo/CL_4030049",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310134"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_4030050",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310131"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CL_4030051",
@@ -338,16 +188,6 @@
           "sub": "http://purl.obolibrary.org/obo/CL_4310120"
         },
         {
-          "obj": "http://purl.obolibrary.org/obo/CL_4042025",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310109"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_4042025",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310115"
-        },
-        {
           "obj": "http://purl.obolibrary.org/obo/CL_4042040",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310088"
@@ -356,221 +196,6 @@
           "obj": "http://purl.obolibrary.org/obo/CL_4042040",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310144"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310083"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310084"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310085"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310088"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310093"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310094"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310095"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310100"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310104"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310109"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310110"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310111"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310112"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310113"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310114"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310115"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310117"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310118"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310120"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310121"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310122"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310123"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310124"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310125"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310126"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310127"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310128"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310129"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310130"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310131"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310132"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310133"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310134"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310135"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310136"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310137"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310138"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310143"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310144"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310145"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310146"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310147"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
-          "pred": "http://purl.obolibrary.org/obo/RO_0002162",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310148"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/PCL_0010001",
@@ -11424,11 +11049,6 @@
           "type": "PROPERTY"
         },
         {
-          "id": "http://purl.obolibrary.org/obo/RO_0002162",
-          "propertyType": "OBJECT",
-          "type": "PROPERTY"
-        },
-        {
           "id": "http://purl.obolibrary.org/obo/RO_0015001",
           "propertyType": "OBJECT",
           "type": "PROPERTY"
@@ -11559,19 +11179,7 @@
           "type": "PROPERTY"
         },
         {
-          "id": "http://purl.obolibrary.org/obo/BFO_0000002",
-          "type": "CLASS"
-        },
-        {
           "id": "http://purl.obolibrary.org/obo/CL_0000000",
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/CL_0000617",
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/CL_0000700",
           "type": "CLASS"
         },
         {
@@ -11619,10 +11227,6 @@
           "type": "CLASS"
         },
         {
-          "id": "http://purl.obolibrary.org/obo/CL_4030050",
-          "type": "CLASS"
-        },
-        {
           "id": "http://purl.obolibrary.org/obo/CL_4030051",
           "type": "CLASS"
         },
@@ -11651,19 +11255,11 @@
           "type": "CLASS"
         },
         {
-          "id": "http://purl.obolibrary.org/obo/CL_4042025",
-          "type": "CLASS"
-        },
-        {
           "id": "http://purl.obolibrary.org/obo/CL_4042040",
           "type": "CLASS"
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310096",
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
           "type": "CLASS"
         },
         {
@@ -11897,178 +11493,6 @@
         {
           "id": "http://purl.obolibrary.org/obo/SO_0001260",
           "type": "CLASS"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0003",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0004",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0005",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0008",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0013",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0014",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0015",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0020",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0024",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0029",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0030",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0031",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0032",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0033",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0034",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0035",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0037",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0038",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0040",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0041",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0042",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0043",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0044",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0045",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0046",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0047",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0048",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0049",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0050",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0051",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0052",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0053",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0054",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0055",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0056",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0057",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0058",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0063",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0064",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0065",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0066",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0067",
-          "type": "INDIVIDUAL"
-        },
-        {
-          "id": "https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0068",
-          "type": "INDIVIDUAL"
         }
       ]
     }

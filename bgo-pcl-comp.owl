@@ -1802,23 +1802,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0003"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0003"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0003"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -1877,22 +1871,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0004"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0004"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023011"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0004"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -1945,22 +1934,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0005"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0005"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042013"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0005"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -2013,23 +1997,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0008"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0008"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042040"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0008"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -2088,22 +2066,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0013"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0013"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023035"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0013"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -2163,23 +2136,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0014"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0014"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0014"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -2239,22 +2205,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0015"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0015"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0020003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0015"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10344"/>
@@ -2324,23 +2285,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0020"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0020"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0020"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -2399,22 +2354,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0024"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0024"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030053"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0024"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -2468,23 +2418,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0029"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0029"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042025"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0029"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
@@ -2536,23 +2479,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0030"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0030"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160056"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0030"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -2611,23 +2548,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0031"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0031"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000700"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0031"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -2688,23 +2618,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0032"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0032"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160046"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0032"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0032"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
@@ -2757,23 +2681,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0033"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0033"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160046"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0033"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
@@ -2826,23 +2743,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0034"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0034"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160056"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0034"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -2910,23 +2821,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0035"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0035"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042025"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0035"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
@@ -2978,23 +2882,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0037"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0037"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160046"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0037"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
@@ -3044,22 +2942,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0038"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0038"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0038"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10466"/>
@@ -3109,22 +3002,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0040"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0040"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160038"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0040"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3178,23 +3066,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0041"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0041"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160061"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0041"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3244,22 +3126,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0042"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0042"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023017"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0042"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3310,22 +3187,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0043"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0043"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023121"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0043"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0043"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3379,22 +3251,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0044"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0044"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023017"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160061"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0044"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3444,23 +3311,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0045"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0045"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160038"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0045"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3513,23 +3374,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0046"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0046"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160038"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0046"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3579,22 +3434,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0047"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0047"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023016"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0047"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3648,23 +3498,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0048"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0048"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0048"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0048"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3714,22 +3558,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0049"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0049"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030043"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160058"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0049"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3782,22 +3621,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0050"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0050"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030048"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160058"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0050"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3850,22 +3684,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0051"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0051"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030050"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160060"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0051"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3918,22 +3746,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0052"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0052"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030047"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160059"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0052"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -3986,22 +3809,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0053"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0053"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023035"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160059"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0053"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4051,22 +3868,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0054"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0054"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030049"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160059"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0054"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4119,23 +3931,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0055"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0055"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0055"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4185,22 +3991,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0056"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0056"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030051"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160058"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0056"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4253,22 +4054,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0057"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0057"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160060"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0057"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0057"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4321,22 +4117,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0058"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0058"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030052"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160059"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0058"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4389,23 +4180,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0063"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0063"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160067"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0063"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
@@ -4455,23 +4240,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0064"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0064"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042040"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0064"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4541,23 +4320,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0065"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0065"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160067"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0065"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4607,23 +4380,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0066"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0066"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160067"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0066"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4673,23 +4440,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0067"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0067"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160066"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0067"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0067"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4739,23 +4499,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0068"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0068"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160066"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0068"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -4825,7 +4578,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0000"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0000"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4841,7 +4594,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0000"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>Glut Sero Dopa (Primate)</obo:IAO_0000028>
@@ -4882,7 +4635,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0001"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0001"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4897,7 +4650,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0001"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>Nonneuron (Primate)</obo:IAO_0000028>
@@ -4938,7 +4691,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4954,7 +4707,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>Subpallium GABA (Primate)</obo:IAO_0000028>
@@ -4995,22 +4748,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0000"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0000"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0000"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>Astro-Epen (Primate)</obo:IAO_0000028>
@@ -5051,23 +4799,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0001"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0001"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0001"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CN CGE GABA (Primate)</obo:IAO_0000028>
@@ -5108,23 +4849,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CN LGE GABA (Primate)</obo:IAO_0000028>
@@ -5165,23 +4899,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CN MGE GABA (Primate)</obo:IAO_0000028>
@@ -5222,23 +4949,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>F M GABA (Primate)</obo:IAO_0000028>
@@ -5279,23 +4999,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0007"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0007"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000700"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0007"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>F M Glut (Primate)</obo:IAO_0000028>
@@ -5336,22 +5049,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000842"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>Immune (Primate)</obo:IAO_0000028>
@@ -5392,22 +5100,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0010"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0010"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000095"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0010"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>OPC-Oligo (Primate)</obo:IAO_0000028>
@@ -5448,22 +5151,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002320"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>Vascular (Primate)</obo:IAO_0000028>
@@ -5504,22 +5202,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0000"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0000"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000127"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0000"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>Astrocyte (Primate)</obo:IAO_0000028>
@@ -5560,23 +5253,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0001"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0001"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0001"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CN Cholinergic GABA (Primate)</obo:IAO_0000028>
@@ -5617,23 +5303,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0005"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0005"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0005"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CN LHX8 GABA (Primate)</obo:IAO_0000028>
@@ -5674,23 +5353,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0008"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0008"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0008"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CN ST18 GABA (Primate)</obo:IAO_0000028>
@@ -5731,23 +5403,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0013"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0013"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000700"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160017"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0013"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>F Glut (Primate)</obo:IAO_0000028>
@@ -5788,22 +5453,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0015"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0015"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000542"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0015"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>Lymphocyte (Primate)</obo:IAO_0000028>
@@ -5844,23 +5504,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0016"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0016"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0016"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>F M GATA3 GABA (Primate)</obo:IAO_0000028>
@@ -5901,22 +5554,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0022"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0022"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000128"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160020"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0022"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>Oligodendrocyte (Primate)</obo:IAO_0000028>
@@ -5957,23 +5605,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0025"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0025"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042025"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0025"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>M Dopa (Primate)</obo:IAO_0000028>
@@ -6014,23 +5656,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0026"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0026"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0026"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>SN PAX7 GABA (Primate)</obo:IAO_0000028>
@@ -6071,22 +5706,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0028"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0028"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023026"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0028"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>STR D1 MSN (Primate)</obo:IAO_0000028>
@@ -6127,22 +5757,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023029"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>STR D2 MSN (Primate)</obo:IAO_0000028>
@@ -6183,22 +5808,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0030"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0030"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030050"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0030"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>STR Hybrid MSN (Primate)</obo:IAO_0000028>
@@ -6239,23 +5859,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0031"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0031"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0031"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>STR RSPO2 GABA (Primate)</obo:IAO_0000028>
@@ -6296,23 +5909,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0036"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0036"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0036"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>ACx MEIS2 GABA (Primate)</obo:IAO_0000028>
@@ -6354,23 +5960,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0037"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0037"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0037"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>F GABA (Primate)</obo:IAO_0000028>
@@ -6411,22 +6010,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0000"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0000"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160045"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0000"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -6477,22 +6071,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0001"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0001"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0001"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -6569,22 +6158,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0009"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0009"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023059"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160020"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0009"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -6645,22 +6229,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0011"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0011"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0011"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -6720,22 +6299,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0012"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0012"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000065"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0012"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -6802,7 +6376,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0016"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0016"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -6817,7 +6391,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0016"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -6898,22 +6472,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0017"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0017"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000127"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0017"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -6964,22 +6532,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0018"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0018"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042031"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0018"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -7040,22 +6603,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0019"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0019"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000129"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0019"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -7124,22 +6682,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0022"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0022"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0022"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -7199,22 +6752,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0023"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0023"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160020"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0023"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -7283,22 +6831,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0025"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0025"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000128"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0025"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -7359,22 +6901,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0026"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0026"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000128"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0026"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -7435,22 +6971,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0027"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0027"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000669"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0027"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -7501,22 +7032,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0028"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0028"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000192"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0028"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -7567,22 +7093,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0039"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0039"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000127"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0039"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -7666,22 +7186,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0059"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0059"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000084"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160045"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0059"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -7741,22 +7256,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0062"/>
+                        <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0062"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023051"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0062"/>
+                <owl:hasValue rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
@@ -8275,537 +7785,537 @@
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0000 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0000 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0000"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0000"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0001 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0001 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0001"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0001"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0003"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0003"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0005"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0005"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0006"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0006"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0007 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0007 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0007"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0007"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0008"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0008"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0010 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0010 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0010"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0010"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_CLASS_0011"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_CLASS_0011"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0000 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0000 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0000"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0000"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0001 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0001 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0001"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0001"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0003 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0003 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0003"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0003"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0004 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0004 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0004"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0004"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0005 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0005 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0005"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0005"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0008 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0008 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0008"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0008"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0009 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0009 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0009"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0009"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0011 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0011 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0011"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0011"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0012 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0012 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0012"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0012"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0013 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0013 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0013"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0013"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0014 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0014 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0014"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0014"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0015 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0015 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0015"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0015"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0016 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0016 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0016"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0016"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0017 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0017 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0017"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0017"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0018 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0018 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0018"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0018"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0019 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0019 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0019"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0019"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0020 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0020 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0020"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0020"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0022 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0022 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0022"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0022"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0023 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0023 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0023"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0023"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0024 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0024 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0024"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0024"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0025 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0025 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0025"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0025"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0026 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0026 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0026"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0026"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0027 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0027 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0027"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0027"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0028 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0028 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0028"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0028"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0029 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0029 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0029"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0029"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0030 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0030 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0030"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0030"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0031 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0031 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0031"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0031"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0032 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0032 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0032"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0032"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0033 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0033 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0033"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0033"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0034 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0034 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0034"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0034"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0035 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0035 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0035"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0035"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0037 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0037 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0037"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0037"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0038 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0038 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0038"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0038"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0039 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0039 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0039"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0039"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0040 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0040 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0040"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0040"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0041 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0041 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0041"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0041"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0042 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0042 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0042"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0042"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0043 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0043 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0043"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0043"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0044 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0044 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0044"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0044"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0045 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0045 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0045"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0045"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0046 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0046 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0046"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0046"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0047 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0047 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0047"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0047"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0048 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0048 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0048"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0048"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0049 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0049 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0049"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0049"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0050 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0050 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0050"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0050"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0051 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0051 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0051"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0051"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0052 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0052 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0052"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0052"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0053 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0053 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0053"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0053"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0054 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0054 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0054"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0054"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0055 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0055 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0055"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0055"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0056 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0056 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0056"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0056"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0057 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0057 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0057"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0057"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0058 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0058 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0058"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0058"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0059 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0059 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0059"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0059"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0062 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0062 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0062"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0062"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0063 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0063 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0063"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0063"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0064 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0064 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0064"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0064"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0065 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0065 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0065"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0065"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0066 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0066 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0066"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0066"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0067 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0067 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0067"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0067"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0068 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0068 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_GROUP_0068"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0068"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0000 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0000 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0000"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0000"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0001 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0001 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0001"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0001"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_NEIGH_0002"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_NEIGH_0002"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0000 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0000 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0000"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0000"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0001 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0001 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0001"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0001"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0005 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0005 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0005"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0005"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0008 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0008 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0008"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0008"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0013 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0013 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0013"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0013"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0015 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0015 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0015"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0015"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0016 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0016 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0016"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0016"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0022 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0022 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0022"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0022"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0025 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0025 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0025"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0025"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0026 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0026 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0026"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0026"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0028 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0028 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0028"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0028"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0029"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0029"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0030 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0030 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0030"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0030"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0031 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0031 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0031"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0031"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0036 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0036 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0036"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0036"/>
     
 
 
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0037 -->
+    <!-- https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0037 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/taxonomy/CCN20250428/CS20250428_SUBCL_0037"/>
+    <owl:NamedIndividual rdf:about="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_SUBCL_0037"/>
 </rdf:RDF>
 
 
