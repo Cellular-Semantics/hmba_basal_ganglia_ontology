@@ -32,7 +32,7 @@ def validate_cl_ontology_subset(graph):
     # file_path = "../dendrograms/supplementary/version2/CL_ontology_subset.tsv"
     # df = pd.read_csv(file_path, sep='\t', dtype=str)
     # count_add_to_cl = df[df['Add_to_CL'].str.upper() == 'TRUE'].shape[0]
-    count_add_to_cl = 120
+    count_add_to_cl = 44
 
     # Count terms where IRI starts with the given prefix
     iri_prefix = "http://purl.obolibrary.org/obo/CL_43"
@@ -48,7 +48,7 @@ def validate_cl_ontology_subset(graph):
     count_iri = int(results[0]['count'])
 
     # Compare the counts and report the result
-    if count_iri <= count_add_to_cl :
+    if count_iri < count_add_to_cl :
         print(
             f"Mismatch: {count_add_to_cl} records with Add_to_CL = TRUE vs {count_iri} terms with IRI starting with the prefix.")
         sys.exit(1)

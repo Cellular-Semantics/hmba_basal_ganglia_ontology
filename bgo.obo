@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2025-10-29
+data-version: pcl/releases/2025-11-04
 idspace: CCN20230722 https://purl.brain-bican.org/taxonomy/CCN20230722# 
 idspace: CL https://purl.brain-bican.org/taxonomy/CCN20230722#CL: 
 idspace: dce http://purl.org/dc/elements/1.1/ 
@@ -15,7 +15,7 @@ property_value: IAO:0000700 PCL:0160000
 property_value: IAO:0000700 PCL:0160001
 property_value: IAO:0000700 PCL:0160002
 property_value: IAO:0000700 PCL:0160106
-property_value: owl:versionInfo "2025-10-29" xsd:string
+property_value: owl:versionInfo "2025-11-04" xsd:string
 
 [Term]
 id: BFO:0000002
