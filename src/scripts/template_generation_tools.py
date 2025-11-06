@@ -293,7 +293,8 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                 d['Cluster_IDs'] = cluster_id
                 d['Labelset'] = node['labelset'].capitalize()
                 d['Dataset_url'] = "https://purl.brain-bican.org/taxonomy/CCN20230722"
-                reference_paper = "https://doi.org/10.1038/s41586-023-06812-z"
+                # TODO: add a proper publication when it is published
+                reference_paper = "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/"
                 if node.get('rationale'):
                     d["Rationale_comment"] = "Rationale for assigning this type to reference data: " + node.get('rationale').strip()
 
@@ -305,7 +306,7 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                     d["Alias_citations"] = "|".join(alias_citations)
                 else:
                     d["Alias_citations"] = reference_paper
-                d["Short_form_citation"] = "XYZ et al. (2023), Basal Ganglia Consensus"
+                d["Short_form_citation"] = "HMBA Basal Ganglia Consensus Taxonomy"
                 if node.get('parent_cell_set_accession'):
                     d['Parent_label'] = all_pref_labels[node['parent_cell_set_accession']]
                 if not node["author_annotation_fields"]:
