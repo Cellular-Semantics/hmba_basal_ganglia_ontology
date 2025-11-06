@@ -28,9 +28,9 @@
         "val" : "DRAFT Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-11-04"
+        "val" : "2025-11-06"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-11-04/bgo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-11-06/bgo-base.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ncbigene/10716",
@@ -593,6 +593,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPin-BF Cholinergic GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "GPin-BF Cholinergic GABA"
@@ -623,6 +624,7 @@
           "val" : "A lamp5 GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:LAMP5-CXCL14 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN LAMP5-CXCL14 GABA"
@@ -659,6 +661,7 @@
           "val" : "A Lamp5 Lhx6 neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:LAMP5-LHX6 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN LAMP5-LHX6 GABA"
@@ -695,6 +698,7 @@
           "val" : "A glutamatergic neuron of the basal ganglia of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:BF SKOR1 Glut.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "BF SKOR1 Glut"
@@ -725,6 +729,7 @@
           "val" : "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPe MEIS2-SOX6 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN MEIS2 GABA"
@@ -758,6 +763,7 @@
           "val" : "A GABAergic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPe SOX6-CTXND1 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "GPe SOX6-CTXND1 GABA"
@@ -791,7 +797,7 @@
           "val" : "A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Core.",
           "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1523/ENEURO.0208-22.2022" ]
         },
-        "comments" : [ "Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb." ],
+        "comments" : [ "Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN ONECUT1 GABA"
@@ -828,6 +834,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPe-NDB-SI LHX6-LHX8-GBX1 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "GPe-NDB-SI LHX6-LHX8-GBX1 GABA"
@@ -858,6 +865,7 @@
           "val" : "A Island of Calleja granule cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OT D1 ICj.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "D1-ICj (Islands of Calleja)"
@@ -894,6 +902,7 @@
           "val" : "A substantia nigra dopaminergic neuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR CALB1 Dopa.",
           "xrefs" : [ "https://doi.org/10.1038/s41467-020-17876-0", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN-VTR CALB1 Dopa"
@@ -924,6 +933,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN EBF2 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN EBF2 GABA"
@@ -954,6 +964,7 @@
           "val" : "A dopaminergic neuron of the Primates brain. These cells are located in the striatum, substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR GAD2 Dopa.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1101/2024.06.06.597807" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN-VTR GAD2 Dopa"
@@ -987,6 +998,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN GATA3-PAX8 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.3389/fnins.2022.976209" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN GATA3-PAX8 GABA"
@@ -1020,6 +1032,7 @@
           "val" : "A GABAergic neuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN GATA3-PVALB GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.3389/fnins.2022.976209" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN GATA3-PVALB GABA"
@@ -1053,6 +1066,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, subthalamic nucleus, substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN SEMA5A GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN SEMA5A GABA"
@@ -1086,6 +1100,7 @@
           "val" : "A substantia nigra dopaminergic neuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN SOX6 Dopa.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1038/s41593-022-01061-1" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN SOX6 Dopa"
@@ -1116,6 +1131,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SN-VTR-HTH GATA3-TCF7L2 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN-VTR-HTH GATA3-TCF7L2 GABA"
@@ -1143,6 +1159,7 @@
           "val" : "A striatal pthlh-expressing interneuron of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STH PVALB-PITX2 Glut.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STH PVALB-PITX2 Glut"
@@ -1170,6 +1187,7 @@
           "val" : "A striatal pthlh-expressing interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR FS PTHLH-PVALB GABA.",
           "xrefs" : [ "https://doi.org/10.1016/j.celrep.2018.07.053", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "FS"
@@ -1206,6 +1224,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR LYPD6-RSPO2 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR LYPD6-RSPO2 GABA"
@@ -1233,6 +1252,7 @@
           "val" : "A sst GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR SST-ADARB2 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR SST GABA"
@@ -1263,6 +1283,7 @@
           "val" : "A sst chodl GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR SST-CHODL GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-020-2874-8", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "LTS"
@@ -1299,6 +1320,7 @@
           "val" : "A sst GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR SST-RSPO2 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR SST-RSPO2 GABA"
@@ -1326,6 +1348,7 @@
           "val" : "A TAC3-positive striatal interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR TAC3-PLPP4 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-020-2874-8", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "LHX6 TAC3"
@@ -1359,6 +1382,7 @@
           "val" : "A TAC3-positive striatal interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR-BF TAC3-PLPP4-LHX8 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR-BF TAC3-PLPP4-LHX8 GABA"
@@ -1386,6 +1410,7 @@
           "val" : "A VIP GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:VIP GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-020-2874-8", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN VIP GABA"
@@ -1422,6 +1447,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd Cholinergic GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STRd Cholinergic GABA"
@@ -1449,6 +1475,7 @@
           "val" : "A matrix D1 medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D1 Matrix MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "D1-Matrix"
@@ -1482,6 +1509,7 @@
           "val" : "A striosomal D1 medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D1 Striosome MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "D1-Striosome"
@@ -1515,6 +1543,7 @@
           "val" : "A D1/D2-hybrid medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR D1D2 Hybrid MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "D1/D2 Hybrid"
@@ -1548,6 +1577,7 @@
           "val" : "A matrix D2 medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D2 Matrix MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "D2-Matrix"
@@ -1581,6 +1611,7 @@
           "val" : "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D2 StrioMat Hybrid MSN.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STRd D2 StrioMat Hybrid MSN"
@@ -1608,6 +1639,7 @@
           "val" : "A striosomal D2 medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRd D2 Striosome MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "D2-Striosome"
@@ -1641,6 +1673,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STR Cholinergic GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR Cholinergic GABA"
@@ -1668,6 +1701,7 @@
           "val" : "A nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D1 MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "D1-Shell/OT"
@@ -1694,13 +1728,14 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310137",
-      "lbl" : "STRv D1 NUDAP MSN RXFP1-positive interface island D1-medium spiny neuron (Primate)",
+      "lbl" : "STRv D1 NUDAP MSN D1-NUDAP medium spiny neuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A RXFP1-positive interface island D1-medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D1 NUDAP MSN.",
+          "val" : "A D1-NUDAP medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D1 NUDAP MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "D1-NUDAP"
@@ -1734,6 +1769,7 @@
           "val" : "A nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:STRv D2 MSN.",
           "xrefs" : [ "https://doi.org/10.1016/j.cub.2021.10.015", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "D2-Shell/OT"
@@ -1767,6 +1803,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ZI-HTH GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "ZI-HTH GABA"
@@ -1794,6 +1831,7 @@
           "val" : "A glutamatergic neuron of the basal ganglia of the Primates brain. These cells are located in the striatum, subthalamic nucleus, substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:VTR-HTH Glut.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F M Glut"
@@ -1833,6 +1871,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:AMY-SLEA-BNST D1 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "AMY-SLEA-BNST D1 GABA"
@@ -1860,6 +1899,7 @@
           "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:AMY-SLEA-BNST GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "AMY-SLEA-BNST GABA"
@@ -1887,6 +1927,7 @@
           "val" : "A GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OB Dopa-GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "OB Dopa-GABA"
@@ -1914,6 +1955,7 @@
           "val" : "A GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OB FRMD7 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "OB FRMD7 GABA"
@@ -1950,6 +1992,7 @@
           "val" : "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Glut Sero Dopa.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Glut Sero Dopa"
@@ -1974,6 +2017,7 @@
           "val" : "A cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Nonneuron.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Nonneuron"
@@ -1998,6 +2042,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Neighborhood:Subpallium GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Subpallium GABA"
@@ -2022,6 +2067,7 @@
           "val" : "A glial cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Astro-Epen.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Astro-Epen"
@@ -2046,6 +2092,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:CN CGE GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN CGE GABA"
@@ -2070,6 +2117,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:CN LGE GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN LGE GABA"
@@ -2094,6 +2142,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:CN MGE GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN MGE GABA"
@@ -2118,6 +2167,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:F M GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F M GABA"
@@ -2142,6 +2192,7 @@
           "val" : "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:F M Glut.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F M Glut"
@@ -2166,6 +2217,7 @@
           "val" : "A mononuclear leukocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Immune.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Immune"
@@ -2190,6 +2242,7 @@
           "val" : "A neuron associated cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:OPC-Oligo.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "OPC-Oligo"
@@ -2214,6 +2267,7 @@
           "val" : "A connective tissue cell of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Class:Vascular.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Vascular"
@@ -2238,6 +2292,7 @@
           "val" : "A astrocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Astrocyte.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Astrocyte"
@@ -2262,6 +2317,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:CN Cholinergic GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN Cholinergic GABA"
@@ -2286,6 +2342,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:CN LHX8 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN LHX8 GABA"
@@ -2310,6 +2367,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:CN ST18 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN ST18 GABA"
@@ -2334,6 +2392,7 @@
           "val" : "A dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:F Glut.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F Glut"
@@ -2358,6 +2417,7 @@
           "val" : "A lymphocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Lymphocyte.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Lymphocyte"
@@ -2382,6 +2442,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:F M GATA3 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F M GATA3 GABA"
@@ -2406,6 +2467,7 @@
           "val" : "A oligodendrocyte of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:Oligodendrocyte.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Oligodendrocyte"
@@ -2430,6 +2492,7 @@
           "val" : "A substantia nigra dopaminergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:M Dopa.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "M Dopa"
@@ -2454,6 +2517,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:SN PAX7 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SN PAX7 GABA"
@@ -2478,6 +2542,7 @@
           "val" : "A direct pathway medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR D1 MSN.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR D1 MSN"
@@ -2502,6 +2567,7 @@
           "val" : "A indirect pathway medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR D2 MSN.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR D2 MSN"
@@ -2526,6 +2592,7 @@
           "val" : "A D1/D2-hybrid medium spiny neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR Hybrid MSN.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR Hybrid MSN"
@@ -2550,6 +2617,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:STR RSPO2 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "STR RSPO2 GABA"
@@ -2574,6 +2642,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:ACx MEIS2 GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "ACx MEIS2 GABA"
@@ -2601,6 +2670,7 @@
           "val" : "A GABAergic neuron of the Primates brain. Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Subclass:F GABA.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "F GABA"
@@ -2625,6 +2695,7 @@
           "val" : "A B cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:B cells.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "B cells"
@@ -2655,6 +2726,7 @@
           "val" : "A border associated macrophage of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:BAM.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "BAM"
@@ -2697,6 +2769,7 @@
           "val" : "A committed oligodendrocyte precursor of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:COP.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1126/science.aaf6463" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "COP"
@@ -2730,6 +2803,7 @@
           "val" : "A endothelial cell of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Endo.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Endo"
@@ -2763,6 +2837,7 @@
           "val" : "A ependymal cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Ependymal.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Ependymal"
@@ -2799,7 +2874,7 @@
           "val" : "A internal globus pallidus shell projection neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus, internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:GPi Shell.",
           "xrefs" : [ "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1523/ENEURO.0208-22.2022" ]
         },
-        "comments" : [ "Rationale for assigning this type to reference data: Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression." ],
+        "comments" : [ "Rationale for assigning this type to reference data: Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN GABA-Glut"
@@ -2842,6 +2917,7 @@
           "val" : "A astrocyte of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ImAstro.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "ImAstro"
@@ -2872,6 +2948,7 @@
           "val" : "A immune oligodendroglia of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:ImOligo.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-019-0903-2", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "ImOligo"
@@ -2905,6 +2982,7 @@
           "val" : "A microglial cell of the Primates brain. These cells are located in the striatum, external segment of globus pallidus, substantia nigra . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Microglia.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Microglia"
@@ -2941,6 +3019,7 @@
           "val" : "A monocyte of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Monocyte.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Monocyte"
@@ -2974,6 +3053,7 @@
           "val" : "A oligodendrocyte precursor cell of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:OPC.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1126/science.add7046" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "OPC"
@@ -3010,6 +3090,7 @@
           "val" : "A oligodendrocyte of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Oligo OPALIN.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1126/science.add7046" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Oligo OPALIN"
@@ -3043,6 +3124,7 @@
           "val" : "A oligodendrocyte of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Oligo PLEKHG1.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z", "https://doi.org/10.1126/science.add7046" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Oligo PLEKHG1"
@@ -3076,6 +3158,7 @@
           "val" : "A pericyte of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Pericyte.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Pericyte"
@@ -3106,6 +3189,7 @@
           "val" : "A smooth muscle cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:SMC.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "SMC"
@@ -3136,6 +3220,7 @@
           "val" : "A astrocyte of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:Astrocyte.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Astrocyte"
@@ -3178,6 +3263,7 @@
           "val" : "A T cell of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:T cells.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "T cells"
@@ -3211,6 +3297,7 @@
           "val" : "A vascular leptomeningeal cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - XYZ et al. (2023), Basal Ganglia Consensus in cell set Group:VLMC.",
           "xrefs" : [ "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
+        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "VLMC"
