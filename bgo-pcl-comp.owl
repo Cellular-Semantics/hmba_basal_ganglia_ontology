@@ -11,7 +11,7 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/bgo-pcl-comp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2025-11-06/bgo-pcl-comp.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2025-11-13/bgo-pcl-comp.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160000"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160001"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160002"/>
@@ -20,7 +20,7 @@
         <dcterms:description>HMBA basal ganglia consensus taxonomy</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>DRAFT Basal Ganglia Ontology</dcterms:title>
-        <owl:versionInfo>2025-11-06</owl:versionInfo>
+        <owl:versionInfo>2025-11-13</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -409,6 +409,15 @@
     
 
 
+    <!-- http://identifiers.org/ncbigene/2571 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/2571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:label>GAD1</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://identifiers.org/ncbigene/2572 -->
 
     <owl:Class rdf:about="http://identifiers.org/ncbigene/2572">
@@ -526,6 +535,15 @@
     
 
 
+    <!-- http://identifiers.org/ncbigene/4212 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/4212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:label>MEIS2</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://identifiers.org/ncbigene/4360 -->
 
     <owl:Class rdf:about="http://identifiers.org/ncbigene/4360">
@@ -540,6 +558,15 @@
     <owl:Class rdf:about="http://identifiers.org/ncbigene/4852">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:label>NPY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/ncbigene/4861 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/4861">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:label>NPAS1</rdfs:label>
     </owl:Class>
     
 
@@ -769,6 +796,15 @@
     
 
 
+    <!-- http://identifiers.org/ncbigene/93986 -->
+
+    <owl:Class rdf:about="http://identifiers.org/ncbigene/93986">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:label>FOXP2</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://identifiers.org/ncbigene/9547 -->
 
     <owl:Class rdf:about="http://identifiers.org/ncbigene/9547">
@@ -850,6 +886,41 @@
         <owl:annotatedTarget>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtTEhYNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAgFMQU1QNQAAAUxIWDYAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUxBTVA1LUxIWDYgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUCAUxBTVA1AAABTEhYNgAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtTEhYNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQIBTEFNUDUAAAFMSFg2AAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFMQU1QNS1MSFg2IEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAgFMQU1QNQAAAUxIWDYAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA</owl:annotatedTarget>
         <rdfs:label>markers in reference data on Allen Brain Cell Atlas</rdfs:label>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLM_5050493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLM_5050493">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/2571"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/2572"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/4212"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/4861"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ncbigene/93986"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label>GAD1, GAD2, FOXP2, MEIS2, NPAS1 (CAS evidence).</rdfs:label>
+    </owl:Class>
     
 
 
@@ -1625,6 +1696,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0008061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0008061"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0011005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011005"/>
@@ -1640,6 +1717,36 @@
     <!-- http://purl.obolibrary.org/obo/CL_0020004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0020004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0020006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0020006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0020007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0020007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0020008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0020008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0020009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0020009"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0020010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0020010"/>
     
 
 
@@ -1670,12 +1777,6 @@
     <!-- http://purl.obolibrary.org/obo/CL_4023029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4023029"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_4023035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4023035"/>
     
 
 
@@ -1807,7 +1908,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0008061"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1818,10 +1919,10 @@
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:IAO_0000028>GPin-BF Cholinergic GABA (Primate)</obo:IAO_0000028>
-        <obo:IAO_0000115>A GABAergic interneuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA.</obo:IAO_0000115>
+        <obo:IAO_0000115>A GABA-Chol neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GPin-BF Cholinergic GABA</oboInOwl:hasExactSynonym>
         <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>GPin-BF Cholinergic GABA GABAergic interneuron (Primate)</rdfs:label>
+        <rdfs:label>GPin-BF Cholinergic GABA GABA-Chol neuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1Bpbi1CRiBDaG9saW5lcmdpYyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUdQaW4tQkYgQ2hvbGluZXJnaWMgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1Bpbi1CRiBDaG9saW5lcmdpYyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGluLUJGIENob2xpbmVyZ2ljIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -1844,7 +1945,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310083"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A GABAergic interneuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA.</owl:annotatedTarget>
+        <owl:annotatedTarget>A GABA-Chol neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -1893,7 +1994,7 @@
         <oboInOwl:hasExactSynonym>LAMP5</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>LAMP5-CXCL14 GABA</oboInOwl:hasExactSynonym>
         <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>LAMP5-CXCL14 GABA lamp5 GABAergic interneuron (Primate)</rdfs:label>
+        <rdfs:label>striatal LAMP5 CXCL14 GABAergic interneuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtQ1hDTDE0IEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtQ1hDTDE0IEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUxBTVA1LUNYQ0wxNCBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFMQU1QNS1DWENMMTQgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -1954,10 +2055,9 @@
         <obo:IAO_0000028>LAMP5-LHX6 GABA (Primate)</obo:IAO_0000028>
         <obo:IAO_0000115>A Lamp5 Lhx6 neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:LAMP5-LHX6 GABA.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CN LAMP5-LHX6 GABA</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>LAMP5</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>LAMP5-LHX6 GABA</oboInOwl:hasExactSynonym>
         <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>LAMP5-LHX6 GABA Lamp5 Lhx6 neuron (Primate)</rdfs:label>
+        <rdfs:label>striatal LAMP5 LHX6 GABAergic interneuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtTEhYNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUxBTVA1LUxIWDYgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtTEhYNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFMQU1QNS1MSFg2IEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -2075,7 +2175,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0020010"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2085,12 +2185,13 @@
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
+        <obo:CLM_0010003 rdf:resource="http://purl.obolibrary.org/obo/CLM_5050493"/>
         <obo:IAO_0000028>GPe MEIS2-SOX6 GABA (Primate)</obo:IAO_0000028>
-        <obo:IAO_0000115>A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA.</obo:IAO_0000115>
+        <obo:IAO_0000115>A arkypallidal neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CN MEIS2 GABA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GPe MEIS2-SOX6 GABA</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>GPe MEIS2-SOX6 GABA lateral ganglionic eminence derived neuron (Primate)</rdfs:label>
+        <rdfs:comment>Rationale for assigning this type to reference data: Mapping to the arkypallidal neuron is based on location (GPe), expression of GAD1/2, FOXP2, MEIS2, and NPAS1 and lack of expression of canonical pallidal markers NKX2-1 and LHX6, SST and PV. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
+        <rdfs:label>GPe MEIS2-SOX6 GABA arkypallidal neuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIE1FSVMyLVNPWDYgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgTUVJUzItU09YNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgTUVJUzItU09YNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgTUVJUzItU09YNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -2113,8 +2214,19 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310093"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA.</owl:annotatedTarget>
+        <owl:annotatedTarget>A arkypallidal neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://doi.org/10.1016/j.neuron.2015.03.007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://doi.org/10.1038/s41593-023-01368-7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://doi.org/10.1523/JNEUROSCI.4662-14.2015</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310093"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Rationale for assigning this type to reference data: Mapping to the arkypallidal neuron is based on location (GPe), expression of GAD1/2, FOXP2, MEIS2, and NPAS1 and lack of expression of canonical pallidal markers NKX2-1 and LHX6, SST and PV. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://doi.org/10.1016/j.neuron.2015.03.007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://doi.org/10.1038/s41593-023-01368-7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://doi.org/10.1523/JNEUROSCI.4662-14.2015</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310093"/>
@@ -2146,6 +2258,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0020009"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2157,10 +2270,10 @@
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010003 rdf:resource="http://purl.obolibrary.org/obo/CLM_5050494"/>
         <obo:IAO_0000028>GPe SOX6-CTXND1 GABA (Primate)</obo:IAO_0000028>
-        <obo:IAO_0000115>A GABAergic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA.</obo:IAO_0000115>
+        <obo:IAO_0000115>A prototypic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GPe SOX6-CTXND1 GABA</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>GPe SOX6-CTXND1 GABA GABAergic neuron (Primate)</rdfs:label>
+        <rdfs:comment>Rationale for assigning this type to reference data: Mapping to the general type of prototypic neuron is based on location (GPe) and expression of Nkx2-1. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
+        <rdfs:label>GPe SOX6-CTXND1 GABA prototypic neuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIFNPWDYtQ1RYTkQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIFNPWDYtQ1RYTkQxIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUdQZSBTT1g2LUNUWE5EMSBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgU09YNi1DVFhORDEgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -2183,8 +2296,15 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310094"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A GABAergic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA.</owl:annotatedTarget>
+        <owl:annotatedTarget>A prototypic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://doi.org/10.1016/j.neuron.2015.03.007</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310094"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Rationale for assigning this type to reference data: Mapping to the general type of prototypic neuron is based on location (GPe) and expression of Nkx2-1. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://doi.org/10.1016/j.neuron.2015.03.007</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310094"/>
@@ -2230,7 +2350,7 @@
         <obo:IAO_0000115>A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPi Core.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CN ONECUT1 GABA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GPi Core</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
+        <rdfs:comment>Rationale for assigning this type to reference data: Mapping to the general GPi core cell type is based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
         <rdfs:label>GPi Core neuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BpIENvcmUAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BpIENvcmUAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUdQaSBDb3JlAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGkgQ29yZQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
@@ -2254,7 +2374,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310095"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
-        <owl:annotatedTarget>Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</owl:annotatedTarget>
+        <owl:annotatedTarget>Rationale for assigning this type to reference data: Mapping to the general GPi core cell type is based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://doi.org/10.1016/j.neuron.2017.03.017</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://doi.org/10.1523/ENEURO.0208-22.2022</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -2999,7 +3119,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4042040"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3009,10 +3129,10 @@
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10466"/>
         <obo:IAO_0000028>STH PVALB-PITX2 Glut (Primate)</obo:IAO_0000028>
-        <obo:IAO_0000115>A striatal pthlh-expressing interneuron of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut.</obo:IAO_0000115>
+        <obo:IAO_0000115>A glutamatergic neuron of the basal ganglia of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>STH PVALB-PITX2 Glut</oboInOwl:hasExactSynonym>
         <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>STH PVALB-PITX2 Glut striatal pthlh-expressing interneuron (Primate)</rdfs:label>
+        <rdfs:label>STH PVALB-PITX2 Glut glutamatergic neuron of the basal ganglia (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RIIFBWQUxCLVBJVFgyIEdsdXQAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RIIFBWQUxCLVBJVFgyIEdsdXQAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUSCBQVkFMQi1QSVRYMiBHbHV0AAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVEggUFZBTEItUElUWDIgR2x1dAAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0000.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -3027,7 +3147,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310118"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A striatal pthlh-expressing interneuron of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut.</owl:annotatedTarget>
+        <owl:annotatedTarget>A glutamatergic neuron of the basal ganglia of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://doi.org/10.1038/s41586-023-06812-z</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -3277,7 +3397,7 @@
         <oboInOwl:hasExactSynonym>STR SST-CHODL GABA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Sst Chodl</oboInOwl:hasExactSynonym>
         <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>STR SST-CHODL GABA sst chodl GABAergic interneuron (Primate)</rdfs:label>
+        <rdfs:label>striatal SST-CHODL GABAergic interneuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIFNTVC1DSE9ETCBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUUiBTU1QtQ0hPREwgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIFNTVC1DSE9ETCBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFIgU1NULUNIT0RMIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -3540,7 +3660,7 @@
         <oboInOwl:hasExactSynonym>VIP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>VIP GABA</oboInOwl:hasExactSynonym>
         <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>VIP GABA VIP GABAergic interneuron (Primate)</rdfs:label>
+        <rdfs:label>striatal VIP GABAergic interneuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBVklQIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBVklQIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVZJUCBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFWSVAgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -3595,7 +3715,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0020007"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3605,10 +3725,10 @@
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:IAO_0000028>STRd Cholinergic GABA (Primate)</obo:IAO_0000028>
-        <obo:IAO_0000115>A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA.</obo:IAO_0000115>
+        <obo:IAO_0000115>A dorso-striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>STRd Cholinergic GABA</oboInOwl:hasExactSynonym>
         <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>STRd Cholinergic GABA GABAergic interneuron (Primate)</rdfs:label>
+        <rdfs:label>STRd Cholinergic GABA dorso-striatal cholinergic-GABAergic neuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSZCBDaG9saW5lcmdpYyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUUmQgQ2hvbGluZXJnaWMgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSZCBDaG9saW5lcmdpYyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFJkIENob2xpbmVyZ2ljIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -3623,7 +3743,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310128"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA.</owl:annotatedTarget>
+        <owl:annotatedTarget>A dorso-striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -3944,10 +4064,10 @@
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:IAO_0000028>STRd D2 StrioMat Hybrid MSN (Primate)</obo:IAO_0000028>
-        <obo:IAO_0000115>A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN.</obo:IAO_0000115>
+        <obo:IAO_0000115>A indirect pathway medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>STRd D2 StrioMat Hybrid MSN</oboInOwl:hasExactSynonym>
         <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>STRd D2 StrioMat Hybrid MSN lateral ganglionic eminence derived neuron (Primate)</rdfs:label>
+        <rdfs:label>STRd D2 StrioMat Hybrid MSN indirect pathway medium spiny neuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSZCBEMiBTdHJpb01hdCBIeWJyaWQgTVNOAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUUmQgRDIgU3RyaW9NYXQgSHlicmlkIE1TTgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSZCBEMiBTdHJpb01hdCBIeWJyaWQgTVNOAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFJkIEQyIFN0cmlvTWF0IEh5YnJpZCBNU04AAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -3962,7 +4082,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310133"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN.</owl:annotatedTarget>
+        <owl:annotatedTarget>A indirect pathway medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -4065,7 +4185,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0020008"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4075,10 +4195,10 @@
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:IAO_0000028>STR Cholinergic GABA (Primate)</obo:IAO_0000028>
-        <obo:IAO_0000115>A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA.</obo:IAO_0000115>
+        <obo:IAO_0000115>A striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>STR Cholinergic GABA</oboInOwl:hasExactSynonym>
         <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>STR Cholinergic GABA GABAergic interneuron (Primate)</rdfs:label>
+        <rdfs:label>STR Cholinergic GABA striatal cholinergic-GABAergic neuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIENob2xpbmVyZ2ljIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKEykWZhH5WhgOFDHL%2BhTxcRQRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWDbG8xgjbiQYPACcSDOAJSAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAISUE2WTZTTjdRWlNJRUowRlowVQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBNzQxNkI1WEpEU1kwSERGOTNSTwACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABVk00RTZKOURQWVlEN0UwQkhOQgACS0daTEFXSVBDUjRXOThGNUxENgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBU1RSIENob2xpbmVyZ2ljIEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAAKF%2FlmIhY7XHwOGCqZOhfScqgRXTVA4Tk1KNUQ4WE8xQU9JMUw5AAWEFMQWg4zFUoRiab%2BEtOdLBgAHAAAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACDlBVVRFOVMxMEtBRUMyVVpPMzEACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAVkzUDFKTTFFTkNHV0VXOFVTVFYAAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAATNDUElQMjgwNFNCRFgxRFgxUlcAAlM1S1FURkhDUktIVlpWUlI1SFIAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAVNUUiBDaG9saW5lcmdpYyBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFTVFIgQ2hvbGluZXJnaWMgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEBAoEi0luBCLU%2BA4Re3WaD6nvJAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIRlRMQVVPVjZTTEIwNzFTVk5VOQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBbm9uZQACbm9uZQADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAACCAA%3D</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -4093,7 +4213,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310135"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA.</owl:annotatedTarget>
+        <owl:annotatedTarget>A striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -4600,6 +4720,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0020006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCL_0160066"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4609,10 +4730,10 @@
         </rdfs:subClassOf>
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:IAO_0000028>OB Dopa-GABA (Primate)</obo:IAO_0000028>
-        <obo:IAO_0000115>A GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA.</obo:IAO_0000115>
+        <obo:IAO_0000115>A OB-Dopa-GABA of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>OB Dopa-GABA</oboInOwl:hasExactSynonym>
         <rdfs:comment>Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
-        <rdfs:label>OB Dopa-GABA GABAergic neuron (Primate)</rdfs:label>
+        <rdfs:label>OB Dopa-GABA OB-Dopa-GABA (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBT0IgRG9wYS1HQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAU9CIERvcGEtR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBT0IgRG9wYS1HQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFPQiBEb3BhLUdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad</rdfs:seeAlso>
     </owl:Class>
@@ -4627,7 +4748,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310147"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA.</owl:annotatedTarget>
+        <owl:annotatedTarget>A OB-Dopa-GABA of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -6620,7 +6741,7 @@
         <oboInOwl:hasExactSynonym>CN GABA-Glut</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GPi Shell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Subpallium GABA-Glut</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Rationale for assigning this type to reference data: Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi &amp; surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
+        <rdfs:comment>Rationale for assigning this type to reference data: Mapping to the general type GPi shell neuron (internal globus pallidus shell projection neuron) is based on soma location (to GPi &amp; surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 and absence of Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</rdfs:comment>
         <rdfs:label>GPi Shell neuron (Primate)</rdfs:label>
         <rdfs:seeAlso>https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ04gR0FCQS1HbHV0AAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAUNOIEdBQkEtR2x1dAAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUABgEBAjNYQk9GQlIzMDJFWUMwVVFENTEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIBQ04gR0FCQS1HbHV0AAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECM1hCT0ZCUjMwMkVZQzBVUUQ1MQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgFDTiBHQUJBLUdsdXQAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAAYBAQIzWEJPRkJSMzAyRVlDMFVRRDUxAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA</rdfs:seeAlso>
         <rdfs:seeAlso>https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0003.h5ad</rdfs:seeAlso>
@@ -6660,7 +6781,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0160106"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
-        <owl:annotatedTarget>Rationale for assigning this type to reference data: Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi &amp; surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</owl:annotatedTarget>
+        <owl:annotatedTarget>Rationale for assigning this type to reference data: Mapping to the general type GPi shell neuron (internal globus pallidus shell projection neuron) is based on soma location (to GPi &amp; surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 and absence of Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://doi.org/10.1016/j.neuron.2017.03.017</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://doi.org/10.1523/ENEURO.0208-22.2022</oboInOwl:hasDbXref>
     </owl:Axiom>

@@ -25,9 +25,9 @@
         "val" : "DRAFT Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-11-06"
+        "val" : "2025-11-13"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-11-06/bgo-full.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-11-13/bgo-full.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ncbigene/10716",
@@ -69,6 +69,9 @@
       "id" : "http://identifiers.org/ncbigene/24141",
       "type" : "CLASS"
     }, {
+      "id" : "http://identifiers.org/ncbigene/2571",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ncbigene/2572",
       "type" : "CLASS"
     }, {
@@ -108,10 +111,16 @@
       "id" : "http://identifiers.org/ncbigene/4155",
       "type" : "CLASS"
     }, {
+      "id" : "http://identifiers.org/ncbigene/4212",
+      "type" : "CLASS"
+    }, {
       "id" : "http://identifiers.org/ncbigene/4360",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ncbigene/4852",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ncbigene/4861",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ncbigene/4929",
@@ -187,6 +196,9 @@
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ncbigene/93377",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://identifiers.org/ncbigene/93986",
       "type" : "CLASS"
     }, {
       "id" : "http://identifiers.org/ncbigene/9547",
@@ -604,6 +616,10 @@
           "val" : "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtTEhYNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAgFMQU1QNQAAAUxIWDYAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUxBTVA1LUxIWDYgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUCAUxBTVA1AAABTEhYNgAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtTEhYNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQIBTEFNUDUAAAFMSFg2AAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFMQU1QNS1MSFg2IEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAgFMQU1QNQAAAUxIWDYAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA"
         } ]
       }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLM_5050493",
+      "lbl" : "GAD1, GAD2, FOXP2, MEIS2, NPAS1 (CAS evidence).",
+      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLM_5050494",
       "lbl" : "SOX6, KCNA1 (CAS evidence).",
@@ -10085,6 +10101,78 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0020006",
+      "lbl" : "OB-Dopa-GABA",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A transcriptomically defined GABAergic neuron coexpressing dopamine located in the olfactory bulb and part of the striatum.",
+          "xrefs" : [ "PMID:35322231" ]
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0020007",
+      "lbl" : "dorso-striatal cholinergic-GABAergic neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A transcriptomically defined GABAergic neuron in the dorsal striatum. In mice and primates, it is defined by the coexpression of choline acetyltransferase (ChAT) together with the GABAergic markers glutamate decarboxylase 65 (GAD65/Gad2) and vesicular GABA transporter (VGAT/Slc32a1) (Lozovaya et al., 2018).",
+          "xrefs" : [ "PMID:10934256", "PMID:19855026", "PMID:29651049", "PMID:37464873" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "STRd Cholinergic GABA"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0020008",
+      "lbl" : "striatal cholinergic-GABAergic neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A large aspiny interneuron of the striatum that serves as the principal intrinsic source of acetylcholine while simultaneously releasing GABA. It is defined by coexpression of cholinergic markers (ChAT and VAChT/Slc18a3) and GABAergic markers (GAD65/Gad2 and VGAT/Slc32a1) (Lozovaya et al., 2018). This MGE-derived neuron maintains Lhx6 expression associated with dual-transmitter identity (Fragkouli et al., 2009; Marin et al., 2000). Morphologically, it possesses a large soma (20–50 μm diameter), 2–4 thick aspiny dendrites extending radially ~1 mm, and locally ramified axons with hundreds of thousands of varicosities (Wilson et al., 1990; Lim et al., 2014).",
+          "xrefs" : [ "PMID:10377365", "PMID:10934256", "PMID:21925242", "PMID:2329464", "PMID:25374536", "PMID:25876458", "PMID:29651049", "PMID:37905876" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "STR Cholinergic GABA"
+        }, {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Although they constitute only 1–3% of all striatal neurons, these interneurons form a major modulatory hub, integrating cortical, thalamic, and dopaminergic inputs and shaping striatal output dynamics (Gonzales & Smith, 2015; Wegman et al., 2024). Electrophysiologically, the neuron exhibits tonic autonomous firing at 3–10 Hz, broad action potentials, and a prominent hyperpolarization-activated inward current (Ih) (Bennett & Wilson, 1999; Goldberg & Reynolds, 2011). Functionally, it modulates corticostriatal and thalamostriatal synaptic transmission, dopamine release, and spiny projection neuron excitability through co-transmission of acetylcholine and GABA (Lozovaya et al., 2018; Wegman et al., 2024). This dual inhibitory and modulatory signaling underlies context-dependent control of synaptic plasticity, action selection, and reinforcement learning (Gonzales & Smith, 2015; Lozovaya et al., 2018)."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0020009",
+      "lbl" : "prototypic neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A GABAergic neuron located in the external globus pallidus (GPe) that constitutes approximately two-thirds of all GPe neurons (Mallet et al., 2012, Dodson et al., 2015). Derived from the medial ganglionic eminence, this cell selectively expresses Nkx2-1, with roughly two-thirds co-expressing parvalbumin (PV) and one-third lacking it in mice (Mallet et al., 2012; Dodson et al., 2015).",
+          "xrefs" : [ "PMID:22726837", "PMID:25843402", "PMID:25926446", "PMID:27194328", "PMID:37336974", "doi:10.1101/2022.03.16.484460" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "GPe SOX6-CTXND1 GABA"
+        }, {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "The prototypic neuron projects to downstream basal ganglia nuclei, including the subthalamic nucleus (STN), internal globus pallidus, and substantia nigra pars reticulata (SNr), with some neurons also emitting ascending collaterals that modestly innervate the striatum (Mallet et al., 2012, Abdi et al., 2015). It exhibits longer local axon collaterals with more boutons compared to arkypallidal neurons, supporting extensive local interconnectivity within the GPe (Mallet et al., 2012). The prototypic neuron plays a fundamental role in the indirect pathway of the basal ganglia, coordinating activity across basal ganglia nuclei through its widespread projections (Mallet et al., 2012, Courtney et al., 2023). Decreases in firing during movement are consistent with disinhibiting the STN and output nuclei, thereby facilitating the expression of desired motor patterns (Dodson et al., 2015, Courtney et al., 2023)."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0020010",
+      "lbl" : "arkypallidal neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A GABAergic projection neuron located in the external segment of the globus pallidus (GPe) and defined by its exclusive projection to the dorsal striatum rather than to the subthalamic nucleus or basal ganglia output nuclei. In rodents and primates, it is characterized molecularly by expression of FOXP2, MEIS2, and NPAS1, and lacks expression of canonical pallidal markers NKX2-1 and LHX6 (Dodson et al., 2015; Abdi et al., 2015; Courtney et al., 2023). This neuron is GABAergic (GAD1/2⁺, SLC32A1/VGAT⁺) and typically PV⁻, forming the transcriptionally and developmentally LGE-derived subclass of GPe neurons (Dodson et al., 2015; Mallet et al., 2012).",
+          "xrefs" : [ "PMID:22726837", "PMID:25843402", "PMID:25926446", "PMID:27194328", "PMID:37336974" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "GPe MEIS2-SOX6 GABA"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_1000042",
       "lbl" : "forebrain neuroblast",
       "type" : "CLASS",
@@ -17316,11 +17404,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310083",
-      "lbl" : "GPin-BF Cholinergic GABA GABAergic interneuron (Primate)",
+      "lbl" : "GPin-BF Cholinergic GABA GABA-Chol neuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA.",
+          "val" : "A GABA-Chol neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA.",
           "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/" ]
         },
         "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
@@ -17347,7 +17435,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310084",
-      "lbl" : "LAMP5-CXCL14 GABA lamp5 GABAergic interneuron (Primate)",
+      "lbl" : "striatal LAMP5 CXCL14 GABAergic interneuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -17384,7 +17472,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310085",
-      "lbl" : "LAMP5-LHX6 GABA Lamp5 Lhx6 neuron (Primate)",
+      "lbl" : "striatal LAMP5 LHX6 GABAergic interneuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -17395,9 +17483,6 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN LAMP5-LHX6 GABA"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "LAMP5"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "LAMP5-LHX6 GABA"
@@ -17452,14 +17537,14 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310093",
-      "lbl" : "GPe MEIS2-SOX6 GABA lateral ganglionic eminence derived neuron (Primate)",
+      "lbl" : "GPe MEIS2-SOX6 GABA arkypallidal neuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA.",
-          "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/" ]
+          "val" : "A arkypallidal neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA.",
+          "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/", "https://doi.org/10.1016/j.neuron.2015.03.007", "https://doi.org/10.1038/s41593-023-01368-7", "https://doi.org/10.1523/JNEUROSCI.4662-14.2015" ]
         },
-        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
+        "comments" : [ "Rationale for assigning this type to reference data: Mapping to the arkypallidal neuron is based on location (GPe), expression of GAD1/2, FOXP2, MEIS2, and NPAS1 and lack of expression of canonical pallidal markers NKX2-1 and LHX6, SST and PV. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN MEIS2 GABA"
@@ -17474,6 +17559,9 @@
           "pred" : "http://purl.obolibrary.org/obo/CLM_0010001",
           "val" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLM_0010003",
+          "val" : "http://purl.obolibrary.org/obo/CLM_5050493"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
           "val" : "GPe MEIS2-SOX6 GABA (Primate)"
         }, {
@@ -17486,14 +17574,14 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310094",
-      "lbl" : "GPe SOX6-CTXND1 GABA GABAergic neuron (Primate)",
+      "lbl" : "GPe SOX6-CTXND1 GABA prototypic neuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A GABAergic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA.",
-          "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/" ]
+          "val" : "A prototypic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA.",
+          "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/", "https://doi.org/10.1016/j.neuron.2015.03.007" ]
         },
-        "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
+        "comments" : [ "Rationale for assigning this type to reference data: Mapping to the general type of prototypic neuron is based on location (GPe) and expression of Nkx2-1. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "GPe SOX6-CTXND1 GABA"
@@ -17527,7 +17615,7 @@
           "val" : "A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPi Core.",
           "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/", "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1523/ENEURO.0208-22.2022" ]
         },
-        "comments" : [ "Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
+        "comments" : [ "Rationale for assigning this type to reference data: Mapping to the general GPi core cell type is based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN ONECUT1 GABA"
@@ -17882,11 +17970,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310118",
-      "lbl" : "STH PVALB-PITX2 Glut striatal pthlh-expressing interneuron (Primate)",
+      "lbl" : "STH PVALB-PITX2 Glut glutamatergic neuron of the basal ganglia (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A striatal pthlh-expressing interneuron of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut.",
+          "val" : "A glutamatergic neuron of the basal ganglia of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut.",
           "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/", "https://doi.org/10.1038/s41586-023-06812-z" ]
         },
         "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
@@ -18006,7 +18094,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310123",
-      "lbl" : "STR SST-CHODL GABA sst chodl GABAergic interneuron (Primate)",
+      "lbl" : "striatal SST-CHODL GABAergic interneuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -18133,7 +18221,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310127",
-      "lbl" : "VIP GABA VIP GABAergic interneuron (Primate)",
+      "lbl" : "striatal VIP GABAergic interneuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -18170,11 +18258,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310128",
-      "lbl" : "STRd Cholinergic GABA GABAergic interneuron (Primate)",
+      "lbl" : "STRd Cholinergic GABA dorso-striatal cholinergic-GABAergic neuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA.",
+          "val" : "A dorso-striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA.",
           "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/" ]
         },
         "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
@@ -18334,11 +18422,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310133",
-      "lbl" : "STRd D2 StrioMat Hybrid MSN lateral ganglionic eminence derived neuron (Primate)",
+      "lbl" : "STRd D2 StrioMat Hybrid MSN indirect pathway medium spiny neuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN.",
+          "val" : "A indirect pathway medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN.",
           "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/" ]
         },
         "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
@@ -18396,11 +18484,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310135",
-      "lbl" : "STR Cholinergic GABA GABAergic interneuron (Primate)",
+      "lbl" : "STR Cholinergic GABA striatal cholinergic-GABAergic neuron (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA.",
+          "val" : "A striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA.",
           "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/" ]
         },
         "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
@@ -18650,11 +18738,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CL_4310147",
-      "lbl" : "OB Dopa-GABA GABAergic neuron (Primate)",
+      "lbl" : "OB Dopa-GABA OB-Dopa-GABA (Primate)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA.",
+          "val" : "A OB-Dopa-GABA of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA.",
           "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/" ]
         },
         "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
@@ -103482,7 +103570,7 @@
           "val" : "A internal globus pallidus shell projection neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus, internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPi Shell.",
           "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/", "https://doi.org/10.1016/j.neuron.2017.03.017", "https://doi.org/10.1523/ENEURO.0208-22.2022" ]
         },
-        "comments" : [ "Rationale for assigning this type to reference data: Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
+        "comments" : [ "Rationale for assigning this type to reference data: Mapping to the general type GPi shell neuron (internal globus pallidus shell projection neuron) is based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 and absence of Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "CN GABA-Glut"
@@ -105956,6 +106044,33 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PR_000011241",
+      "lbl" : "homeobox protein Nkx-2.1",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A protein that is a translation product of the human NKX2-1 gene or a 1:1 ortholog thereof.",
+          "xrefs" : [ "PRO:DNx" ]
+        },
+        "comments" : [ "Category=gene." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "T/EBP"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "homeobox protein NK-2 homolog A"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid nuclear factor 1"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid transcription factor 1"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid-specific enhancer-binding protein"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PR_000013246",
       "lbl" : "prolactin",
       "type" : "CLASS",
@@ -108071,6 +108186,15 @@
           "xrefs" : [ "PRO:DNx", "UniProtKB:P20472" ]
         },
         "comments" : [ "Category=organism-gene." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "alpha-PV (human)",
+          "xrefs" : [ "UniProtKB:P20472" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "alpha-parvalbumin (human)",
+          "xrefs" : [ "UniProtKB:P20472" ]
+        } ],
         "xrefs" : [ {
           "val" : "UniProtKB:P20472"
         } ]
@@ -108497,6 +108621,15 @@
           "xrefs" : [ "OMA:P32848", "PRO:DNx" ]
         },
         "comments" : [ "Category=organism-gene." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "alpha-PV (mouse)",
+          "xrefs" : [ "UniProtKB:P32848" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "alpha-parvalbumin (mouse)",
+          "xrefs" : [ "UniProtKB:P32848" ]
+        } ],
         "xrefs" : [ {
           "val" : "UniProtKB:P32848"
         } ]
@@ -108807,6 +108940,41 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PR_P43699",
+      "lbl" : "homeobox protein Nkx-2.1 (human)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A homeobox protein Nkx-2.1 that is encoded in the genome of human.",
+          "xrefs" : [ "PRO:DNx", "UniProtKB:P43699" ]
+        },
+        "comments" : [ "Category=organism-gene." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "T/EBP (human)",
+          "xrefs" : [ "UniProtKB:P43699" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "homeobox protein NK-2 homolog A (human)",
+          "xrefs" : [ "UniProtKB:P43699" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid nuclear factor 1 (human)",
+          "xrefs" : [ "UniProtKB:P43699" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid transcription factor 1 (human)",
+          "xrefs" : [ "UniProtKB:P43699" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid-specific enhancer-binding protein (human)",
+          "xrefs" : [ "UniProtKB:P43699" ]
+        } ],
+        "xrefs" : [ {
+          "val" : "UniProtKB:P43699"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PR_P48431",
       "lbl" : "transcription factor SOX-2 (human)",
       "type" : "CLASS",
@@ -108882,6 +109050,37 @@
         } ],
         "xrefs" : [ {
           "val" : "UniProtKB:P50114"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PR_P50220",
+      "lbl" : "homeobox protein Nkx-2.1 (mouse)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A homeobox protein Nkx-2.1 that is encoded in the genome of mouse.",
+          "xrefs" : [ "OMA:P50220", "PRO:DNx" ]
+        },
+        "comments" : [ "Category=organism-gene." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "T/EBP (mouse)",
+          "xrefs" : [ "UniProtKB:P50220" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid nuclear factor 1 (mouse)",
+          "xrefs" : [ "UniProtKB:P50220" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid transcription factor 1 (mouse)",
+          "xrefs" : [ "UniProtKB:P50220" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid-specific enhancer-binding protein (mouse)",
+          "xrefs" : [ "UniProtKB:P50220" ]
+        } ],
+        "xrefs" : [ {
+          "val" : "UniProtKB:P50220"
         } ]
       }
     }, {
@@ -110179,10 +110378,13 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000110",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000253",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000704",
+      "id" : "http://purl.obolibrary.org/obo/SO_0001217",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0001260",
@@ -139658,6 +139860,93 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "esophagus mucosa"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0002476",
+      "lbl" : "lateral globus pallidus",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The more lateral of the two segments of the globus pallidus, abutting the putamen.",
+          "xrefs" : [ "BIRNLEX:1610" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "external globus pallidus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "external pallidum",
+          "xrefs" : [ "BIRNLEX:1610" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "external part of globus pallidus",
+          "xrefs" : [ "BIRNLEX:1610" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "globus pallidus extermal segment",
+          "xrefs" : [ "BIRNLEX:1610" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "globus pallidus external segment",
+          "xrefs" : [ "BIRNLEX:1610", "FMA:61839", "MA:0002767" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "globus pallidus externus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "globus pallidus lateralis",
+          "xrefs" : [ "BTO:0002247" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "globus pallidus, lateral segment"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "lateral pallidal segment"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "lateral pallidum",
+          "xrefs" : [ "BIRNLEX:1610" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "lateral part of globus pallidus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "lateral segment of globus pallidus",
+          "xrefs" : [ "BIRNLEX:1610" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pallidus II",
+          "xrefs" : [ "FMA:61839" ]
+        } ],
+        "xrefs" : [ {
+          "val" : "BAMS:EGP"
+        }, {
+          "val" : "BAMS:GPe"
+        }, {
+          "val" : "BAMS:GPl"
+        }, {
+          "val" : "BAMS:LGP"
+        }, {
+          "val" : "BIRNLEX:1610"
+        }, {
+          "val" : "BTO:0002247"
+        }, {
+          "val" : "EHDAA2:0004462"
+        }, {
+          "val" : "FMA:61839"
+        }, {
+          "val" : "HBA:12897"
+        }, {
+          "val" : "MA:0002767"
+        }, {
+          "val" : "MBA:1022"
+        }, {
+          "val" : "PBA:10099"
+        }, {
+          "val" : "SCTID:361560008"
+        }, {
+          "val" : "Wikipedia:Lateral_globus_pallidus"
         } ]
       }
     }, {
@@ -188426,6 +188715,10 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sigmoid colon epithelial layer"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "sigmoid colon epithelium"
         } ]
       }
     }, {
@@ -189053,6 +189346,10 @@
         } ],
         "xrefs" : [ {
           "val" : "ILX:0793573"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "lower airway ganglion"
         } ]
       }
     }, {
@@ -189070,6 +189367,10 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sigmoid colonic lamina propria"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "sigmoid colon lamina propria"
         } ]
       }
     }, {
@@ -189087,6 +189388,10 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "lamina propria of stomach"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "stomach lamina propria"
         } ]
       }
     }, {
@@ -189104,6 +189409,10 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "rectal lamina propria"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "rectum lamina propria"
         } ]
       }
     }, {
@@ -194031,6 +194340,10 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0020337",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0040036",
       "lbl" : "results in changes to anatomical or cellular structure",
       "type" : "PROPERTY",
@@ -194130,10 +194443,6 @@
           "val" : "http://purl.obolibrary.org/obo/HOM_0000007"
         } ]
       }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pr#has_constituent_monomer",
-      "type" : "PROPERTY",
-      "propertyType" : "OBJECT"
     }, {
       "id" : "http://purl.obolibrary.org/obo/pr#has_gene_template",
       "type" : "PROPERTY",
@@ -195192,10 +195501,6 @@
       "lbl" : "LAMP5-LHX6 GABA CS20250428_GROUP_0005",
       "type" : "INDIVIDUAL",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "LAMP5"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/CLM_0010005",
           "val" : "CS20250428_GROUP_0005"
@@ -200069,7 +200374,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "GABAergic interneuron"
+          "val" : "GABA-Chol neuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -200082,7 +200387,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "lamp5 GABAergic cortical interneuron"
+          "val" : "lamp5 GABAergic interneuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -200114,9 +200419,6 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
           "val" : "LHX6"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/synonyms",
-          "val" : "LAMP5"
         } ]
       }
     }, {
@@ -200196,10 +200498,37 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "lateral ganglionic eminence derived neuron"
+          "val" : "arkypallidal neuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
+          "val" : "FOXP2"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
+          "val" : "GAD1"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
+          "val" : "GAD2"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
+          "val" : "MEIS2"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
+          "val" : "NPAS1"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/rationale",
+          "val" : "Mapping to the arkypallidal neuron is based on location (GPe), expression of GAD1/2, FOXP2, MEIS2, and NPAS1 and lack of expression of canonical pallidal markers NKX2-1 and LHX6, SST and PV."
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
+          "val" : "https://doi.org/10.1016/j.neuron.2015.03.007"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
+          "val" : "https://doi.org/10.1038/s41593-023-01368-7"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
+          "val" : "https://doi.org/10.1523/JNEUROSCI.4662-14.2015"
         } ]
       }
     }, {
@@ -200209,7 +200538,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "GABAergic neuron"
+          "val" : "prototypic neuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -200219,6 +200548,12 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/marker_gene_evidence",
           "val" : "SOX6"
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/rationale",
+          "val" : "Mapping to the general type of prototypic neuron is based on location (GPe) and expression of Nkx2-1."
+        }, {
+          "pred" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
+          "val" : "https://doi.org/10.1016/j.neuron.2015.03.007"
         } ]
       }
     }, {
@@ -200237,7 +200572,7 @@
           "val" : "Pvalb"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/rationale",
-          "val" : "Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb."
+          "val" : "Mapping to the general GPi core cell type is based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb."
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
           "val" : "https://doi.org/10.1016/j.neuron.2017.03.017"
@@ -200271,7 +200606,7 @@
           "val" : "Tbr1"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/rationale",
-          "val" : "Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression."
+          "val" : "Mapping to the general type GPi shell neuron (internal globus pallidus shell projection neuron) is based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 and absence of Pvalb expression."
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/rationale_dois",
           "val" : "https://doi.org/10.1016/j.neuron.2017.03.017"
@@ -200289,6 +200624,9 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
+          "val" : "astrocyte"
+        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         }, {
@@ -200675,7 +201013,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "striatal pthlh-expressing interneuron"
+          "val" : "glutamatergic neuron of the basal ganglia"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -200754,7 +201092,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "sst GABAergic cortical interneuron"
+          "val" : "sst GABAergic interneuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -200767,7 +201105,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "sst chodl GABAergic cortical interneuron"
+          "val" : "sst chodl GABAergic interneuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -200792,7 +201130,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "sst GABAergic cortical interneuron"
+          "val" : "sst GABAergic interneuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -200840,7 +201178,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "VIP GABAergic cortical interneuron"
+          "val" : "VIP GABAergic interneuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -200862,7 +201200,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "GABAergic interneuron"
+          "val" : "dorso-striatal cholinergic-GABAergic neuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -200980,9 +201318,6 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "lateral ganglionic eminence derived neuron"
-        }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
         } ]
@@ -201019,7 +201354,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "GABAergic interneuron"
+          "val" : "striatal cholinergic-GABAergic neuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -201057,7 +201392,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "RXFP1-positive interface island D1-medium spiny neuron"
+          "val" : "D1- NUDAP medium spiny neuron"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -201206,7 +201541,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://purl.brain-bican.org/taxonomy/cell_ontology_term",
-          "val" : "GABAergic neuron"
+          "val" : "OB-Dopa GABA"
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/has_labelset",
           "val" : "https://purl.brain-bican.org/ontology/CS20250428/Group"
@@ -202524,6 +202859,10 @@
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CLM_5050485",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLM_5050493",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SO_0001260"
     }, {
@@ -208505,6 +208844,82 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002292",
       "obj" : "http://purl.obolibrary.org/obo/PR_000015665"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000617"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000700"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0002613"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0002613"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0008061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0011005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0002613"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0008061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0011005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000617"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0012001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020009",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002476"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020009",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020009",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002292",
+      "obj" : "http://purl.obolibrary.org/obo/PR_000011241"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000617"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0012001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4023035"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0020010",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002476"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_1000042",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000031"
@@ -211357,7 +211772,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310083",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0011005"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0008061"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310083",
       "pred" : "is_a",
@@ -211389,11 +211804,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310093",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4023035"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0020010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310093",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PCL_0160013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4310094",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0020009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310094",
       "pred" : "is_a",
@@ -211477,7 +211896,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310118",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4042023"
+      "obj" : "http://purl.obolibrary.org/obo/CL_4042040"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310118",
       "pred" : "is_a",
@@ -211549,7 +211968,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310128",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0011005"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0020007"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310128",
       "pred" : "is_a",
@@ -211597,7 +212016,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310135",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0011005"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0020008"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310135",
       "pred" : "is_a",
@@ -211658,6 +212077,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CL_4310146",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PCL_0160067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_4310147",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0020006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_4310147",
       "pred" : "is_a",
@@ -270053,7 +270476,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_000000001",
       "pred" : "http://purl.obolibrary.org/obo/pr#has_gene_template",
-      "obj" : "http://purl.obolibrary.org/obo/SO_0000704"
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001217"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_000001002",
       "pred" : "is_a",
@@ -270546,6 +270969,14 @@
       "sub" : "http://purl.obolibrary.org/obo/PR_000011178",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PR_000001753"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_000011241",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_000011241",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PR_000000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_000013246",
       "pred" : "is_a",
@@ -271439,6 +271870,14 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PR_000029067"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_P43699",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PR_000011241"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_P43699",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PR_000029067"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_P48431",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PR_000015426"
@@ -271468,6 +271907,14 @@
       "obj" : "http://purl.obolibrary.org/obo/PR_000014419"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_P50114",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PR_000029032"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_P50220",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PR_000011241"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_P50220",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PR_000029032"
     }, {
@@ -281614,6 +282061,14 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002469",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001096"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0002476",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0005401"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0002476",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001875"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002477",
       "pred" : "is_a",
@@ -300997,6 +301452,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10153",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10154",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001049"
@@ -301004,6 +301463,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10154",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10153"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10154",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10155",
       "pred" : "is_a",
@@ -301013,6 +301476,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10154"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10155",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10156",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001890"
@@ -301020,6 +301487,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10156",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10155"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10156",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10157",
       "pred" : "is_a",
@@ -301029,6 +301500,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10156"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10157",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10158",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001893"
@@ -301036,6 +301511,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10158",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10157"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10158",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10159",
       "pred" : "is_a",
@@ -301045,6 +301524,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10158"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10159",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10160",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001950"
@@ -301053,6 +301536,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10159"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10160",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10292",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0014734"
@@ -301060,6 +301547,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10292",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10159"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10292",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10306",
       "pred" : "is_a",
@@ -301081,6 +301572,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10306"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10310",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10311",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004725"
@@ -301089,6 +301584,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10306"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10311",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10331",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_8440012"
@@ -301096,6 +301595,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10331",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10158"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10331",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10332",
       "pred" : "is_a",
@@ -301133,6 +301636,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10334",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10338",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001874"
@@ -301140,6 +301647,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10338",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10338",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10339",
       "pred" : "is_a",
@@ -301149,6 +301660,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10339",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10342",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001875"
@@ -301156,6 +301671,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10342",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10332"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10342",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10343",
       "pred" : "is_a",
@@ -301185,6 +301704,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10331"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10349",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10350",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002663"
@@ -301205,6 +301728,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10349"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10358",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10389",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001894"
@@ -301212,6 +301739,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10389",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10157"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10389",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10390",
       "pred" : "is_a",
@@ -301221,6 +301752,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10389"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10390",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10391",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004703"
@@ -301228,6 +301763,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10391",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10390"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10391",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10451",
       "pred" : "is_a",
@@ -301237,6 +301776,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10390"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10451",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10460",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001905"
@@ -301245,6 +301788,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10451"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10460",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10461",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001900"
@@ -301252,6 +301799,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10461",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10390"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10461",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10465",
       "pred" : "is_a",
@@ -301269,6 +301820,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10465"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10466",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10467",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001898"
@@ -301276,6 +301831,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10467",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10389"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10467",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10483",
       "pred" : "is_a",
@@ -301293,6 +301852,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10483"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10492",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10505",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000007"
@@ -301300,6 +301863,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10505",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10467"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10505",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10506",
       "pred" : "is_a",
@@ -301321,6 +301888,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10506"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10515",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10522",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002050"
@@ -301333,6 +301904,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10506"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10522",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10542",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003053"
@@ -301340,6 +301915,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10542",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10506"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10542",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10549",
       "pred" : "is_a",
@@ -301349,6 +301928,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10542"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10549",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10550",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004024"
@@ -301356,6 +301939,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10550",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10549"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10550",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10551",
       "pred" : "is_a",
@@ -301365,6 +301952,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10549"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10551",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10552",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004026"
@@ -301372,6 +301963,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10552",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10549"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10552",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10557",
       "pred" : "is_a",
@@ -301381,6 +301976,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10156"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10557",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10568",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0022247"
@@ -301388,6 +301987,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10568",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10557"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10568",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10593",
       "pred" : "is_a",
@@ -301397,6 +302000,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10568"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10593",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10595",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0006284"
@@ -301405,6 +302012,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10156"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10595",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10596",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002285"
@@ -301412,6 +302023,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10596",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10595"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10596",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10601",
       "pred" : "is_a",
@@ -301425,6 +302040,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146034908"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10601",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10602",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002286"
@@ -301432,6 +302051,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10602",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10595"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10602",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10609",
       "pred" : "is_a",
@@ -301449,6 +302072,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10155"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10648",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10649",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0019267"
@@ -301456,6 +302083,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10649",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10648"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10649",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10650",
       "pred" : "is_a",
@@ -301465,6 +302096,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10648"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10650",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10653",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002028"
@@ -301473,6 +302108,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10155"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10653",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10654",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0019263"
@@ -301480,6 +302119,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10654",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10653"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10654",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10655",
       "pred" : "is_a",
@@ -301493,6 +302136,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10654"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10655",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10656",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002037"
@@ -301500,6 +302147,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10656",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10655"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10656",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10657",
       "pred" : "is_a",
@@ -301521,6 +302172,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10655"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10661",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10662",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004731"
@@ -301532,6 +302187,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10662",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10654"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10662",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10663",
       "pred" : "is_a",
@@ -301549,6 +302208,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10663"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10664",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10665",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0009841"
@@ -301556,6 +302219,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10665",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10664"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10665",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10668",
       "pred" : "is_a",
@@ -301565,9 +302232,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10653"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10668",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10669",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002422"
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10669",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -301589,6 +302260,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12291"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12101",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12104",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002219"
@@ -301597,6 +302272,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146034908"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12104",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12195",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001943"
@@ -301604,6 +302283,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12195",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10649"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12195",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12251",
       "pred" : "is_a",
@@ -301621,6 +302304,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12195"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12251",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12291",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002314"
@@ -301628,6 +302315,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12291",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10649"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12291",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12314",
       "pred" : "is_a",
@@ -301665,6 +302356,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12319"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12325",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12416",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003023"
@@ -301672,6 +302367,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12416",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10661"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12416",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12417",
       "pred" : "is_a",
@@ -301688,6 +302387,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12435",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12417"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12435",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12453",
       "pred" : "is_a",
@@ -301711,7 +302414,7 @@
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12471",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002047"
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12471",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -301724,6 +302427,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12475",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12471"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12475",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12503",
       "pred" : "is_a",
@@ -301757,6 +302464,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12539"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12545",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12664",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001892"
@@ -301768,6 +302479,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12664",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10663"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12664",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12666",
       "pred" : "is_a",
@@ -301801,6 +302516,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10663"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12682",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12694",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0034709"
@@ -301808,6 +302527,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12694",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10663"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12694",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12695",
       "pred" : "is_a",
@@ -301829,6 +302552,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10669"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12805",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12808",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002200"
@@ -301841,6 +302568,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035012"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12808",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12819",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002148"
@@ -301848,6 +302579,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12819",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035012"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12819",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12856",
       "pred" : "is_a",
@@ -301865,6 +302600,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10154"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12890",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_13338",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002197"
@@ -301872,6 +302611,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_13338",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10483"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_13338",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146034908",
       "pred" : "is_a",
@@ -301897,6 +302640,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12890"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035048",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035088",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002318"
@@ -301905,6 +302652,10 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12890"
     }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035088",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035108",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002291"
@@ -301912,6 +302663,10 @@
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035108",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12890"
+    }, {
+      "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035108",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_266441713",
       "pred" : "is_a",
@@ -339736,7 +340491,7 @@
         "fillerId" : "http://purl.obolibrary.org/obo/GO_0006412"
       }, {
         "propertyId" : "http://purl.obolibrary.org/obo/pr#has_gene_template",
-        "fillerId" : "http://purl.obolibrary.org/obo/SO_0000704"
+        "fillerId" : "http://purl.obolibrary.org/obo/SO_0001217"
       } ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/PR_000029032",
@@ -340369,6 +341124,13 @@
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/PR_P43699",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PR_000011241" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002160",
+        "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+      } ]
+    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/PR_P48431",
       "genusIds" : [ "http://purl.obolibrary.org/obo/PR_000015426" ],
       "restrictions" : [ {
@@ -340392,6 +341154,13 @@
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/PR_P50114",
       "genusIds" : [ "http://purl.obolibrary.org/obo/PR_000014419" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002160",
+        "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/PR_P50220",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PR_000011241" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0002160",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
@@ -352227,616 +352996,602 @@
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10153",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0003075" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10154",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001049" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10155",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0000955" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10156",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001890" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10157",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0019264" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10158",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001893" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10159",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0000956" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10160",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001950" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10292",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0014734" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10306",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0014735" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10310",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001883" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10311",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0004725" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10331",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_8440012" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10332",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002420" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10333",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002435" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10334",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001873" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10338",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001874" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10339",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001882" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10342",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001875" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10344",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002477" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10349",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002743" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10350",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002663" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10358",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001881" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10389",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001894" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10390",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001897" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10391",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0004703" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10451",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001899" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10460",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001905" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10461",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001900" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10466",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001906" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10467",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001898" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10492",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001932" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10505",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0000007" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10515",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0005343" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10522",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0004035" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10542",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0003053" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10549",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0004023" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10550",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0004024" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10551",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0004025" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10552",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0004026" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10557",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0019261" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10568",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0022247" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10593",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0022254" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10595",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0006284" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10596",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002285" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10601",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002307" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10602",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002286" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10648",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001891" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10649",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0019267" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10650",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0016554" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10653",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002028" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10654",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0019263" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10655",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001895" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10656",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002037" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10657",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002129" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10661",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0000988" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10662",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0005290" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10664",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0006215" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10665",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0009841" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10668",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0019258" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
-      } ]
-    }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_10669",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002422" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12101",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002139" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12104",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002219" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12195",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001943" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12251",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002038" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12291",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002314" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12322",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0010285" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12325",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0003307" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12416",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0003023" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12435",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002149" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12462",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002128" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
-      } ]
-    }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12471",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002047" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12475",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002047" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12545",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002871" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12664",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001892" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12667",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0005499" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12682",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0034994" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12694",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0034709" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12695",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0034708" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12805",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002422" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12808",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002290" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12819",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002148" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_12890",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002240" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_13338",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002197" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035048",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002315" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035088",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002318" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_146035108",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002291" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     }, {
       "definedClassId" : "https://purl.brain-bican.org/ontology/dhbao/DHBA_266441713",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0007641" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002162",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
       } ]
     } ],

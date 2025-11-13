@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2025-11-06/bgo-pcl-comp.owl
+data-version: pcl/releases/2025-11-13/bgo-pcl-comp.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -12,15 +12,15 @@ property_value: IAO:0000700 PCL:0160000
 property_value: IAO:0000700 PCL:0160001
 property_value: IAO:0000700 PCL:0160002
 property_value: IAO:0000700 PCL:0160106
-property_value: owl:versionInfo "2025-11-06" xsd:string
+property_value: owl:versionInfo "2025-11-13" xsd:string
 
 [Term]
 id: CL:4310083
-name: GPin-BF Cholinergic GABA GABAergic interneuron (Primate)
-def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
+name: GPin-BF Cholinergic GABA GABA-Chol neuron (Primate)
+def: "A GABA-Chol neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "GPin-BF Cholinergic GABA" EXACT []
-is_a: CL:0011005
+is_a: CL:0008061
 is_a: PCL:0160031 ! CN Cholinergic GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
@@ -30,7 +30,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310084
-name: LAMP5-CXCL14 GABA lamp5 GABAergic interneuron (Primate)
+name: striatal LAMP5 CXCL14 GABAergic interneuron (Primate)
 def: "A lamp5 GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:LAMP5-CXCL14 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "CN LAMP5-CXCL14 GABA" EXACT []
@@ -46,11 +46,10 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310085
-name: LAMP5-LHX6 GABA Lamp5 Lhx6 neuron (Primate)
+name: striatal LAMP5 LHX6 GABAergic interneuron (Primate)
 def: "A Lamp5 Lhx6 neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:LAMP5-LHX6 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "CN LAMP5-LHX6 GABA" EXACT []
-synonym: "LAMP5" EXACT []
 synonym: "LAMP5-LHX6 GABA" EXACT []
 is_a: CL:4042013
 is_a: PCL:0160015 ! CN MGE GABA GABAergic neuron (Primate)
@@ -76,25 +75,27 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310093
-name: GPe MEIS2-SOX6 GABA lateral ganglionic eminence derived neuron (Primate)
-def: "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
-comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
+name: GPe MEIS2-SOX6 GABA arkypallidal neuron (Primate)
+def: "A arkypallidal neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1016/j.neuron.2015.03.007, https://doi.org/10.1038/s41593-023-01368-7, https://doi.org/10.1523/JNEUROSCI.4662-14.2015]
+comment: Rationale for assigning this type to reference data: Mapping to the arkypallidal neuron is based on location (GPe), expression of GAD1/2, FOXP2, MEIS2, and NPAS1 and lack of expression of canonical pallidal markers NKX2-1 and LHX6, SST and PV. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1038/s41593-023-01368-7", xref="https://doi.org/10.1016/j.neuron.2015.03.007", xref="https://doi.org/10.1523/JNEUROSCI.4662-14.2015"}
 synonym: "CN MEIS2 GABA" EXACT []
 synonym: "GPe MEIS2-SOX6 GABA" EXACT []
-is_a: CL:4023035
+is_a: CL:0020010
 is_a: PCL:0160013 ! CN LGE GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
+property_value: CLM:0010003 CLM:5050493
 property_value: IAO:0000028 "GPe MEIS2-SOX6 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIE1FSVMyLVNPWDYgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgTUVJUzItU09YNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgTUVJUzItU09YNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgTUVJUzItU09YNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: CL:4310094
-name: GPe SOX6-CTXND1 GABA GABAergic neuron (Primate)
-def: "A GABAergic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
-comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
+name: GPe SOX6-CTXND1 GABA prototypic neuron (Primate)
+def: "A prototypic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1016/j.neuron.2015.03.007]
+comment: Rationale for assigning this type to reference data: Mapping to the general type of prototypic neuron is based on location (GPe) and expression of Nkx2-1. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1016/j.neuron.2015.03.007"}
 synonym: "GPe SOX6-CTXND1 GABA" EXACT []
+is_a: CL:0020009
 is_a: PCL:0160035 ! CN LHX8 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.8", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
@@ -107,7 +108,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: CL:4310095
 name: GPi Core neuron (Primate)
 def: "A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPi Core." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1016/j.neuron.2017.03.017, https://doi.org/10.1523/ENEURO.0208-22.2022]
-comment: Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1523/ENEURO.0208-22.2022", xref="https://doi.org/10.1016/j.neuron.2017.03.017"}
+comment: Rationale for assigning this type to reference data: Mapping to the general GPi core cell type is based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1523/ENEURO.0208-22.2022", xref="https://doi.org/10.1016/j.neuron.2017.03.017"}
 synonym: "CN ONECUT1 GABA" EXACT []
 synonym: "GPi Core" EXACT []
 is_a: CL:0020003
@@ -261,11 +262,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310118
-name: STH PVALB-PITX2 Glut striatal pthlh-expressing interneuron (Primate)
-def: "A striatal pthlh-expressing interneuron of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1038/s41586-023-06812-z]
+name: STH PVALB-PITX2 Glut glutamatergic neuron of the basal ganglia (Primate)
+def: "A glutamatergic neuron of the basal ganglia of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1038/s41586-023-06812-z]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1038/s41586-023-06812-z"}
 synonym: "STH PVALB-PITX2 Glut" EXACT []
-is_a: CL:4042023
+is_a: CL:4042040
 is_a: PCL:0160043 ! F Glut dopaminergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10466 {CLM:0010002="0.9", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STH PVALB-PITX2 Glut (Primate)" xsd:string
@@ -317,7 +318,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310123
-name: STR SST-CHODL GABA sst chodl GABAergic interneuron (Primate)
+name: striatal SST-CHODL GABAergic interneuron (Primate)
 def: "A sst chodl GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR SST-CHODL GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1038/s41586-020-2874-8]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1038/s41586-020-2874-8"}
 synonym: "LTS" EXACT []
@@ -374,7 +375,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310127
-name: VIP GABA VIP GABAergic interneuron (Primate)
+name: striatal VIP GABAergic interneuron (Primate)
 def: "A VIP GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:VIP GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1038/s41586-020-2874-8]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1038/s41586-020-2874-8"}
 synonym: "CN VIP GABA" EXACT []
@@ -390,11 +391,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310128
-name: STRd Cholinergic GABA GABAergic interneuron (Primate)
-def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
+name: STRd Cholinergic GABA dorso-striatal cholinergic-GABAergic neuron (Primate)
+def: "A dorso-striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "STRd Cholinergic GABA" EXACT []
-is_a: CL:0011005
+is_a: CL:0020007
 is_a: PCL:0160031 ! CN Cholinergic GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="1.0", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STRd Cholinergic GABA (Primate)" xsd:string
@@ -462,8 +463,8 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310133
-name: STRd D2 StrioMat Hybrid MSN lateral ganglionic eminence derived neuron (Primate)
-def: "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
+name: STRd D2 StrioMat Hybrid MSN indirect pathway medium spiny neuron (Primate)
+def: "A indirect pathway medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "STRd D2 StrioMat Hybrid MSN" EXACT []
 is_a: PCL:0160059 ! STR D2 MSN indirect pathway medium spiny neuron (Primate)
@@ -489,11 +490,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310135
-name: STR Cholinergic GABA GABAergic interneuron (Primate)
-def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
+name: STR Cholinergic GABA striatal cholinergic-GABAergic neuron (Primate)
+def: "A striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "STR Cholinergic GABA" EXACT []
-is_a: CL:0011005
+is_a: CL:0020008
 is_a: PCL:0160031 ! CN Cholinergic GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STR Cholinergic GABA (Primate)" xsd:string
@@ -603,10 +604,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310147
-name: OB Dopa-GABA GABAergic neuron (Primate)
-def: "A GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
+name: OB Dopa-GABA OB-Dopa-GABA (Primate)
+def: "A OB-Dopa-GABA of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "OB Dopa-GABA" EXACT []
+is_a: CL:0020006
 is_a: PCL:0160066 ! ACx MEIS2 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "OB Dopa-GABA (Primate)" xsd:string
@@ -640,6 +642,16 @@ is_a: SO:0001260
 relationship: BFO:0000051 http://identifiers.org/ncbigene/24141 ! LAMP5
 relationship: BFO:0000051 http://identifiers.org/ncbigene/26468 ! LHX6
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtTEhYNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAgFMQU1QNQAAAUxIWDYAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUxBTVA1LUxIWDYgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUCAUxBTVA1AAABTEhYNgAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtTEhYNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQIBTEFNUDUAAAFMSFg2AAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFMQU1QNS1MSFg2IEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAgFMQU1QNQAAAUxIWDYAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="markers in reference data on Allen Brain Cell Atlas"}
+
+[Term]
+id: CLM:5050493
+name: GAD1, GAD2, FOXP2, MEIS2, NPAS1 (CAS evidence).
+is_a: SO:0001260
+relationship: BFO:0000051 http://identifiers.org/ncbigene/2571 ! GAD1
+relationship: BFO:0000051 http://identifiers.org/ncbigene/2572 ! GAD2
+relationship: BFO:0000051 http://identifiers.org/ncbigene/4212 ! MEIS2
+relationship: BFO:0000051 http://identifiers.org/ncbigene/4861 ! NPAS1
+relationship: BFO:0000051 http://identifiers.org/ncbigene/93986 ! FOXP2
 
 [Term]
 id: CLM:5050494
@@ -1223,7 +1235,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: PCL:0160106
 name: GPi Shell neuron (Primate)
 def: "A internal globus pallidus shell projection neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus, internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPi Shell." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1016/j.neuron.2017.03.017, https://doi.org/10.1523/ENEURO.0208-22.2022]
-comment: Rationale for assigning this type to reference data: Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1523/ENEURO.0208-22.2022", xref="https://doi.org/10.1016/j.neuron.2017.03.017"}
+comment: Rationale for assigning this type to reference data: Mapping to the general type GPi shell neuron (internal globus pallidus shell projection neuron) is based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 and absence of Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1523/ENEURO.0208-22.2022", xref="https://doi.org/10.1016/j.neuron.2017.03.017"}
 synonym: "CN GABA-Glut" EXACT []
 synonym: "GPi Shell" EXACT []
 synonym: "Subpallium GABA-Glut" EXACT []
@@ -1604,6 +1616,11 @@ name: LAMP5
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/ncbigene/2571
+name: GAD1
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/ncbigene/2572
 name: GAD2
 is_a: SO:0000704
@@ -1669,6 +1686,11 @@ name: MBP
 is_a: SO:0000704
 
 [Term]
+id: http://identifiers.org/ncbigene/4212
+name: MEIS2
+is_a: SO:0000704
+
+[Term]
 id: http://identifiers.org/ncbigene/4360
 name: MRC1
 is_a: SO:0000704
@@ -1676,6 +1698,11 @@ is_a: SO:0000704
 [Term]
 id: http://identifiers.org/ncbigene/4852
 name: NPY
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ncbigene/4861
+name: NPAS1
 is_a: SO:0000704
 
 [Term]
@@ -1801,6 +1828,11 @@ is_a: SO:0000704
 [Term]
 id: http://identifiers.org/ncbigene/93377
 name: OPALIN
+is_a: SO:0000704
+
+[Term]
+id: http://identifiers.org/ncbigene/93986
+name: FOXP2
 is_a: SO:0000704
 
 [Term]

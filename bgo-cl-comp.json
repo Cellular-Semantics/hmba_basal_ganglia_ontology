@@ -28,7 +28,7 @@
           "sub": "http://purl.obolibrary.org/obo/CLM_5050525"
         },
         {
-          "obj": "http://purl.obolibrary.org/obo/CL_0011005",
+          "obj": "http://purl.obolibrary.org/obo/CL_0008061",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310083"
         },
@@ -65,16 +65,6 @@
         {
           "obj": "http://purl.obolibrary.org/obo/CL_0011005",
           "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310128"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_0011005",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310135"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_0011005",
-          "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310143"
         },
         {
@@ -91,6 +81,31 @@
           "obj": "http://purl.obolibrary.org/obo/CL_0020003",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310095"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_0020006",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310147"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_0020007",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310128"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_0020008",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310135"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_0020009",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310094"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_0020010",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310093"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CL_4023011",
@@ -111,11 +126,6 @@
           "obj": "http://purl.obolibrary.org/obo/CL_4023017",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310124"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_4023035",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310093"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CL_4023121",
@@ -180,17 +190,17 @@
         {
           "obj": "http://purl.obolibrary.org/obo/CL_4042023",
           "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/CL_4310118"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/CL_4042023",
-          "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310120"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CL_4042040",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_4310088"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CL_4042040",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CL_4310118"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/CL_4042040",
@@ -805,6 +815,11 @@
         {
           "obj": "http://purl.obolibrary.org/obo/SO_0000704",
           "pred": "is_a",
+          "sub": "http://identifiers.org/ncbigene/2571"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
           "sub": "http://identifiers.org/ncbigene/2572"
         },
         {
@@ -850,7 +865,17 @@
         {
           "obj": "http://purl.obolibrary.org/obo/SO_0000704",
           "pred": "is_a",
+          "sub": "http://identifiers.org/ncbigene/4212"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
           "sub": "http://identifiers.org/ncbigene/4852"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
+          "sub": "http://identifiers.org/ncbigene/4861"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/SO_0000704",
@@ -925,6 +950,11 @@
         {
           "obj": "http://purl.obolibrary.org/obo/SO_0000704",
           "pred": "is_a",
+          "sub": "http://identifiers.org/ncbigene/93986"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0000704",
+          "pred": "is_a",
           "sub": "http://identifiers.org/ncbigene/9547"
         },
         {
@@ -941,6 +971,11 @@
           "obj": "http://purl.obolibrary.org/obo/SO_0001260",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CLM_5050485"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/SO_0001260",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/CLM_5050493"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/SO_0001260",
@@ -1603,10 +1638,10 @@
         "basicPropertyValues": [
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2025-11-06"
+            "val": "2025-11-13"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/pcl/releases/2025-11-06/../../bgo-cl-comp.json"
+        "version": "http://purl.obolibrary.org/obo/pcl/releases/2025-11-13/../../bgo-cl-comp.json"
       },
       "nodes": [
         {
@@ -2059,7 +2094,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310083",
-          "lbl": "GPin-BF Cholinergic GABA GABAergic interneuron (Primate)",
+          "lbl": "GPin-BF Cholinergic GABA GABA-Chol neuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -2087,7 +2122,7 @@
               "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
             ],
             "definition": {
-              "val": "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA.",
+              "val": "A GABA-Chol neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA.",
               "xrefs": [
                 "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/"
               ]
@@ -2103,7 +2138,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310084",
-          "lbl": "LAMP5-CXCL14 GABA lamp5 GABAergic interneuron (Primate)",
+          "lbl": "striatal LAMP5 CXCL14 GABAergic interneuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -2155,7 +2190,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310085",
-          "lbl": "LAMP5-LHX6 GABA Lamp5 Lhx6 neuron (Primate)",
+          "lbl": "striatal LAMP5 LHX6 GABAergic interneuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -2192,10 +2227,6 @@
               {
                 "pred": "hasExactSynonym",
                 "val": "CN LAMP5-LHX6 GABA"
-              },
-              {
-                "pred": "hasExactSynonym",
-                "val": "LAMP5"
               },
               {
                 "pred": "hasExactSynonym",
@@ -2251,7 +2282,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310093",
-          "lbl": "GPe MEIS2-SOX6 GABA lateral ganglionic eminence derived neuron (Primate)",
+          "lbl": "GPe MEIS2-SOX6 GABA arkypallidal neuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -2261,6 +2292,10 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/CLM_0010001",
                 "val": "https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/CLM_0010003",
+                "val": "http://purl.obolibrary.org/obo/CLM_5050493"
               },
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -2276,12 +2311,15 @@
               }
             ],
             "comments": [
-              "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
+              "Rationale for assigning this type to reference data: Mapping to the arkypallidal neuron is based on location (GPe), expression of GAD1/2, FOXP2, MEIS2, and NPAS1 and lack of expression of canonical pallidal markers NKX2-1 and LHX6, SST and PV. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
             ],
             "definition": {
-              "val": "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA.",
+              "val": "A arkypallidal neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA.",
               "xrefs": [
-                "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/"
+                "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/",
+                "https://doi.org/10.1016/j.neuron.2015.03.007",
+                "https://doi.org/10.1038/s41593-023-01368-7",
+                "https://doi.org/10.1523/JNEUROSCI.4662-14.2015"
               ]
             },
             "synonyms": [
@@ -2299,7 +2337,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310094",
-          "lbl": "GPe SOX6-CTXND1 GABA GABAergic neuron (Primate)",
+          "lbl": "GPe SOX6-CTXND1 GABA prototypic neuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -2328,12 +2366,13 @@
               }
             ],
             "comments": [
-              "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
+              "Rationale for assigning this type to reference data: Mapping to the general type of prototypic neuron is based on location (GPe) and expression of Nkx2-1. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
             ],
             "definition": {
-              "val": "A GABAergic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA.",
+              "val": "A prototypic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA.",
               "xrefs": [
-                "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/"
+                "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/",
+                "https://doi.org/10.1016/j.neuron.2015.03.007"
               ]
             },
             "synonyms": [
@@ -2372,7 +2411,7 @@
               }
             ],
             "comments": [
-              "Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
+              "Rationale for assigning this type to reference data: Mapping to the general GPi core cell type is based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
             ],
             "definition": {
               "val": "A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPi Core.",
@@ -2863,7 +2902,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310118",
-          "lbl": "STH PVALB-PITX2 Glut striatal pthlh-expressing interneuron (Primate)",
+          "lbl": "STH PVALB-PITX2 Glut glutamatergic neuron of the basal ganglia (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -2887,7 +2926,7 @@
               "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
             ],
             "definition": {
-              "val": "A striatal pthlh-expressing interneuron of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut.",
+              "val": "A glutamatergic neuron of the basal ganglia of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut.",
               "xrefs": [
                 "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/",
                 "https://doi.org/10.1038/s41586-023-06812-z"
@@ -3041,7 +3080,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310123",
-          "lbl": "STR SST-CHODL GABA sst chodl GABAergic interneuron (Primate)",
+          "lbl": "striatal SST-CHODL GABAergic interneuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3223,7 +3262,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310127",
-          "lbl": "VIP GABA VIP GABAergic interneuron (Primate)",
+          "lbl": "striatal VIP GABAergic interneuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3276,7 +3315,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310128",
-          "lbl": "STRd Cholinergic GABA GABAergic interneuron (Primate)",
+          "lbl": "STRd Cholinergic GABA dorso-striatal cholinergic-GABAergic neuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3300,7 +3339,7 @@
               "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
             ],
             "definition": {
-              "val": "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA.",
+              "val": "A dorso-striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA.",
               "xrefs": [
                 "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/"
               ]
@@ -3512,7 +3551,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310133",
-          "lbl": "STRd D2 StrioMat Hybrid MSN lateral ganglionic eminence derived neuron (Primate)",
+          "lbl": "STRd D2 StrioMat Hybrid MSN indirect pathway medium spiny neuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3536,7 +3575,7 @@
               "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
             ],
             "definition": {
-              "val": "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN.",
+              "val": "A indirect pathway medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN.",
               "xrefs": [
                 "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/"
               ]
@@ -3601,7 +3640,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310135",
-          "lbl": "STR Cholinergic GABA GABAergic interneuron (Primate)",
+          "lbl": "STR Cholinergic GABA striatal cholinergic-GABAergic neuron (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3625,7 +3664,7 @@
               "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
             ],
             "definition": {
-              "val": "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA.",
+              "val": "A striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA.",
               "xrefs": [
                 "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/"
               ]
@@ -3964,7 +4003,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4310147",
-          "lbl": "OB Dopa-GABA GABAergic neuron (Primate)",
+          "lbl": "OB Dopa-GABA OB-Dopa-GABA (Primate)",
           "meta": {
             "basicPropertyValues": [
               {
@@ -3988,7 +4027,7 @@
               "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions."
             ],
             "definition": {
-              "val": "A GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA.",
+              "val": "A OB-Dopa-GABA of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA.",
               "xrefs": [
                 "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/"
               ]
@@ -4798,12 +4837,6 @@
               {
                 "pred": "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
                 "val": "CN|LAMP5|LHX6|GABA"
-              }
-            ],
-            "synonyms": [
-              {
-                "pred": "hasExactSynonym",
-                "val": "LAMP5"
               }
             ]
           },
@@ -11026,6 +11059,11 @@
           "type": "CLASS"
         },
         {
+          "id": "http://identifiers.org/ncbigene/2571",
+          "lbl": "GAD1",
+          "type": "CLASS"
+        },
+        {
           "id": "http://identifiers.org/ncbigene/2572",
           "lbl": "GAD2",
           "type": "CLASS"
@@ -11071,8 +11109,18 @@
           "type": "CLASS"
         },
         {
+          "id": "http://identifiers.org/ncbigene/4212",
+          "lbl": "MEIS2",
+          "type": "CLASS"
+        },
+        {
           "id": "http://identifiers.org/ncbigene/4852",
           "lbl": "NPY",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://identifiers.org/ncbigene/4861",
+          "lbl": "NPAS1",
           "type": "CLASS"
         },
         {
@@ -11146,6 +11194,11 @@
           "type": "CLASS"
         },
         {
+          "id": "http://identifiers.org/ncbigene/93986",
+          "lbl": "FOXP2",
+          "type": "CLASS"
+        },
+        {
           "id": "http://identifiers.org/ncbigene/9547",
           "lbl": "CXCL14",
           "type": "CLASS"
@@ -11153,6 +11206,11 @@
         {
           "id": "http://identifiers.org/ncbigene/9705",
           "lbl": "ST18",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CLM_5050493",
+          "lbl": "GAD1, GAD2, FOXP2, MEIS2, NPAS1 (CAS evidence).",
           "type": "CLASS"
         },
         {
@@ -11310,11 +11368,35 @@
           "type": "CLASS"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/CL_0008061",
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/CL_0011005",
           "type": "CLASS"
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_0020003",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_0020006",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_0020007",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_0020008",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_0020009",
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CL_0020010",
           "type": "CLASS"
         },
         {
@@ -11327,10 +11409,6 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/CL_4023017",
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/CL_4023035",
           "type": "CLASS"
         },
         {

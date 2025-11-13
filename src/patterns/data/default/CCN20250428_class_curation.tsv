@@ -1,7 +1,7 @@
 defined_class	cell_set_accession	Taxonomy_label	Exclude_from_ontology	defined_class_name	defined_class_definition	Curated_synonyms	Classification	Classification_comment	Classification_pub	Expresses	Expresses_comment	Expresses_pub	Projection_type	Locations	Neurotransmitters	Neurotransmitters_comment	Neurotransmitters_publication	Cross_species_text	Comment
 http://purl.obolibrary.org/obo/CL_4310083	CS20250428_GROUP_0003	GPin-BF Cholinergic GABA																	
-http://purl.obolibrary.org/obo/CL_4310084	CS20250428_GROUP_0004	LAMP5-CXCL14 GABA																	
-http://purl.obolibrary.org/obo/CL_4310085	CS20250428_GROUP_0005	LAMP5-LHX6 GABA																	
+http://purl.obolibrary.org/obo/CL_4310084	CS20250428_GROUP_0004	LAMP5-CXCL14 GABA		striatal LAMP5 CXCL14 GABAergic interneuron (Primate)															
+http://purl.obolibrary.org/obo/CL_4310085	CS20250428_GROUP_0005	LAMP5-LHX6 GABA		striatal LAMP5 LHX6 GABAergic interneuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310088	CS20250428_GROUP_0008	BF SKOR1 Glut																	
 http://purl.obolibrary.org/obo/CL_4310093	CS20250428_GROUP_0013	GPe MEIS2-SOX6 GABA																	
 http://purl.obolibrary.org/obo/CL_4310094	CS20250428_GROUP_0014	GPe SOX6-CTXND1 GABA																	
@@ -20,11 +20,11 @@ http://purl.obolibrary.org/obo/CL_4310118	CS20250428_GROUP_0038	STH PVALB-PITX2 
 http://purl.obolibrary.org/obo/CL_4310120	CS20250428_GROUP_0040	STR FS PTHLH-PVALB GABA																	
 http://purl.obolibrary.org/obo/CL_4310121	CS20250428_GROUP_0041	STR LYPD6-RSPO2 GABA																	
 http://purl.obolibrary.org/obo/CL_4310122	CS20250428_GROUP_0042	STR SST-ADARB2 GABA																	
-http://purl.obolibrary.org/obo/CL_4310123	CS20250428_GROUP_0043	STR SST-CHODL GABA																	
+http://purl.obolibrary.org/obo/CL_4310123	CS20250428_GROUP_0043	STR SST-CHODL GABA		striatal SST-CHODL GABAergic interneuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310124	CS20250428_GROUP_0044	STR SST-RSPO2 GABA																	
 http://purl.obolibrary.org/obo/CL_4310125	CS20250428_GROUP_0045	STR TAC3-PLPP4 GABA																	
 http://purl.obolibrary.org/obo/CL_4310126	CS20250428_GROUP_0046	STR-BF TAC3-PLPP4-LHX8 GABA																	
-http://purl.obolibrary.org/obo/CL_4310127	CS20250428_GROUP_0047	VIP GABA																	
+http://purl.obolibrary.org/obo/CL_4310127	CS20250428_GROUP_0047	VIP GABA		striatal VIP GABAergic interneuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310128	CS20250428_GROUP_0048	STRd Cholinergic GABA																	
 http://purl.obolibrary.org/obo/CL_4310129	CS20250428_GROUP_0049	STRd D1 Matrix MSN		STRd D1 Matrix Medium Spiny Neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310130	CS20250428_GROUP_0050	STRd D1 Striosome MSN																	

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2025-11-06
+data-version: pcl/releases/2025-11-13
 idspace: CCN20230722 https://purl.brain-bican.org/taxonomy/CCN20230722# 
 idspace: CL https://purl.brain-bican.org/taxonomy/CCN20230722#CL: 
 idspace: dce http://purl.org/dc/elements/1.1/ 
@@ -15,7 +15,7 @@ property_value: IAO:0000700 PCL:0160000
 property_value: IAO:0000700 PCL:0160001
 property_value: IAO:0000700 PCL:0160002
 property_value: IAO:0000700 PCL:0160106
-property_value: owl:versionInfo "2025-11-06" xsd:string
+property_value: owl:versionInfo "2025-11-13" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -6472,6 +6472,56 @@ relationship: RO:0002100 UBERON:0002477 ! has soma location medial globus pallid
 relationship: RO:0002292 PR:000015665 ! expresses somatostatin
 
 [Term]
+id: CL:0020006
+name: OB-Dopa-GABA
+def: "A transcriptomically defined GABAergic neuron coexpressing dopamine located in the olfactory bulb and part of the striatum." [PMID:35322231]
+is_a: CL:0000617 ! GABAergic neuron
+is_a: CL:0000700 ! dopaminergic neuron
+is_a: CL:0002613 ! striatum neuron
+
+[Term]
+id: CL:0020007
+name: dorso-striatal cholinergic-GABAergic neuron
+def: "A transcriptomically defined GABAergic neuron in the dorsal striatum. In mice and primates, it is defined by the coexpression of choline acetyltransferase (ChAT) together with the GABAergic markers glutamate decarboxylase 65 (GAD65/Gad2) and vesicular GABA transporter (VGAT/Slc32a1) (Lozovaya et al., 2018)." [PMID:10934256, PMID:19855026, PMID:29651049, PMID:37464873]
+is_a: CL:0002613 ! striatum neuron
+is_a: CL:0008061 ! GABA-Chol neuron
+is_a: CL:0011005 ! GABAergic interneuron
+property_value: IAO:0000028 "STRd Cholinergic GABA" xsd:string
+
+[Term]
+id: CL:0020008
+name: striatal cholinergic-GABAergic neuron
+def: "A large aspiny interneuron of the striatum that serves as the principal intrinsic source of acetylcholine while simultaneously releasing GABA. It is defined by coexpression of cholinergic markers (ChAT and VAChT/Slc18a3) and GABAergic markers (GAD65/Gad2 and VGAT/Slc32a1) (Lozovaya et al., 2018). This MGE-derived neuron maintains Lhx6 expression associated with dual-transmitter identity (Fragkouli et al., 2009; Marin et al., 2000). Morphologically, it possesses a large soma (20–50 μm diameter), 2–4 thick aspiny dendrites extending radially ~1 mm, and locally ramified axons with hundreds of thousands of varicosities (Wilson et al., 1990; Lim et al., 2014)." [PMID:10377365, PMID:10934256, PMID:21925242, PMID:2329464, PMID:25374536, PMID:25876458, PMID:29651049, PMID:37905876]
+is_a: CL:0002613 ! striatum neuron
+is_a: CL:0008061 ! GABA-Chol neuron
+is_a: CL:0011005 ! GABAergic interneuron
+property_value: dcterms:description "Although they constitute only 1–3% of all striatal neurons, these interneurons form a major modulatory hub, integrating cortical, thalamic, and dopaminergic inputs and shaping striatal output dynamics (Gonzales & Smith, 2015; Wegman et al., 2024). Electrophysiologically, the neuron exhibits tonic autonomous firing at 3–10 Hz, broad action potentials, and a prominent hyperpolarization-activated inward current (Ih) (Bennett & Wilson, 1999; Goldberg & Reynolds, 2011). Functionally, it modulates corticostriatal and thalamostriatal synaptic transmission, dopamine release, and spiny projection neuron excitability through co-transmission of acetylcholine and GABA (Lozovaya et al., 2018; Wegman et al., 2024). This dual inhibitory and modulatory signaling underlies context-dependent control of synaptic plasticity, action selection, and reinforcement learning (Gonzales & Smith, 2015; Lozovaya et al., 2018)." xsd:string {xref="PMID:10377365", xref="PMID:25876458", xref="PMID:29651049", xref="PMID:37905876"}
+property_value: IAO:0000028 "STR Cholinergic GABA" xsd:string
+
+[Term]
+id: CL:0020009
+name: prototypic neuron
+def: "A GABAergic neuron located in the external globus pallidus (GPe) that constitutes approximately two-thirds of all GPe neurons (Mallet et al., 2012, Dodson et al., 2015). Derived from the medial ganglionic eminence, this cell selectively expresses Nkx2-1, with roughly two-thirds co-expressing parvalbumin (PV) and one-third lacking it in mice (Mallet et al., 2012; Dodson et al., 2015)." [doi:10.1101/2022.03.16.484460, PMID:22726837, PMID:25843402, PMID:25926446, PMID:27194328, PMID:37336974]
+is_a: BFO:0000002
+is_a: CL:0000617 ! GABAergic neuron
+is_a: CL:0012001 ! neuron of the forebrain
+relationship: RO:0002100 UBERON:0002476 ! has soma location lateral globus pallidus
+relationship: RO:0002202 UBERON:0004024 ! develops from medial ganglionic eminence
+relationship: RO:0002292 PR:000011241 ! expresses homeobox protein Nkx-2.1
+property_value: dcterms:description "The prototypic neuron projects to downstream basal ganglia nuclei, including the subthalamic nucleus (STN), internal globus pallidus, and substantia nigra pars reticulata (SNr), with some neurons also emitting ascending collaterals that modestly innervate the striatum (Mallet et al., 2012, Abdi et al., 2015). It exhibits longer local axon collaterals with more boutons compared to arkypallidal neurons, supporting extensive local interconnectivity within the GPe (Mallet et al., 2012). The prototypic neuron plays a fundamental role in the indirect pathway of the basal ganglia, coordinating activity across basal ganglia nuclei through its widespread projections (Mallet et al., 2012, Courtney et al., 2023). Decreases in firing during movement are consistent with disinhibiting the STN and output nuclei, thereby facilitating the expression of desired motor patterns (Dodson et al., 2015, Courtney et al., 2023)." xsd:string {xref="PMID:22726837", xref="PMID:25843402", xref="PMID:25926446", xref="PMID:37336974"}
+property_value: IAO:0000028 "GPe SOX6-CTXND1 GABA" xsd:string
+
+[Term]
+id: CL:0020010
+name: arkypallidal neuron
+def: "A GABAergic projection neuron located in the external segment of the globus pallidus (GPe) and defined by its exclusive projection to the dorsal striatum rather than to the subthalamic nucleus or basal ganglia output nuclei. In rodents and primates, it is characterized molecularly by expression of FOXP2, MEIS2, and NPAS1, and lacks expression of canonical pallidal markers NKX2-1 and LHX6 (Dodson et al., 2015; Abdi et al., 2015; Courtney et al., 2023). This neuron is GABAergic (GAD1/2⁺, SLC32A1/VGAT⁺) and typically PV⁻, forming the transcriptionally and developmentally LGE-derived subclass of GPe neurons (Dodson et al., 2015; Mallet et al., 2012)." [PMID:22726837, PMID:25843402, PMID:25926446, PMID:27194328, PMID:37336974]
+is_a: CL:0000617 ! GABAergic neuron
+is_a: CL:0012001 ! neuron of the forebrain
+is_a: CL:4023035 ! lateral ganglionic eminence derived neuron
+relationship: RO:0002100 UBERON:0002476 ! has soma location lateral globus pallidus
+property_value: IAO:0000028 "GPe MEIS2-SOX6 GABA" xsd:string
+
+[Term]
 id: CL:1000042
 name: forebrain neuroblast
 def: "Any neuroblast (sensu Vertebrata) that is part of some forebrain." [FBC:Autogenerated]
@@ -10337,11 +10387,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310083
-name: GPin-BF Cholinergic GABA GABAergic interneuron (Primate)
-def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
+name: GPin-BF Cholinergic GABA GABA-Chol neuron (Primate)
+def: "A GABA-Chol neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPin-BF Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "GPin-BF Cholinergic GABA" EXACT []
-is_a: CL:0011005 ! GABAergic interneuron
+is_a: CL:0008061 ! GABA-Chol neuron
 is_a: PCL:0160031 ! CN Cholinergic GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
@@ -10351,7 +10401,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310084
-name: LAMP5-CXCL14 GABA lamp5 GABAergic interneuron (Primate)
+name: striatal LAMP5 CXCL14 GABAergic interneuron (Primate)
 def: "A lamp5 GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:LAMP5-CXCL14 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "CN LAMP5-CXCL14 GABA" EXACT []
@@ -10367,11 +10417,10 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310085
-name: LAMP5-LHX6 GABA Lamp5 Lhx6 neuron (Primate)
+name: striatal LAMP5 LHX6 GABAergic interneuron (Primate)
 def: "A Lamp5 Lhx6 neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:LAMP5-LHX6 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "CN LAMP5-LHX6 GABA" EXACT []
-synonym: "LAMP5" EXACT []
 synonym: "LAMP5-LHX6 GABA" EXACT []
 is_a: CL:4042013 ! Lamp5 Lhx6 neuron
 is_a: PCL:0160015 ! CN MGE GABA GABAergic neuron (Primate)
@@ -10397,25 +10446,27 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310093
-name: GPe MEIS2-SOX6 GABA lateral ganglionic eminence derived neuron (Primate)
-def: "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
-comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
+name: GPe MEIS2-SOX6 GABA arkypallidal neuron (Primate)
+def: "A arkypallidal neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe MEIS2-SOX6 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1016/j.neuron.2015.03.007, https://doi.org/10.1038/s41593-023-01368-7, https://doi.org/10.1523/JNEUROSCI.4662-14.2015]
+comment: Rationale for assigning this type to reference data: Mapping to the arkypallidal neuron is based on location (GPe), expression of GAD1/2, FOXP2, MEIS2, and NPAS1 and lack of expression of canonical pallidal markers NKX2-1 and LHX6, SST and PV. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1038/s41593-023-01368-7", xref="https://doi.org/10.1016/j.neuron.2015.03.007", xref="https://doi.org/10.1523/JNEUROSCI.4662-14.2015"}
 synonym: "CN MEIS2 GABA" EXACT []
 synonym: "GPe MEIS2-SOX6 GABA" EXACT []
-is_a: CL:4023035 ! lateral ganglionic eminence derived neuron
+is_a: CL:0020010 ! arkypallidal neuron
 is_a: PCL:0160013 ! CN LGE GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.2", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
+property_value: CLM:0010003 CLM:5050493
 property_value: IAO:0000028 "GPe MEIS2-SOX6 GABA (Primate)" xsd:string
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBR1BlIE1FSVMyLVNPWDYgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoTKRZmEflaGA4UMcv6FPFxFBFdNUDhOTUo1RDhYTzFBT0kxTDkABYNsbzGCNuJBg8AJxIM4AlIABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhJQTZZNlNON1FaU0lFSjBGWjBVAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE3NDE2QjVYSkRTWTBIREY5M1JPAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFWTTRFNko5RFBZWUQ3RTBCSE5CAAJLR1pMQVdJUENSNFc5OEY1TEQ2AAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgTUVJUzItU09YNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChf5ZiIWO1x8DhgqmToX0nKoEV01QOE5NSjVEOFhPMUFPSTFMOQAFhBTEFoOMxVKEYmm%2FhLTnSwYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAg5QVVURTlTMTBLQUVDMlVaTzMxAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFZM1AxSk0xRU5DR1dFVzhVU1RWAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAEzQ1BJUDI4MDRTQkRYMURYMVJXAAJTNUtRVEZIQ1JLSFZaVlJSNUhSAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgTUVJUzItU09YNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFHUGUgTUVJUzItU09YNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQECgSLSW4EItT4DhF7dZoPqe8kABQAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhGVExBVU9WNlNMQjA3MVNWTlU5AAlQT1oySENQQlQ2MERTREo4VUE3AAoACwFub25lAAJub25lAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAIIAA%3D%3D" xsd:string {name="Reference data on Allen Brain Cell Atlas"}
 property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS20250428_NEIGH_0002.h5ad" xsd:string {comment="Warning large data file!", name="h5ad data file for CS20250428_NEIGH_0002"}
 
 [Term]
 id: CL:4310094
-name: GPe SOX6-CTXND1 GABA GABAergic neuron (Primate)
-def: "A GABAergic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
-comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
+name: GPe SOX6-CTXND1 GABA prototypic neuron (Primate)
+def: "A prototypic neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPe SOX6-CTXND1 GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1016/j.neuron.2015.03.007]
+comment: Rationale for assigning this type to reference data: Mapping to the general type of prototypic neuron is based on location (GPe) and expression of Nkx2-1. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1016/j.neuron.2015.03.007"}
 synonym: "GPe SOX6-CTXND1 GABA" EXACT []
+is_a: CL:0020009 ! prototypic neuron
 is_a: PCL:0160035 ! CN LHX8 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.1", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: CLM:0010001 DHBA:10343 {CLM:0010002="0.8", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
@@ -10428,7 +10479,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: CL:4310095
 name: GPi Core neuron (Primate)
 def: "A internal globus pallidus core projecting neuron of the Primates brain. These cells are located in the internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPi Core." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1016/j.neuron.2017.03.017, https://doi.org/10.1523/ENEURO.0208-22.2022]
-comment: Rationale for assigning this type to reference data: Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1523/ENEURO.0208-22.2022", xref="https://doi.org/10.1016/j.neuron.2017.03.017"}
+comment: Rationale for assigning this type to reference data: Mapping to the general GPi core cell type is based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1523/ENEURO.0208-22.2022", xref="https://doi.org/10.1016/j.neuron.2017.03.017"}
 synonym: "CN ONECUT1 GABA" EXACT []
 synonym: "GPi Core" EXACT []
 is_a: CL:0020003 ! internal globus pallidus core projecting neuron
@@ -10582,11 +10633,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310118
-name: STH PVALB-PITX2 Glut striatal pthlh-expressing interneuron (Primate)
-def: "A striatal pthlh-expressing interneuron of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1038/s41586-023-06812-z]
+name: STH PVALB-PITX2 Glut glutamatergic neuron of the basal ganglia (Primate)
+def: "A glutamatergic neuron of the basal ganglia of the Primates brain. These cells are located in the subthalamic nucleus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STH PVALB-PITX2 Glut." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1038/s41586-023-06812-z]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1038/s41586-023-06812-z"}
 synonym: "STH PVALB-PITX2 Glut" EXACT []
-is_a: CL:4042023 ! striatal pthlh-expressing interneuron
+is_a: CL:4042040 ! glutamatergic neuron of the basal ganglia
 is_a: PCL:0160043 ! F Glut dopaminergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10466 {CLM:0010002="0.9", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STH PVALB-PITX2 Glut (Primate)" xsd:string
@@ -10638,7 +10689,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310123
-name: STR SST-CHODL GABA sst chodl GABAergic interneuron (Primate)
+name: striatal SST-CHODL GABAergic interneuron (Primate)
 def: "A sst chodl GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR SST-CHODL GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1038/s41586-020-2874-8]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1038/s41586-020-2874-8"}
 synonym: "LTS" EXACT []
@@ -10695,7 +10746,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310127
-name: VIP GABA VIP GABAergic interneuron (Primate)
+name: striatal VIP GABAergic interneuron (Primate)
 def: "A VIP GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:VIP GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1038/s41586-020-2874-8]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1038/s41586-020-2874-8"}
 synonym: "CN VIP GABA" EXACT []
@@ -10711,11 +10762,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310128
-name: STRd Cholinergic GABA GABAergic interneuron (Primate)
-def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
+name: STRd Cholinergic GABA dorso-striatal cholinergic-GABAergic neuron (Primate)
+def: "A dorso-striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "STRd Cholinergic GABA" EXACT []
-is_a: CL:0011005 ! GABAergic interneuron
+is_a: CL:0020007 ! dorso-striatal cholinergic-GABAergic neuron
 is_a: PCL:0160031 ! CN Cholinergic GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="1.0", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STRd Cholinergic GABA (Primate)" xsd:string
@@ -10783,8 +10834,8 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310133
-name: STRd D2 StrioMat Hybrid MSN lateral ganglionic eminence derived neuron (Primate)
-def: "A lateral ganglionic eminence derived neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
+name: STRd D2 StrioMat Hybrid MSN indirect pathway medium spiny neuron (Primate)
+def: "A indirect pathway medium spiny neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STRd D2 StrioMat Hybrid MSN." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "STRd D2 StrioMat Hybrid MSN" EXACT []
 is_a: PCL:0160059 ! STR D2 MSN indirect pathway medium spiny neuron (Primate)
@@ -10810,11 +10861,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310135
-name: STR Cholinergic GABA GABAergic interneuron (Primate)
-def: "A GABAergic interneuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
+name: STR Cholinergic GABA striatal cholinergic-GABAergic neuron (Primate)
+def: "A striatal cholinergic-GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:STR Cholinergic GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "STR Cholinergic GABA" EXACT []
-is_a: CL:0011005 ! GABAergic interneuron
+is_a: CL:0020008 ! striatal cholinergic-GABAergic neuron
 is_a: PCL:0160031 ! CN Cholinergic GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.6", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "STR Cholinergic GABA (Primate)" xsd:string
@@ -10924,10 +10975,11 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 
 [Term]
 id: CL:4310147
-name: OB Dopa-GABA GABAergic neuron (Primate)
-def: "A GABAergic neuron of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
+name: OB Dopa-GABA OB-Dopa-GABA (Primate)
+def: "A OB-Dopa-GABA of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OB Dopa-GABA." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions.
 synonym: "OB Dopa-GABA" EXACT []
+is_a: CL:0020006 ! OB-Dopa-GABA
 is_a: PCL:0160066 ! ACx MEIS2 GABA GABAergic neuron (Primate)
 property_value: CLM:0010001 DHBA:10333 {CLM:0010002="0.5", OBI:0000070="EFO:0008992", comment="Location assignment based on CCF broad region."}
 property_value: IAO:0000028 "OB Dopa-GABA (Primate)" xsd:string
@@ -10961,6 +11013,16 @@ is_a: SO:0001260 ! sequence_collection
 relationship: BFO:0000051 http://identifiers.org/ncbigene/24141 ! has part
 relationship: BFO:0000051 http://identifiers.org/ncbigene/26468 ! has part
 property_value: seeAlso "https://dev-knowledge.brain-map.org/abcatlas#AQQBTlhKOU5aQVFBNU1FSFFOT1dKUQACVEdCUTJGRVYyN04wQ1BMS1ZBWgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtTEhYNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChMpFmYR%2BVoYDhQxy%2FoU8XEUEV01QOE5NSjVEOFhPMUFPSTFMOQAFg2xvMYI24kGDwAnEgzgCUgAFAgFMQU1QNQAAAUxIWDYAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACElBNlk2U043UVpTSUVKMEZaMFUACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALATc0MTZCNVhKRFNZMEhERjkzUk8AAkNSRUhSQ0syWVhSV0pLMkowQUwAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAVZNNEU2SjlEUFlZRDdFMEJITkIAAktHWkxBV0lQQ1I0Vzk4RjVMRDYAAwUBRTNIR0JZSFJDOThHQTZGVzlGNgACAAABM1hCT0ZCUjMwMkVZQzBVUUQ1MQACAAABU1E2V0pPMEdOVUpHRlU4TEhWVgACAAABSEsxNE8xQVNBTlBZSE9ORkxMUQACAUxBTVA1LUxIWDYgR0FCQQAAATZFV0JTRUo0WUZWR0tJMkFQQkwAAgAABAEAAoX%2BWYiFjtcfA4YKpk6F9JyqBFdNUDhOTUo1RDhYTzFBT0kxTDkABYQUxBaDjMVShGJpv4S050sGAAcAAAUCAUxBTVA1AAABTEhYNgAABgEBAkhLMTRPMUFTQU5QWUhPTkZMTFEAA34AAAAEAAAIOUFVVEU5UzEwS0FFQzJVWk8zMQAJUE9aMkhDUEJUNjBEU0RKOFVBNwAKAAsBWTNQMUpNMUVOQ0dXRVc4VVNUVgACQ1JFSFJDSzJZWFJXSksySjBBTAADAQQBAAIjMDAwMDAwAAPIAQAFAQECIzAwMDAwMAADyAEAAAABM0NQSVAyODA0U0JEWDFEWDFSVwACUzVLUVRGSENSS0hWWlZSUjVIUgADBQFFM0hHQllIUkM5OEdBNkZXOUY2AAIAAAEzWEJPRkJSMzAyRVlDMFVRRDUxAAIAAAFTUTZXSk8wR05VSkdGVThMSFZWAAIAAAFISzE0TzFBU0FOUFlIT05GTExRAAIBTEFNUDUtTEhYNiBHQUJBAAABNkVXQlNFSjRZRlZHS0kyQVBCTAACAAAEAQAChebihoaWQSADh2hhMoagk4YEV01QOE5NSjVEOFhPMUFPSTFMOQAFgdih64S2EZmE2pRdhQKGhgYABwAABQIBTEFNUDUAAAFMSFg2AAAGAQECSEsxNE8xQVNBTlBZSE9ORkxMUQADfgAAAAQAAAhIWkVZWFNRT0VETkQyUTZNOTdNAAlQT1oySENQQlQ2MERTREo4VUE3AAoACwE2VDk2MjYwMTI2VFY0S0xHRFhHAAJDUkVIUkNLMllYUldKSzJKMEFMAAMBBAEAAiMwMDAwMDAAA8gBAAUBAQIjMDAwMDAwAAPIAQAAAAFFSVVBTFBZTkdaNVZVN1kyWTAyAAJRWlEyUUJNVTRUNUk0N0QxSzRGAAMFAUUzSEdCWUhSQzk4R0E2Rlc5RjYAAgAAATNYQk9GQlIzMDJFWUMwVVFENTEAAgAAAVNRNldKTzBHTlVKR0ZVOExIVlYAAgAAAUhLMTRPMUFTQU5QWUhPTkZMTFEAAgFMQU1QNS1MSFg2IEdBQkEAAAE2RVdCU0VKNFlGVkdLSTJBUEJMAAIAAAQBAQKBItJbgQi1PgOEXt1mg%2Bp7yQAFAgFMQU1QNQAAAUxIWDYAAAYBAQJISzE0TzFBU0FOUFlIT05GTExRAAN%2BAAAABAAACEZUTEFVT1Y2U0xCMDcxU1ZOVTkACVBPWjJIQ1BCVDYwRFNESjhVQTcACgALAW5vbmUAAm5vbmUAAwEEAQACIzAwMDAwMAADyAEABQEBAiMwMDAwMDAAA8gBAAAAAggA" xsd:string {name="markers in reference data on Allen Brain Cell Atlas"}
+
+[Term]
+id: CLM:5050493
+name: GAD1, GAD2, FOXP2, MEIS2, NPAS1 (CAS evidence).
+is_a: SO:0001260 ! sequence_collection
+relationship: BFO:0000051 http://identifiers.org/ncbigene/2571 ! has part
+relationship: BFO:0000051 http://identifiers.org/ncbigene/2572 ! has part
+relationship: BFO:0000051 http://identifiers.org/ncbigene/4212 ! has part
+relationship: BFO:0000051 http://identifiers.org/ncbigene/4861 ! has part
+relationship: BFO:0000051 http://identifiers.org/ncbigene/93986 ! has part
 
 [Term]
 id: CLM:5050494
@@ -11151,8 +11213,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10153
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10153
 is_a: UBERON:0003075 ! neural plate
 intersection_of: UBERON:0003075 ! neural plate
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "NP" xsd:string
 property_value: skos:prefLabel "neural plate  ( human dev )" xsd:string
 
@@ -11166,8 +11229,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10154
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10154
 is_a: UBERON:0001049 ! neural tube
 intersection_of: UBERON:0001049 ! neural tube
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10153 ! part of neural plate
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "NT" xsd:string
 property_value: skos:prefLabel "neural tube  ( human dev )" xsd:string
 
@@ -11181,8 +11245,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10155
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10155
 is_a: UBERON:0008823 ! neural tube derived brain
 intersection_of: UBERON:0000955 ! brain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10154 ! part of neural tube
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Br" xsd:string
 property_value: skos:prefLabel "brain  ( human dev )" xsd:string
 
@@ -11196,8 +11261,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10156
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10156
 is_a: UBERON:0001890 ! forebrain
 intersection_of: UBERON:0001890 ! forebrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10155 ! part of brain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "F" xsd:string
 property_value: skos:prefLabel "forebrain (prosencephalon)  ( human dev )" xsd:string
 
@@ -11211,8 +11277,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10157
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10157
 is_a: UBERON:0019264 ! gray matter of forebrain
 intersection_of: UBERON:0019264 ! gray matter of forebrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10156 ! part of forebrain (prosencephalon)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "FGM" xsd:string
 property_value: skos:prefLabel "gray matter of forebrain  ( human dev )" xsd:string
 
@@ -11226,8 +11293,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10158
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10158
 is_a: UBERON:0001893 ! telencephalon
 intersection_of: UBERON:0001893 ! telencephalon
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10157 ! part of gray matter of forebrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Tel" xsd:string
 property_value: skos:prefLabel "telencephalon  ( human dev )" xsd:string
 
@@ -11241,8 +11309,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10159
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10159
 is_a: UBERON:0000956 ! cerebral cortex
 intersection_of: UBERON:0000956 ! cerebral cortex
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10158 ! part of telencephalon
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Cx" xsd:string
 property_value: skos:prefLabel "cerebral cortex  ( human dev )" xsd:string
 
@@ -11256,8 +11325,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10160
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10160
 is_a: UBERON:0001950 ! neocortex
 intersection_of: UBERON:0001950 ! neocortex
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10159 ! part of cerebral cortex
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "NCx" xsd:string
 property_value: skos:prefLabel "neocortex (isocortex)  ( human dev )" xsd:string
 
@@ -11271,8 +11341,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10292
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10292
 is_a: UBERON:0014734 ! allocortex
 intersection_of: UBERON:0014734 ! allocortex
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10159 ! part of cerebral cortex
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "ACx" xsd:string
 property_value: skos:prefLabel "allocortex  ( human dev )" xsd:string
 
@@ -11287,7 +11358,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10306
 is_a: DHBA:10292 ! allocortex
 is_a: UBERON:0014735 ! paleocortex
 intersection_of: UBERON:0014735 ! paleocortex
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10292 ! part of allocortex
 property_value: IAO:0000028 "PalCx" xsd:string
 property_value: skos:prefLabel "paleocortex (semicortex)  ( human dev )" xsd:string
@@ -11302,8 +11373,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10310
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10310
 is_a: UBERON:0001883 ! olfactory tubercle
 intersection_of: UBERON:0001883 ! olfactory tubercle
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10306 ! part of paleocortex (semicortex)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "OT" xsd:string
 property_value: skos:prefLabel "olfactory tubercle  ( human dev )" xsd:string
 
@@ -11317,8 +11389,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10311
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10311
 is_a: UBERON:0004725 ! piriform cortex
 intersection_of: UBERON:0004725 ! piriform cortex
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10306 ! part of paleocortex (semicortex)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Pir" xsd:string
 property_value: skos:prefLabel "piriform cortex  ( human dev )" xsd:string
 
@@ -11332,8 +11405,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10331
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10331
 is_a: UBERON:8440012 ! cerebral nuclei
 intersection_of: UBERON:8440012 ! cerebral nuclei
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10158 ! part of telencephalon
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "CN" xsd:string
 property_value: skos:prefLabel "cerebral nuclei  ( human dev )" xsd:string
 
@@ -11349,7 +11423,7 @@ is_a: DHBA:10157 ! gray matter of forebrain
 is_a: UBERON:0002420 ! basal ganglion
 is_a: UBERON:0011300 ! gray matter of telencephalon
 intersection_of: UBERON:0002420 ! basal ganglion
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10331 ! part of cerebral nuclei
 property_value: IAO:0000028 "BN" xsd:string
 property_value: skos:prefLabel "basal nuclei (basal ganglia)  ( human dev )" xsd:string
@@ -11365,7 +11439,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10333
 is_a: DHBA:10157 ! gray matter of forebrain
 is_a: UBERON:0002435 ! striatum
 intersection_of: UBERON:0002435 ! striatum
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10332 ! part of basal nuclei (basal ganglia)
 property_value: IAO:0000028 "STR" xsd:string
 property_value: skos:prefLabel "striatum  ( human dev )" xsd:string
@@ -11380,8 +11454,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10334
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10334
 is_a: UBERON:0001873 ! caudate nucleus
 intersection_of: UBERON:0001873 ! caudate nucleus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10333 ! part of striatum
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Ca" xsd:string
 property_value: skos:prefLabel "caudate nucleus  ( human dev )" xsd:string
 
@@ -11395,8 +11470,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10338
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10338
 is_a: UBERON:0001874 ! putamen
 intersection_of: UBERON:0001874 ! putamen
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10333 ! part of striatum
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Pu" xsd:string
 property_value: skos:prefLabel "putamen  ( human dev )" xsd:string
 
@@ -11410,8 +11486,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10339
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10339
 is_a: UBERON:0001882 ! nucleus accumbens
 intersection_of: UBERON:0001882 ! nucleus accumbens
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10333 ! part of striatum
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "NAC" xsd:string
 property_value: skos:prefLabel "nucleus accumbens  ( human dev )" xsd:string
 
@@ -11425,8 +11502,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10342
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10342
 is_a: UBERON:0001875 ! globus pallidus
 intersection_of: UBERON:0001875 ! globus pallidus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10332 ! part of basal nuclei (basal ganglia)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "GP" xsd:string
 property_value: skos:prefLabel "globus pallidus  ( human dev )" xsd:string
 
@@ -11454,7 +11532,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10344
 is_a: DHBA:10157 ! gray matter of forebrain
 is_a: UBERON:0002477 ! medial globus pallidus
 intersection_of: UBERON:0002477 ! medial globus pallidus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10342 ! part of globus pallidus
 property_value: IAO:0000028 "GPi" xsd:string
 property_value: skos:prefLabel "internal segment of globus pallidus  ( human dev )" xsd:string
@@ -11469,8 +11547,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10349
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10349
 is_a: UBERON:0002743 ! basal forebrain
 intersection_of: UBERON:0002743 ! basal forebrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10331 ! part of cerebral nuclei
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "BF" xsd:string
 property_value: skos:prefLabel "basal forebrain  ( human dev )" xsd:string
 
@@ -11485,7 +11564,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10350
 is_a: DHBA:10157 ! gray matter of forebrain
 is_a: UBERON:0002663 ! septal nuclear complex
 intersection_of: UBERON:0002663 ! septal nuclear complex
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10349 ! part of basal forebrain
 property_value: IAO:0000028 "SEP" xsd:string
 property_value: skos:prefLabel "septal nuclei  ( human dev )" xsd:string
@@ -11500,8 +11579,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10358
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10358
 is_a: UBERON:0001881 ! island of Calleja
 intersection_of: UBERON:0001881 ! island of Calleja
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10349 ! part of basal forebrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "IsCj" xsd:string
 property_value: skos:prefLabel "islands of Calleja  ( human dev )" xsd:string
 
@@ -11515,8 +11595,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10389
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10389
 is_a: UBERON:0001894 ! diencephalon
 intersection_of: UBERON:0001894 ! diencephalon
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10157 ! part of gray matter of forebrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Die" xsd:string
 property_value: skos:prefLabel "diencephalon  ( human dev )" xsd:string
 
@@ -11530,8 +11611,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10390
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10390
 is_a: UBERON:0001897 ! dorsal plus ventral thalamus
 intersection_of: UBERON:0001897 ! dorsal plus ventral thalamus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10389 ! part of diencephalon
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "THM" xsd:string
 property_value: skos:prefLabel "thalamus  ( human dev )" xsd:string
 
@@ -11545,8 +11627,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10391
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10391
 is_a: UBERON:0004703 ! dorsal thalamus
 intersection_of: UBERON:0004703 ! dorsal thalamus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10390 ! part of thalamus
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "DTH" xsd:string
 property_value: skos:prefLabel "dorsal thalamus  ( human dev )" xsd:string
 
@@ -11560,8 +11643,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10451
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10451
 is_a: UBERON:0001899 ! epithalamus
 intersection_of: UBERON:0001899 ! epithalamus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10390 ! part of thalamus
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "ETH" xsd:string
 property_value: skos:prefLabel "epithalamus  ( human dev )" xsd:string
 
@@ -11575,8 +11659,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10460
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10460
 is_a: UBERON:0001905 ! pineal body
 intersection_of: UBERON:0001905 ! pineal body
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10451 ! part of epithalamus
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Pin" xsd:string
 property_value: skos:prefLabel "pineal body  ( human dev )" xsd:string
 
@@ -11590,8 +11675,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10461
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10461
 is_a: UBERON:0001900 ! ventral thalamus
 intersection_of: UBERON:0001900 ! ventral thalamus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10390 ! part of thalamus
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "VTH" xsd:string
 property_value: skos:prefLabel "ventral thalamus  ( human dev )" xsd:string
 
@@ -11618,8 +11704,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10466
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10466
 is_a: UBERON:0001906 ! subthalamic nucleus
 intersection_of: UBERON:0001906 ! subthalamic nucleus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10465 ! part of subthalamus
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "STH" xsd:string
 property_value: skos:prefLabel "subthalamic nucleus  ( human dev )" xsd:string
 
@@ -11633,8 +11720,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10467
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10467
 is_a: UBERON:0001898 ! hypothalamus
 intersection_of: UBERON:0001898 ! hypothalamus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10389 ! part of diencephalon
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "HTH" xsd:string
 property_value: skos:prefLabel "hypothalamus  ( human dev )" xsd:string
 
@@ -11661,8 +11749,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10492
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10492
 is_a: UBERON:0001932 ! arcuate nucleus of hypothalamus
 intersection_of: UBERON:0001932 ! arcuate nucleus of hypothalamus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10483 ! part of tuberal region of HTH
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Arc" xsd:string
 property_value: skos:prefLabel "arcuate nucleus of hypothalamus  ( human dev )" xsd:string
 
@@ -11676,8 +11765,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10505
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10505
 is_a: UBERON:0000007 ! pituitary gland
 intersection_of: UBERON:0000007 ! pituitary gland
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10467 ! part of hypothalamus
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Pit" xsd:string
 property_value: skos:prefLabel "pituitary body  ( human dev )" xsd:string
 
@@ -11705,8 +11795,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10515
 is_a: UBERON:0005343 ! cortical plate
 is_a: UBERON:0006598 ! presumptive structure
 intersection_of: UBERON:0005343 ! cortical plate
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10506 ! part of transient structures of forebrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "CP" xsd:string
 property_value: skos:prefLabel "cortical plate  ( human dev )" xsd:string
 
@@ -11721,8 +11812,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10522
 is_a: UBERON:0002050 ! embryonic structure
 is_a: UBERON:0004035 ! cortical subplate
 intersection_of: UBERON:0004035 ! cortical subplate
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10506 ! part of transient structures of forebrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "SP" xsd:string
 property_value: skos:prefLabel "subplate zone  ( human dev )" xsd:string
 
@@ -11736,8 +11828,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10542
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10542
 is_a: UBERON:0003053 ! ventricular zone
 intersection_of: UBERON:0003053 ! ventricular zone
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10506 ! part of transient structures of forebrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "VZ" xsd:string
 property_value: skos:prefLabel "ventricular zone  ( human dev )" xsd:string
 
@@ -11751,8 +11844,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10549
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10549
 is_a: UBERON:0004023 ! ganglionic eminence
 intersection_of: UBERON:0004023 ! ganglionic eminence
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10542 ! part of ventricular zone
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "GE" xsd:string
 property_value: skos:prefLabel "Ganglionic eminence (VZ in basal nuclei)  ( human dev )" xsd:string
 
@@ -11766,8 +11860,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10550
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10550
 is_a: UBERON:0004024 ! medial ganglionic eminence
 intersection_of: UBERON:0004024 ! medial ganglionic eminence
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10549 ! part of Ganglionic eminence (VZ in basal nuclei)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "MGE" xsd:string
 property_value: skos:prefLabel "medial ganglionic eminence  ( human dev )" xsd:string
 
@@ -11781,8 +11876,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10551
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10551
 is_a: UBERON:0004025 ! lateral ganglionic eminence
 intersection_of: UBERON:0004025 ! lateral ganglionic eminence
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10549 ! part of Ganglionic eminence (VZ in basal nuclei)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "LGE" xsd:string
 property_value: skos:prefLabel "lateral ganglionic eminence  ( human dev )" xsd:string
 
@@ -11796,8 +11892,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10552
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10552
 is_a: UBERON:0004026 ! caudal ganglionic eminence
 intersection_of: UBERON:0004026 ! caudal ganglionic eminence
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10549 ! part of Ganglionic eminence (VZ in basal nuclei)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "CGE" xsd:string
 property_value: skos:prefLabel "caudal ganglionic eminence  ( human dev )" xsd:string
 
@@ -11811,8 +11908,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10557
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10557
 is_a: UBERON:0019261 ! white matter of forebrain
 intersection_of: UBERON:0019261 ! white matter of forebrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10156 ! part of forebrain (prosencephalon)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "FWM" xsd:string
 property_value: skos:prefLabel "white matter of forebrain  ( human dev )" xsd:string
 
@@ -11826,8 +11924,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10568
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10568
 is_a: UBERON:0022247 ! forebrain ipsilateral fiber tracts
 intersection_of: UBERON:0022247 ! forebrain ipsilateral fiber tracts
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10557 ! part of white matter of forebrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "FIFT" xsd:string
 property_value: skos:prefLabel "forebrain ipsilateral fiber tracts  ( human dev )" xsd:string
 
@@ -11841,8 +11940,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10593
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10593
 is_a: UBERON:0022254 ! ventral thalamic fasciculus
 intersection_of: UBERON:0022254 ! ventral thalamic fasciculus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10568 ! part of forebrain ipsilateral fiber tracts
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "thf" xsd:string
 property_value: skos:prefLabel "thalamic fasciculus  ( human dev )" xsd:string
 
@@ -11856,8 +11956,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10595
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10595
 is_a: UBERON:0006284 ! early prosencephalic vesicle
 intersection_of: UBERON:0006284 ! early prosencephalic vesicle
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10156 ! part of forebrain (prosencephalon)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "FV" xsd:string
 property_value: skos:prefLabel "ventricles of forebrain  ( human dev )" xsd:string
 
@@ -11871,8 +11972,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10596
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10596
 is_a: UBERON:0002285 ! telencephalic ventricle
 intersection_of: UBERON:0002285 ! telencephalic ventricle
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10595 ! part of ventricles of forebrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "LV" xsd:string
 property_value: skos:prefLabel "lateral ventricles  ( human dev )" xsd:string
 
@@ -11887,8 +11989,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10601
 is_a: UBERON:0002200 ! vasculature of head
 is_a: UBERON:0002307 ! choroid plexus of lateral ventricle
 intersection_of: UBERON:0002307 ! choroid plexus of lateral ventricle
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:146034908 ! part of adjoining structures of forebrain ventricles
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "ChoLV" xsd:string
 property_value: skos:prefLabel "choroid plexus of lateral ventricle  ( human dev )" xsd:string
 
@@ -11902,8 +12005,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10602
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10602
 is_a: UBERON:0002286 ! third ventricle
 intersection_of: UBERON:0002286 ! third ventricle
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10595 ! part of ventricles of forebrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "3V" xsd:string
 property_value: skos:prefLabel "third ventricle  ( human dev )" xsd:string
 
@@ -11930,8 +12034,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10648
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10648
 is_a: UBERON:0001891 ! midbrain
 intersection_of: UBERON:0001891 ! midbrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10155 ! part of brain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "M" xsd:string
 property_value: skos:prefLabel "midbrain (mesencephalon)  ( human dev )" xsd:string
 
@@ -11945,8 +12050,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10649
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10649
 is_a: UBERON:0019267 ! gray matter of midbrain
 intersection_of: UBERON:0019267 ! gray matter of midbrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10648 ! part of midbrain (mesencephalon)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "MGM" xsd:string
 property_value: skos:prefLabel "gray matter of midbrain  ( human dev )" xsd:string
 
@@ -11960,8 +12066,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10650
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10650
 is_a: UBERON:0016554 ! white matter of midbrain
 intersection_of: UBERON:0016554 ! white matter of midbrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10648 ! part of midbrain (mesencephalon)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "MWM" xsd:string
 property_value: skos:prefLabel "white matter of midbrain  ( human dev )" xsd:string
 
@@ -11975,8 +12082,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10653
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10653
 is_a: UBERON:0002028 ! hindbrain
 intersection_of: UBERON:0002028 ! hindbrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10155 ! part of brain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "H" xsd:string
 property_value: skos:prefLabel "hindbrain (rhombencephalon)  ( human dev )" xsd:string
 
@@ -11990,8 +12098,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10654
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10654
 is_a: UBERON:0019263 ! gray matter of hindbrain
 intersection_of: UBERON:0019263 ! gray matter of hindbrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10653 ! part of hindbrain (rhombencephalon)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "HGM" xsd:string
 property_value: skos:prefLabel "gray matter of the hindbrain  ( human dev )" xsd:string
 
@@ -12006,8 +12115,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10655
 is_a: UBERON:0001895 ! metencephalon
 is_a: UBERON:0004731 ! neuromere
 intersection_of: UBERON:0001895 ! metencephalon
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10654 ! part of gray matter of the hindbrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Met" xsd:string
 property_value: skos:prefLabel "metencephalon  ( human dev )" xsd:string
 
@@ -12021,8 +12131,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10656
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10656
 is_a: UBERON:0002037 ! cerebellum
 intersection_of: UBERON:0002037 ! cerebellum
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10655 ! part of metencephalon
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "CB" xsd:string
 property_value: skos:prefLabel "cerebellum  ( human dev )" xsd:string
 
@@ -12037,7 +12148,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10657
 is_a: DHBA:10654 ! gray matter of the hindbrain
 is_a: UBERON:0002129 ! cerebellar cortex
 intersection_of: UBERON:0002129 ! cerebellar cortex
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10656 ! part of cerebellum
 property_value: IAO:0000028 "CBC" xsd:string
 property_value: skos:prefLabel "cerebellar cortex  ( human dev )" xsd:string
@@ -12052,8 +12163,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10661
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10661
 is_a: UBERON:0000988 ! pons
 intersection_of: UBERON:0000988 ! pons
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10655 ! part of metencephalon
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Pn" xsd:string
 property_value: skos:prefLabel "pons  ( human dev )" xsd:string
 
@@ -12068,8 +12180,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10662
 is_a: UBERON:0004731 ! neuromere
 is_a: UBERON:0005290 ! myelencephalon
 intersection_of: UBERON:0005290 ! myelencephalon
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10654 ! part of gray matter of the hindbrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Mo" xsd:string
 property_value: skos:prefLabel "myelencephalon (medulla oblongata)  ( human dev )" xsd:string
 
@@ -12096,8 +12209,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10664
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10664
 is_a: UBERON:0006215 ! rhombic lip
 intersection_of: UBERON:0006215 ! rhombic lip
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10663 ! part of transient structures of hindbrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "RhL" xsd:string
 property_value: skos:prefLabel "rhombic lip  ( human dev )" xsd:string
 
@@ -12111,8 +12225,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10665
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10665
 is_a: UBERON:0009841 ! upper rhombic lip
 intersection_of: UBERON:0009841 ! upper rhombic lip
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10664 ! part of rhombic lip
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "URL" xsd:string
 property_value: skos:prefLabel "upper (rostral) rhombic lip  ( human dev )" xsd:string
 
@@ -12126,8 +12241,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10668
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10668
 is_a: UBERON:0019258 ! white matter of hindbrain
 intersection_of: UBERON:0019258 ! white matter of hindbrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10653 ! part of hindbrain (rhombencephalon)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "HWM" xsd:string
 property_value: skos:prefLabel "white matter of hindbrain  ( human dev )" xsd:string
 
@@ -12139,9 +12255,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=138322603#structure=10669
 xref: http://atlas.brain-map.org/atlas?atlas=138322605#structure=10669
 xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=10669
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=10669
-is_a: UBERON:0002422 ! fourth ventricle
-intersection_of: UBERON:0002422 ! fourth ventricle
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+is_a: BFO:0000004
 relationship: BFO:0000050 DHBA:10653 ! part of hindbrain (rhombencephalon)
 property_value: IAO:0000028 "HV" xsd:string
 property_value: skos:prefLabel "ventricles of hindbrain  ( human dev )" xsd:string
@@ -12169,8 +12283,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12101
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12101
 is_a: UBERON:0002139 ! subcommissural organ
 intersection_of: UBERON:0002139 ! subcommissural organ
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12291 ! part of midbrain tectum
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "SCO" xsd:string
 property_value: skos:prefLabel "subcommissural organ  ( human dev )" xsd:string
 
@@ -12184,8 +12299,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12104
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12104
 is_a: UBERON:0002219 ! subfornical organ
 intersection_of: UBERON:0002219 ! subfornical organ
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:146034908 ! part of adjoining structures of forebrain ventricles
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "SFO" xsd:string
 property_value: skos:prefLabel "subfornical organ  ( human dev )" xsd:string
 
@@ -12199,8 +12315,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12195
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12195
 is_a: UBERON:0001943 ! midbrain tegmentum
 intersection_of: UBERON:0001943 ! midbrain tegmentum
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10649 ! part of gray matter of midbrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "MTg" xsd:string
 property_value: skos:prefLabel "midbrain tegmentum  ( human dev )" xsd:string
 
@@ -12216,8 +12333,9 @@ is_a: UBERON:0002038 ! substantia nigra
 is_a: UBERON:0006331 ! brainstem nucleus
 is_a: UBERON:0007414 ! nucleus of midbrain tegmentum
 intersection_of: UBERON:0002038 ! substantia nigra
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12195 ! part of midbrain tegmentum
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "SN" xsd:string
 property_value: skos:prefLabel "substantia nigra  ( human dev )" xsd:string
 
@@ -12231,8 +12349,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12291
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12291
 is_a: UBERON:0002314 ! midbrain tectum
 intersection_of: UBERON:0002314 ! midbrain tectum
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10649 ! part of gray matter of midbrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "MTc" xsd:string
 property_value: skos:prefLabel "midbrain tectum  ( human dev )" xsd:string
 
@@ -12273,7 +12392,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12322
 is_a: DHBA:10649 ! gray matter of midbrain
 is_a: UBERON:0010285 ! midbrain basal plate
 intersection_of: UBERON:0010285 ! midbrain basal plate
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12319 ! part of intermediate (mantle) zone of midbrain
 property_value: IAO:0000028 "IZMba" xsd:string
 property_value: skos:prefLabel "basal plate of midbrain  ( human dev )" xsd:string
@@ -12288,8 +12407,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12325
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12325
 is_a: UBERON:0003307 ! floor plate of midbrain
 intersection_of: UBERON:0003307 ! floor plate of midbrain
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12319 ! part of intermediate (mantle) zone of midbrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "IZMfl" xsd:string
 property_value: skos:prefLabel "floor plate of midbrain  ( human dev )" xsd:string
 
@@ -12303,8 +12423,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12416
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12416
 is_a: UBERON:0003023 ! pontine tegmentum
 intersection_of: UBERON:0003023 ! pontine tegmentum
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10661 ! part of pons
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "PnTg" xsd:string
 property_value: skos:prefLabel "pontine tegmentum  ( human dev )" xsd:string
 
@@ -12331,8 +12452,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12435
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12435
 is_a: UBERON:0002149 ! superior salivatory nucleus
 intersection_of: UBERON:0002149 ! superior salivatory nucleus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12417 ! part of efferent nuclei of cranial nerves in pons
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "SuSV" xsd:string
 property_value: skos:prefLabel "superior salivatory nucleus  ( human dev )" xsd:string
 
@@ -12360,7 +12482,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12462
 is_a: DHBA:10654 ! gray matter of the hindbrain
 is_a: UBERON:0002128 ! superior olivary complex
 intersection_of: UBERON:0002128 ! superior olivary complex
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12453 ! part of auditory relay nuclei in pons
 property_value: IAO:0000028 "SOC" xsd:string
 property_value: skos:prefLabel "superior olivary complex  ( human dev )" xsd:string
@@ -12373,9 +12495,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=138322603#structure=12471
 xref: http://atlas.brain-map.org/atlas?atlas=138322605#structure=12471
 xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12471
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12471
-is_a: UBERON:0002047 ! pontine raphe nucleus
-intersection_of: UBERON:0002047 ! pontine raphe nucleus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+is_a: BFO:0000004
 relationship: BFO:0000050 DHBA:12416 ! part of pontine tegmentum
 property_value: IAO:0000028 "PnRa" xsd:string
 property_value: skos:prefLabel "raphe pontis nucleus  ( human dev )" xsd:string
@@ -12390,8 +12510,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12475
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12475
 is_a: UBERON:0002047 ! pontine raphe nucleus
 intersection_of: UBERON:0002047 ! pontine raphe nucleus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12471 ! part of raphe pontis nucleus
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "PRn" xsd:string
 property_value: skos:prefLabel "raphe pontis nucleus  ( human dev )" xsd:string
 
@@ -12444,8 +12565,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12545
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12545
 is_a: UBERON:0002871 ! hypoglossal nucleus
 intersection_of: UBERON:0002871 ! hypoglossal nucleus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12539 ! part of efferent nuclei of cranial nerves in the medulla oblongata
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "12N" xsd:string
 property_value: skos:prefLabel "hypoglossal nucleus  ( human dev )" xsd:string
 
@@ -12460,8 +12582,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12664
 is_a: UBERON:0001892 ! rhombomere
 is_a: UBERON:0004733 ! segmental subdivision of hindbrain
 intersection_of: UBERON:0001892 ! rhombomere
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10663 ! part of transient structures of hindbrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "HNM" xsd:string
 property_value: skos:prefLabel "hindbrain neuromeres  ( human dev )" xsd:string
 
@@ -12489,7 +12612,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12667
 is_a: DHBA:12664 ! hindbrain neuromeres
 is_a: UBERON:0005499 ! rhombomere 1
 intersection_of: UBERON:0005499 ! rhombomere 1
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12666 ! part of rhombomere A
 property_value: IAO:0000028 "Rh1" xsd:string
 property_value: skos:prefLabel "rhombomere 1  ( human dev )" xsd:string
@@ -12505,8 +12628,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12682
 is_a: UBERON:0002050 ! embryonic structure
 is_a: UBERON:0034994 ! hindbrain cortical intermediate zone
 intersection_of: UBERON:0034994 ! hindbrain cortical intermediate zone
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10663 ! part of transient structures of hindbrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "IZH" xsd:string
 property_value: skos:prefLabel "intermediate (mantle) zone of hindbrain  ( human dev )" xsd:string
 
@@ -12520,8 +12644,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12694
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12694
 is_a: UBERON:0034709 ! hindbrain marginal layer
 intersection_of: UBERON:0034709 ! hindbrain marginal layer
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10663 ! part of transient structures of hindbrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "MZH" xsd:string
 property_value: skos:prefLabel "marginal zone of hindbrain  ( human dev )" xsd:string
 
@@ -12536,7 +12661,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12695
 is_a: DHBA:12694 ! marginal zone of hindbrain
 is_a: UBERON:0034708 ! cerebellum marginal layer
 intersection_of: UBERON:0034708 ! cerebellum marginal layer
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12694 ! part of marginal zone of hindbrain
 property_value: IAO:0000028 "MZCB" xsd:string
 property_value: skos:prefLabel "marginal zone of cerebellum  ( human dev )" xsd:string
@@ -12551,8 +12676,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12805
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12805
 is_a: UBERON:0002422 ! fourth ventricle
 intersection_of: UBERON:0002422 ! fourth ventricle
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10669 ! part of ventricles of hindbrain
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "4V" xsd:string
 property_value: skos:prefLabel "fourth ventricle  ( human dev )" xsd:string
 
@@ -12567,8 +12693,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12808
 is_a: UBERON:0002200 ! vasculature of head
 is_a: UBERON:0002290 ! choroid plexus of fourth ventricle
 intersection_of: UBERON:0002290 ! choroid plexus of fourth ventricle
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:146035012 ! part of adjoining structures of fourth ventricle
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "Cho4V" xsd:string
 property_value: skos:prefLabel "choroid plexus of the fourth ventricle  ( human dev )" xsd:string
 
@@ -12582,8 +12709,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12819
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12819
 is_a: UBERON:0002148 ! locus ceruleus
 intersection_of: UBERON:0002148 ! locus ceruleus
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:146035012 ! part of adjoining structures of fourth ventricle
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "LC" xsd:string
 property_value: skos:prefLabel "locus coeruleus  ( human dev )" xsd:string
 
@@ -12610,8 +12738,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=12890
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=12890
 is_a: UBERON:0002240 ! spinal cord
 intersection_of: UBERON:0002240 ! spinal cord
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10154 ! part of neural tube
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "SpC" xsd:string
 property_value: skos:prefLabel "spinal cord  ( human dev )" xsd:string
 
@@ -12625,8 +12754,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=13338
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=13338
 is_a: UBERON:0002197 ! median eminence of neurohypophysis
 intersection_of: UBERON:0002197 ! median eminence of neurohypophysis
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:10483 ! part of tuberal region of HTH
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "ME" xsd:string
 property_value: skos:prefLabel "median eminence  ( human dev )" xsd:string
 
@@ -12666,8 +12796,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=146035048
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=146035048
 is_a: UBERON:0002315 ! gray matter of spinal cord
 intersection_of: UBERON:0002315 ! gray matter of spinal cord
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12890 ! part of spinal cord
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "SGM" xsd:string
 property_value: skos:prefLabel "gray matter of spinal cord  ( human dev )" xsd:string
 
@@ -12681,8 +12812,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=146035088
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=146035088
 is_a: UBERON:0002318 ! white matter of spinal cord
 intersection_of: UBERON:0002318 ! white matter of spinal cord
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12890 ! part of spinal cord
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "SWM" xsd:string
 property_value: skos:prefLabel "white matter of spinal cord  ( human dev )" xsd:string
 
@@ -12696,8 +12828,9 @@ xref: http://atlas.brain-map.org/atlas?atlas=265297126#structure=146035108
 xref: http://atlas.brain-map.org/atlas?atlas=3#structure=146035108
 is_a: UBERON:0002291 ! central canal of spinal cord
 intersection_of: UBERON:0002291 ! central canal of spinal cord
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12890 ! part of spinal cord
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: IAO:0000028 "SV" xsd:string
 property_value: skos:prefLabel "ventricle of spinal cord  ( human dev )" xsd:string
 
@@ -12712,7 +12845,7 @@ xref: http://atlas.brain-map.org/atlas?atlas=3#structure=266441713
 is_a: DHBA:10654 ! gray matter of the hindbrain
 is_a: UBERON:0007641 ! trigeminal nuclear complex
 intersection_of: UBERON:0007641 ! trigeminal nuclear complex
-intersection_of: BFO:0000050 NCBITaxon:9606 ! part of Homo sapiens
+intersection_of: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 relationship: BFO:0000050 DHBA:12503 ! part of other nuclei in pontine tegmentum
 property_value: IAO:0000028 "5N" xsd:string
 property_value: skos:prefLabel "trigeminal nuclei  ( human dev )" xsd:string
@@ -70729,7 +70862,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 id: PCL:0160106
 name: GPi Shell neuron (Primate)
 def: "A internal globus pallidus shell projection neuron of the Primates brain. These cells are located in the striatum, external segment of globus pallidus, internal segment of globus pallidus . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:GPi Shell." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1016/j.neuron.2017.03.017, https://doi.org/10.1523/ENEURO.0208-22.2022]
-comment: Rationale for assigning this type to reference data: Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1523/ENEURO.0208-22.2022", xref="https://doi.org/10.1016/j.neuron.2017.03.017"}
+comment: Rationale for assigning this type to reference data: Mapping to the general type GPi shell neuron (internal globus pallidus shell projection neuron) is based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 and absence of Pvalb expression. Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1523/ENEURO.0208-22.2022", xref="https://doi.org/10.1016/j.neuron.2017.03.017"}
 synonym: "CN GABA-Glut" EXACT []
 synonym: "GPi Shell" EXACT []
 synonym: "Subpallium GABA-Glut" EXACT []
@@ -71053,10 +71186,10 @@ synonym: "natural protein" EXACT [PRO:DAN]
 is_a: BFO:0000002
 is_a: PR:000018263 ! amino acid chain
 intersection_of: PR:000018263 ! amino acid chain
-intersection_of: has_gene_template SO:0000704
+intersection_of: has_gene_template SO:0001217
 intersection_of: RO:0002353 GO:0006412 ! output of translation
 relationship: BFO:0000051 PR:000000001 ! has part protein
-relationship: has_gene_template SO:0000704
+relationship: has_gene_template SO:0001217
 relationship: RO:0002353 GO:0006412 ! output of translation
 
 [Term]
@@ -71962,6 +72095,19 @@ synonym: "oncogene Lyt-10" EXACT []
 is_a: PR:000001753 ! transcription factor NF-kappa-B subunit
 
 [Term]
+id: PR:000011241
+name: homeobox protein Nkx-2.1
+def: "A protein that is a translation product of the human NKX2-1 gene or a 1:1 ortholog thereof." [PRO:DNx]
+comment: Category=gene.
+synonym: "homeobox protein NK-2 homolog A" EXACT []
+synonym: "T/EBP" EXACT []
+synonym: "thyroid nuclear factor 1" EXACT []
+synonym: "thyroid transcription factor 1" EXACT []
+synonym: "thyroid-specific enhancer-binding protein" EXACT []
+is_a: CHEBI:36080
+is_a: PR:000000001 ! protein
+
+[Term]
 id: PR:000013246
 name: prolactin
 def: "A somatotropin hormone family member that is a translation product of the human PRL gene or a 1:1 ortholog thereof." [PRO:DNx]
@@ -72086,7 +72232,7 @@ name: amino acid chain
 def: "A molecule that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds." [PRO:DAN, PRO:JSG]
 comment: Category=polymer.
 is_a: COB:0000013
-relationship: has_constituent_monomer CHEBI:33708 {minCardinality="2"}
+relationship: RO:0020337 CHEBI:33708 {minCardinality="2"}
 
 [Term]
 id: PR:000025796
@@ -73077,6 +73223,8 @@ id: PR:P20472
 name: parvalbumin alpha (human)
 def: "A parvalbumin alpha that is encoded in the genome of human." [PRO:DNx, UniProtKB:P20472]
 comment: Category=organism-gene.
+synonym: "alpha-parvalbumin (human)" EXACT [UniProtKB:P20472]
+synonym: "alpha-PV (human)" EXACT [UniProtKB:P20472]
 xref: UniProtKB:P20472
 is_a: PR:000013502 ! parvalbumin alpha
 is_a: PR:000029067 ! Homo sapiens protein
@@ -73303,6 +73451,8 @@ id: PR:P32848
 name: parvalbumin alpha (mouse)
 def: "A parvalbumin alpha that is encoded in the genome of mouse." [OMA:P32848, PRO:DNx]
 comment: Category=organism-gene.
+synonym: "alpha-parvalbumin (mouse)" EXACT [UniProtKB:P32848]
+synonym: "alpha-PV (mouse)" EXACT [UniProtKB:P32848]
 xref: UniProtKB:P32848
 is_a: PR:000013502 ! parvalbumin alpha
 is_a: PR:000029032 ! Mus musculus protein
@@ -73461,6 +73611,22 @@ intersection_of: PR:000001850 ! cathepsin K
 intersection_of: RO:0002160 NCBITaxon:9606 ! only in taxon Homo sapiens
 
 [Term]
+id: PR:P43699
+name: homeobox protein Nkx-2.1 (human)
+def: "A homeobox protein Nkx-2.1 that is encoded in the genome of human." [PRO:DNx, UniProtKB:P43699]
+comment: Category=organism-gene.
+synonym: "homeobox protein NK-2 homolog A (human)" EXACT [UniProtKB:P43699]
+synonym: "T/EBP (human)" EXACT [UniProtKB:P43699]
+synonym: "thyroid nuclear factor 1 (human)" EXACT [UniProtKB:P43699]
+synonym: "thyroid transcription factor 1 (human)" EXACT [UniProtKB:P43699]
+synonym: "thyroid-specific enhancer-binding protein (human)" EXACT [UniProtKB:P43699]
+xref: UniProtKB:P43699
+is_a: PR:000011241 ! homeobox protein Nkx-2.1
+is_a: PR:000029067 ! Homo sapiens protein
+intersection_of: PR:000011241 ! homeobox protein Nkx-2.1
+intersection_of: RO:0002160 NCBITaxon:9606 ! only in taxon Homo sapiens
+
+[Term]
 id: PR:P48431
 name: transcription factor SOX-2 (human)
 def: "A transcription factor SOX-2 that is encoded in the genome of human." [PRO:DNx, UniProtKB:P48431]
@@ -73508,6 +73674,21 @@ xref: UniProtKB:P50114
 is_a: PR:000014419 ! protein S100-B
 is_a: PR:000029032 ! Mus musculus protein
 intersection_of: PR:000014419 ! protein S100-B
+intersection_of: RO:0002160 NCBITaxon:10090 ! only in taxon Mus musculus
+
+[Term]
+id: PR:P50220
+name: homeobox protein Nkx-2.1 (mouse)
+def: "A homeobox protein Nkx-2.1 that is encoded in the genome of mouse." [OMA:P50220, PRO:DNx]
+comment: Category=organism-gene.
+synonym: "T/EBP (mouse)" EXACT [UniProtKB:P50220]
+synonym: "thyroid nuclear factor 1 (mouse)" EXACT [UniProtKB:P50220]
+synonym: "thyroid transcription factor 1 (mouse)" EXACT [UniProtKB:P50220]
+synonym: "thyroid-specific enhancer-binding protein (mouse)" EXACT [UniProtKB:P50220]
+xref: UniProtKB:P50220
+is_a: PR:000011241 ! homeobox protein Nkx-2.1
+is_a: PR:000029032 ! Mus musculus protein
+intersection_of: PR:000011241 ! homeobox protein Nkx-2.1
 intersection_of: RO:0002160 NCBITaxon:10090 ! only in taxon Mus musculus
 
 [Term]
@@ -89641,6 +89822,40 @@ intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0001043 ! part of esophagus
 relationship: BFO:0000050 UBERON:0001096 ! part of wall of esophagus
 property_value: skos:prefLabel "esophagus mucosa" xsd:string
+
+[Term]
+id: UBERON:0002476
+name: lateral globus pallidus
+def: "The more lateral of the two segments of the globus pallidus, abutting the putamen." [BIRNLEX:1610]
+synonym: "external globus pallidus" EXACT []
+synonym: "external pallidum" EXACT [BIRNLEX:1610]
+synonym: "external part of globus pallidus" EXACT [BIRNLEX:1610]
+synonym: "globus pallidus extermal segment" EXACT [BIRNLEX:1610]
+synonym: "globus pallidus external segment" EXACT [BIRNLEX:1610, FMA:61839, MA:0002767]
+synonym: "globus pallidus externus" EXACT []
+synonym: "globus pallidus lateralis" EXACT [BTO:0002247]
+synonym: "globus pallidus, lateral segment" EXACT []
+synonym: "lateral pallidal segment" EXACT []
+synonym: "lateral pallidum" EXACT [BIRNLEX:1610]
+synonym: "lateral part of globus pallidus" EXACT []
+synonym: "lateral segment of globus pallidus" EXACT [BIRNLEX:1610]
+synonym: "pallidus II" EXACT [FMA:61839]
+xref: BAMS:EGP
+xref: BAMS:GPe
+xref: BAMS:GPl
+xref: BAMS:LGP
+xref: BIRNLEX:1610
+xref: BTO:0002247
+xref: EHDAA2:0004462
+xref: FMA:61839
+xref: HBA:12897
+xref: MA:0002767
+xref: MBA:1022
+xref: PBA:10099
+xref: SCTID:361560008
+xref: Wikipedia:Lateral_globus_pallidus
+is_a: UBERON:0005401 ! cerebral hemisphere gray matter
+relationship: BFO:0000050 UBERON:0001875 ! part of globus pallidus
 
 [Term]
 id: UBERON:0002477
@@ -115620,6 +115835,7 @@ is_a: UBERON:0000397 ! colonic epithelium
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0001159 ! part of sigmoid colon
 relationship: BFO:0000050 UBERON:0001159 ! part of sigmoid colon
+property_value: skos:prefLabel "sigmoid colon epithelium" xsd:string
 
 [Term]
 id: UBERON:8000006
@@ -116017,6 +116233,7 @@ is_a: UBERON:0001808 ! parasympathetic ganglion
 intersection_of: UBERON:0001808 ! parasympathetic ganglion
 intersection_of: BFO:0000050 UBERON:0001558 ! part of lower respiratory tract
 relationship: BFO:0000050 UBERON:0001558 ! part of lower respiratory tract
+property_value: skos:prefLabel "lower airway ganglion" xsd:string
 
 [Term]
 id: UBERON:8600136
@@ -116028,6 +116245,7 @@ is_a: UBERON:0011189 ! lamina propria of large intestine
 intersection_of: UBERON:0000030 ! lamina propria
 intersection_of: BFO:0000050 UBERON:0001159 ! part of sigmoid colon
 relationship: BFO:0000050 UBERON:0001159 ! part of sigmoid colon
+property_value: skos:prefLabel "sigmoid colon lamina propria" xsd:string
 
 [Term]
 id: UBERON:8600138
@@ -116039,6 +116257,7 @@ is_a: UBERON:0004780 ! gastrointestinal system lamina propria
 intersection_of: UBERON:0000030 ! lamina propria
 intersection_of: BFO:0000050 UBERON:0000945 ! part of stomach
 relationship: BFO:0000050 UBERON:0000945 ! part of stomach
+property_value: skos:prefLabel "stomach lamina propria" xsd:string
 
 [Term]
 id: UBERON:8600140
@@ -116050,6 +116269,7 @@ is_a: UBERON:0011189 ! lamina propria of large intestine
 intersection_of: UBERON:0000030 ! lamina propria
 intersection_of: BFO:0000050 UBERON:0001052 ! part of rectum
 relationship: BFO:0000050 UBERON:0001052 ! part of rectum
+property_value: skos:prefLabel "rectum lamina propria" xsd:string
 
 [Typedef]
 id: BFO:0000050
