@@ -1203,7 +1203,7 @@ def get_aba_ontology():
         ssl._create_default_https_context = ssl._create_unverified_context
 
         aba_ontology = Graph()
-        aba_ontology.parse('https://purl.brain-bican.org/ontology/dhbao/dhbao.owl', format="xml")
+        aba_ontology.parse('https://raw.githubusercontent.com/brain-bican/developing_human_brain_atlas_ontology/main/dhbao.owl', format="xml")
     return aba_ontology
 
 def read_gene_dbs(folder_path: str):
