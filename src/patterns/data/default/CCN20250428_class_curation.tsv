@@ -1,14 +1,14 @@
 defined_class	cell_set_accession	Taxonomy_label	Exclude_from_ontology	defined_class_name	defined_class_definition	Curated_synonyms	Classification	Classification_comment	Classification_pub	Expresses	Expresses_comment	Expresses_pub	Projection_type	Locations	Neurotransmitters	Neurotransmitters_comment	Neurotransmitters_publication	Cross_species_text	Comment
-http://purl.obolibrary.org/obo/CL_4310083	CS20250428_GROUP_0003	GPin-BF Cholinergic GABA																	
-http://purl.obolibrary.org/obo/CL_4310084	CS20250428_GROUP_0004	LAMP5-CXCL14 GABA		striatal LAMP5 CXCL14 GABAergic interneuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310085	CS20250428_GROUP_0005	LAMP5-LHX6 GABA		striatal LAMP5 LHX6 GABAergic interneuron (Primate)															
+http://purl.obolibrary.org/obo/CL_4310083	CS20250428_GROUP_0003	GPin-BF Cholinergic GABA		GPin-BF cholinergic-GABAergic neuron (Primate)															
+http://purl.obolibrary.org/obo/CL_4310084	CS20250428_GROUP_0004	LAMP5-CXCL14 GABA		striatal LAMP5 CXCL14 GABAergic interneuron (Primate)															Based on annotation transfer evidence with MapMyCells, this may not represent a transcriptomicallly distinct cell type, but rather the population of LAMP5 GABAergic neurons located in the striatum.
+http://purl.obolibrary.org/obo/CL_4310085	CS20250428_GROUP_0005	LAMP5-LHX6 GABA		striatal LAMP5 LHX6 GABAergic interneuron (Primate)															Based on annotation transfer evidence with MapMyCells, this may not represent a transcriptomicallly distinct cell type, but rather the population of LAMP5 LHX6 GABAergic neurons located in the striatum.
 http://purl.obolibrary.org/obo/CL_4310088	CS20250428_GROUP_0008	BF SKOR1 Glut																	
 http://purl.obolibrary.org/obo/CL_4310093	CS20250428_GROUP_0013	GPe MEIS2-SOX6 GABA		arkypallidal neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310094	CS20250428_GROUP_0014	GPe SOX6-CTXND1 GABA		prototypic neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310095	CS20250428_GROUP_0015	GPi Core		GPi Core neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310096	CS20250428_GROUP_0016	GPi Shell		GPi Shell neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310100	CS20250428_GROUP_0020	GPe-NDB-SI LHX6-LHX8-GBX1 GABA																	
-http://purl.obolibrary.org/obo/CL_4310104	CS20250428_GROUP_0024	OT D1 ICj																	
+http://purl.obolibrary.org/obo/CL_4310104	CS20250428_GROUP_0024	OT D1 ICj		Islands of Calleja granule cell (Primate)															
 http://purl.obolibrary.org/obo/CL_4310109	CS20250428_GROUP_0029	SN-VTR CALB1 Dopa																	
 http://purl.obolibrary.org/obo/CL_4310110	CS20250428_GROUP_0030	SN EBF2 GABA																	
 http://purl.obolibrary.org/obo/CL_4310111	CS20250428_GROUP_0031	SN-VTR GAD2 Dopa																	
@@ -21,19 +21,19 @@ http://purl.obolibrary.org/obo/CL_4310118	CS20250428_GROUP_0038	STH PVALB-PITX2 
 http://purl.obolibrary.org/obo/CL_4310120	CS20250428_GROUP_0040	STR FS PTHLH-PVALB GABA		striatal pthlh-expressing interneuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310121	CS20250428_GROUP_0041	STR LYPD6-RSPO2 GABA		striatal SST-LYPD6-RSPO2 GABAergic interneuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310122	CS20250428_GROUP_0042	STR SST-ADARB2 GABA		striatal SST-ADARB2 GABAergic interneuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310123	CS20250428_GROUP_0043	STR SST-CHODL GABA		striatal SST-CHODL GABAergic interneuron (Primate)															
+http://purl.obolibrary.org/obo/CL_4310123	CS20250428_GROUP_0043	STR SST-CHODL GABA		striatal SST-CHODL GABAergic interneuron (Primate)															Based on annotation transfer evidence with MapMyCells, this may not represent a transcriptomicallly distinct cell type, but rather the population of SST CHODL GABAergic neurons located in the striatum.
 http://purl.obolibrary.org/obo/CL_4310124	CS20250428_GROUP_0044	STR SST-RSPO2 GABA		striatal SST-RSPO2 GABAergic interneuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310125	CS20250428_GROUP_0045	STR TAC3-PLPP4 GABA																	
 http://purl.obolibrary.org/obo/CL_4310126	CS20250428_GROUP_0046	STR-BF TAC3-PLPP4-LHX8 GABA																	
-http://purl.obolibrary.org/obo/CL_4310127	CS20250428_GROUP_0047	VIP GABA		striatal VIP GABAergic interneuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310128	CS20250428_GROUP_0048	STRd Cholinergic GABA																	
+http://purl.obolibrary.org/obo/CL_4310127	CS20250428_GROUP_0047	VIP GABA		striatal VIP GABAergic interneuron (Primate)															Based on annotation transfer evidence with MapMyCells, this may not represent a transcriptomicallly distinct cell type, but rather the population of VIP GABAergic neurons located in the striatum.
+http://purl.obolibrary.org/obo/CL_4310128	CS20250428_GROUP_0048	STRd Cholinergic GABA		STRd cholinergic-GABAergic neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310129	CS20250428_GROUP_0049	STRd D1 Matrix MSN		STRd D1 Matrix medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310130	CS20250428_GROUP_0050	STRd D1 Striosome MSN		STRd D1 medium spiny neuron (Primate)															
+http://purl.obolibrary.org/obo/CL_4310130	CS20250428_GROUP_0050	STRd D1 Striosome MSN		striosomal D1 medium spiny neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310131	CS20250428_GROUP_0051	STR D1D2 Hybrid MSN		STRd D1/D2-hybrid medium spiny neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310132	CS20250428_GROUP_0052	STRd D2 Matrix MSN		STRd D2 Matrix medium spiny neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310133	CS20250428_GROUP_0053	STRd D2 StrioMat Hybrid MSN		STRd D2 Striomat hybrid medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310134	CS20250428_GROUP_0054	STRd D2 Striosome MSN		STRd D2 medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310135	CS20250428_GROUP_0055	STR Cholinergic GABA		striatal cholinergic-GABAergic neuron (Primate)															
+http://purl.obolibrary.org/obo/CL_4310134	CS20250428_GROUP_0054	STRd D2 Striosome MSN		striosomal D2 medium spiny neuron (Primate)															
+http://purl.obolibrary.org/obo/CL_4310135	CS20250428_GROUP_0055	STR Cholinergic GABA		STR cholinergic-GABAergic neuron (Primate)															Despite the name, this type is not a parent type to STRd cholinergic-GABAergic neuron (Primate), but is instead a transcriptomically distinct sibling.
 http://purl.obolibrary.org/obo/CL_4310136	CS20250428_GROUP_0056	STRv D1 MSN		STRv D1 medium spiny neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310137	CS20250428_GROUP_0057	STRv D1 NUDAP MSN		STRv D1-NUDAP medium spiny neuron (Primate)															
 http://purl.obolibrary.org/obo/CL_4310138	CS20250428_GROUP_0058	STRv D2 MSN		STRv D2 medium spiny neuron (Primate)															

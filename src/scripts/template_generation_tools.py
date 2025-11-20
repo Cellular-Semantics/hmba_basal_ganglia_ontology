@@ -53,8 +53,8 @@ EXPRESSION_SEPARATOR = "|"
 ACRONYM_REGION = "CCF acronym region"
 BROAD_REGION = "CCF broad region"
 
-ABC_ATLAS_URL = "https://dev-knowledge.brain-map.org/abcatlas#"
 # ABC_ATLAS_URL = "https://knowledge.brain-map.org/abcatlas#"
+ABC_ATLAS_URL = "https://knowledge.brain-map.org/abcatlas#"
 
 
 def generate_ind_template(taxonomy_file_path, output_filepath):
