@@ -1427,7 +1427,7 @@
           },
           {
             "pred": "http://purl.org/dc/terms/license",
-            "val": "https://creativecommons.org/licenses/unspecified"
+            "val": "http://creativecommons.org/licenses/by/4.0/"
           },
           {
             "pred": "http://purl.org/dc/terms/title",
@@ -1435,10 +1435,10 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2025-11-20"
+            "val": "2025-11-21"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/pcl/releases/2025-11-20/bgo-pcl-comp.json"
+        "version": "http://purl.obolibrary.org/obo/pcl/releases/2025-11-21/bgo-pcl-comp.json"
       },
       "nodes": [
         {

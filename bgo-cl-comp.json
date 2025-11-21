@@ -1648,10 +1648,10 @@
         "basicPropertyValues": [
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2025-11-20"
+            "val": "2025-11-21"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/pcl/releases/2025-11-20/../../bgo-cl-comp.json"
+        "version": "http://purl.obolibrary.org/obo/pcl/releases/2025-11-21/../../bgo-cl-comp.json"
       },
       "nodes": [
         {

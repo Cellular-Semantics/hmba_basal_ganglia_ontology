@@ -18,7 +18,7 @@ Annotation(obo:IAO_0000700 obo:PCL_0160001)
 Annotation(obo:IAO_0000700 obo:PCL_0160002)
 Annotation(obo:IAO_0000700 obo:PCL_0160106)
 Annotation(dcterms:description "This ontology consists of terms generated from the HMBA basal ganglion taxonomy and reference data. The majority of terms including all group level terms have Cell Ontology IDs and are directly integrated into the Cell Ontology https://www.ebi.ac.uk/ols4/ontologies/cl.")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Basal Ganglia Ontology")
 
 Declaration(Class(obo:CL_0000099))

@@ -19,15 +19,15 @@
         "val" : "This ontology consists of terms generated from the HMBA basal ganglion taxonomy and reference data. The majority of terms including all group level terms have Cell Ontology IDs and are directly integrated into the Cell Ontology https://www.ebi.ac.uk/ols4/ontologies/cl."
       }, {
         "pred" : "http://purl.org/dc/terms/license",
-        "val" : "https://creativecommons.org/licenses/unspecified"
+        "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-11-20"
+        "val" : "2025-11-21"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-11-20/bgo-full.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-11-21/bgo-full.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ncbigene/10716",
