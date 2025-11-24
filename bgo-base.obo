@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2025-11-21/bgo-base.owl
+data-version: pcl/releases/2025-11-24/bgo-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -12,7 +12,7 @@ property_value: IAO:0000700 PCL:0160000
 property_value: IAO:0000700 PCL:0160001
 property_value: IAO:0000700 PCL:0160002
 property_value: IAO:0000700 PCL:0160106
-property_value: owl:versionInfo "2025-11-21" xsd:string
+property_value: owl:versionInfo "2025-11-24" xsd:string
 
 [Term]
 id: CL:4310083

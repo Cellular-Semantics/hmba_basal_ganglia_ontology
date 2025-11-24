@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/pcl/bgo-pcl-comp.owl#"
      xml:base="http://purl.obolibrary.org/obo/pcl/bgo-pcl-comp.owl"
-     xmlns:CL="https://purl.brain-bican.org/taxonomy/CCN20230722#CL:"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -201,24 +200,6 @@
     <!-- https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass -->
 
     <owl:AnnotationProperty rdf:about="https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass"/>
-    
-
-
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_group -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_group"/>
-    
-
-
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_neighborhood -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_neighborhood"/>
-    
-
-
-    <!-- https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_subclass -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_subclass"/>
     
 
 
@@ -5539,8 +5520,6 @@
         <CCN20230722:tokens_group>BF|SKOR1|Glut</CCN20230722:tokens_group>
         <CCN20230722:tokens_neighborhood>Glut|Sero|Dopa</CCN20230722:tokens_neighborhood>
         <CCN20230722:tokens_subclass>F|Glut</CCN20230722:tokens_subclass>
-        <CL:ID_neighborhood>PR 2579</CL:ID_neighborhood>
-        <CL:ID_subclass>PR 2771</CL:ID_subclass>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0008"/>
@@ -6476,7 +6455,6 @@
         <CCN20230722:tokens_group>SN|VTR|CALB1|Dopa</CCN20230722:tokens_group>
         <CCN20230722:tokens_neighborhood>Glut|Sero|Dopa</CCN20230722:tokens_neighborhood>
         <CCN20230722:tokens_subclass>M|Dopa</CCN20230722:tokens_subclass>
-        <CL:ID_neighborhood>PR 2579</CL:ID_neighborhood>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0029"/>
@@ -6675,7 +6653,6 @@
         <CCN20230722:tokens_group>SN|GATA3|PVALB|GABA</CCN20230722:tokens_group>
         <CCN20230722:tokens_neighborhood>Subpallium|GABA</CCN20230722:tokens_neighborhood>
         <CCN20230722:tokens_subclass>F|M|GATA3|GABA</CCN20230722:tokens_subclass>
-        <CL:ID_group>PR 2577</CL:ID_group>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0033"/>
@@ -6872,8 +6849,6 @@
         <CCN20230722:tokens_group>STH|PVALB|PITX2|Glut</CCN20230722:tokens_group>
         <CCN20230722:tokens_neighborhood>Glut|Sero|Dopa</CCN20230722:tokens_neighborhood>
         <CCN20230722:tokens_subclass>F|Glut</CCN20230722:tokens_subclass>
-        <CL:ID_neighborhood>PR 2579</CL:ID_neighborhood>
-        <CL:ID_subclass>PR 2771</CL:ID_subclass>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0038"/>
@@ -7123,7 +7098,6 @@
         <CCN20230722:tokens_group>STR|SST|CHODL|GABA</CCN20230722:tokens_group>
         <CCN20230722:tokens_neighborhood>Subpallium|GABA</CCN20230722:tokens_neighborhood>
         <CCN20230722:tokens_subclass>STR|SST|CHODL|GABA</CCN20230722:tokens_subclass>
-        <CL:ID_group>Need to create a PR</CL:ID_group>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0043"/>
@@ -7322,7 +7296,6 @@
         <CCN20230722:tokens_group>VIP|GABA</CCN20230722:tokens_group>
         <CCN20230722:tokens_neighborhood>Subpallium|GABA</CCN20230722:tokens_neighborhood>
         <CCN20230722:tokens_subclass>CN|VIP|GABA</CCN20230722:tokens_subclass>
-        <CL:ID_group>Need to Create a PR</CL:ID_group>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0047"/>
@@ -7372,7 +7345,6 @@
         <CCN20230722:tokens_group>STRd|Cholinergic|GABA</CCN20230722:tokens_group>
         <CCN20230722:tokens_neighborhood>Subpallium|GABA</CCN20230722:tokens_neighborhood>
         <CCN20230722:tokens_subclass>CN|Cholinergic|GABA</CCN20230722:tokens_subclass>
-        <CL:ID_subclass>https://github.com/obophenotype/cell-ontology/issues/3093</CL:ID_subclass>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0048"/>
@@ -7721,7 +7693,6 @@
         <CCN20230722:tokens_group>STR|Cholinergic|GABA</CCN20230722:tokens_group>
         <CCN20230722:tokens_neighborhood>Subpallium|GABA</CCN20230722:tokens_neighborhood>
         <CCN20230722:tokens_subclass>CN|Cholinergic|GABA</CCN20230722:tokens_subclass>
-        <CL:ID_subclass>https://github.com/obophenotype/cell-ontology/issues/3093</CL:ID_subclass>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0055"/>
@@ -8068,8 +8039,6 @@
         <CCN20230722:tokens_group>VTR|HTH|Glut</CCN20230722:tokens_group>
         <CCN20230722:tokens_neighborhood>Glut|Sero|Dopa</CCN20230722:tokens_neighborhood>
         <CCN20230722:tokens_subclass>F|M|Glut</CCN20230722:tokens_subclass>
-        <CL:ID_neighborhood>PR 2579</CL:ID_neighborhood>
-        <CL:ID_subclass>PR 2771</CL:ID_subclass>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/CCN20250428/CS20250428_GROUP_0064"/>

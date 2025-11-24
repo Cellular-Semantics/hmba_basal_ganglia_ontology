@@ -25,9 +25,9 @@
         "val" : "Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-11-21"
+        "val" : "2025-11-24"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-11-21/bgo.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-11-24/bgo.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ncbigene/10716",
@@ -102662,16 +102662,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0070033",
-      "lbl" : "neuron projection quality",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A physical quality inhering in a neuron by virtue of the relative location of its soma and the regions to which it projects and makes synaptic contacts in.",
-          "xrefs" : [ "DOI:10.1101/2020.10.19.343129" ]
-        }
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0070044",
       "lbl" : "anatomical structure quality",
       "type" : "CLASS",
@@ -110380,9 +110370,6 @@
           "val" : "A material entity consisting of multiple components that are causally integrated."
         }
       }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SO_0000110",
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SO_0000253",
       "type" : "CLASS"
@@ -192678,17 +192665,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002158",
-      "lbl" : "shares ancestor with",
-      "type" : "PROPERTY",
-      "propertyType" : "OBJECT",
-      "meta" : {
-        "definition" : {
-          "val" : "two individual entities d1 and d2 stand in a shares_ancestor_with relation if and only if there exists some a such that d1 derived_by_descent_from a and d2 derived_by_descent_from a."
-        },
-        "comments" : [ "VBO calls this homologous_to" ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002160",
       "lbl" : "only in taxon",
       "type" : "PROPERTY",
@@ -194357,96 +194333,6 @@
         }
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_HOM0000000",
-      "lbl" : "in similarity relationship with",
-      "type" : "PROPERTY",
-      "propertyType" : "OBJECT",
-      "meta" : {
-        "definition" : {
-          "val" : "Relation between biological objects that resemble or are related to each other sufficiently to warrant a comparison.",
-          "xrefs" : [ "http://purl.obolibrary.org/obo/HOM_0000000", "BGEE:curator" ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "sameness"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "similar to"
-        } ],
-        "xrefs" : [ {
-          "val" : "ECO:0000041"
-        }, {
-          "val" : "SO:similar_to"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://purl.obolibrary.org/obo/HOM_0000000"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_HOM0000001",
-      "lbl" : "in homology relationship with",
-      "type" : "PROPERTY",
-      "propertyType" : "OBJECT",
-      "meta" : {
-        "definition" : {
-          "val" : "Similarity that results from common evolutionary origin.",
-          "xrefs" : [ "http://dx.doi.org/10.1002/bies.950180611", "http://dx.doi.org/10.1002/jmor.1051730307", "http://dx.doi.org/10.1007/BF02814480", "http://purl.obolibrary.org/obo/HOM_0000001" ]
-        },
-        "comments" : [ "This broad definition encompasses all the working definitions proposed so far in the literature." ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "homologous to"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://purl.obolibrary.org/obo/HOM_0000001"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_HOM0000007",
-      "lbl" : "in historical homology relationship with",
-      "type" : "PROPERTY",
-      "propertyType" : "OBJECT",
-      "meta" : {
-        "definition" : {
-          "val" : "Homology that is defined by common descent.",
-          "xrefs" : [ "http://dx.doi.org/10.1016/S0169-5347(97)01125-7", "http://purl.obolibrary.org/obo/HOM_0000007", "ISBN:0123195837" ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "cladistic homology"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "historical homologous to"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "phylogenetic homology"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "taxic homology"
-        } ],
-        "xrefs" : [ {
-          "val" : "ECO:0000080"
-        }, {
-          "val" : "RO_proposed_relation:homologous_to"
-        }, {
-          "val" : "SO:0000330"
-        }, {
-          "val" : "SO:0000853"
-        }, {
-          "val" : "SO:0000857"
-        }, {
-          "val" : "SO:homologous_to"
-        }, {
-          "val" : "TAO:homologous_to"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://purl.obolibrary.org/obo/HOM_0000007"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/pr#has_gene_template",
       "type" : "PROPERTY",
       "propertyType" : "OBJECT"
@@ -195631,12 +195517,6 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
           "val" : "F|Glut"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_neighborhood",
-          "val" : "PR 2579"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_subclass",
-          "val" : "PR 2771"
         } ]
       }
     }, {
@@ -196925,9 +196805,6 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
           "val" : "M|Dopa"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_neighborhood",
-          "val" : "PR 2579"
         } ]
       }
     }, {
@@ -197204,9 +197081,6 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
           "val" : "F|M|GATA3|GABA"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_group",
-          "val" : "PR 2577"
         } ]
       }
     }, {
@@ -197475,12 +197349,6 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
           "val" : "F|Glut"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_neighborhood",
-          "val" : "PR 2579"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_subclass",
-          "val" : "PR 2771"
         } ]
       }
     }, {
@@ -197830,9 +197698,6 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
           "val" : "STR|SST|CHODL|GABA"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_group",
-          "val" : "Need to create a PR"
         } ]
       }
     }, {
@@ -198109,9 +197974,6 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
           "val" : "CN|VIP|GABA"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_group",
-          "val" : "Need to Create a PR"
         } ]
       }
     }, {
@@ -198179,9 +198041,6 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
           "val" : "CN|Cholinergic|GABA"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_subclass",
-          "val" : "https://github.com/obophenotype/cell-ontology/issues/3093"
         } ]
       }
     }, {
@@ -198671,9 +198530,6 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
           "val" : "CN|Cholinergic|GABA"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_subclass",
-          "val" : "https://github.com/obophenotype/cell-ontology/issues/3093"
         } ]
       }
     }, {
@@ -199155,12 +199011,6 @@
         }, {
           "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
           "val" : "F|M|Glut"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_neighborhood",
-          "val" : "PR 2579"
-        }, {
-          "pred" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_subclass",
-          "val" : "PR 2771"
         } ]
       }
     }, {
@@ -202788,18 +202638,6 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "https://purl.brain-bican.org/taxonomy/CCN20230722#tokens_subclass",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_group",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_neighborhood",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "https://purl.brain-bican.org/taxonomy/CCN20230722#CL:ID_subclass",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     } ],
@@ -270000,10 +269838,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0010006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0070033",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001018"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0070044",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001241"
@@ -304586,10 +304420,6 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002323"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002158",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002320"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002160",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002162"
@@ -305337,18 +305167,6 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0040036",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_HOM0000001",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002158"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_HOM0000001",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_HOM0000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_HOM0000007",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_HOM0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/uberon/core#anteriorly_connected_to",
       "pred" : "subPropertyOf",
@@ -353623,17 +353441,6 @@
         "sub" : "http://purl.obolibrary.org/obo/BFO_0000031",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "obj" : "http://purl.obolibrary.org/obo/BFO_0000031"
-      } ]
-    }, {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_HOM0000000",
-      "allValuesFromEdges" : [ {
-        "sub" : "http://purl.obolibrary.org/obo/BFO_0000002",
-        "pred" : "http://purl.obolibrary.org/obo/RO_HOM0000000",
-        "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
-      }, {
-        "sub" : "http://purl.obolibrary.org/obo/BFO_0000003",
-        "pred" : "http://purl.obolibrary.org/obo/RO_HOM0000000",
-        "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
       } ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000062",

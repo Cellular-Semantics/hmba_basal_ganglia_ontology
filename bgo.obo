@@ -1,7 +1,6 @@
 format-version: 1.2
-data-version: pcl/releases/2025-11-21
+data-version: pcl/releases/2025-11-24
 idspace: CCN20230722 https://purl.brain-bican.org/taxonomy/CCN20230722# 
-idspace: CL https://purl.brain-bican.org/taxonomy/CCN20230722#CL: 
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -15,18 +14,16 @@ property_value: IAO:0000700 PCL:0160000
 property_value: IAO:0000700 PCL:0160001
 property_value: IAO:0000700 PCL:0160002
 property_value: IAO:0000700 PCL:0160106
-property_value: owl:versionInfo "2025-11-21" xsd:string
+property_value: owl:versionInfo "2025-11-24" xsd:string
 
 [Term]
 id: BFO:0000002
 disjoint_from: BFO:0000003
 relationship: BFO:0000050 BFO:0000002 {all_only="true"} ! part of
-relationship: RO:HOM0000000 BFO:0000002 {all_only="true"}
 
 [Term]
 id: BFO:0000003
 relationship: BFO:0000050 BFO:0000003 {all_only="true"} ! part of
-relationship: RO:HOM0000000 BFO:0000003 {all_only="true"}
 
 [Term]
 id: BFO:0000004
@@ -70443,12 +70440,6 @@ xref: NLX:378
 is_a: PATO:0010006 ! cell morphology
 
 [Term]
-id: PATO:0070033
-name: neuron projection quality
-def: "A physical quality inhering in a neuron by virtue of the relative location of its soma and the regions to which it projects and makes synaptic contacts in." [DOI:10.1101/2020.10.19.343129]
-is_a: PATO:0001018 ! physical quality
-
-[Term]
 id: PATO:0070044
 name: anatomical structure quality
 def: "A quality of continuant that exist at the anatomical level of organisation and anything under it. This includes, but is not limited to, cells , tissues, and components." []
@@ -116577,15 +116568,6 @@ is_symmetric: true
 is_a: RO:0002323 ! mereotopologically related to
 
 [Typedef]
-id: RO:0002158
-name: shares ancestor with
-def: "two individual entities d1 and d2 stand in a shares_ancestor_with relation if and only if there exists some a such that d1 derived_by_descent_from a and d2 derived_by_descent_from a." []
-comment: VBO calls this homologous_to
-is_symmetric: true
-is_transitive: true
-is_a: RO:0002320 ! evolutionarily related to
-
-[Typedef]
 id: RO:0002160
 name: only in taxon
 def: "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z." []
@@ -117774,47 +117756,6 @@ id: RO:0040036
 name: results in changes to anatomical or cellular structure
 def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
 is_a: RO:0000057 ! has participant
-
-[Typedef]
-id: RO:HOM0000000
-name: in similarity relationship with
-def: "Relation between biological objects that resemble or are related to each other sufficiently to warrant a comparison." [BGEE:curator, http://purl.obolibrary.org/obo/HOM_0000000]
-synonym: "sameness" EXACT []
-synonym: "similar to" EXACT []
-xref: ECO:0000041
-xref: SO:similar_to
-property_value: seeAlso HOM:0000000
-is_symmetric: true
-
-[Typedef]
-id: RO:HOM0000001
-name: in homology relationship with
-def: "Similarity that results from common evolutionary origin." [http://dx.doi.org/10.1002/bies.950180611, http://dx.doi.org/10.1002/jmor.1051730307, http://dx.doi.org/10.1007/BF02814480, http://purl.obolibrary.org/obo/HOM_0000001]
-comment: This broad definition encompasses all the working definitions proposed so far in the literature.
-synonym: "homologous to" EXACT []
-property_value: seeAlso HOM:0000001
-is_symmetric: true
-is_a: RO:0002158 ! shares ancestor with
-is_a: RO:HOM0000000 ! in similarity relationship with
-
-[Typedef]
-id: RO:HOM0000007
-name: in historical homology relationship with
-def: "Homology that is defined by common descent." [http://dx.doi.org/10.1016/S0169-5347(97)01125-7, http://purl.obolibrary.org/obo/HOM_0000007, ISBN:0123195837]
-synonym: "cladistic homology" EXACT []
-synonym: "historical homologous to" EXACT []
-synonym: "phylogenetic homology" EXACT []
-synonym: "taxic homology" EXACT []
-xref: ECO:0000080
-xref: RO_proposed_relation:homologous_to
-xref: SO:0000330
-xref: SO:0000853
-xref: SO:0000857
-xref: SO:homologous_to
-xref: TAO:homologous_to
-property_value: seeAlso HOM:0000007
-is_symmetric: true
-is_a: RO:HOM0000001 ! in homology relationship with
 
 [Typedef]
 id: anteriorly_connected_to

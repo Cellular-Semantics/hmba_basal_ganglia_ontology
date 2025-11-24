@@ -1,6 +1,5 @@
 format-version: 1.2
 idspace: CCN20230722 https://purl.brain-bican.org/taxonomy/CCN20230722# 
-idspace: CL https://purl.brain-bican.org/taxonomy/CCN20230722#CL: 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: skos http://www.w3.org/2004/02/skos/core# 
 ontology: pcl/bgo-pcl-comp
