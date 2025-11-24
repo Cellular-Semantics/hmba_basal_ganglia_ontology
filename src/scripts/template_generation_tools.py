@@ -158,7 +158,7 @@ def generate_ind_template(taxonomy_file_path, output_filepath):
                 if v and str(v).lower() != "none":
                     d[k] = v
                     if k not in robot_template_seed.keys():
-                        robot_template_seed[k] = "A https://purl.brain-bican.org/taxonomy/CCN20230722#" + k.replace(" ", "_").replace(".", "_")
+                        robot_template_seed[k] = "A https://purl.brain-bican.org/taxonomy/CCN20230722#" + k.replace(" ", "_").replace(".", "_").replace(":", "_")
 
         dl.append(d)
     robot_template = pd.DataFrame.from_records(dl)
