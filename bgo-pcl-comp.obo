@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2025-11-24/bgo-pcl-comp.owl
+data-version: pcl/releases/2026-03-10/bgo-pcl-comp.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -12,7 +12,7 @@ property_value: IAO:0000700 PCL:0160000
 property_value: IAO:0000700 PCL:0160001
 property_value: IAO:0000700 PCL:0160002
 property_value: IAO:0000700 PCL:0160106
-property_value: owl:versionInfo "2025-11-24" xsd:string
+property_value: owl:versionInfo "2026-03-10" xsd:string
 
 [Term]
 id: CL:4310083
@@ -154,7 +154,7 @@ property_value: seeAlso "https://purl.brain-bican.org/taxonomy/CCN20230722/CS202
 [Term]
 id: CL:4310104
 name: Islands of Calleja granule cell (Primate)
-def: "A Island of Calleja granule cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OT D1 ICj." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1016/j.cub.2021.10.015]
+def: "A Islands of Calleja granule cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OT D1 ICj." [https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/, https://doi.org/10.1016/j.cub.2021.10.015]
 comment: Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions. {xref="https://doi.org/10.1016/j.cub.2021.10.015"}
 synonym: "D1-ICj (Islands of Calleja)" EXACT []
 synonym: "OT D1 ICj" EXACT []

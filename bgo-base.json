@@ -28,9 +28,9 @@
         "val" : "Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-11-24"
+        "val" : "2026-03-10"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-11-24/bgo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2026-03-10/bgo-base.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ncbigene/10716",
@@ -939,7 +939,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A Island of Calleja granule cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OT D1 ICj.",
+          "val" : "A Islands of Calleja granule cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OT D1 ICj.",
           "xrefs" : [ "https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/", "https://doi.org/10.1016/j.cub.2021.10.015" ]
         },
         "comments" : [ "Location is inferred from registration of MerFish Data. Registration may be inaccurate, giving misleading location to adjacent anatomical regions." ],

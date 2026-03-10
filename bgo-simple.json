@@ -25,9 +25,9 @@
         "val" : "Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-11-24"
+        "val" : "2026-03-10"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-11-24/bgo-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2026-03-10/bgo-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000700",

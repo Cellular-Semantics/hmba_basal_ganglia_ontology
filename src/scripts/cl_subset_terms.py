@@ -4,12 +4,15 @@ import glob
 import os
 import yaml
 
-from rdflib import Graph
+from rdflib import Graph, URIRef
+from rdflib.namespace import RDFS
 
 PATTERNS_FOLDER = os.path.join(os.path.dirname(os.path.dirname(__file__)), "patterns", "data", "default")
 
 GENE_COLUMNS = ["NT_marker_1", "NT_marker_2", "NT_marker_3", "NT_marker_4", "NT_marker_5", "NT_marker_6", "NT_marker_7", "NT_marker_8", "Markers"]
 PREFIXES_YAML = os.path.join(os.path.dirname(os.path.dirname(__file__)), "ontology/template_prefixes.yaml")
+OBO_PCL_PREFIX = "http://purl.obolibrary.org/obo/PCL_"
+BICAN_ONTOLOGY_PREFIX = "https://purl.brain-bican.org/ontology/"
 
 def collect_classes(data_folder, collect_genes=False):
     """
@@ -80,6 +83,11 @@ def create_seed_file(output_path, terms):
         print(f"Error writing to output file '{output_path}': {e}")
 
 
+def load_seed_terms(seed_path):
+    with open(seed_path, "r", encoding="utf-8") as f:
+        return {line.strip() for line in f if line.strip()}
+
+
 def collect_individuals(ontology_path, class_seed_path):
     """
     Collects individual terms from the ontology that are instances of classes in the class seed file.
@@ -97,8 +105,7 @@ def collect_individuals(ontology_path, class_seed_path):
     g.parse(ontology_path,)
 
     # Load class seed terms
-    with open(class_seed_path, "r", encoding="utf-8") as f:
-        class_terms = {line.strip() for line in f if line.strip()}
+    class_terms = load_seed_terms(class_seed_path)
 
     values_clause = ""
     if class_terms:
@@ -110,18 +117,18 @@ def collect_individuals(ontology_path, class_seed_path):
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     SELECT DISTINCT ?value WHERE {{
       {values_clause}
-      {{
+        {{
         ?s rdfs:subClassOf ?restriction .
         ?restriction owl:onProperty <http://purl.obolibrary.org/obo/RO_0015001> ;
                      owl:hasValue ?value .
-        FILTER(STRSTARTS(STR(?value), "https://purl.brain-bican.org/taxonomy/CS20250428/"))
+        FILTER(STRSTARTS(STR(?value), "{BICAN_ONTOLOGY_PREFIX}"))
       }} UNION {{
         ?s owl:equivalentClass ?equiv .
         ?equiv owl:intersectionOf ?list .
         ?list rdf:rest*/rdf:first ?item .
         ?item owl:onProperty <http://purl.obolibrary.org/obo/RO_0015001> ;
                owl:hasValue ?value .
-        FILTER(STRSTARTS(STR(?value), "https://purl.brain-bican.org/taxonomy/CS20250428/"))
+        FILTER(STRSTARTS(STR(?value), "{BICAN_ONTOLOGY_PREFIX}"))
       }}
     }}
     """
@@ -133,13 +140,31 @@ def collect_individuals(ontology_path, class_seed_path):
     return individuals
 
 
+def collect_extract_terms(ontology_path, class_seed_path, individual_seed_path):
+    g = Graph()
+    g.parse(ontology_path)
+
+    class_terms = load_seed_terms(class_seed_path)
+    individual_terms = load_seed_terms(individual_seed_path)
+    terms = set(class_terms) | set(individual_terms)
+
+    for class_term in class_terms:
+        subject = URIRef(class_term)
+
+        for superclass in g.objects(subject, RDFS.subClassOf):
+            if isinstance(superclass, URIRef) and str(superclass).startswith(OBO_PCL_PREFIX):
+                continue
+            if isinstance(superclass, URIRef):
+                terms.add(str(superclass))
+
+    return sorted(terms)
+
+
 def trim_dangling_individuals(ontology_path, indv_seed_path, output_path):
     g = Graph()
     g.parse(ontology_path,)
 
-    # Load class seed terms
-    with open(indv_seed_path, "r", encoding="utf-8") as f:
-        indv_terms = {line.strip() for line in f if line.strip()}
+    indv_terms = load_seed_terms(indv_seed_path)
 
     filter_clause = ""
     if indv_terms:
@@ -154,7 +179,7 @@ def trim_dangling_individuals(ontology_path, indv_seed_path, output_path):
         WHERE {{
           ?s RO:0015003 ?value .
           ?value ?p ?o .
-          FILTER(STRSTARTS(STR(?value), "https://purl.brain-bican.org/taxonomy/CS20250428/"))
+          FILTER(STRSTARTS(STR(?value), "{BICAN_ONTOLOGY_PREFIX}"))
           FILTER(?value NOT IN ({filter_clause}))
         }} ;
     
@@ -188,6 +213,11 @@ def main():
                                     help="CL subset individual seed file path.")
     individuals_parser.add_argument("-o", "--output", required=True,
                                     help="Path of the output file to write the trimmed ontology.")
+    extract_parser = subparsers.add_parser("extract_terms", help="Expand the subset seed to preserve non-PCL superclass structure.")
+    extract_parser.add_argument("-i", "--input", required=True, help="Input ontology path.")
+    extract_parser.add_argument("-c", "--classes", required=True, help="CL subset classes seed file path.")
+    extract_parser.add_argument("-t", "--terms", required=True, help="CL subset individual seed file path.")
+    extract_parser.add_argument("-o", "--output", required=True, help="Path of the output file to write the terms.")
 
 
     args = parser.parse_args()
@@ -200,6 +230,9 @@ def main():
         create_seed_file(args.output, terms)
     elif args.command == "trim_indvs":
         trim_dangling_individuals(args.input, args.terms, args.output)
+    elif args.command == "extract_terms":
+        terms = collect_extract_terms(args.input, args.classes, args.terms)
+        create_seed_file(args.output, terms)
     else:
         raise ValueError("Unknown command. Use 'classes' or 'individuals'.")
 
