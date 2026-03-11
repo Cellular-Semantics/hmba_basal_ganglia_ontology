@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pcl/imports/merged_import.owl>
-<http://purl.obolibrary.org/obo/pcl/releases/2026-03-10/imports/merged_import.owl>
-Annotation(owl:versionInfo "2026-03-10")
+<http://purl.obolibrary.org/obo/pcl/releases/2026-03-11/imports/merged_import.owl>
+Annotation(owl:versionInfo "2026-03-11")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -5643,6 +5643,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0070010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0070015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0070025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0070026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0070033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0070044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0070045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0070046>))
@@ -5891,6 +5892,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PR_Q9UPM6>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_Q9WTK5>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_Q9Y6Q6>))
 Declaration(Class(<http://purl.obolibrary.org/obo/RO_0002577>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000110>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000253>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001217>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000000>))
@@ -8398,6 +8400,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002130>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002134>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002150>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002158>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002160>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002163>))
@@ -8556,6 +8559,9 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020104>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020105>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020337>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0040036>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_HOM0000000>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_HOM0000001>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_HOM0000007>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/pr#has_gene_template>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/uberon/core#anteriorly_connected_to>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/uberon/core#channel_for>))
@@ -9065,6 +9071,15 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002150> <http://purl.obo
 SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002150>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002150> <http://purl.obolibrary.org/obo/BFO_0000004>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002150> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002158> (shares ancestor with)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002158> "two individual entities d1 and d2 stand in a shares_ancestor_with relation if and only if there exists some a such that d1 derived_by_descent_from a and d2 derived_by_descent_from a.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0002158> "VBO calls this homologous_to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002158> "shares ancestor with")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002158> <http://purl.obolibrary.org/obo/RO_0002320>)
+SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002158>)
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002158>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only in taxon)
 
@@ -10201,6 +10216,47 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0040036> "results in changes to anatomical or cellular structure")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0040036> <http://purl.obolibrary.org/obo/RO_0000057>)
 
+# Object Property: <http://purl.obolibrary.org/obo/RO_HOM0000000> (in similarity relationship with)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HOM_0000000>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "BGEE:curator") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_HOM0000000> "Relation between biological objects that resemble or are related to each other sufficiently to warrant a comparison.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_HOM0000000> "ECO:0000041")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_HOM0000000> "SO:similar_to")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_HOM0000000> "sameness")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_HOM0000000> "similar to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_HOM0000000> "in similarity relationship with")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_HOM0000000> <http://purl.obolibrary.org/obo/HOM_0000000>)
+SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_HOM0000000>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_HOM0000001> (in homology relationship with)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dx.doi.org/10.1002/bies.950180611>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dx.doi.org/10.1002/jmor.1051730307>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dx.doi.org/10.1007/BF02814480>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HOM_0000001>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_HOM0000001> "Similarity that results from common evolutionary origin.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_HOM0000001> "homologous to")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_HOM0000001> "This broad definition encompasses all the working definitions proposed so far in the literature.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_HOM0000001> "in homology relationship with")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_HOM0000001> <http://purl.obolibrary.org/obo/HOM_0000001>)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_HOM0000001> <http://purl.obolibrary.org/obo/RO_0002158>)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_HOM0000001> <http://purl.obolibrary.org/obo/RO_HOM0000000>)
+SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_HOM0000001>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_HOM0000007> (in historical homology relationship with)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dx.doi.org/10.1016/S0169-5347(97)01125-7>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HOM_0000007>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0123195837") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_HOM0000007> "Homology that is defined by common descent.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_HOM0000007> "ECO:0000080")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_HOM0000007> "RO_proposed_relation:homologous_to")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_HOM0000007> "SO:0000330")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_HOM0000007> "SO:0000853")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_HOM0000007> "SO:0000857")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_HOM0000007> "SO:homologous_to")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_HOM0000007> "TAO:homologous_to")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_HOM0000007> "cladistic homology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_HOM0000007> "historical homologous to")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_HOM0000007> "phylogenetic homology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_HOM0000007> "taxic homology")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_HOM0000007> "in historical homology relationship with")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_HOM0000007> <http://purl.obolibrary.org/obo/HOM_0000007>)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_HOM0000007> <http://purl.obolibrary.org/obo/RO_HOM0000001>)
+SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_HOM0000007>)
+
 # Object Property: <http://purl.obolibrary.org/obo/uberon/core#anteriorly_connected_to> (anteriorly connected to)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://purl.obolibrary.org/obo/uberon/docs/Connectivity-Design-Pattern") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/uberon/core#anteriorly_connected_to> "x anteriorly_connected_to y iff the anterior part of x is connected to y. i.e. x connected_to y and x posterior_to y.")
@@ -10314,12 +10370,14 @@ TransitiveObjectProperty(<http://purl.obolibrary.org/obo/uberon/core#transitivel
 # Class: <http://purl.obolibrary.org/obo/BFO_0000002> (<http://purl.obolibrary.org/obo/BFO_0000002>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_HOM0000000> <http://purl.obolibrary.org/obo/BFO_0000002>))
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000003>)
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000003> (<http://purl.obolibrary.org/obo/BFO_0000003>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_HOM0000000> <http://purl.obolibrary.org/obo/BFO_0000003>))
 DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000002>))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000004> (<http://purl.obolibrary.org/obo/BFO_0000004>)
@@ -72665,6 +72723,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PATO_0070026> "NLX:378")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0070026> "multipolar neuron morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0070026> <http://purl.obolibrary.org/obo/PATO_0010006>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0070033> (neuron projection quality)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1101/2020.10.19.343129") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0070033> "A physical quality inhering in a neuron by virtue of the relative location of its soma and the regions to which it projects and makes synaptic contacts in.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0070033> "neuron projection quality")
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0070033> <http://purl.obolibrary.org/obo/PATO_0001018>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0070044> (anatomical structure quality)
 

@@ -28,9 +28,9 @@
         "val" : "Basal Ganglia Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-03-10"
+        "val" : "2026-03-11"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2026-03-10/bgo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2026-03-11/bgo-base.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ncbigene/10716",
@@ -3837,10 +3837,6 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/OBI_0000070",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0010051",
       "lbl" : "cell_type_rank",
       "type" : "PROPERTY",
@@ -3949,6 +3945,10 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.org/dc/terms/title",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#evidence",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
