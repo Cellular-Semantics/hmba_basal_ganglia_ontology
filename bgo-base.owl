@@ -11,7 +11,7 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/bgo-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2025-11-24/bgo-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2026-03-10/bgo-base.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160000"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160001"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160002"/>
@@ -20,7 +20,7 @@
         <dcterms:description>This ontology consists of terms generated from the HMBA basal ganglion taxonomy and reference data. The majority of terms including all group level terms have Cell Ontology IDs and are directly integrated into the Cell Ontology https://www.ebi.ac.uk/ols4/ontologies/cl.</dcterms:description>
         <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Basal Ganglia Ontology</dcterms:title>
-        <owl:versionInfo>2025-11-24</owl:versionInfo>
+        <owl:versionInfo>2026-03-10</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2415,7 +2415,7 @@
         <obo:CLM_0010001 rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010003 rdf:resource="http://purl.obolibrary.org/obo/CLM_5050504"/>
         <obo:IAO_0000028>OT D1 ICj (Primate)</obo:IAO_0000028>
-        <obo:IAO_0000115>A Island of Calleja granule cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OT D1 ICj.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Islands of Calleja granule cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OT D1 ICj.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>D1-ICj (Islands of Calleja)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>OT D1 ICj</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>OT Granular GABA</oboInOwl:hasExactSynonym>
@@ -2435,7 +2435,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_4310104"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Island of Calleja granule cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OT D1 ICj.</owl:annotatedTarget>
+        <owl:annotatedTarget>A Islands of Calleja granule cell of the Primates brain. These cells are located in the striatum . Reference transcriptomic data for this type can be found in the dataset/taxonomy - HMBA Basal Ganglia Consensus Taxonomy in cell set Group:OT D1 ICj.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy/</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://doi.org/10.1016/j.cub.2021.10.015</oboInOwl:hasDbXref>
     </owl:Axiom>

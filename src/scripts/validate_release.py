@@ -94,12 +94,20 @@ def main():
     # Validate command
     validate_parser = subparsers.add_parser("validate", help="Validate ontology")
     validate_parser.add_argument("--input", "-i", required=True, help="Ontology file path")
+    validate_parser.add_argument(
+        "--skip-http-check",
+        action="store_true",
+        help="Skip the definition text check that fails when 'http' is present in IAO:0000115 values.",
+    )
 
     args = parser.parse_args()
 
     if args.command == "validate":
         graph = load_ontology(args.input)
-        entities_resolved_in_definitions(graph)
+        if args.skip_http_check:
+            print("Skipping definition URL validation (--skip-http-check).")
+        else:
+            entities_resolved_in_definitions(graph)
         validate_cl_ontology_subset(graph)
         # TODO add disclaimers and uncomment
         # disclaimers_added(graph)

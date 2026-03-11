@@ -272,14 +272,30 @@ $(TMPDIR)/cl_individuals.owl: $(OWL_FILES) $(TMPDIR)/cl_indv_terms.txt
 	query --update ../sparql/delete_namedindividuals_without_rdf_type.ru --output $@.tmp.owl
 	python ../scripts/cl_subset_terms.py trim_indvs -i $@.tmp.owl -t $(TMPDIR)/cl_indv_terms.txt -o $@
 
+$(TMPDIR)/cl_extract_terms.txt: $(TMPDIR)/all_class.owl $(TMPDIR)/cl_component_terms.txt $(TMPDIR)/cl_indv_terms.txt
+	python ../scripts/cl_subset_terms.py extract_terms -i $(TMPDIR)/all_class.owl -c $(TMPDIR)/cl_component_terms.txt -t $(TMPDIR)/cl_indv_terms.txt -o $@
+
 # Artifact for CL that hosts only the validated component annotations (used by CL)
-$(RELEASEDIR)/$(ONT)-cl-comp.owl: $(ONT)-pcl-comp.owl $(TMPDIR)/cl_component_terms.txt bgo-cl-edit.owl $(TMPDIR)/cl_individuals.owl
-	$(ROBOT) remove --input $(RELEASEDIR)/$(ONT)-pcl-comp.owl --select "<http://purl.obolibrary.org/obo/PCL_*>" --select "<https://purl.brain-bican.org/taxonomy/CCN20250428/*>" --signature true \
-	filter --term-file $(TMPDIR)/cl_component_terms.txt --select "annotations anonymous self" --signature true --trim false  \
-	remove --select "<http://purl.obolibrary.org/obo/PCL_01*>" --signature true \
-	query --update ../sparql/delete_deprecated_pcl_terms.ru --update ../sparql/delete_multiple_gene_labels.ru \
-	merge -i $(TMPDIR)/cl_individuals.owl \
-	merge -i bgo-cl-edit.owl --output $@
+# $(RELEASEDIR)/$(ONT)-cl-comp.owl: $(ONT)-pcl-comp.owl $(TMPDIR)/cl_component_terms.txt bgo-cl-edit.owl $(TMPDIR)/cl_individuals.owl
+# 	$(ROBOT) remove --input $(RELEASEDIR)/$(ONT)-pcl-comp.owl --select "<https://purl.brain-bican.org/taxonomy/CCN20250428/*>" --signature true \
+# 	filter --term-file $(TMPDIR)/cl_component_terms.txt --select "annotations anonymous self" --signature true --trim false  \
+# 	remove --select "<http://purl.obolibrary.org/obo/PCL_01*>" --signature true \
+# 	query --update ../sparql/delete_deprecated_pcl_terms.ru --update ../sparql/delete_multiple_gene_labels.ru \
+# 	merge -i $(TMPDIR)/cl_individuals.owl \
+# 	merge -i bgo-cl-edit.owl --output $@
+
+### Extract subset approach for cl compoonent artifact.
+$(RELEASEDIR)/$(ONT)-cl-comp.owl: $(ONT)-pcl-comp.owl $(TMPDIR)/cl_extract_terms.txt bgo-cl-edit.owl $(TMPDIR)/cl_individuals.owl
+	$(ROBOT) extract --method subset \
+		--input $(RELEASEDIR)/$(ONT)-pcl-comp.owl \
+		--term-file $(TMPDIR)/cl_extract_terms.txt \
+		--imports include \
+		query --update ../sparql/delete_deprecated_pcl_terms.ru \
+		--update ../sparql/delete_multiple_gene_labels.ru \
+		merge -i $(TMPDIR)/cl_individuals.owl \
+		merge -i bgo-cl-edit.owl \
+		--output $@
+
 $(RELEASEDIR)/$(ONT)-cl-comp.obo: $(RELEASEDIR)/$(ONT)-cl-comp.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
 $(RELEASEDIR)/$(ONT)-cl-comp.json: $(RELEASEDIR)/$(ONT)-cl-comp.owl
