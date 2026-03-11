@@ -673,10 +673,10 @@
         "basicPropertyValues": [
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2026-03-10"
+            "val": "2026-03-11"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/pcl/releases/2026-03-10/../../bgo-cl-comp.json"
+        "version": "http://purl.obolibrary.org/obo/pcl/releases/2026-03-11/../../bgo-cl-comp.json"
       },
       "nodes": [
         {
@@ -7458,11 +7458,6 @@
           "type": "PROPERTY"
         },
         {
-          "id": "http://purl.obolibrary.org/obo/OBI_0000070",
-          "propertyType": "ANNOTATION",
-          "type": "PROPERTY"
-        },
-        {
           "id": "http://purl.obolibrary.org/obo/RO_0015002",
           "propertyType": "OBJECT",
           "type": "PROPERTY"
@@ -7470,6 +7465,11 @@
         {
           "id": "http://purl.obolibrary.org/obo/RO_0015003",
           "propertyType": "OBJECT",
+          "type": "PROPERTY"
+        },
+        {
+          "id": "http://www.geneontology.org/formats/oboInOwl#evidence",
+          "propertyType": "ANNOTATION",
           "type": "PROPERTY"
         },
         {

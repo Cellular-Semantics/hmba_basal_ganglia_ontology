@@ -11,7 +11,7 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/bgo-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2026-03-10/bgo-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2026-03-11/bgo-base.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160000"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160001"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/PCL_0160002"/>
@@ -20,7 +20,7 @@
         <dcterms:description>This ontology consists of terms generated from the HMBA basal ganglion taxonomy and reference data. The majority of terms including all group level terms have Cell Ontology IDs and are directly integrated into the Cell Ontology https://www.ebi.ac.uk/ols4/ontologies/cl.</dcterms:description>
         <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Basal Ganglia Ontology</dcterms:title>
-        <owl:versionInfo>2026-03-10</owl:versionInfo>
+        <owl:versionInfo>2026-03-11</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -75,12 +75,6 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000070"/>
     
 
 
@@ -237,6 +231,12 @@
     <!-- http://purl.org/dc/terms/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#evidence -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#evidence"/>
     
 
 
@@ -1761,7 +1761,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.2</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -1769,7 +1769,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -1833,7 +1833,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.5</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -1896,7 +1896,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.5</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -1958,7 +1958,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.2</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -1966,7 +1966,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2030,7 +2030,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.2</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2038,7 +2038,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.5</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2112,7 +2112,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2120,7 +2120,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.8</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2190,7 +2190,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10344"/>
         <obo:CLM_0010002>0.9</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2270,7 +2270,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2278,7 +2278,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2286,7 +2286,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10344"/>
         <obo:CLM_0010002>0.6</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2357,7 +2357,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.2</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2365,7 +2365,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.2</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2429,7 +2429,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>1.0</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2497,7 +2497,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.7</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2566,7 +2566,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.2</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2574,7 +2574,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2636,7 +2636,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2644,7 +2644,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.3</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2714,7 +2714,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.9</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2783,7 +2783,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.8</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2853,7 +2853,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.3</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2861,7 +2861,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10466"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2869,7 +2869,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2930,7 +2930,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.9</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -2998,7 +2998,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.5</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3059,7 +3059,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10466"/>
         <obo:CLM_0010002>0.9</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3130,7 +3130,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.9</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3198,7 +3198,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.3</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3260,7 +3260,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3324,7 +3324,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.8</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3392,7 +3392,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.4</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3455,7 +3455,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.9</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3523,7 +3523,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.7</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3587,7 +3587,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.5</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3655,7 +3655,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>1.0</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3718,7 +3718,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>1.0</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3788,7 +3788,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>1.0</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3857,7 +3857,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>1.0</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3927,7 +3927,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>1.0</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -3994,7 +3994,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.9</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4057,7 +4057,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>1.0</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4125,7 +4125,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.6</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4188,7 +4188,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.9</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4258,7 +4258,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.6</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4328,7 +4328,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.8</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4396,7 +4396,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.5</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4461,7 +4461,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4469,7 +4469,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10466"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4477,7 +4477,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.2</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4538,7 +4538,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.4</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4599,7 +4599,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4660,7 +4660,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.5</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -4720,7 +4720,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.6</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6262,7 +6262,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.7</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6326,7 +6326,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.6</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6334,7 +6334,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6420,7 +6420,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.6</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6428,7 +6428,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6498,7 +6498,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.7</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6506,7 +6506,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6575,7 +6575,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.2</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6659,7 +6659,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.7</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6722,7 +6722,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.4</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6730,7 +6730,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6801,7 +6801,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.5</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6809,7 +6809,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6817,7 +6817,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_12251"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6887,7 +6887,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.6</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6895,7 +6895,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6965,7 +6965,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.5</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -6973,7 +6973,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7050,7 +7050,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.5</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7058,7 +7058,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7127,7 +7127,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.3</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7135,7 +7135,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7204,7 +7204,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.7</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7273,7 +7273,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.6</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7342,7 +7342,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.6</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7350,7 +7350,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7444,7 +7444,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.4</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7452,7 +7452,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10343"/>
         <obo:CLM_0010002>0.1</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
@@ -7521,7 +7521,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/CLM_0010001"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/dhbao/DHBA_10333"/>
         <obo:CLM_0010002>0.6</obo:CLM_0010002>
-        <obo:OBI_0000070 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
+        <oboInOwl:evidence rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008992"/>
         <rdfs:comment>Location assignment based on CCF broad region.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
