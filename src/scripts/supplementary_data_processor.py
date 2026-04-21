@@ -13,6 +13,13 @@ def generate_neurotransmitter_data(output_file: str):
         output_file: Output file path.
     """
     print("Generate neurotransmitter data")
+    if not os.path.exists(C2C_ANNOTATION_MEMBERSHIP):
+        if output_file and os.path.exists(output_file):
+            print(f"Supplementary source missing at {C2C_ANNOTATION_MEMBERSHIP}; reusing existing {output_file}")
+            return
+        raise FileNotFoundError(
+            f"Missing supplementary source: {C2C_ANNOTATION_MEMBERSHIP}"
+        )
     df = pd.read_csv(C2C_ANNOTATION_MEMBERSHIP)
 
     cluster_records = df[df['cluster_annotation_term_set_name'] == 'cluster']

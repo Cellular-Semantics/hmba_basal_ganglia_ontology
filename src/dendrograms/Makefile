@@ -13,6 +13,8 @@ ABC_URLS_MARKER_SET = $(patsubst %, ./%_abc_urls_marker_set.json, $(JOBS))
 ABC_URLS_EVIDENCE_MARKER_SET = $(patsubst %, ./%_abc_urls_evidence_marker_set.json, $(JOBS))
 ABC_URLS_NSFOREST_MARKER_SET = $(patsubst %, ./%_abc_urls_nsforest_marker_set.json, $(JOBS))
 ABC_URLS_WS_MARKER_SET = $(patsubst %, ./%_abc_urls_ws_marker_set.json, $(JOBS))
+TYPESCRIPT_SOURCES = $(wildcard ../../typescript/src/*.ts ../../typescript/src/abc-atlas/*.ts)
+TYPESCRIPT_DIST_FILES = ../../typescript/dist/index.js ../../typescript/dist/index_genes.js
 
 SHEETS_SCRIPT := ../scripts/google_sheets_to_tsv.py
 TAXONOMY_URL := https://raw.githubusercontent.com/brain-bican/basal_ganglia_consensus_taxonomy/refs/heads/main/CS20250428.json
@@ -33,14 +35,14 @@ CCN20250428.json: FORCE
 
 FORCE:
 
-../templates/%.tsv: %.json ../patterns/data/default/%_class_curation.tsv
+../templates/%.tsv: %.json ../patterns/data/default/%_class_curation.tsv %_abc_urls.json
 	python ../scripts/template_runner.py generator -i $< -o $@
 
 #../markers/%_markers_denormalized.tsv: %.json nomenclature_table_%.csv
 #	if [ $< = CS1908210.json ]; then python ../scripts/template_runner.py generator -md -i $< -o $@ ;\
 #	else python ../scripts/template_runner.py generator -md -i $(word 2, $^) -o $@ ; fi
 
-../patterns/data/default/%_class_base.tsv: %.json $(SUPPLEMENTARY)/neurotransmitters.tsv
+../patterns/data/default/%_class_base.tsv: %.json $(SUPPLEMENTARY)/neurotransmitters.tsv %_abc_urls.json
 	python ../scripts/template_runner.py generator -cb -i $< -o $@
 
 ../patterns/data/default/%_class_curation.tsv: %.json
@@ -61,13 +63,9 @@ $(SUPPLEMENTARY)/neurotransmitters.tsv:
 ../patterns/data/default/%_evidence_marker_set.tsv: %.json
 	python ../scripts/template_runner.py generator -ems -i $< -o $@
 
-prepare_npm: ../../typescript/dist/index.js
-	rm -rf ../../typescript/dist
-	npm install typescript
-
-../../typescript/dist/index.js: prepare_npm ../../typescript/tsconfig.json  ../../typescript/src/index.ts
-	npm install --prefix ../../typescript typescript @types/node --save-dev
-	npx tsc -p ../../typescript/tsconfig.json
+$(TYPESCRIPT_DIST_FILES): ../../typescript/package.json ../../typescript/package-lock.json ../../typescript/tsconfig.json $(TYPESCRIPT_SOURCES)
+	npm install --prefix ../../typescript
+	npx --prefix ../../typescript tsc -p ../../typescript/tsconfig.json
 
 CCN20250428_abc_urls.json: ../../typescript/dist/index.js
 	node $< $@
@@ -83,5 +81,3 @@ CCN20250428_abc_urls_nsforest_marker_set.json: ../../typescript/dist/index_genes
 
 CCN20250428_abc_urls_ws_marker_set.json: ../../typescript/dist/index_genes.js ../patterns/data/default/CCN20250428_within_subclass_marker_set.tsv
 	node $< $(word 2, $^) $@
-
-
