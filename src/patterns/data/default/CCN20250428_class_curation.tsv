@@ -1,90 +1,90 @@
 defined_class	cell_set_accession	Taxonomy_label	Exclude_from_ontology	defined_class_name	defined_class_definition	Curated_synonyms	Classification	Classification_comment	Classification_pub	Expresses	Expresses_comment	Expresses_pub	Projection_type	Locations	Neurotransmitters	Neurotransmitters_comment	Neurotransmitters_publication	Cross_species_text	Comment
-http://purl.obolibrary.org/obo/CL_4310083	CS20250428_GROUP_0003	GPin-BF Cholinergic GABA		GPin-BF cholinergic-GABAergic neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310084	CS20250428_GROUP_0004	LAMP5-CXCL14 GABA		striatal LAMP5 CXCL14 GABAergic interneuron (Primate)															Based on annotation transfer evidence with MapMyCells, this may not represent a transcriptomicallly distinct cell type, but rather the population of LAMP5 GABAergic neurons located in the striatum.
-http://purl.obolibrary.org/obo/CL_4310085	CS20250428_GROUP_0005	LAMP5-LHX6 GABA		striatal LAMP5 LHX6 GABAergic interneuron (Primate)															Based on annotation transfer evidence with MapMyCells, this may not represent a transcriptomicallly distinct cell type, but rather the population of LAMP5 LHX6 GABAergic neurons located in the striatum.
-http://purl.obolibrary.org/obo/CL_4310088	CS20250428_GROUP_0008	BF SKOR1 Glut																	
-http://purl.obolibrary.org/obo/CL_4310093	CS20250428_GROUP_0013	GPe MEIS2-SOX6 GABA		arkypallidal neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310094	CS20250428_GROUP_0014	GPe SOX6-CTXND1 GABA		prototypic neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310095	CS20250428_GROUP_0015	GPi Core		GPi Core neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310096	CS20250428_GROUP_0016	GPi Shell		GPi Shell neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310100	CS20250428_GROUP_0020	GPe-NDB-SI LHX6-LHX8-GBX1 GABA																	
-http://purl.obolibrary.org/obo/CL_4310104	CS20250428_GROUP_0024	OT D1 ICj		Islands of Calleja granule cell (Primate)															
-http://purl.obolibrary.org/obo/CL_4310109	CS20250428_GROUP_0029	SN-VTR CALB1 Dopa																	
-http://purl.obolibrary.org/obo/CL_4310110	CS20250428_GROUP_0030	SN EBF2 GABA																	
-http://purl.obolibrary.org/obo/CL_4310111	CS20250428_GROUP_0031	SN-VTR GAD2 Dopa																	
-http://purl.obolibrary.org/obo/CL_4310112	CS20250428_GROUP_0032	SN GATA3-PAX8 GABA																	
-http://purl.obolibrary.org/obo/CL_4310113	CS20250428_GROUP_0033	SN GATA3-PVALB GABA																	
+http://purl.obolibrary.org/obo/PCL_0160013	CS20250428_CLASS_0003	CN LGE GABA																	
+http://purl.obolibrary.org/obo/PCL_0160016	CS20250428_CLASS_0006	F M GABA																	
+http://purl.obolibrary.org/obo/PCL_0160066	CS20250428_SUBCL_0036	ACx MEIS2 GABA																	
+http://purl.obolibrary.org/obo/CL_4310096	CS20250428_GROUP_0016	GPi Shell																	
+http://purl.obolibrary.org/obo/PCL_0160011	CS20250428_CLASS_0001	CN CGE GABA																	
+http://purl.obolibrary.org/obo/PCL_0160015	CS20250428_CLASS_0005	CN MGE GABA																	
+http://purl.obolibrary.org/obo/PCL_0160055	CS20250428_SUBCL_0025	M Dopa																	
+http://purl.obolibrary.org/obo/PCL_0160017	CS20250428_CLASS_0007	F M Glut																	
+http://purl.obolibrary.org/obo/PCL_0160020	CS20250428_CLASS_0010	OPC-Oligo																	
+http://purl.obolibrary.org/obo/PCL_0160010	CS20250428_CLASS_0000	Astro-Epen																	
+http://purl.obolibrary.org/obo/PCL_0160018	CS20250428_CLASS_0008	Immune																	
+http://purl.obolibrary.org/obo/PCL_0160021	CS20250428_CLASS_0011	Vascular																	
+http://purl.obolibrary.org/obo/CL_4310093	CS20250428_GROUP_0013	GPe MEIS2-SOX6 GABA																	
+http://purl.obolibrary.org/obo/CL_4310095	CS20250428_GROUP_0015	GPi Core																	
+http://purl.obolibrary.org/obo/CL_4310094	CS20250428_GROUP_0014	GPe SOX6-CTXND1 GABA																	
+http://purl.obolibrary.org/obo/CL_4310129	CS20250428_GROUP_0049	STRd D1 Matrix MSN																	
+http://purl.obolibrary.org/obo/CL_4310127	CS20250428_GROUP_0047	VIP GABA																	
+http://purl.obolibrary.org/obo/CL_4310104	CS20250428_GROUP_0024	OT D1 ICj																	
+http://purl.obolibrary.org/obo/CL_4310130	CS20250428_GROUP_0050	STRd D1 Striosome MSN																	
+http://purl.obolibrary.org/obo/CL_4310132	CS20250428_GROUP_0052	STRd D2 Matrix MSN																	
+http://purl.obolibrary.org/obo/CL_4310134	CS20250428_GROUP_0054	STRd D2 Striosome MSN																	
+http://purl.obolibrary.org/obo/CL_4310136	CS20250428_GROUP_0056	STRv D1 MSN																	
+http://purl.obolibrary.org/obo/CL_4310138	CS20250428_GROUP_0058	STRv D2 MSN																	
+http://purl.obolibrary.org/obo/CL_4310133	CS20250428_GROUP_0053	STRd D2 StrioMat Hybrid MSN																	
+http://purl.obolibrary.org/obo/CL_4310131	CS20250428_GROUP_0051	STR D1D2 Hybrid MSN																	
+http://purl.obolibrary.org/obo/CL_4310137	CS20250428_GROUP_0057	STRv D1 NUDAP MSN																	
+http://purl.obolibrary.org/obo/CL_4310146	CS20250428_GROUP_0066	AMY-SLEA-BNST GABA																	
+http://purl.obolibrary.org/obo/CL_4310145	CS20250428_GROUP_0065	AMY-SLEA-BNST D1 GABA																	
 http://purl.obolibrary.org/obo/CL_4310114	CS20250428_GROUP_0034	SN SEMA5A GABA																	
-http://purl.obolibrary.org/obo/CL_4310115	CS20250428_GROUP_0035	SN SOX6 Dopa																	
+http://purl.obolibrary.org/obo/CL_4310110	CS20250428_GROUP_0030	SN EBF2 GABA																	
+http://purl.obolibrary.org/obo/CL_4310148	CS20250428_GROUP_0068	OB FRMD7 GABA																	
+http://purl.obolibrary.org/obo/CL_4310147	CS20250428_GROUP_0067	OB Dopa-GABA																	
+http://purl.obolibrary.org/obo/CL_4310113	CS20250428_GROUP_0033	SN GATA3-PVALB GABA																	
+http://purl.obolibrary.org/obo/CL_4310143	CS20250428_GROUP_0063	ZI-HTH GABA																	
 http://purl.obolibrary.org/obo/CL_4310117	CS20250428_GROUP_0037	SN-VTR-HTH GATA3-TCF7L2 GABA																	
-http://purl.obolibrary.org/obo/CL_4310118	CS20250428_GROUP_0038	STH PVALB-PITX2 Glut																	
-http://purl.obolibrary.org/obo/CL_4310120	CS20250428_GROUP_0040	STR FS PTHLH-PVALB GABA		striatal pthlh-expressing interneuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310121	CS20250428_GROUP_0041	STR LYPD6-RSPO2 GABA		striatal SST-LYPD6-RSPO2 GABAergic interneuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310122	CS20250428_GROUP_0042	STR SST-ADARB2 GABA		striatal SST-ADARB2 GABAergic interneuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310123	CS20250428_GROUP_0043	STR SST-CHODL GABA		striatal SST-CHODL GABAergic interneuron (Primate)															Based on annotation transfer evidence with MapMyCells, this may not represent a transcriptomicallly distinct cell type, but rather the population of SST CHODL GABAergic neurons located in the striatum.
-http://purl.obolibrary.org/obo/CL_4310124	CS20250428_GROUP_0044	STR SST-RSPO2 GABA		striatal SST-RSPO2 GABAergic interneuron (Primate)															
+http://purl.obolibrary.org/obo/CL_4310112	CS20250428_GROUP_0032	SN GATA3-PAX8 GABA																	
+http://purl.obolibrary.org/obo/CL_4310100	CS20250428_GROUP_0020	GPe-NDB-SI LHX6-LHX8-GBX1 GABA																	
+http://purl.obolibrary.org/obo/CL_4310084	CS20250428_GROUP_0004	LAMP5-CXCL14 GABA																	
+http://purl.obolibrary.org/obo/CL_4310123	CS20250428_GROUP_0043	STR SST-CHODL GABA																	
+http://purl.obolibrary.org/obo/CL_4310124	CS20250428_GROUP_0044	STR SST-RSPO2 GABA																	
+http://purl.obolibrary.org/obo/CL_4310121	CS20250428_GROUP_0041	STR LYPD6-RSPO2 GABA																	
+http://purl.obolibrary.org/obo/CL_4310122	CS20250428_GROUP_0042	STR SST-ADARB2 GABA																	
+http://purl.obolibrary.org/obo/CL_4310085	CS20250428_GROUP_0005	LAMP5-LHX6 GABA																	
+http://purl.obolibrary.org/obo/CL_4310120	CS20250428_GROUP_0040	STR FS PTHLH-PVALB GABA																	
 http://purl.obolibrary.org/obo/CL_4310125	CS20250428_GROUP_0045	STR TAC3-PLPP4 GABA																	
 http://purl.obolibrary.org/obo/CL_4310126	CS20250428_GROUP_0046	STR-BF TAC3-PLPP4-LHX8 GABA																	
-http://purl.obolibrary.org/obo/CL_4310127	CS20250428_GROUP_0047	VIP GABA		striatal VIP GABAergic interneuron (Primate)															Based on annotation transfer evidence with MapMyCells, this may not represent a transcriptomicallly distinct cell type, but rather the population of VIP GABAergic neurons located in the striatum.
-http://purl.obolibrary.org/obo/CL_4310128	CS20250428_GROUP_0048	STRd Cholinergic GABA		STRd cholinergic-GABAergic neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310129	CS20250428_GROUP_0049	STRd D1 Matrix MSN		STRd D1 Matrix medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310130	CS20250428_GROUP_0050	STRd D1 Striosome MSN		striosomal D1 medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310131	CS20250428_GROUP_0051	STR D1D2 Hybrid MSN		STRd D1/D2-hybrid medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310132	CS20250428_GROUP_0052	STRd D2 Matrix MSN		STRd D2 Matrix medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310133	CS20250428_GROUP_0053	STRd D2 StrioMat Hybrid MSN		STRd D2 Striomat hybrid medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310134	CS20250428_GROUP_0054	STRd D2 Striosome MSN		striosomal D2 medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310135	CS20250428_GROUP_0055	STR Cholinergic GABA		STR cholinergic-GABAergic neuron (Primate)															Despite the name, this type is not a parent type to STRd cholinergic-GABAergic neuron (Primate), but is instead a transcriptomically distinct sibling.
-http://purl.obolibrary.org/obo/CL_4310136	CS20250428_GROUP_0056	STRv D1 MSN		STRv D1 medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310137	CS20250428_GROUP_0057	STRv D1 NUDAP MSN		STRv D1-NUDAP medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310138	CS20250428_GROUP_0058	STRv D2 MSN		STRv D2 medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310143	CS20250428_GROUP_0063	ZI-HTH GABA																	
+http://purl.obolibrary.org/obo/CL_4310083	CS20250428_GROUP_0003	GPin-BF Cholinergic GABA																	
+http://purl.obolibrary.org/obo/CL_4310135	CS20250428_GROUP_0055	STR Cholinergic GABA																	
+http://purl.obolibrary.org/obo/CL_4310128	CS20250428_GROUP_0048	STRd Cholinergic GABA																	
+http://purl.obolibrary.org/obo/CL_4310111	CS20250428_GROUP_0031	SN-VTR GAD2 Dopa																	
+http://purl.obolibrary.org/obo/CL_4310115	CS20250428_GROUP_0035	SN SOX6 Dopa																	
+http://purl.obolibrary.org/obo/CL_4310109	CS20250428_GROUP_0029	SN-VTR CALB1 Dopa																	
+http://purl.obolibrary.org/obo/CL_4310088	CS20250428_GROUP_0008	BF SKOR1 Glut																	
 http://purl.obolibrary.org/obo/CL_4310144	CS20250428_GROUP_0064	VTR-HTH Glut																	
-http://purl.obolibrary.org/obo/CL_4310145	CS20250428_GROUP_0065	AMY-SLEA-BNST D1 GABA																	
-http://purl.obolibrary.org/obo/CL_4310146	CS20250428_GROUP_0066	AMY-SLEA-BNST GABA																	
-http://purl.obolibrary.org/obo/CL_4310147	CS20250428_GROUP_0067	OB Dopa-GABA		OB Dopa-GABA neuron (Primate)															
-http://purl.obolibrary.org/obo/CL_4310148	CS20250428_GROUP_0068	OB FRMD7 GABA																	
-http://purl.obolibrary.org/obo/PCL_0160000	CS20250428_NEIGH_0000	Glut Sero Dopa																	
-http://purl.obolibrary.org/obo/PCL_0160001	CS20250428_NEIGH_0001	Nonneuron																	
-http://purl.obolibrary.org/obo/PCL_0160002	CS20250428_NEIGH_0002	Subpallium GABA																	
-http://purl.obolibrary.org/obo/PCL_0160010	CS20250428_CLASS_0000	Astro-Epen																	
-http://purl.obolibrary.org/obo/PCL_0160011	CS20250428_CLASS_0001	CN CGE GABA																	
-http://purl.obolibrary.org/obo/PCL_0160013	CS20250428_CLASS_0003	CN LGE GABA																	
-http://purl.obolibrary.org/obo/PCL_0160015	CS20250428_CLASS_0005	CN MGE GABA																	
-http://purl.obolibrary.org/obo/PCL_0160016	CS20250428_CLASS_0006	F M GABA																	
-http://purl.obolibrary.org/obo/PCL_0160017	CS20250428_CLASS_0007	F M Glut																	
-http://purl.obolibrary.org/obo/PCL_0160018	CS20250428_CLASS_0008	Immune																	
-http://purl.obolibrary.org/obo/PCL_0160020	CS20250428_CLASS_0010	OPC-Oligo																	
-http://purl.obolibrary.org/obo/PCL_0160021	CS20250428_CLASS_0011	Vascular																	
-http://purl.obolibrary.org/obo/PCL_0160030	CS20250428_SUBCL_0000	Astrocyte																	
-http://purl.obolibrary.org/obo/PCL_0160031	CS20250428_SUBCL_0001	CN Cholinergic GABA																	
-http://purl.obolibrary.org/obo/PCL_0160035	CS20250428_SUBCL_0005	CN LHX8 GABA																	
-http://purl.obolibrary.org/obo/PCL_0160038	CS20250428_SUBCL_0008	CN ST18 GABA																	
-http://purl.obolibrary.org/obo/PCL_0160043	CS20250428_SUBCL_0013	F Glut																	
-http://purl.obolibrary.org/obo/PCL_0160045	CS20250428_SUBCL_0015	Lymphocyte																	
-http://purl.obolibrary.org/obo/PCL_0160046	CS20250428_SUBCL_0016	F M GATA3 GABA																	
-http://purl.obolibrary.org/obo/PCL_0160052	CS20250428_SUBCL_0022	Oligodendrocyte																	
-http://purl.obolibrary.org/obo/PCL_0160055	CS20250428_SUBCL_0025	M Dopa																	
-http://purl.obolibrary.org/obo/PCL_0160056	CS20250428_SUBCL_0026	SN PAX7 GABA																	
-http://purl.obolibrary.org/obo/PCL_0160058	CS20250428_SUBCL_0028	STR D1 MSN		STR D1 medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/PCL_0160059	CS20250428_SUBCL_0029	STR D2 MSN		STR D2 medium spiny neuron (Primate)															
-http://purl.obolibrary.org/obo/PCL_0160060	CS20250428_SUBCL_0030	STR Hybrid MSN																	
-http://purl.obolibrary.org/obo/PCL_0160061	CS20250428_SUBCL_0031	STR RSPO2 GABA																	
-http://purl.obolibrary.org/obo/PCL_0160066	CS20250428_SUBCL_0036	ACx MEIS2 GABA																	
-http://purl.obolibrary.org/obo/PCL_0160067	CS20250428_SUBCL_0037	F GABA																	
-http://purl.obolibrary.org/obo/PCL_0160090	CS20250428_GROUP_0000	B cells																	
-http://purl.obolibrary.org/obo/PCL_0160091	CS20250428_GROUP_0001	BAM																	
-http://purl.obolibrary.org/obo/PCL_0160099	CS20250428_GROUP_0009	COP																	
-http://purl.obolibrary.org/obo/PCL_0160101	CS20250428_GROUP_0011	Endo																	
-http://purl.obolibrary.org/obo/PCL_0160102	CS20250428_GROUP_0012	Ependymal																	
-http://purl.obolibrary.org/obo/PCL_0160107	CS20250428_GROUP_0017	ImAstro																	
-http://purl.obolibrary.org/obo/PCL_0160108	CS20250428_GROUP_0018	ImOligo																	
-http://purl.obolibrary.org/obo/PCL_0160109	CS20250428_GROUP_0019	Microglia																	
-http://purl.obolibrary.org/obo/PCL_0160112	CS20250428_GROUP_0022	Monocyte																	
+http://purl.obolibrary.org/obo/CL_4310118	CS20250428_GROUP_0038	STH PVALB-PITX2 Glut																	
 http://purl.obolibrary.org/obo/PCL_0160113	CS20250428_GROUP_0023	OPC																	
-http://purl.obolibrary.org/obo/PCL_0160115	CS20250428_GROUP_0025	Oligo OPALIN																	
+http://purl.obolibrary.org/obo/PCL_0160099	CS20250428_GROUP_0009	COP																	
+http://purl.obolibrary.org/obo/PCL_0160108	CS20250428_GROUP_0018	ImOligo																	
 http://purl.obolibrary.org/obo/PCL_0160116	CS20250428_GROUP_0026	Oligo PLEKHG1																	
-http://purl.obolibrary.org/obo/PCL_0160117	CS20250428_GROUP_0027	Pericyte																	
-http://purl.obolibrary.org/obo/PCL_0160118	CS20250428_GROUP_0028	SMC																	
+http://purl.obolibrary.org/obo/PCL_0160115	CS20250428_GROUP_0025	Oligo OPALIN																	
+http://purl.obolibrary.org/obo/PCL_0160107	CS20250428_GROUP_0017	ImAstro																	
 http://purl.obolibrary.org/obo/PCL_0160129	CS20250428_GROUP_0039	Astrocyte																	
+http://purl.obolibrary.org/obo/PCL_0160102	CS20250428_GROUP_0012	Ependymal																	
+http://purl.obolibrary.org/obo/PCL_0160109	CS20250428_GROUP_0019	Microglia																	
+http://purl.obolibrary.org/obo/PCL_0160091	CS20250428_GROUP_0001	BAM																	
+http://purl.obolibrary.org/obo/PCL_0160112	CS20250428_GROUP_0022	Monocyte																	
+http://purl.obolibrary.org/obo/PCL_0160090	CS20250428_GROUP_0000	B cells																	
 http://purl.obolibrary.org/obo/PCL_0160149	CS20250428_GROUP_0059	T cells																	
 http://purl.obolibrary.org/obo/PCL_0160152	CS20250428_GROUP_0062	VLMC																	
+http://purl.obolibrary.org/obo/PCL_0160118	CS20250428_GROUP_0028	SMC																	
+http://purl.obolibrary.org/obo/PCL_0160117	CS20250428_GROUP_0027	Pericyte																	
+http://purl.obolibrary.org/obo/PCL_0160101	CS20250428_GROUP_0011	Endo																	
+http://purl.obolibrary.org/obo/PCL_0160002	CS20250428_NEIGH_0002	Subpallium GABA																	
+http://purl.obolibrary.org/obo/PCL_0160000	CS20250428_NEIGH_0000	Glut Sero Dopa																	
+http://purl.obolibrary.org/obo/PCL_0160001	CS20250428_NEIGH_0001	Nonneuron																	
+http://purl.obolibrary.org/obo/CL_4310058	CS20250428_SUBCL_0028	STR D1 MSN																	
+http://purl.obolibrary.org/obo/CL_4310059	CS20250428_SUBCL_0029	STR D2 MSN																	
+http://purl.obolibrary.org/obo/PCL_0160060	CS20250428_SUBCL_0030	STR Hybrid MSN																	
+http://purl.obolibrary.org/obo/PCL_0160067	CS20250428_SUBCL_0037	F GABA																	
+http://purl.obolibrary.org/obo/CL_4310056	CS20250428_SUBCL_0026	SN PAX7 GABA																	
+http://purl.obolibrary.org/obo/PCL_0160046	CS20250428_SUBCL_0016	F M GATA3 GABA																	
+http://purl.obolibrary.org/obo/PCL_0160035	CS20250428_SUBCL_0005	CN LHX8 GABA																	
+http://purl.obolibrary.org/obo/PCL_0160061	CS20250428_SUBCL_0031	STR RSPO2 GABA																	
+http://purl.obolibrary.org/obo/PCL_0160038	CS20250428_SUBCL_0008	CN ST18 GABA																	
+http://purl.obolibrary.org/obo/PCL_0160031	CS20250428_SUBCL_0001	CN Cholinergic GABA																	
+http://purl.obolibrary.org/obo/PCL_0160043	CS20250428_SUBCL_0013	F Glut																	
+http://purl.obolibrary.org/obo/PCL_0160052	CS20250428_SUBCL_0022	Oligodendrocyte																	
+http://purl.obolibrary.org/obo/PCL_0160030	CS20250428_SUBCL_0000	Astrocyte																	
+http://purl.obolibrary.org/obo/PCL_0160045	CS20250428_SUBCL_0015	Lymphocyte																	
