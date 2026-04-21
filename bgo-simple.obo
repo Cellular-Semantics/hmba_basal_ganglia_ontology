@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: pcl/releases/2026-04-13/bgo-simple.owl
+data-version: pcl/releases/2026-04-20/bgo-simple.owl
 idspace: terms http://purl.org/dc/terms/ 
 ontology: pcl/bgo-simple
 property_value: IAO:0000700 PCL:0160000
 property_value: IAO:0000700 PCL:0160001
 property_value: IAO:0000700 PCL:0160002
 property_value: IAO:0000700 PCL:0160106
-property_value: owl:versionInfo "2026-04-13" xsd:string
+property_value: owl:versionInfo "2026-04-20" xsd:string
 property_value: terms:description "This ontology consists of terms generated from the HMBA basal ganglion taxonomy and reference data. The majority of terms including all group level terms have Cell Ontology IDs and are directly integrated into the Cell Ontology https://www.ebi.ac.uk/ols4/ontologies/cl." xsd:string
 property_value: terms:license http://creativecommons.org/licenses/by/4.0/
 property_value: terms:title "Basal Ganglia Ontology" xsd:string
