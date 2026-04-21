@@ -71,3 +71,7 @@ src/patterns/all_pattern_terms.txt
 # Local/generated artifacts
 src/scripts/__pycache__/
 src/ontology/imports/genedb_import.owl
+node_modules/
+typescript/dist/
+src/dendrograms/package.json
+src/dendrograms/package-lock.json
