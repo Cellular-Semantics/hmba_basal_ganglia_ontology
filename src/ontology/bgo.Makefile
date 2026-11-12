@@ -272,7 +272,8 @@ $(TMPDIR)/cl_individuals.owl: $(OWL_FILES) $(TMPDIR)/cl_indv_terms.txt
 	query --update ../sparql/delete_namedindividuals_without_rdf_type.ru --output $@.tmp.owl
 	python ../scripts/cl_subset_terms.py trim_indvs -i $@.tmp.owl -t $(TMPDIR)/cl_indv_terms.txt -o $@
 
-$(TMPDIR)/cl_extract_terms.txt: $(TMPDIR)/all_class.owl $(TMPDIR)/cl_component_terms.txt $(TMPDIR)/cl_indv_terms.txt
+# tmp/all_class.owl is written by the cl_indv_terms.txt rule
+$(TMPDIR)/cl_extract_terms.txt: $(TMPDIR)/cl_component_terms.txt $(TMPDIR)/cl_indv_terms.txt
 	python ../scripts/cl_subset_terms.py extract_terms -i $(TMPDIR)/all_class.owl -c $(TMPDIR)/cl_component_terms.txt -t $(TMPDIR)/cl_indv_terms.txt -o $@
 
 # Artifact for CL that hosts only the validated component annotations (used by CL)
@@ -284,17 +285,29 @@ $(TMPDIR)/cl_extract_terms.txt: $(TMPDIR)/all_class.owl $(TMPDIR)/cl_component_t
 # 	merge -i $(TMPDIR)/cl_individuals.owl \
 # 	merge -i bgo-cl-edit.owl --output $@
 
+# Subset extraction drops the SO parents of genes and marker sets, and the marker sets'
+# has_part axioms (ObjectIntersectionOf, not simple relations). Take back every subclass
+# axiom that uses only extract terms, those SO classes and has_part (issue #12).
+$(TMPDIR)/cl_gene_marker_axioms.owl: $(ONT)-pcl-comp.owl $(TMPDIR)/cl_extract_terms.txt
+	$(ROBOT) filter --input $(RELEASEDIR)/$(ONT)-pcl-comp.owl \
+		--term-file $(TMPDIR)/cl_extract_terms.txt \
+		--term SO:0000704 --term SO:0001260 --term BFO:0000051 \
+		--select self --axioms subclass --trim true \
+		--output $@
+
 ### Extract subset approach for cl compoonent artifact.
-$(RELEASEDIR)/$(ONT)-cl-comp.owl: $(ONT)-pcl-comp.owl $(TMPDIR)/cl_extract_terms.txt bgo-cl-edit.owl $(TMPDIR)/cl_individuals.owl
+$(RELEASEDIR)/$(ONT)-cl-comp.owl: $(ONT)-pcl-comp.owl $(TMPDIR)/cl_extract_terms.txt $(TMPDIR)/cl_gene_marker_axioms.owl bgo-cl-edit.owl $(TMPDIR)/cl_individuals.owl
 	$(ROBOT) extract --method subset \
 		--input $(RELEASEDIR)/$(ONT)-pcl-comp.owl \
 		--term-file $(TMPDIR)/cl_extract_terms.txt \
 		--imports include \
+		merge -i $(TMPDIR)/cl_gene_marker_axioms.owl \
 		query --update ../sparql/delete_deprecated_pcl_terms.ru \
 		--update ../sparql/delete_multiple_gene_labels.ru \
 		merge -i $(TMPDIR)/cl_individuals.owl \
 		merge -i bgo-cl-edit.owl \
 		--output $@
+	$(ROBOT) verify -i $@ --queries ../sparql/cl-comp-orphan-violation.sparql -O $(REPORTDIR)
 
 $(RELEASEDIR)/$(ONT)-cl-comp.obo: $(RELEASEDIR)/$(ONT)-cl-comp.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
